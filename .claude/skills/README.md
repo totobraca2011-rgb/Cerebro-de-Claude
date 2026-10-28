@@ -8,6 +8,7 @@ Se cargan solas cuando este repo está en la sesión. Copias revisadas el 27 de 
 | `ig-*` (13) | Instagram: reels, ganchos, descripciones, carruseles, historias, perfil, plan semanal, comentarios, respuestas, mensajes, reciclar contenido, auditoría, humanizador. Solo escriben borradores: nada se publica sin Tomás | [Jakeschincariol/instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill) `d03c56b` · MIT |
 | `web-design-guidelines` | Revisar una página contra las guías de interfaz de Vercel | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) `6ec2693` · MIT |
 | `video-lens` | Resumir un video de YouTube con puntos clave y minutos | [kar2phi/video-lens](https://github.com/kar2phi/video-lens) `e2be9cd` · MIT |
+| `task-observer` | Aprende de cómo trabajamos, registra correcciones y propone mejoras a las skills en una revisión semanal. Se activa al inicio de cada sesión; su registro está en `task-observer/` | [rebelytics/one-skill-to-rule-them-all](https://github.com/rebelytics/one-skill-to-rule-them-all) `ba696b2` (v3.8.1) · CC BY 4.0, de Eoghan Henn y colaboradores |
 | `claude-automation-recommender` | Plugin "Claude Code Setup" de Anthropic: lee un proyecto y recomienda avisos automáticos, skills, ayudantes y conexiones. Solo recomienda, no toca nada | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) `f8c5e7a` · Apache 2.0 |
 
 Para actualizar una: volver a bajar el repo de origen, revisar qué cambió y reemplazar la carpeta.
@@ -17,4 +18,4 @@ Para actualizar una: volver a bajar el repo de origen, revisar qué cambió y re
 - **Para cuando Tomás use Claude Code en su compu** (octubre 2026): en la nube no sirven, así que se dejaron para ese momento. Si Tomás avisa que está trabajando desde su compu, recordarle estos dos:
   - **Claude-Mem** ([thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)): memoria entre sesiones. Guarda todo en la compu. No activar la copia en su nube (cmem.ai) sin que Tomás lo decida.
   - **Headroom** ([chopratejas/headroom](https://github.com/chopratejas/headroom)): achica lo que se manda a Claude para gastar menos.
-- **Descartados** (octubre 2026): OmniRoute (manda los pedidos a otras IAs; Tomás ya paga Claude) y Task Observer (gasta en cada sesión; retomarlo si armamos skills propias).
+- **Descartados** (octubre 2026): OmniRoute (manda los pedidos a otras IAs; Tomás ya paga Claude). Task Observer se instaló igual a pedido de Tomás.
