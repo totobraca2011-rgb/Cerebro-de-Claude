@@ -11,4 +11,4 @@ Una sola toma fija y vertical de 63 s: Tomás, con guantes negros, tira harina s
 - Va sin sonido: la idea es poner la música desde Instagram al subirlo. Si Tomás manda una canción, cortar las tomas al ritmo.
 - Pendiente: no tiene el cierre con el producto terminado que tiene la referencia (falta una toma del alfajor terminado, o cerrar con el logo).
 
-Archivos: todo en `editor-de-ia/crudos/proceso-masa/`: el original y la v1 editada (`2026-10-29-proceso-masa-editado-v1.mp4`).
+Archivos: en `editor-de-ia/crudos/proceso-masa/` queda solo la v1 editada (`2026-10-29-proceso-masa-editado-v1.mp4`). El video original de 63 s se borró a pedido de Tomás (29 de octubre de 2026).
