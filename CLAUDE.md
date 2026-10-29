@@ -5,7 +5,7 @@ Lo que Claude tiene que saber de Tomás Bracamonte y de lo que hace, en un solo 
 ## Al empezar cada sesión
 1. Leé `yo/perfil.md`: quién es Tomás y cómo trabaja con vos. Vale para todo, también para los otros repos.
 2. Según el pedido, leé la carpeta que corresponda:
-   - `monte-riko/`: la marca, los productos y precios, el material original y la página web.
+   - `monte-riko/`: la marca, los productos y precios, el material original y la página web (el código está en `monte-riko/pagina-web/`; para trabajarla leé antes `monte-riko/pagina-web.md`).
    - `diseno/`: cómo se trabaja el diseño, el kit y los gustos de Tomás.
    - `editor-de-ia/`: los videos para editar (crudos, referencias y terminados). Leé su `README.md` antes de guardar un video.
 3. Si algo de acá contradice lo que pide Tomás, preguntale. No inventes datos que no estén escritos.
@@ -167,4 +167,4 @@ compaction, when the skill body is out of context.
 ## Qué no va
 - Contraseñas, claves, tokens, datos de tarjetas ni documentos de identidad. Aunque el repo sea privado, eso no se guarda.
 - Datos de clientes o de otras personas.
-- Copias del código de otros repos: acá va el resumen y el link.
+- Copias de otros repos, salvo el kit de diseño y la página de Monte Riko, que ya viven acá (octubre 2026).
