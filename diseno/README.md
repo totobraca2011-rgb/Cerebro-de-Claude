@@ -1,7 +1,7 @@
 # Diseño
 
 ## El kit
-Está entero en este Cerebro (`.claude/skills/` y `.claude/agents/`) desde octubre 2026; antes vivía en el repo `totobraca2011-rgb/kit-diseno`. Trae tres guías de diseño (taste-skill, ui-ux-pro-max, impeccable) y tres ayudantes:
+Está entero en este Cerebro (`.claude/skills/` y `.claude/agents/`) desde octubre 2026; el repo `totobraca2011-rgb/kit-diseno` se borró el 29 de octubre de 2026 y esta es la única copia. Trae tres guías de diseño (taste-skill, ui-ux-pro-max, impeccable) y tres ayudantes:
 - `constructor-ui`: hace los cambios.
 - `auditor-visual` y `auditor-tecnico`: revisan en paralelo y no tocan nada.
 
