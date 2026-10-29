@@ -302,6 +302,8 @@ main { overflow-x: clip; }
 .builder__block + .builder__block { border-top: 3px solid var(--ink); padding-top: 36px; }
 /* "Cajas" y "Sueltos" un escalón arriba del total (--t-l): 30px en 360, 50px en 1440 */
 .builder__block .builder__step { font-size: calc(var(--t-l) * 1.15); }
+/* aclaración al lado del título, en la misma letra pero más chica: entra en un renglón aparte si no hay lugar */
+.builder__tag { font-size: .5em; white-space: nowrap; vertical-align: middle; }
 .builder__block .loose { max-width: none; }
 .builder__step { font-size: var(--t-m); }
 .builder__hint { font-size: var(--t-xs); font-weight: 600; margin-top: -6px; text-wrap: pretty; }
