@@ -20,6 +20,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # el hosting deja el CSS y el JS 7 días en la caché del navegador: sin esto, quien ya
+      # visitó la página ve el HTML nuevo con el CSS y el JS viejos (octubre 2026).
+      # Se marca con un pedazo del hash de cada archivo, solo en la copia que se sube.
+      - name: Marcar la versión del CSS y el JS
+        working-directory: monte-riko/pagina-web
+        run: |
+          css=$(sha256sum assets/styles.css | cut -c1-10)
+          js=$(sha256sum assets/main.js | cut -c1-10)
+          sed -i "s|href=\"assets/styles.css\"|href=\"assets/styles.css?v=$css\"|; s|src=\"assets/main.js\"|src=\"assets/main.js?v=$js\"|" index.html
+          grep -q "assets/styles.css?v=$css" index.html
+          grep -q "assets/main.js?v=$js" index.html
+
       - name: Instalar lftp
         run: sudo apt-get update -qq && sudo apt-get install -y -qq lftp
 
