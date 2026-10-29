@@ -3,7 +3,7 @@
 Landing de Monte Riko, alfajores artesanales de Mar del Plata hechos por Tomás Bracamonte.
 
 - **Código:** `monte-riko/pagina-web/` de este Cerebro (desde octubre 2026; el repo `totobraca2011-rgb/Monte-Riko` se borró el 29 de octubre de 2026 y esta es la única copia). No hay build: HTML, CSS y JS planos, todas las rutas relativas.
-- **Publicada:** Tomás la subió él a su propio hosting, con dominio y SSL (octubre 2026). Ya no se publica desde GitHub Pages. Falta anotar acá el dominio.
+- **Publicada:** https://monteriko.com.ar (también responde con www). Tomás la subió a su propio hosting, con dominio y SSL (octubre 2026). Ya no se publica desde GitHub Pages.
 - **Vista previa para Tomás:** artifact "Monte Riko · Alfajor artesanal de Mar del Plata", https://claude.ai/artifact/W6b4VNqNgafUvDrnu1A5HB. Mostrarle cada cambio ahí: publicar `pagina-web/index.html` con `assets/` en esa misma URL.
 - **Para subirla:** cuando la pida, zip con `index.html`, `.nojekyll` y `assets/` de `pagina-web/` (nada más del Cerebro).
 
@@ -41,7 +41,7 @@ Con el kit de diseño, que está en este Cerebro (ver `diseno/README.md`):
 - **Legales**: la página no guarda datos, no tiene cookies, analítica ni píxel, y no hay claves en el código. Por eso no van banner de cookies, botón de borrar datos ni registro de base de datos. Las tipografías son de licencia OFL y las fotos son de Tomás. Si se agrega Google Analytics, el píxel de Meta o un formulario que guarde datos, ahí sí hacen falta política de privacidad y banner.
 
 ## Pendiente
-- Anotar el dominio y cambiar `og:url` y `og:image` en `index.html` (hoy apuntan a GitHub Pages y tienen un TODO). Después, Tomás tiene que volver a subir la página para que tome el cambio.
+- `og:url` y `og:image` ya apuntan a monteriko.com.ar (29 de octubre de 2026). Tomás tiene que subir el zip nuevo para que tome el cambio.
 - Política de privacidad y términos y condiciones: Tomás no los pidió todavía. Para los términos faltan nombre o razón social, CUIT, email, formas de pago y qué pasa con cancelaciones o reclamos.
 - Data Fiscal de ARCA y botón de arrepentimiento: Tomás tiene que consultarlo con un contador; si corresponde, el QR va al pie.
 - Opcionales que marcaron los auditores: ocultar las burbujas y no partir stickers de sus fotos al imprimir (`@media print`).
