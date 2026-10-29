@@ -7,6 +7,7 @@ Lo que Claude tiene que saber de Tomás Bracamonte y de lo que hace, en un solo 
 2. Según el pedido, leé la carpeta que corresponda:
    - `monte-riko/`: la marca, los productos y precios, el material original y la página web.
    - `diseno/`: cómo se trabaja el diseño, el kit y los gustos de Tomás.
+   - `editor-de-ia/`: los videos para editar (crudos, referencias y terminados). Leé su `README.md` antes de guardar un video.
 3. Si algo de acá contradice lo que pide Tomás, preguntale. No inventes datos que no estén escritos.
 
 ## Guardar lo nuevo (lo más importante)
