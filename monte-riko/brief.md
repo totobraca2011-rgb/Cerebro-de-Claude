@@ -18,7 +18,7 @@
 | Alfajor marplatense: tapas de chocolate, dulce de leche, baño de chocolate | $2.800 c/u |
 | Alfajor patagónico: con corazón de mermelada de frutos rojos | $3.000 c/u |
 | Media docena (cualquier sabor) | $16.500 |
-| Docena (cualquier sabor) | $32.000 |
+| Docena (cualquier sabor) | $31.900 (desde el 29 de octubre de 2026) |
 
 - Baño de chocolate negro. El blanco no se menciona en la web.
 - **No** hay tamaños, caja del mes, torta alfajor ni huevos de Pascua. Tampoco hay puntos de venta.

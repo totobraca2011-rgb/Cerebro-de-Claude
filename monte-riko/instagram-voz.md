@@ -7,7 +7,7 @@ Todas las skills `ig-*` leen este archivo antes de escribir (es su `voice.md`). 
 - **Cuenta:** @monteriko.oficial
 - **Qué hago, en una frase:** alfajores artesanales hechos en mi casa de Mar del Plata, por una sola persona.
 - **A quién le hablo:**
-- **Qué vendo:** alfajor marplatense ($2.800), patagónico ($3.000), media docena ($16.500) y docena ($32.000), surtidas al mismo precio. Precios de octubre 2026: el dato vigente está en `brief.md`.
+- **Qué vendo:** alfajor marplatense ($2.800), patagónico ($3.000), media docena ($16.500) y docena ($31.900), surtidas al mismo precio. Precios de octubre 2026: el dato vigente está en `brief.md`.
 
 ## Cómo hablo
 - Castellano rioplatense, con voseo, cercano y con humor. Titulares en mayúsculas.

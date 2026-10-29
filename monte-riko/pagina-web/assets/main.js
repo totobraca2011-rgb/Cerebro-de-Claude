@@ -8,7 +8,7 @@
     const UNIDAD = { marplatense: 2800, patagonico: 3000 };
     const SIZES = {
       media: { n: 6, price: 16500, one: 'media docena', many: 'medias docenas' },
-      docena: { n: 12, price: 32000, one: 'docena', many: 'docenas' }
+      docena: { n: 12, price: 31900, one: 'docena', many: 'docenas' }
     };
     const fmt = (n) => String(n).replace(/\B(?=(\d{3})+(?!\d))/g, '.');
     const money = (n) => '$' + fmt(n);
