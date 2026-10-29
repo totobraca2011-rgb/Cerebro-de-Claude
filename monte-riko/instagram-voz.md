@@ -18,8 +18,8 @@ Todas las skills `ig-*` leen este archivo antes de escribir (es su `voice.md`). 
 - **Palabras que nunca diría:**
 - **Malas palabras:** (sí / suaves / no)
 - **Emojis en las descripciones:** (nunca / pocos / libres)
-- **Cara en cámara:** no por ahora (no se usan fotos de Tomás en la web; confirmar si en los reels sí).
-- **Voz en off o a cámara:**
+- **Cara en cámara:** sí en los reels: Tomás grabó reels hablando a cámara contando quién está detrás de Monte Riko (octubre 2026). En la página web sigue sin ir ninguna foto suya.
+- **Voz en off o a cámara:** a cámara, con micrófono corbatero. Graba en vertical con el celu, en su casa (cocina, escritorio, piano), con mate y termo.
 - **Velocidad al hablar (palabras por minuto):**
 
 ## Lo que pienso
