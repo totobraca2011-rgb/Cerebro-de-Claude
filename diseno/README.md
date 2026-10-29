@@ -1,13 +1,13 @@
 # Diseño
 
 ## El kit
-Repo `totobraca2011-rgb/kit-diseno`. Trae tres guías de diseño (taste-skill, ui-ux-pro-max, impeccable) y tres ayudantes:
+Está entero en este Cerebro (`.claude/skills/` y `.claude/agents/`) desde octubre 2026; antes vivía en el repo `totobraca2011-rgb/kit-diseno`. Trae tres guías de diseño (taste-skill, ui-ux-pro-max, impeccable) y tres ayudantes:
 - `constructor-ui`: hace los cambios.
 - `auditor-visual` y `auditor-tecnico`: revisan en paralelo y no tocan nada.
 
 Cómo se trabaja: el constructor arma, los dos auditores revisan, se corrige y se repite hasta que los dos aprueben. Tomás autorizó que estas vueltas se hagan solas.
 
-Para instalarlo en una sesión: `sh install.sh --con-motor` desde el repo del kit.
+Se carga solo con el Cerebro. El detector de impeccable se baja por sesión: `.claude/skills/impeccable/scripts/impeccable engine-probe`.
 
 ## Lo que le gusta a Tomás
 - Diseño con idea propia, que no parezca hecho por una IA genérica.
