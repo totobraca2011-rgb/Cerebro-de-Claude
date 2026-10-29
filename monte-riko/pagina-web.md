@@ -44,6 +44,7 @@ Con el kit de diseño, que está en este Cerebro (ver `diseno/README.md`):
 - **Legales**: la página no guarda datos, no tiene cookies, analítica ni píxel, y no hay claves en el código. Por eso no van banner de cookies, botón de borrar datos ni registro de base de datos. Las tipografías son de licencia OFL y las fotos son de Tomás. Si se agrega Google Analytics, el píxel de Meta o un formulario que guarde datos, ahí sí hacen falta política de privacidad y banner.
 
 ## Pendiente
+- **La publicación automática no anda** (29 de octubre de 2026): el hosting rechaza el usuario o la contraseña de FTP guardados como secretos en GitHub (`FTP_USUARIO`, `FTP_CONTRASENA`; error "530 Login incorrect"). Falló en las dos subidas. Tomás tiene que corregirlos en GitHub (Settings → Secrets and variables → Actions) con los datos del panel Ferozo; después se vuelve a correr "Publicar página web". Mientras tanto se sube a mano con el zip.
 - `og:url` y `og:image` ya apuntan a monteriko.com.ar (29 de octubre de 2026). Tomás tiene que subir el zip nuevo para que tome el cambio.
 - Política de privacidad y términos y condiciones: Tomás no los pidió todavía. Para los términos faltan nombre o razón social, CUIT, email, formas de pago y qué pasa con cancelaciones o reclamos.
 - Data Fiscal de ARCA y botón de arrepentimiento: Tomás tiene que consultarlo con un contador; si corresponde, el QR va al pie.
