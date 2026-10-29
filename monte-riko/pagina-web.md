@@ -5,7 +5,9 @@ Landing de Monte Riko, alfajores artesanales de Mar del Plata hechos por Tomás 
 - **Código:** `monte-riko/pagina-web/` de este Cerebro (desde octubre 2026; el repo `totobraca2011-rgb/Monte-Riko` se borró el 29 de octubre de 2026 y esta es la única copia). No hay build: HTML, CSS y JS planos, todas las rutas relativas.
 - **Publicada:** https://monteriko.com.ar (también responde con www). Tomás la subió a su propio hosting, con dominio y SSL (octubre 2026). Ya no se publica desde GitHub Pages.
 - **Vista previa para Tomás:** artifact "Monte Riko · Alfajor artesanal de Mar del Plata", https://claude.ai/artifact/W6b4VNqNgafUvDrnu1A5HB. Mostrarle cada cambio ahí: publicar `pagina-web/index.html` con `assets/` en esa misma URL.
-- **Para subirla:** cuando la pida, zip con `index.html`, `.nojekyll` y `assets/` de `pagina-web/` (nada más del Cerebro).
+- **Hosting:** 2dweb (una unidad de Malta Agencia), plan "hosting plus", panel Ferozo (https://ferozo.host). Activado el 19/02/2026; **se renueva el 10/02/2027** (si vence, a los 7 días suspenden el servicio). FTP en `c2782037.ferozo.com`, puerto 21. Soporte: soporte@2dweb.com.ar. El usuario y la contraseña NO van acá: están como secretos en GitHub.
+- **Publicar (desde octubre 2026):** `.github/workflows/publicar-web.yml` sube solo `monte-riko/pagina-web/` al hosting cuando se sube algo a la rama `publicar-web`. **Regla: solo se publica cuando Tomás dice "subilo" en esa sesión** después de ver el cambio en la vista previa; recién ahí `git push origin main:publicar-web`. Los cambios de siempre van a `main` y nunca se publican solos. Si una publicación sale mal, se vuelve a publicar la versión anterior.
+- **Para subirla a mano (si falla lo automático):** cuando la pida, zip con `index.html`, `.nojekyll` y `assets/` de `pagina-web/` (nada más del Cerebro).
 
 ## Antes de tocar nada
 Leé `monte-riko/brief.md`: productos, precios, cómo se compra, historia, frases de marca e identidad. Si un pedido lo contradice, preguntá; no inventes.

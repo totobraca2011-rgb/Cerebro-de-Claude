@@ -1,0 +1,30 @@
+# Publica la página de Monte Riko en el hosting (2dweb / Ferozo) por FTP.
+# Solo corre cuando se sube algo a la rama `publicar-web`, y eso se hace
+# únicamente cuando Tomás dice "subilo". Sube solo monte-riko/pagina-web/.
+name: Publicar página web
+
+on:
+  push:
+    branches: [publicar-web]
+  workflow_dispatch:
+
+concurrency:
+  group: publicar-web
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Subir monte-riko/pagina-web al hosting
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVIDOR }}
+          username: ${{ secrets.FTP_USUARIO }}
+          password: ${{ secrets.FTP_CONTRASENA }}
+          protocol: ftps
+          port: 21
+          local-dir: ./monte-riko/pagina-web/
+          server-dir: ${{ vars.FTP_CARPETA || '/public_html/' }}
