@@ -95,10 +95,10 @@
           <li><span>Marplatense</span> <span class="tile__uprice">$2<span class="p">.</span>800</span></li>
           <li><span>Patagónico</span> <span class="tile__uprice">$3<span class="p">.</span>000</span></li>
         </ul>
-        <p>Precio por alfajor.</p>
+        <p>Precio por alfajor. Solo en Mar del Plata.</p>
         <p class="tile__dots" aria-hidden="true"><span class="d-mdp"></span></p>
       </div>
-      <a class="tile__strip" href="#pedido" data-formato="unidad">Pedir sueltos</a>
+      <a class="tile__strip" href="#pedido-sueltos" data-formato="unidad">Pedir sueltos</a>
     </li>
     <li class="tile tile--2" data-reveal>
       <div class="tile__body">
@@ -107,7 +107,7 @@
         <p>6 alfajores, surtidos o de un solo sabor</p>
         <p class="tile__dots" aria-hidden="true"><span class="d-mdp"></span><span class="d-mdp"></span><span class="d-mdp"></span><span class="d-pat"></span><span class="d-pat"></span><span class="d-pat"></span></p>
       </div>
-      <a class="tile__strip" href="#pedido" data-formato="media">Armar media docena</a>
+      <a class="tile__strip" href="#pedido-cajas" data-formato="media">Armar media docena</a>
     </li>
     <li class="tile tile--3" data-reveal>
       <div class="tile__body">
@@ -117,7 +117,7 @@
         <p class="tile__dots tile__dots--12" aria-hidden="true"><span class="d-mdp"></span><span class="d-mdp"></span><span class="d-mdp"></span><span class="d-mdp"></span><span class="d-mdp"></span><span class="d-mdp"></span><span class="d-mdp"></span><span class="d-pat"></span><span class="d-pat"></span><span class="d-pat"></span><span class="d-pat"></span><span class="d-pat"></span></p>
         <p class="tile__aside">Para compartir<span class="p">.</span> O&nbsp;no<span class="p">.</span></p>
       </div>
-      <a class="tile__strip" href="#pedido" data-formato="docena">Armar una docena</a>
+      <a class="tile__strip" href="#pedido-cajas" data-formato="docena">Armar una docena</a>
     </li>
   </ol>
   <p class="prices__key" aria-hidden="true"><span><span class="d-mdp"></span>Marplatense</span><span><span class="d-pat"></span>Patagónico</span></p>
@@ -130,66 +130,93 @@
   </figure>
   <div class="order__tile">
     <h2 id="order-title" class="h2">Armá tu pedido</h2>
-    <p class="order__lede order__lede--js">Elegí cajas y sueltos; las cajas pueden ir surtidas, mezclando sabores. El mensaje de WhatsApp sale escrito: lo mandás y coordinamos el envío.</p>
+    <p class="order__lede order__lede--js">Cajas y sueltos se piden por separado, cada uno con su mensaje de WhatsApp ya escrito. Las cajas pueden ir surtidas y viajan a todo el país; los sueltos son solo para Mar del Plata.</p>
     <div class="order__nojs">
-      <p class="order__lede">Escribinos por WhatsApp qué querés: alfajores sueltos, media docena o docena, de un sabor o surtidas. Ahí te confirmamos el total y coordinamos el envío o el retiro.</p>
+      <p class="order__lede">Escribinos por WhatsApp qué querés: media docena o docena, de un sabor o surtidas, o alfajores sueltos (los sueltos, solo en Mar del Plata). Ahí te confirmamos el total y coordinamos el envío o el retiro.</p>
       <a class="button button--ink button--big" href="https://wa.me/5492236188694?text=%C2%A1Hola%20Monte%20Riko!%20Quiero%20hacer%20un%20pedido." target="_blank" rel="noopener">Pedir por WhatsApp<span class="sr-only"> (abre en otra pestaña)</span></a>
     </div>
 
     <form class="builder" id="builder" novalidate>
-      <div class="builder__part">
-        <h3 class="builder__step">Cajas</h3>
-        <p class="builder__hint">Media docena $16.500 · docena $32.000. Repartí los sabores como quieras.</p>
-        <div class="builder__boxes" id="boxes"></div>
-        <button type="button" class="button button--line" id="add-box">Sumar otra caja</button>
-      </div>
-
-      <div class="builder__part">
-        <h3 class="builder__step" id="loose-title">Sueltos</h3>
-        <p class="builder__hint">Por unidad: marplatense $2.800, patagónico $3.000.</p>
-        <div class="loose" role="group" aria-labelledby="loose-title">
-          <div class="row">
-            <span class="row__label" id="loose-mdp">Marplatense</span>
-            <div class="qty" role="group" aria-labelledby="loose-mdp">
-              <button type="button" data-loose="marplatense" data-d="-1" aria-label="Quitar un marplatense suelto">−</button>
-              <output aria-labelledby="loose-mdp" id="loose-mdp-n">0</output>
-              <button type="button" data-loose="marplatense" data-d="1" aria-label="Sumar un marplatense suelto">+</button>
-            </div>
-          </div>
-          <div class="row">
-            <span class="row__label" id="loose-pat">Patagónico</span>
-            <div class="qty" role="group" aria-labelledby="loose-pat">
-              <button type="button" data-loose="patagonico" data-d="-1" aria-label="Quitar un patagónico suelto">−</button>
-              <output aria-labelledby="loose-pat" id="loose-pat-n">0</output>
-              <button type="button" data-loose="patagonico" data-d="1" aria-label="Sumar un patagónico suelto">+</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <fieldset class="builder__group">
-        <legend>¿Cómo te llega?</legend>
-        <div class="seg">
-          <label><input type="radio" name="entrega" value="Envío dentro de Mar del Plata" checked><span>Envío en Mar del Plata</span></label>
-          <label><input type="radio" name="entrega" value="Envío a otra ciudad del país"><span>Envío al resto del país</span></label>
-          <label><input type="radio" name="entrega" value="Retiro en Mar del Plata (a coordinar)"><span>Retiro en Mar del Plata</span></label>
-        </div>
-      </fieldset>
-
       <div class="builder__field">
         <label for="nombre">Tu nombre <span class="opt">(opcional)</span></label>
         <input id="nombre" name="nombre" type="text" autocomplete="given-name" maxlength="40" enterkeyhint="done">
       </div>
 
-      <div class="builder__out">
-        <p class="builder__total" aria-live="polite" aria-atomic="true"><span>Total de referencia, sin envío</span> <strong id="total">$32<span class="p">.</span>000</strong></p>
-        <p class="builder__empty" id="empty" hidden>Sumá una caja o algún alfajor suelto para armar el pedido.</p>
-        <div class="builder__msg">
-          <p class="builder__msglabel" id="msg-label">Así sale tu mensaje</p>
-          <p class="builder__preview" id="preview" aria-labelledby="msg-label">¡Hola Monte Riko! Quiero hacer un pedido.</p>
+      <section class="builder__block" id="pedido-cajas" aria-labelledby="cajas-title">
+        <div class="builder__part">
+          <h3 class="builder__step" id="cajas-title">Cajas</h3>
+          <p class="builder__hint">Media docena $16.500 · docena $32.000. Repartí los sabores como quieras. Viajan a todo el país.</p>
+          <div class="builder__boxes" id="boxes"></div>
+          <button type="button" class="button button--line" id="add-box">Sumar otra caja</button>
         </div>
-        <a class="button button--ink button--big" id="send" href="https://wa.me/5492236188694?text=%C2%A1Hola%20Monte%20Riko!%20Quiero%20hacer%20un%20pedido." target="_blank" rel="noopener">Enviar por WhatsApp<span class="sr-only"> (abre en otra pestaña)</span></a>
-      </div>
+
+        <fieldset class="builder__group">
+          <legend>¿Cómo te llegan las cajas?</legend>
+          <div class="seg">
+            <label><input type="radio" name="entrega-cajas" value="Envío dentro de Mar del Plata" checked><span>Envío en Mar del Plata</span></label>
+            <label><input type="radio" name="entrega-cajas" value="Envío a otra ciudad del país"><span>Envío al resto del país</span></label>
+            <label><input type="radio" name="entrega-cajas" value="Retiro en Mar del Plata (a coordinar)"><span>Retiro en Mar del Plata</span></label>
+          </div>
+        </fieldset>
+
+        <div class="builder__out">
+          <div>
+            <p class="builder__total" aria-live="polite" aria-atomic="true"><span id="total-label-cajas">Total sin envío</span> <strong id="total-cajas">$32<span class="p">.</span>000</strong></p>
+            <p class="builder__note" id="note-cajas">El envío se arregla por WhatsApp.</p>
+          </div>
+          <div class="builder__msg">
+            <p class="builder__msglabel" id="msg-label-cajas">Así sale tu mensaje</p>
+            <p class="builder__preview" id="preview-cajas" aria-labelledby="msg-label-cajas">¡Hola Monte Riko! Quiero hacer un pedido de cajas.</p>
+          </div>
+          <a class="button button--ink button--big" id="send-cajas" href="https://wa.me/5492236188694?text=%C2%A1Hola%20Monte%20Riko!%20Quiero%20hacer%20un%20pedido%20de%20cajas." target="_blank" rel="noopener">Enviar cajas por WhatsApp<span class="sr-only"> (abre en otra pestaña)</span></a>
+        </div>
+      </section>
+
+      <section class="builder__block" id="pedido-sueltos" aria-labelledby="sueltos-title">
+        <div class="builder__part">
+          <h3 class="builder__step" id="sueltos-title">Sueltos</h3>
+          <p class="builder__hint">Marplatense $2.800 · patagónico $3.000, por unidad. Solo en Mar del Plata.</p>
+          <div class="loose" role="group" aria-labelledby="sueltos-title">
+            <div class="row">
+              <span class="row__label" id="loose-mdp">Marplatense</span>
+              <div class="qty" role="group" aria-labelledby="loose-mdp">
+                <button type="button" data-loose="marplatense" data-d="-1" aria-label="Quitar un marplatense suelto">−</button>
+                <output aria-labelledby="loose-mdp" id="loose-mdp-n">0</output>
+                <button type="button" data-loose="marplatense" data-d="1" aria-label="Sumar un marplatense suelto">+</button>
+              </div>
+            </div>
+            <div class="row">
+              <span class="row__label" id="loose-pat">Patagónico</span>
+              <div class="qty" role="group" aria-labelledby="loose-pat">
+                <button type="button" data-loose="patagonico" data-d="-1" aria-label="Quitar un patagónico suelto">−</button>
+                <output aria-labelledby="loose-pat" id="loose-pat-n">0</output>
+                <button type="button" data-loose="patagonico" data-d="1" aria-label="Sumar un patagónico suelto">+</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <fieldset class="builder__group">
+          <legend>¿Cómo te llegan los sueltos?</legend>
+          <div class="seg">
+            <label><input type="radio" name="entrega-sueltos" value="Envío dentro de Mar del Plata" checked><span>Envío en Mar del Plata</span></label>
+            <label><input type="radio" name="entrega-sueltos" value="Retiro en Mar del Plata (a coordinar)"><span>Retiro en Mar del Plata</span></label>
+          </div>
+        </fieldset>
+
+        <div class="builder__out">
+          <div>
+            <p class="builder__total" aria-live="polite" aria-atomic="true"><span id="total-label-sueltos">Total sin envío</span> <strong id="total-sueltos">$0</strong></p>
+            <p class="builder__note" id="note-sueltos">El envío se arregla por WhatsApp.</p>
+            <p class="builder__empty" id="empty-sueltos">Sumá algún alfajor suelto para armar el pedido.</p>
+          </div>
+          <div class="builder__msg">
+            <p class="builder__msglabel" id="msg-label-sueltos">Así sale tu mensaje</p>
+            <p class="builder__preview" id="preview-sueltos" aria-labelledby="msg-label-sueltos">¡Hola Monte Riko! Quiero pedir alfajores sueltos.</p>
+          </div>
+          <a class="button button--ink button--big" id="send-sueltos" href="https://wa.me/5492236188694?text=%C2%A1Hola%20Monte%20Riko!%20Quiero%20pedir%20alfajores%20sueltos." target="_blank" rel="noopener">Enviar sueltos por WhatsApp<span class="sr-only"> (abre en otra pestaña)</span></a>
+        </div>
+      </section>
     </form>
     <p class="order__direct">¿Preferís escribir sin armar nada? <a class="link link--strong" href="https://wa.me/5492236188694?text=%C2%A1Hola%20Monte%20Riko!%20Quiero%20hacer%20un%20pedido." target="_blank" rel="noopener"><span class="nw">+54 9 223 618-8694</span><span class="sr-only"> (WhatsApp, abre en otra pestaña)</span></a></p>
   </div>
@@ -256,7 +283,7 @@
       <h3 class="acc__head"><button type="button" aria-expanded="true" aria-controls="acc-2" id="acc-b2"><span>Envío al país</span></button></h3>
       <div class="acc__panel" id="acc-2" role="region" aria-labelledby="acc-b2">
         <div class="acc__inner">
-          <div class="acc__copy"><p>Los pedidos comunes viajan a todo el país. El costo y los tiempos te los pasamos por WhatsApp según adónde va.</p></div>
+          <div class="acc__copy"><p>Las cajas viajan a todo el país; los sueltos quedan para Mar del Plata. El costo y los tiempos te los pasamos por WhatsApp según adónde va.</p></div>
           <div class="acc__media"><picture><source type="image/avif" srcset="assets/img/caja-envio-480.avif 480w, assets/img/caja-envio-800.avif 800w, assets/img/caja-envio-1176.avif 1176w" sizes="(max-width: 760px) calc(100vw - 84px), (max-width: 1024px) calc(65vw - 122px), 30vw"><source type="image/webp" srcset="assets/img/caja-envio-480.webp 480w, assets/img/caja-envio-800.webp 800w, assets/img/caja-envio-1176.webp 1176w" sizes="(max-width: 760px) calc(100vw - 84px), (max-width: 1024px) calc(65vw - 122px), 30vw"><img src="assets/img/caja-envio-800.jpg" srcset="assets/img/caja-envio-480.jpg 480w, assets/img/caja-envio-800.jpg 800w, assets/img/caja-envio-1176.jpg 1176w" sizes="(max-width: 760px) calc(100vw - 84px), (max-width: 1024px) calc(65vw - 122px), 30vw" width="1176" height="1182" alt="Caja blanca de envío cerrada con el sticker de la corona de Monte Riko" loading="lazy" decoding="async" class="acc__img"></picture></div>
         </div>
       </div>

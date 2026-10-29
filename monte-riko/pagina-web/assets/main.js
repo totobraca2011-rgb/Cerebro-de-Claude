@@ -47,11 +47,18 @@
     const form = document.getElementById('builder');
     const boxesEl = document.getElementById('boxes');
     const addBtn = document.getElementById('add-box');
-    const totalEl = document.getElementById('total');
-    const emptyEl = document.getElementById('empty');
-    const previewEl = document.getElementById('preview');
-    const sendEl = document.getElementById('send');
     const nombreEl = document.getElementById('nombre');
+    /* dos bloques, cada uno con su entrega, su total, su mensaje y su botón de WhatsApp */
+    const out = (key) => ({
+      key,
+      total: document.getElementById('total-' + key),
+      label: document.getElementById('total-label-' + key),
+      note: document.getElementById('note-' + key),
+      empty: document.getElementById('empty-' + key),
+      preview: document.getElementById('preview-' + key),
+      send: document.getElementById('send-' + key)
+    });
+    const OUT = { cajas: out('cajas'), sueltos: out('sueltos') };
 
     /* escribe solo si cambia: evita reanunciar regiones vivas y repintar */
     const setText = (el, t) => { t = String(t); if (el.textContent !== t) el.textContent = t; };
@@ -128,7 +135,7 @@
       const n = SIZES[b.size].n; const pat = n - b.mdp; const k = i + 1;
       setText(el.querySelector('.box__title'), `Caja ${k}`);
       setText(el.querySelector('[data-label="remove"]'), ` caja ${k}`);
-      el.querySelector('.box__remove').hidden = boxes.length < 2 && loose.marplatense + loose.patagonico === 0;
+      el.querySelector('.box__remove').hidden = boxes.length < 2;   /* siempre queda una caja */
       el.querySelectorAll('input[type="radio"]').forEach((r) => { r.checked = r.value === b.size; });
       setText(el.querySelector('[data-n="mdp"]'), b.mdp);
       setText(el.querySelector('[data-n="pat"]'), pat);
@@ -176,7 +183,7 @@
         el.innerHTML = boxMarkup(b);
         boxesEl.append(el);
       });
-      update();
+      updateCajas();
     }
 
     function describeBox(b) {
@@ -188,43 +195,63 @@
       return b.count > 1 ? `${fmtName} surtidas, cada una con ${mix}` : `${fmtName} surtida: ${mix}`;
     }
 
-    function message() {
-      const entrega = document.querySelector('input[name="entrega"]:checked').value;
-      const nombre = nombreEl.value.trim();
-      const total = boxes.reduce((t, b) => t + SIZES[b.size].price * b.count, 0) +
-        loose.marplatense * UNIDAD.marplatense + loose.patagonico * UNIDAD.patagonico;
+    const entregaOf = (key) => document.querySelector(`input[name="entrega-${key}"]:checked`).value;
+    const isEnvio = (entrega) => entrega.startsWith('Envío');
+    /* con envío el total es sin envío (se arregla por WhatsApp); con retiro, es el precio final */
+    const totalLine = (total, entrega) => 'Total: ' + money(total) + (isEnvio(entrega) ? ' (sin envío)' : '');
+    const firma = () => { const n = nombreEl.value.trim(); return n ? ['Soy ' + n + '.'] : []; };
+
+    function messageCajas() {
+      const entrega = entregaOf('cajas');
+      const total = boxes.reduce((t, b) => t + SIZES[b.size].price * b.count, 0);
       const items = boxes.map((b) => '• ' + describeBox(b));
-      const sueltos = [];
-      if (loose.marplatense) sueltos.push(`${loose.marplatense} ${flavor('marplatense', loose.marplatense)}`);
-      if (loose.patagonico) sueltos.push(`${loose.patagonico} ${flavor('patagonico', loose.patagonico)}`);
-      if (sueltos.length) items.push('• Sueltos: ' + sueltos.join(' y '));
-      if (!items.length) return { text: '¡Hola Monte Riko! Quiero hacer un pedido.' + (nombre ? '\nSoy ' + nombre + '.' : ''), total: 0 };
-      const parts = ['¡Hola Monte Riko! Quiero hacer un pedido:', ...items, 'Entrega: ' + entrega, 'Total de referencia: ' + money(total) + ' (sin envío)'];
-      if (nombre) parts.push('Soy ' + nombre + '.');
-      return { text: parts.join('\n'), total };
+      const parts = ['¡Hola Monte Riko! Quiero hacer un pedido de cajas:', ...items, 'Entrega: ' + entrega, totalLine(total, entrega), ...firma()];
+      return { text: parts.join('\n'), total, entrega };
     }
 
-    function update() {
+    function messageSueltos() {
+      const entrega = entregaOf('sueltos');
+      const total = loose.marplatense * UNIDAD.marplatense + loose.patagonico * UNIDAD.patagonico;
+      const items = [];
+      if (loose.marplatense) items.push(`• ${loose.marplatense} ${flavor('marplatense', loose.marplatense)}`);
+      if (loose.patagonico) items.push(`• ${loose.patagonico} ${flavor('patagonico', loose.patagonico)}`);
+      /* sin alfajores no se inventa un pedido: el mensaje solo dice qué quiere y cómo le llega */
+      const parts = items.length
+        ? ['¡Hola Monte Riko! Quiero hacer un pedido de alfajores sueltos:', ...items, 'Entrega: ' + entrega, totalLine(total, entrega), ...firma()]
+        : ['¡Hola Monte Riko! Quiero pedir alfajores sueltos.', 'Entrega: ' + entrega, ...firma()];
+      return { text: parts.join('\n'), total, entrega };
+    }
+    const MESSAGE = { cajas: messageCajas, sueltos: messageSueltos };
+
+    /* total, rótulo, aviso y mensaje de un bloque. El total salta solo si cambió el número */
+    function render(key) {
+      const o = OUT[key]; const m = MESSAGE[key]();
+      const before = o.total.dataset.v;
+      setMoney(o.total, m.total);
+      if (before !== undefined && before !== o.total.dataset.v) bump(o.total);
+      const envio = isEnvio(m.entrega);
+      setText(o.label, envio ? 'Total sin envío' : 'Total');
+      if (o.note.hidden === envio) o.note.hidden = !envio;
+      if (o.empty && o.empty.hidden !== m.total > 0) o.empty.hidden = m.total > 0;
+      setText(o.preview, m.text);
+      const href = WA + '?text=' + encodeURIComponent(m.text);
+      if (o.send.getAttribute('href') !== href) o.send.href = href;
+    }
+
+    function updateCajas() {
       setOff(addBtn, boxes.length >= 10);
       [...boxesEl.children].forEach((el, i) => syncBox(el, boxes[i], i));
+      render('cajas');
+    }
+
+    function updateSueltos() {
       ['marplatense', 'patagonico'].forEach((s) => {
         const key = s === 'marplatense' ? 'mdp' : 'pat';
         setText(document.getElementById(`loose-${key}-n`), loose[s]);
         const [minus, plus] = document.querySelectorAll(`[data-loose="${s}"]`);
         setOff(minus, loose[s] <= 0); setOff(plus, loose[s] >= 40);
       });
-      const m = message();
-      const before = totalEl.dataset.v;
-      setMoney(totalEl, m.total);
-      if (before !== undefined && before !== totalEl.dataset.v) bump(totalEl);
-      if (emptyEl.hidden !== m.total > 0) emptyEl.hidden = m.total > 0;
-      writeMessage(m);
-    }
-
-    /* el nombre y la entrega solo cambian el mensaje: no tocan cajas ni total */
-    function writeMessage(m = message()) {
-      setText(previewEl, m.text);
-      sendEl.href = WA + '?text=' + encodeURIComponent(m.text);
+      render('sueltos');
     }
 
     if (form && boxesEl) {
@@ -234,7 +261,7 @@
         const el = e.target.closest('.box'); if (!el || e.target.type !== 'radio') return;
         const b = boxes.find((x) => x.id === el.dataset.id);
         resize(b, e.target.value);
-        update();
+        updateCajas();
       });
 
       boxesEl.addEventListener('click', (e) => {
@@ -248,7 +275,7 @@
           b.ratio = b.mdp / n;
         }
         if (btn.dataset.act === 'count') b.count = Math.max(1, Math.min(20, b.count + d));
-        update();
+        updateCajas();
       });
 
       addBtn.addEventListener('click', () => {
@@ -264,24 +291,26 @@
         if (isOff(btn)) return;
         const s = btn.dataset.loose;
         loose[s] = Math.max(0, Math.min(40, loose[s] + +btn.dataset.d));
-        update();
+        updateSueltos();
       }));
 
-      document.querySelectorAll('input[name="entrega"]').forEach((r) => r.addEventListener('change', () => writeMessage()));
-      nombreEl.addEventListener('input', () => writeMessage());
+      /* la entrega cambia el rótulo del total y el mensaje de su bloque; el nombre va en los dos */
+      Object.keys(OUT).forEach((key) => document.querySelectorAll(`input[name="entrega-${key}"]`)
+        .forEach((r) => r.addEventListener('change', () => render(key))));
+      nombreEl.addEventListener('input', () => { render('cajas'); render('sueltos'); });
       build();
+      updateSueltos();
 
       /* los botones de precios cargan el formato elegido */
       document.querySelectorAll('[data-formato]').forEach((a) => a.addEventListener('click', () => {
         const f = a.dataset.formato;
         if (f === 'unidad') {
           if (loose.marplatense + loose.patagonico === 0) loose.marplatense = 1;
-          update(); return;
+          updateSueltos(); return;
         }
-        if (!boxes.length) { boxes.push(newBox(f, SIZES[f].n / 2)); build(); return; }
         const b = boxes[0];
         if (b.size !== f) resize(b, f);
-        update();
+        updateCajas();
       }));
     }
 
@@ -479,8 +508,8 @@
         watch($('.foot__end .button'), 'is-cta', around(a, 4));
         if (desktop.matches) {
           /* en escritorio la tarjeta del armador no llega a las burbujas: WhatsApp se va solo
-             cuando el envío por WhatsApp del armador está abajo, a la vista */
-          watch($('#send, .order__direct'), 'is-send', band);
+             cuando alguno de los dos envíos por WhatsApp del armador está abajo, a la vista */
+          watch($('#send-cajas, #send-sueltos, .order__direct'), 'is-send', band);
         } else {
           watch($('.order__tile'), 'is-busy', box);
         }
