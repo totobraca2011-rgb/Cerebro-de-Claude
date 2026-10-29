@@ -11,5 +11,6 @@ Tomás hablando a cámara, 5 tomas verticales grabadas con el celu y micrófono 
 | 5 | IMG_0439, primer plano con mate, fondo blanco; termina tapando la cámara con el mate | "Soy Tomás Bracamonte, el creador de Monte Riko, y esto recién empieza. Si querés ver cómo crece Monte Riko, seguí a @monteriko.oficial y acompañame en este camino." | 0,50–13,90 |
 
 - Audio limpio, sin ruido de fondo; volumen bajo y desparejo entre tomas (−21,7 a −27,2 LUFS): emparejar a −14 LUFS al editar.
-- Falta: un audio más que Tomás tiene que grabar, y tomas cortas del proceso del alfajor para poner encima mientras habla. En estas tomas no aparece ningún alfajor.
+- Audio que faltaba (29 de octubre de 2026): `Nueva-grabacion.m4a`, 13,7 s, voz en off sin video. Dice: "Yo, por ejemplo, empecé sin tener idea de cómo llevar un negocio. Literalmente ni idea. Pero fue tomando forma, y hoy con 16 años, tengo mi propia marca de alfajores. Y sigo aprendiendo cómo hacerla crecer." (habla de 0,8 a 13,1 s).
+- Orden propuesto con el audio nuevo: 0404 → 0413 → audio en off con tomas del proceso encima (`crudos/proceso-masa/`) → 0417 → 0418 → 0439. Unos 48 s.
 - Los crudos están en `editor-de-ia/crudos/quien-esta-detras/`.
