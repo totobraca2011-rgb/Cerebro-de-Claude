@@ -11,4 +11,15 @@ Una sola toma fija y vertical de 63 s: Tomás, con guantes negros, tira harina s
 - Va sin sonido: la idea es poner la música desde Instagram al subirlo. Si Tomás manda una canción, cortar las tomas al ritmo.
 - Pendiente: no tiene el cierre con el producto terminado que tiene la referencia (falta una toma del alfajor terminado, o cerrar con el logo).
 
-Archivos: en `editor-de-ia/crudos/proceso-masa/` queda solo la v1 editada (`2026-10-29-proceso-masa-editado-v1.mp4`). El video original de 63 s se borró a pedido de Tomás (29 de octubre de 2026).
+## Cinco tomas más (29 de octubre de 2026)
+Tomás mandó 5 videos más del proceso y pidió editarlos por separado, cortos y con el mismo estilo (cortes rápidos, acercamientos, colores cálidos, sin sonido). Se guardaron solo las versiones editadas, no los originales.
+
+| Archivo | Qué muestra | Duración |
+|---|---|---|
+| `2026-10-29-estirar-masa-editado-v1.mp4` | Estira la masa con el palo naranja, la misma mesada de la primera toma (original de 38 s) | 9,3 s |
+| `2026-10-29-cortar-tapas-editado-v1.mp4` | Corta las tapas con el cortante de metal y al final se ve la masa llena de círculos (original de 70 s) | 8,3 s |
+| `2026-10-29-apilar-tapas-editado-v1.mp4` | Deja una pila de tapas sobre la mesada con la espátula (original de 5 s) | 3,4 s |
+| `2026-10-29-harina-mesada-editado-v1.mp4` | Cae la harina sobre la mesada, con tapas atrás (original de 10 s) | 2,9 s |
+| `2026-10-29-estirar-de-cerca-editado-v1.mp4` | El palo estirando la masa, filmado desde abajo y muy de cerca (original de 29 s). Gran parte del original está movida o tapada por el brazo | 3,9 s |
+
+Archivos: en `editor-de-ia/crudos/proceso-masa/` quedan solo las versiones editadas (`2026-10-29-proceso-masa-editado-v1.mp4` y las cinco de arriba). El video original de 63 s se borró a pedido de Tomás (29 de octubre de 2026).
