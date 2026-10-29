@@ -20,6 +20,13 @@ Este repo se llena a medida que trabajamos. Cuando Tomás te pase información, 
 
 Lo que se dice en el chat se pierde al cerrar la sesión: solo queda lo que se guarda acá.
 
+### Videos (pedido de Tomás, octubre 2026)
+Cada video que Tomás mande para reels o edición se guarda solo, sin preguntar, en `editor-de-ia/`:
+- Lo que grabó él para editar → `crudos/<proyecto>/`, con el nombre original del archivo.
+- Videos de otros que pasa como ejemplo → `referencias/`, anotando de dónde salió cada uno.
+- Cada video que terminemos de editar → `terminados/`, con fecha y versión.
+Si no queda claro a qué proyecto o carpeta va, preguntale en una línea. Seguí las reglas de `editor-de-ia/README.md` (límite de 100 MB) y hacé commit y push apenas los guardes.
+
 ## Skills
 Las skills de `.claude/skills/` se cargan solas con este repo (la lista y el origen están en su `README.md`).
 - **Instagram (`ig-*`):** donde digan `~/.claude/instagram/voice.md`, usá `monte-riko/instagram-voz.md`. Escribí siempre en castellano rioplatense con voseo: los ganchos y el humanizador vienen pensados en inglés, así que adaptá la idea, no la traduzcas. Si Tomás completa algo de su voz, guardalo en ese archivo.

@@ -12,4 +12,4 @@ Tomás hablando a cámara, 5 tomas verticales grabadas con el celu y micrófono 
 
 - Audio limpio, sin ruido de fondo; volumen bajo y desparejo entre tomas (−21,7 a −27,2 LUFS): emparejar a −14 LUFS al editar.
 - Falta: un audio más que Tomás tiene que grabar, y tomas cortas del proceso del alfajor para poner encima mientras habla. En estas tomas no aparece ningún alfajor.
-- Los videos no quedan guardados acá (pesan mucho): Tomás los vuelve a subir cuando se edite.
+- Los crudos están en `editor-de-ia/crudos/quien-esta-detras/`.
