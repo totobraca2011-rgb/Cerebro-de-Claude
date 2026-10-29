@@ -50,7 +50,7 @@
     const nombreEl = document.getElementById('nombre');
     /* dos bloques, cada uno con su entrega, su total, su mensaje y su botón de WhatsApp */
     const out = (key) => ({
-      key,
+      line: document.getElementById('total-line-' + key),
       total: document.getElementById('total-' + key),
       label: document.getElementById('total-label-' + key),
       note: document.getElementById('note-' + key),
@@ -231,8 +231,12 @@
       if (before !== undefined && before !== o.total.dataset.v) bump(o.total);
       const envio = isEnvio(m.entrega);
       setText(o.label, envio ? 'Total sin envío' : 'Total');
-      if (o.note.hidden === envio) o.note.hidden = !envio;
-      if (o.empty && o.empty.hidden !== m.total > 0) o.empty.hidden = m.total > 0;
+      /* sueltos vacío: sin total ni nota, solo el aviso. hidden se escribe solo si cambia */
+      const vacio = m.total === 0;
+      const show = (el, on) => { if (el && el.hidden === on) el.hidden = !on; };
+      show(o.line, !vacio);
+      show(o.note, envio && !vacio);
+      show(o.empty, vacio);
       setText(o.preview, m.text);
       const href = WA + '?text=' + encodeURIComponent(m.text);
       if (o.send.getAttribute('href') !== href) o.send.href = href;
@@ -301,7 +305,11 @@
       build();
       updateSueltos();
 
-      /* los botones de precios cargan el formato elegido */
+      /* los botones de precios cargan el formato elegido. Sin JS apuntan a #pedido (el armador
+         está oculto); con JS, a su bloque */
+      document.querySelectorAll('[data-formato]').forEach((a) => {
+        a.href = a.dataset.formato === 'unidad' ? '#pedido-sueltos' : '#pedido-cajas';
+      });
       document.querySelectorAll('[data-formato]').forEach((a) => a.addEventListener('click', () => {
         const f = a.dataset.formato;
         if (f === 'unidad') {

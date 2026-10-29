@@ -98,7 +98,7 @@
         <p>Precio por alfajor. Solo en Mar del Plata.</p>
         <p class="tile__dots" aria-hidden="true"><span class="d-mdp"></span></p>
       </div>
-      <a class="tile__strip" href="#pedido-sueltos" data-formato="unidad">Pedir sueltos</a>
+      <a class="tile__strip" href="#pedido" data-formato="unidad">Pedir sueltos</a>
     </li>
     <li class="tile tile--2" data-reveal>
       <div class="tile__body">
@@ -107,7 +107,7 @@
         <p>6 alfajores, surtidos o de un solo sabor</p>
         <p class="tile__dots" aria-hidden="true"><span class="d-mdp"></span><span class="d-mdp"></span><span class="d-mdp"></span><span class="d-pat"></span><span class="d-pat"></span><span class="d-pat"></span></p>
       </div>
-      <a class="tile__strip" href="#pedido-cajas" data-formato="media">Armar media docena</a>
+      <a class="tile__strip" href="#pedido" data-formato="media">Armar media docena</a>
     </li>
     <li class="tile tile--3" data-reveal>
       <div class="tile__body">
@@ -117,7 +117,7 @@
         <p class="tile__dots tile__dots--12" aria-hidden="true"><span class="d-mdp"></span><span class="d-mdp"></span><span class="d-mdp"></span><span class="d-mdp"></span><span class="d-mdp"></span><span class="d-mdp"></span><span class="d-mdp"></span><span class="d-pat"></span><span class="d-pat"></span><span class="d-pat"></span><span class="d-pat"></span><span class="d-pat"></span></p>
         <p class="tile__aside">Para compartir<span class="p">.</span> O&nbsp;no<span class="p">.</span></p>
       </div>
-      <a class="tile__strip" href="#pedido-cajas" data-formato="docena">Armar una docena</a>
+      <a class="tile__strip" href="#pedido" data-formato="docena">Armar una docena</a>
     </li>
   </ol>
   <p class="prices__key" aria-hidden="true"><span><span class="d-mdp"></span>Marplatense</span><span><span class="d-pat"></span>Patagónico</span></p>
@@ -130,7 +130,7 @@
   </figure>
   <div class="order__tile">
     <h2 id="order-title" class="h2">Armá tu pedido</h2>
-    <p class="order__lede order__lede--js">Cajas y sueltos se piden por separado, cada uno con su mensaje de WhatsApp ya escrito. Las cajas pueden ir surtidas y viajan a todo el país; los sueltos son solo para Mar del Plata.</p>
+    <p class="order__lede order__lede--js">Cajas y sueltos van en pedidos separados, cada uno con su WhatsApp ya escrito. Las cajas viajan a todo el país; los sueltos, solo en Mar del Plata.</p>
     <div class="order__nojs">
       <p class="order__lede">Escribinos por WhatsApp qué querés: media docena o docena, de un sabor o surtidas, o alfajores sueltos (los sueltos, solo en Mar del Plata). Ahí te confirmamos el total y coordinamos el envío o el retiro.</p>
       <a class="button button--ink button--big" href="https://wa.me/5492236188694?text=%C2%A1Hola%20Monte%20Riko!%20Quiero%20hacer%20un%20pedido." target="_blank" rel="noopener">Pedir por WhatsApp<span class="sr-only"> (abre en otra pestaña)</span></a>
@@ -166,9 +166,12 @@
           </div>
           <div class="builder__msg">
             <p class="builder__msglabel" id="msg-label-cajas">Así sale tu mensaje</p>
-            <p class="builder__preview" id="preview-cajas" aria-labelledby="msg-label-cajas">¡Hola Monte Riko! Quiero hacer un pedido de cajas.</p>
+            <p class="builder__preview" id="preview-cajas" aria-labelledby="msg-label-cajas">¡Hola Monte Riko! Quiero hacer un pedido de cajas:
+• 1 docena surtida: 6 marplatenses y 6 patagónicos
+Entrega: Envío dentro de Mar del Plata
+Total: $32.000 (sin envío)</p>
           </div>
-          <a class="button button--ink button--big" id="send-cajas" href="https://wa.me/5492236188694?text=%C2%A1Hola%20Monte%20Riko!%20Quiero%20hacer%20un%20pedido%20de%20cajas." target="_blank" rel="noopener">Enviar cajas por WhatsApp<span class="sr-only"> (abre en otra pestaña)</span></a>
+          <a class="button button--ink button--big" id="send-cajas" href="https://wa.me/5492236188694?text=%C2%A1Hola%20Monte%20Riko!%20Quiero%20hacer%20un%20pedido%20de%20cajas%3A%0A%E2%80%A2%201%20docena%20surtida%3A%206%20marplatenses%20y%206%20patag%C3%B3nicos%0AEntrega%3A%20Env%C3%ADo%20dentro%20de%20Mar%20del%20Plata%0ATotal%3A%20%2432.000%20(sin%20env%C3%ADo)" target="_blank" rel="noopener">Enviar cajas por WhatsApp<span class="sr-only"> (abre en otra pestaña)</span></a>
         </div>
       </section>
 
@@ -176,7 +179,7 @@
         <div class="builder__part">
           <h3 class="builder__step" id="sueltos-title">Sueltos</h3>
           <p class="builder__hint">Marplatense $2.800 · patagónico $3.000, por unidad. Solo en Mar del Plata.</p>
-          <div class="loose" role="group" aria-labelledby="sueltos-title">
+          <div class="loose" role="group" aria-label="Cantidades de sueltos">
             <div class="row">
               <span class="row__label" id="loose-mdp">Marplatense</span>
               <div class="qty" role="group" aria-labelledby="loose-mdp">
@@ -206,8 +209,8 @@
 
         <div class="builder__out">
           <div>
-            <p class="builder__total" aria-live="polite" aria-atomic="true"><span id="total-label-sueltos">Total sin envío</span> <strong id="total-sueltos">$0</strong></p>
-            <p class="builder__note" id="note-sueltos">El envío se arregla por WhatsApp.</p>
+            <p class="builder__total" id="total-line-sueltos" aria-live="polite" aria-atomic="true" hidden><span id="total-label-sueltos">Total sin envío</span> <strong id="total-sueltos">$0</strong></p>
+            <p class="builder__note" id="note-sueltos" hidden>El envío se arregla por WhatsApp.</p>
             <p class="builder__empty" id="empty-sueltos">Sumá algún alfajor suelto para armar el pedido.</p>
           </div>
           <div class="builder__msg">
