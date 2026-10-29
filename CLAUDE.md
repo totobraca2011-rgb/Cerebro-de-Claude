@@ -38,6 +38,7 @@ Las skills de `.claude/skills/` se cargan solas con este repo (la lista y el ori
   - FFmpeg viene instalado.
   - yt-dlp (bajar videos o subtítulos de YouTube): `pip install --user yt-dlp`.
   - HyperFrames: el programa corre con `npx hyperframes` (necesita Node 22+). Antes del primer render: `npx hyperframes browser ensure`. Docker no hace falta para renderizar en la compu.
+- **Sonido para videos** (octubre 2026): `real-sound` y `earshot` necesitan el programa de Earshot instalado en cada sesión: `git clone --depth 1 https://github.com/Leonxlnx/earshot <scratchpad>/earshot`, un venv, `pip install torch --index-url https://download.pytorch.org/whl/cpu` y `pip install -e <scratchpad>/earshot`. Ese Python (`<venv>/bin/python`) es el `{{PY}}` de real-sound. La primera vez baja unos 1,1 GB de modelos de huggingface.co. Openverse no necesita instalar nada (ver la skill `openverse`). Monte Riko es una marca: solo sonidos con licencia que permita uso comercial.
 - Antes de sumar una skill nueva, explicale a Tomás qué hace y si le sirve, revisá el código y anotala en `.claude/skills/README.md`.
 
 ## Task Observer
