@@ -6,6 +6,7 @@ Alfajores artesanales de Mar del Plata, hechos por Tomás Bracamonte.
 |---|---|
 | `brief.md` | Marca, historia, frases, productos y precios, cómo se compra, identidad visual y reglas |
 | `instagram-voz.md` | Cómo habla Monte Riko en Instagram. Lo leen las skills de Instagram |
+| `reels/` | Guiones y armado de cada reel |
 | `pagina-web.md` | La página web: dónde está, decisiones tomadas y pendientes |
 | `logo/` | Los SVG oficiales del logo. Se usan tal cual, sin redibujar |
 | `fotos-originales/` | Fotos reales de Tomás, todas aprobadas |

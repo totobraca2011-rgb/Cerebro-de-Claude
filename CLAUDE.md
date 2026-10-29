@@ -24,6 +24,7 @@ Las skills de `.claude/skills/` se cargan solas con este repo (la lista y el ori
 - **Instagram (`ig-*`):** donde digan `~/.claude/instagram/voice.md`, usá `monte-riko/instagram-voz.md`. Escribí siempre en castellano rioplatense con voseo: los ganchos y el humanizador vienen pensados en inglés, así que adaptá la idea, no la traduzcas. Si Tomás completa algo de su voz, guardalo en ese archivo.
 - **`ig-viral`:** desde la nube no se puede entrar a la cuenta de Instagram de Tomás. Pedile links o capturas, o usá YouTube Shorts, que es público.
 - **`video-lens`:** necesita `youtube-transcript-api` y `yt-dlp` de Python. Si faltan, instalalos con permiso de Tomás. YouTube a veces bloquea servidores en la nube: si falla, decíselo y pedile la transcripción.
+- **Pasar audio a texto (Whisper):** no es una skill; se instala en el momento: `python3 -m venv <scratchpad>/whisper/venv && <venv>/bin/pip install faster-whisper` y modelo `medium` en español. El modelo baja de huggingface.co (la red del entorno tiene que permitirlo). Pasale el audio ya convertido con ffmpeg (`-ac 1 -ar 16000 -f s16le`) como arreglo de numpy: abrir el video directo falla por una versión de `av`. Así se transcribieron los reels de octubre 2026.
 - Antes de sumar una skill nueva, explicale a Tomás qué hace y si le sirve, revisá el código y anotala en `.claude/skills/README.md`.
 
 ## Task Observer
