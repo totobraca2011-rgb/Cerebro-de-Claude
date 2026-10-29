@@ -1,6 +1,8 @@
-# Publica la página de Monte Riko en el hosting (2dweb / Ferozo) por FTP.
+# Publica la página de Monte Riko en el hosting (2dweb / Ferozo) por FTP con TLS.
 # Solo corre cuando se sube algo a la rama `publicar-web`, y eso se hace
 # únicamente cuando Tomás dice "subilo". Sube solo monte-riko/pagina-web/.
+# Usa lftp porque el servidor de Ferozo exige reusar la sesión TLS en la
+# conexión de datos, y FTP-Deploy-Action se cortaba con ECONNRESET (octubre 2026).
 name: Publicar página web
 
 on:
@@ -18,13 +20,23 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Instalar lftp
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq lftp
+
       - name: Subir monte-riko/pagina-web al hosting
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: ${{ secrets.FTP_SERVIDOR }}
-          username: ${{ secrets.FTP_USUARIO }}
-          password: ${{ secrets.FTP_CONTRASENA }}
-          protocol: ftps
-          port: 21
-          local-dir: ./monte-riko/pagina-web/
-          server-dir: ${{ vars.FTP_CARPETA || '/public_html/' }}
+        env:
+          FTP_SERVIDOR: ${{ secrets.FTP_SERVIDOR }}
+          FTP_USUARIO: ${{ secrets.FTP_USUARIO }}
+          FTP_CONTRASENA: ${{ secrets.FTP_CONTRASENA }}
+          FTP_CARPETA: ${{ vars.FTP_CARPETA || '/public_html/' }}
+        # sube lo nuevo o cambiado; no borra nada del servidor
+        run: |
+          lftp -u "$FTP_USUARIO,$FTP_CONTRASENA" -p 21 "$FTP_SERVIDOR" <<EOF
+          set ftp:ssl-force true
+          set ftp:ssl-protect-data true
+          set ftp:passive-mode true
+          set net:max-retries 2
+          set net:timeout 30
+          mirror --reverse --verbose --parallel=4 ./monte-riko/pagina-web/ "$FTP_CARPETA"
+          bye
+          EOF
