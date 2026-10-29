@@ -164,6 +164,9 @@ header or counting a listing — including on the turn after a
 compaction, when the skill body is out of context.
 ```
 
+## Publicar la página web
+La página se publica sola en monteriko.com.ar cuando se sube algo a la rama `publicar-web` (ver `monte-riko/pagina-web.md`). **Nunca subas a esa rama sin que Tomás diga "subilo" en esa misma sesión**, después de ver el cambio en la vista previa. Todo lo demás va a `main`.
+
 ## Qué no va
 - Contraseñas, claves, tokens, datos de tarjetas ni documentos de identidad. Aunque el repo sea privado, eso no se guarda.
 - Datos de clientes o de otras personas.
