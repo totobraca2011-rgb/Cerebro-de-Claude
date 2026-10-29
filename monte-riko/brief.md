@@ -31,7 +31,7 @@
 
 ## Cómo comprar
 - **Acción principal:** pedir por WhatsApp, +54 9 223 618-8694 (`https://wa.me/5492236188694`), con un mensaje prearmado.
-- **Envíos:** a todo el país (pedidos comunes) y dentro de Mar del Plata.
+- **Envíos:** las cajas (media docena y docena) van a todo el país y dentro de Mar del Plata. Los sueltos solo se envían dentro de Mar del Plata o se retiran (octubre 2026).
 - **Retiro:** en Mar del Plata, con coordinación previa. No hay local.
 - **Instagram:** @monteriko.oficial
 
