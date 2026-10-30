@@ -9,7 +9,7 @@ target_file: ["yo/perfil.md", "CLAUDE.md"]
 siblings_checked: "none — no skill family; the rule lives in instruction files, not a skill"
 area: "Idioma de las respuestas al usuario"
 date: 2026-10-29
-session_context: "Edición de un reel del proceso de la masa (octubre 2026); ver monte-riko/reels/proceso-masa.md"
+session_context: "Edición de un reel del proceso de la masa (octubre 2026); ver monte-riko/reels/proceso-masa.md; repetido en la sesión de Instagram y Metricool del 30 de octubre 2026"
 parked_until:
 resolved:
 resolution:
@@ -22,3 +22,5 @@ commands_verified: none
 **Suggested improvement:** Una barrera estructural en vez de otra frase: por ejemplo, un hook de fin de turno que revise si la respuesta final al usuario está en inglés y avise antes de mandarla. Si no se puede, como mínimo una línea en yo/perfil.md que diga que la regla también vale en sesiones largas y técnicas, que es donde falla.
 
 **Principle:** Una regla de idioma escrita en el contexto se cumple al principio y se pierde en sesiones largas con mucho trabajo técnico en otro idioma (los comandos y lo que devuelven las herramientas). Necesita un control automático, no solo estar escrita.
+
+**Otra vez (30 de octubre 2026):** en una sesión de Instagram y Metricool, entre dos llamadas a herramientas, salió una línea de avance en inglés ("Metricool works. Let me quickly verify the connection."), aunque toda la charla venía en castellano. Ya pasó dos veces y la regla está escrita: hace falta algo que lo frene solo, no repetir la regla.
