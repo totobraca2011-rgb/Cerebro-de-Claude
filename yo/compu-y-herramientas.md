@@ -34,3 +34,5 @@ Si la sesión local guarda algo en el Cerebro, tiene que hacer commit a `main`. 
 ## Conexiones
 - **Metricool** (conectado el 30 de octubre 2026, cuenta monteriko.oficial, hora de Buenos Aires): estadísticas de los posts, mejores horarios y posts programados. Funciona desde la nube. Los posts que prepare Claude van como **borrador**: no se publica nada sin que Tomás lo apruebe.
 - Ningún programa puede cambiar la bio, las destacadas ni el orden del feed por su cuenta: eso se hace en la app o con la sesión local en Chrome.
+- **Qué se puede desde Chrome (octubre 2026):** la bio (Editar perfil) y el nombre (Centro de cuentas, que a veces cuelga la pestaña aunque guarde). Desde la compu **no** se puede cambiar el link, fijar ni archivar: eso va en la app del celu. Tampoco conviene editar destacadas: la lista de historias aparece vacía y se podría vaciar.
+- **Metricool (octubre 2026):** no trae estadísticas de lo publicado antes de conectarse. Para cargar un post necesita la foto o el video en un link público: las fotos de monteriko.com.ar sirven; los videos del repo no, porque es privado.
