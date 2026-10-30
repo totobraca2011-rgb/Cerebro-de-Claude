@@ -24,7 +24,7 @@ Armado el 30 de octubre de 2026.
 3. Con Chrome abierto y la extensión con su cuenta, escribir `/chrome` en la sesión.
 4. Prueba rápida: "abrí instagram.com en Chrome y decime cuántos seguidores tiene monteriko.oficial".
 
-Si la sesión local guarda algo en el Cerebro, tiene que hacer commit y push a `main` igual que la de la nube.
+Si la sesión local guarda algo en el Cerebro, tiene que hacer commit a `main`. La subida la hace Tomás (octubre 2026): `git` no está instalado aparte, se usa el que viene con GitHub Desktop (`%LOCALAPPDATA%\GitHubDesktop\app-*\resources\app\git\cmd\git.exe`), y desde Claude ese `git` no tiene permiso para subir a GitHub. Hay que pedirle que apriete **Push origin** en GitHub Desktop.
 
 ## Reglas para manejar su Chrome
 - Solo con Tomás presente. Antes de cada cambio en su cuenta, pedirle permiso.
