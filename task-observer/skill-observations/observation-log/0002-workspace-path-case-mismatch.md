@@ -21,4 +21,6 @@ commands_verified: "run: ls /home/user → only Cerebro-de-Claude exists; /home/
 
 **Suggested improvement:** Corregir en CLAUDE.md todas las rutas del bloque a `/home/user/Cerebro-de-Claude/...`, o escribirlas relativas a la raíz del repo resuelta con `git rev-parse --show-toplevel`.
 
+**Otra vez (30 de octubre 2026):** en la sesión local de Windows (Instagram con Chrome) la ruta fija `/home/user/...` tampoco existe, y no hay `bash`, así que los scripts del Task Observer no corren: el arranque se hizo a mano leyendo `task-observer/` del repo. La ruta tiene que servir también para la compu de Tomás, no solo para la nube.
+
 **Principle:** Una ruta absoluta fija en las instrucciones tiene que coincidir byte a byte con la carpeta real, mayúsculas incluidas. Si la sonda falla, primero hay que buscar una variante con otras mayúsculas o el workspace dentro del repo, y recién después crear uno nuevo.
