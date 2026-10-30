@@ -9,7 +9,19 @@ Cómo se reparte el trabajo:
 
 Qué se va a revisar: nombre, bio, link, destacadas, los 3 posts fijados, el feed, qué posts funcionaron y el plan de la semana con los mejores horarios.
 
+### Cómo está el perfil (visto en Chrome, 30 de octubre 2026)
+- 11 publicaciones, 580 seguidores, 31 seguidos.
+- Nombre: "Alfajores Artesanales". Bio: "Alfajores artesanales Monte Riko / ENVIOS A TODO EL PAÍS / Comunicate a nuestro contacto 👇🏻 / 📍 Mar Del Plata".
+- En la versión web del perfil no se ve link en la bio ni botón de contacto: falta confirmar en el celu.
+- Dos destacadas: "producción" y "ustedess" (con doble s), las dos con el logo de tapa.
+- 3 posts fijados. El cuarto lugar repite la foto del alfajor con frutilla que ya está fijada.
+- El post más nuevo sin fijar es un reel del 25 de febrero de 2026 (42 me gusta; pide comentar "INFO"). No se miró la fecha de los fijados.
+- Abajo hay contenido de huevos de Pascua decorados con hilos que parecen de chocolate blanco: Tomás tiene que decir si queda (la marca dice que el chocolate blanco no va).
+
+### Metricool (30 de octubre 2026)
+- Las estadísticas de cada post y reel vienen vacías: Metricool no trajo nada de antes de conectarse, ni siquiera el reel de febrero. Por eso no sirve para saber qué posts funcionaron.
+- Qué funcionó se saca de las estadísticas de cada post en Instagram.
+
 ### Pendiente (30 de octubre 2026)
-- Tomás tiene que mandar capturas del perfil completo y del feed (los últimos 15 a 20 posts).
 - Falta definir qué quiere lograr primero: más ventas, más seguidores o que se entienda mejor qué vende.
-- Con eso: sacar estadísticas de Metricool, escribir el perfil nuevo y el plan, y guardarlos acá.
+- Con eso: escribir el perfil nuevo y el plan, y guardarlos acá.
