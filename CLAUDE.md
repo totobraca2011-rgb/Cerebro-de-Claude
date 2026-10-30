@@ -3,9 +3,9 @@
 Lo que Claude tiene que saber de Tomás Bracamonte y de lo que hace, en un solo lugar. Tomás agrega este repo a cada sesión para que Claude no arranque de cero.
 
 ## Al empezar cada sesión
-1. Leé `yo/perfil.md`: quién es Tomás y cómo trabaja con vos. Vale para todo, también para los otros repos.
+1. Leé `yo/perfil.md`: quién es Tomás y cómo trabaja con vos. Vale para todo, también para los otros repos. Si el pedido es usar su Chrome o su compu, o trabajar con Metricool, leé también `yo/compu-y-herramientas.md`.
 2. Según el pedido, leé la carpeta que corresponda:
-   - `monte-riko/`: la marca, los productos y precios, el material original y la página web (el código está en `monte-riko/pagina-web/`; para trabajarla leé antes `monte-riko/pagina-web.md`).
+   - `monte-riko/`: la marca, los productos y precios, el material original, el Instagram (`monte-riko/instagram.md`) y la página web (el código está en `monte-riko/pagina-web/`; para trabajarla leé antes `monte-riko/pagina-web.md`).
    - `diseno/`: cómo se trabaja el diseño, el kit y los gustos de Tomás.
    - `editor-de-ia/`: los videos para editar (crudos, referencias y terminados). Leé su `README.md` antes de guardar un video.
 3. Si algo de acá contradice lo que pide Tomás, preguntale. No inventes datos que no estén escritos.

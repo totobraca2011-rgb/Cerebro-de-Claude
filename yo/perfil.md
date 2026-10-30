@@ -18,6 +18,7 @@
 - Si una recomendación deshace algo que él pidió, preguntarle antes de aplicarla.
 - Revisa los textos que escribe Claude antes de darlos por buenos.
 - Quiere que lo que trabajamos quede guardado en este repo para no repetirlo en cada sesión.
+- Su compu es Windows. Qué tiene instalado y cómo trabajar con su Chrome: `yo/compu-y-herramientas.md`.
 
 ## Su estilo
 - (Se va completando: gustos, cosas que no le gustan, cómo le gusta que se vean y se escriban las cosas.)
