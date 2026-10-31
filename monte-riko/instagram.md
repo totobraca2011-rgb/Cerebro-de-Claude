@@ -11,6 +11,8 @@ Qué se va a revisar: nombre, bio, link, destacadas, los 3 posts fijados, el fee
 
 Objetivo elegido por Tomás (30 de octubre 2026): **más ventas**. Plan del mes: `instagram-plan-noviembre-2026.md`.
 
+**La página va primero (Tomás, 31 de octubre 2026):** Instagram tiene que mandar a monteriko.com.ar, porque ahí la gente arma el pedido y le llega ya escrito por WhatsApp. Por eso el plan, el carrusel y los borradores dicen "link de la bio", y las historias llevan el sticker de enlace. Tomás también quiere una bio más simpática: falta que elija el texto.
+
 ### Cómo está el perfil (visto en Chrome, 30 de octubre 2026)
 - 11 publicaciones, 580 seguidores, 31 seguidos.
 - En la versión web del perfil no se ve link en la bio ni botón de contacto: falta confirmar en el celu.
@@ -33,7 +35,7 @@ Claude los hizo desde Chrome a pedido de Tomás, que se tuvo que ir y dijo "camb
 ### Lo que tiene que hacer Tomás (desde el celu, 30 de octubre 2026)
 1. Apretar **Push origin** en GitHub Desktop.
 2. Revisar el nombre y la bio nuevos.
-3. Decir si le sirve el link `monteriko.com.ar` y ponerlo en la bio.
+3. **Antes del martes 3:** poner el link `monteriko.com.ar` en el perfil, desde el celu. Todos los posts mandan al "link de la bio" y hoy no está.
 4. Fijar el reel del proceso del 19 de noviembre 2025 (123 me gusta) y sacar de fijados la foto de dic 2024.
 5. Archivar la copia del reel del patagónico del 25 de febrero.
 6. Cambiar el nombre de la destacada "ustedess". Desde la compu no se pudo: al editarla, la lista de historias aparecía vacía y se canceló para no vaciarla.

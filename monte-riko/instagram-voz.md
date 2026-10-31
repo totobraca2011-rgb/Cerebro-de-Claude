@@ -41,7 +41,7 @@ Solo cosas reales. Si esto está vacío, los borradores dejan `{{tu dato}}` en v
 - Envíos a todo el país y dentro de Mar del Plata; retiro coordinado en Mar del Plata.
 
 ## Lo que le pido a la gente
-- **Acción principal:** pedir por WhatsApp, +54 9 223 618-8694.
+- **Acción principal (Tomás, 31 de octubre 2026):** armar el pedido en monteriko.com.ar, desde el link de la bio. El pedido le llega ya escrito por WhatsApp. El número (+54 9 223 618-8694) queda para quien prefiera escribir directo.
 - **Palabra clave para comentarios, si uso una:**
-- **A dónde va el link de la bio:**
+- **A dónde va el link de la bio:** https://monteriko.com.ar
 - "Vos sos nuestro mejor influencer": subilo a tu historia y etiquetá a @monteriko.oficial.

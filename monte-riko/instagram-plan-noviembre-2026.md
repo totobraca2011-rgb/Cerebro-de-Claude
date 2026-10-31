@@ -1,6 +1,6 @@
 # Plan de Instagram: noviembre 2026
 
-Objetivo que eligió Tomás (30 de octubre 2026): **más ventas**. Todos los posts piden lo mismo: escribir por WhatsApp al 223 618-8694.
+Objetivo que eligió Tomás (30 de octubre 2026): **más ventas**. Todos los posts piden lo mismo: entrar a la página desde el link de la bio y armar el pedido, que le llega a Tomás ya escrito por WhatsApp (decisión de Tomás, 31 de octubre 2026). Las descripciones de Instagram no tienen links que se puedan tocar: por eso dicen "link de la bio".
 
 ## En qué se basa
 Solo se pudieron mirar los me gusta en la página de cada post. El alcance, los guardados y las veces que se compartió están en "Ver insights", en la app.
@@ -41,7 +41,7 @@ Tres posts por semana, a un ritmo que una sola persona pueda sostener: **martes 
 Tomás los revisa antes de publicar. En los reels el video ya engancha, así que el texto va directo al pedido. En las fotos la primera línea es la que engancha.
 
 ### Mar 3: Quién está detrás
-Los pedidos están abiertos: escribime por WhatsApp al 223 618-8694.
+Los pedidos están abiertos: armá tu caja desde el link de la bio.
 
 Soy Tomás y hago alfajores artesanales en mi casa de Mar del Plata. Empecé vendiendo en la escuela, sin tener idea de cómo llevar un negocio.
 
@@ -52,15 +52,15 @@ Hoy hago todo yo: la masa, el chocolate, las cajas y los envíos. Y sigo aprendi
 ### Jue 5: Cómo pedir tu caja
 Pedir tus alfajores lleva menos que comerte uno.
 
-Elegís media docena o docena, marplatenses, patagónicos o surtidos, al mismo precio. Me escribís por WhatsApp y coordinamos el envío o el retiro en Mar del Plata.
+Entrás al link de la bio y armás tu caja: media docena o docena, marplatenses, patagónicos o surtidos, al mismo precio. El pedido me llega ya escrito por WhatsApp y coordinamos el envío o el retiro en Mar del Plata.
 
 Las cajas van a todo el país.
 
-Guardate este post para cuando te den ganas. O escribime ahora al 223 618-8694.
+Guardate este post para cuando te den ganas. O armá tu caja ahora.
 
 #alfajores #alfajoresartesanales #mardelplata
 
-*Texto alternativo:* carrusel con los precios de los alfajores Monte Riko y los pasos para pedirlos por WhatsApp.
+*Texto alternativo:* carrusel con los precios de los alfajores Monte Riko y los pasos para pedirlos desde monteriko.com.ar.
 
 ### Sáb 7: La caja y el papel dorado
 Hay regalos que se abren dos veces.
@@ -69,14 +69,14 @@ Primero la caja. Después el papel dorado. Cada alfajor Monte Riko llega envuelt
 
 Media docena $16.500, docena $31.900. Podés surtirlas como quieras y van a todo el país.
 
-Pedí la tuya por WhatsApp: 223 618-8694.
+Armá la tuya desde el link de la bio.
 
 #alfajores #alfajoresartesanales #regalos
 
 *Texto alternativo:* caja abierta con cuatro alfajores envueltos en papel dorado.
 
 ### Mar 10: La harina y la masa
-Si querés probarlos, escribime por WhatsApp al 223 618-8694.
+Si querés probarlos, armá tu pedido desde el link de la bio.
 
 Así arranca cada alfajor Monte Riko: tapas de chocolate hechas a mano, en mi casa de Mar del Plata, de a una por vez.
 
@@ -91,25 +91,25 @@ Si una de estas 3 partes falla, falla el alfajor.
 2. El relleno: le da humedad a las tapas.
 3. El chocolate: el cierre que equilibra todo.
 
-Pasá y fijate cómo las hago yo. Si después te da hambre, ya sabés: WhatsApp 223 618-8694.
+Pasá y fijate cómo las hago yo. Si después te da hambre, ya sabés: link de la bio.
 
 #alfajores #alfajoresartesanales #chocolate
 
-*Diapositivas:* 1) SI UNA FALLA, FALLA EL ALFAJOR. 2) Las 3 partes de un alfajor de verdad. 3) LAS TAPAS: la base y la textura. 4) EL RELLENO: le da humedad a las tapas. 5) EL CHOCOLATE: el cierre que equilibra todo. 6) Las 3 juntas: las tres líneas en una sola diapositiva. 7) Probalo: WhatsApp 223 618-8694.
+*Diapositivas:* 1) SI UNA FALLA, FALLA EL ALFAJOR. 2) Las 3 partes de un alfajor de verdad. 3) LAS TAPAS: la base y la textura. 4) EL RELLENO: le da humedad a las tapas. 5) EL CHOCOLATE: el cierre que equilibra todo. 6) Las 3 juntas: las tres líneas en una sola diapositiva. 7) Probalo: monteriko.com.ar, link en la bio.
 
 ### Sáb 14: Auténtico marplatense
 Un alfajor, un termo y Mar del Plata de fondo. No hace falta mucho más.
 
 Monte Riko es auténtico marplatense: hecho acá, en una casa, por una sola persona.
 
-Si estás lejos, las cajas viajan a todo el país. Escribime al 223 618-8694.
+Si estás lejos, las cajas viajan a todo el país. Armá la tuya desde el link de la bio.
 
 #mardelplata #alfajores #alfajoresartesanales
 
 *Texto alternativo:* alfajor y termo en la playa, con los edificios de Mar del Plata de fondo.
 
 ### Mar 17: Cortar las tapas
-Las cajas surtidas te salen lo mismo: pedila por WhatsApp al 223 618-8694.
+Las cajas surtidas te salen lo mismo: armá la tuya desde el link de la bio.
 
 Una por una, con el cortante. Mirá cómo queda la masa llena de círculos al final.
 
@@ -122,14 +122,14 @@ Mirá lo que tiene adentro.
 
 El patagónico lleva dulce de leche y un corazón de mermelada de frutos rojos. Cada uno sale $3.000 y lo podés sumar a tu caja surtida.
 
-Pedilo por WhatsApp: 223 618-8694.
+Armá tu caja desde el link de la bio.
 
 #alfajores #frutosrojos #alfajoresartesanales
 
 *Texto alternativo:* alfajor patagónico cortado al medio, con frutos rojos alrededor.
 
 ### Sáb 21: Cómo empezó todo
-Si querés ver en qué terminó aquello de la escuela, escribime por WhatsApp al 223 618-8694.
+Si querés ver en qué terminó aquello de la escuela, armá tu caja desde el link de la bio.
 
 Empecé haciendo alfajores de chocolate para probar recetas. Los llevé a la escuela y me fue muy bien. Con eso fui comprando herramientas de a poco.
 
@@ -140,7 +140,7 @@ Todavía no hay local ni fábrica. Por ahora.
 *Guion:* "Mis primeros alfajores los vendí en la escuela." Contá vos, en 20 o 30 segundos, qué pasó el primer día. Cerrá con: "Hoy los mando a todo el país."
 
 ### Mar 24: Estirar y apilar
-Pedí tu caja por WhatsApp: 223 618-8694.
+Armá tu caja desde el link de la bio.
 
 Estirar, cortar, apilar. Así todas las semanas, en mi casa de Mar del Plata.
 
@@ -149,7 +149,7 @@ Hay cosas que no se piensan, se muerden.
 #alfajores #alfajoresartesanales #mardelplata
 
 ### Jue 26: 10 minutos en el freezer
-¿Ya tenés tu caja? Si no, escribime por WhatsApp al 223 618-8694.
+¿Ya tenés tu caja? Si no, armala desde el link de la bio.
 
 Probá esto: 10 minutos en el freezer antes de comerlo. Después me contás.
 
@@ -162,18 +162,18 @@ Si ya estás pensando qué regalar a fin de año, esto te resuelve varios nombre
 
 Caja de 6 o de 12, surtida como quieras y con cada alfajor en papel dorado. Van a todo el país.
 
-Media docena $16.500, docena $31.900. Pedilas por WhatsApp: 223 618-8694.
+Media docena $16.500, docena $31.900. Armalas desde el link de la bio.
 
 #alfajores #regalos #mardelplata
 
 *Texto alternativo:* alfajor Monte Riko envuelto en papel dorado.
 
 ## Historias (todos los días, 3 pantallas)
-Son para vender sin hacer un post. Grabá lo que esté pasando ese día, no hace falta editar.
+Son para vender sin hacer un post. Grabá lo que esté pasando ese día, no hace falta editar. **Las historias sí llevan links que se tocan:** poné el sticker de enlace a monteriko.com.ar siempre que se hable de pedir.
 - **Lunes:** lo que estás cocinando hoy.
 - **Martes y jueves:** compartí el post del día con una encuesta: "¿Marplatense o patagónico?"
 - **Miércoles:** caja de preguntas: "¿Qué querés saber de Monte Riko?"
-- **Viernes:** cajas listas para salir, con el número de WhatsApp.
+- **Viernes:** cajas listas para salir, con el sticker de enlace a la página.
 - **Sábado y domingo:** si alguien te etiqueta, compartilo. Si no, nada.
 
 ## 20 minutos por día, antes de publicar
@@ -184,5 +184,5 @@ Son para vender sin hacer un post. Grabá lo que esté pasando ese día, no hace
 ## Cómo saber si funcionó
 Lo que importa no son los me gusta. Anotá cada semana:
 1. Cuántos pedidos entraron por Instagram (preguntá "¿de dónde nos conociste?").
-2. Cuántos mensajes de WhatsApp vinieron de la bio.
+2. Cuántos pedidos llegaron armados desde la página (arrancan con "¡Hola Monte Riko! Quiero").
 3. Qué reel tuvo más gente que no te seguía (en "Ver insights").
