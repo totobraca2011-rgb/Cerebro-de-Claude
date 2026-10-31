@@ -23,7 +23,14 @@ Tomás hablando a cámara, 5 tomas verticales grabadas con el celu y micrófono 
 - Sin música: se le pone en Instagram al subirlo.
 - A Tomás no lo convenció: pidió rehacerlo más profesional, con referencias y sonidos.
 
-## Versión 3 (31 de octubre de 2026, esperando que Tomás la apruebe)
+## Versión 4 (31 de octubre de 2026, esperando que Tomás la apruebe)
+`editor-de-ia/terminados/2026-10-31-quien-esta-detras-v4.mp4`: 46,5 s, 27 MB, −16,3 LUFS. Pedidos de Tomás sobre la v3:
+- **Subtítulos palabra por palabra:** cada palabra aparece cuando la dice y se va sumando a la frase. Los tiempos salen de la transcripción (`monte-riko/reels/quien-esta-detras-palabras.json`).
+- **Sin música de fondo.** Quedan la voz y los efectos.
+- **Golpe metálico** apenas termina el gancho ("...algo grande?"), con un cuarto de segundo más de pausa antes de la cocina. Sonido: "Metal Clang sound" de kermite607 (CC0, Freesound). Elegido por medición y forma de onda, sin escucharlo: Tomás tiene que decir si es lo que imaginó.
+El código de `quien-esta-detras-v2.tsx` es el de esta versión.
+
+## Versión 3 (31 de octubre de 2026)
 `editor-de-ia/terminados/2026-10-31-quien-esta-detras-v3.mp4`: igual que la v2, con los textos de la cocina, la silla, el piano y el primer plano final más cerca de la cara. Tomás lo pidió para poder leer y mirarle la cara al mismo tiempo: **en las tomas hablando, el texto va pegado a la cara**. El código de `quien-esta-detras-v2.tsx` ya tiene estos cambios.
 
 ## Versión 2 (31 de octubre de 2026)

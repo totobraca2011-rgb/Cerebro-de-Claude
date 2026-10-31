@@ -13,6 +13,7 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
+import WORDS from "./words.json";
 import { loadFont as loadRubik } from "@remotion/google-fonts/RubikMonoOne";
 import { loadFont as loadMont } from "@remotion/google-fonts/Montserrat";
 import { loadFont as loadPlayfair } from "@remotion/google-fonts/PlayfairDisplay";
@@ -40,7 +41,7 @@ const CLIPS: Clip[] = [
   { id: "0404", src: "IMG_0404", in: 1.5, out: 2.96, z: [1.12, 1.18], o: "50% 30%", audio: true, cut: true },
   { id: "0404", src: "IMG_0404", in: 2.96, out: 4.76, z: [1.42, 1.5], o: "50% 27%", audio: true, cut: true },
   { id: "0404", src: "IMG_0404", in: 4.76, out: 6.3, z: [1.2, 1.28], o: "50% 30%", audio: true, cut: true },
-  { id: "0413", src: "IMG_0413", in: 0.95, out: 4.35, z: [1.03, 1.12], o: "70% 15%", audio: true },
+  { id: "0413", src: "IMG_0413", in: 0.7, out: 4.35, z: [1.03, 1.12], o: "70% 15%", audio: true },
   { id: "0413", src: "IMG_0413", in: 4.95, out: 7.8, z: [1.2, 1.3], o: "75% 12%", audio: true },
   { id: "voz1", src: "apilar-tapas", in: 0.3, out: 1.95, z: [1.04, 1.12] },
   { id: "voz2", src: "estirar-masa", in: 1, out: 3.64, z: [1.05, 1.15] },
@@ -220,7 +221,7 @@ const TextBlock: React.FC<{ b: Block }> = ({ b }) => {
       }}
     >
       {b.lines.map((line, i) => (
-        <div key={i} style={{ display: "flex", gap: 20, flexWrap: "nowrap", justifyContent: left ? "flex-start" : "center", alignItems: "baseline" }}>
+        <div key={i} style={{ display: "flex", gap: Math.round(((styleOf(line[0]).fontSize as number) ?? 62) * 0.27), flexWrap: "nowrap", justifyContent: left ? "flex-start" : "center", alignItems: "baseline" }}>
           {line.map((word, j) => (
             <Pop key={j} w={word} f={f} />
           ))}
@@ -361,6 +362,62 @@ const BLOCKS: Block[] = [
   },
 ];
 
+// Cada palabra aparece cuando se dice, con los tiempos de la transcripción
+const norm = (x: string) => x.toLowerCase().normalize("NFD").replace(/[^a-z0-9@]/g, "");
+const TAKES: Record<string, string> = {
+  "IMG_0404.mp4": "0404", "IMG_0413.mp4": "0413", "IMG_0417.mp4": "0417",
+  "IMG_0418.mp4": "0418", "IMG_0439.mp4": "0439", "voz.wav": "voz",
+};
+const SPOKEN = Object.entries(WORDS as Record<string, { w: string; s: number }[]>)
+  .flatMap(([file, list]) =>
+    list.flatMap((x) => {
+      try {
+        if (file === "voz.wav" && x.s > 13.15) return [];
+        return [{ n: norm(x.w), f: t(TAKES[file], x.s) }];
+      } catch {
+        return [];
+      }
+    }),
+  )
+  .sort((a, b) => a.f - b.f);
+
+const splitWord = (word: Word): Word[] => {
+  const toks = word.s.split(" ");
+  if (toks.length === 1) return [word];
+  const size = word.size ?? (styleOf(word).fontSize as number | undefined);
+  let idx = -1;
+  let best = 25;
+  SPOKEN.forEach((x, i) => {
+    const d = Math.abs(x.f - word.at);
+    if (x.n === norm(toks[0]) && d < best) {
+      best = d;
+      idx = i;
+    }
+  });
+  let at = idx >= 0 ? Math.max(word.at, SPOKEN[idx].f) : word.at;
+  if (idx < 0) idx = SPOKEN.findIndex((x) => x.f >= word.at) - 1;
+  return toks.map((tok, i) => {
+    if (i > 0) {
+      let found = -1;
+      for (let j = idx + 1; j <= idx + 4 && j < SPOKEN.length; j++) {
+        if (SPOKEN[j].n === norm(tok)) {
+          found = j;
+          break;
+        }
+      }
+      if (found >= 0) {
+        idx = found;
+        at = Math.max(at + 1, SPOKEN[found].f);
+      } else {
+        at += 4;
+      }
+    }
+    return { ...word, s: tok, at, size };
+  });
+};
+
+const BY_WORD: Block[] = BLOCKS.map((b) => ({ ...b, lines: b.lines.map((line) => line.flatMap(splitWord)) }));
+
 // ---------- Cierre ----------
 const Logo: React.FC = () => {
   const f = useCurrentFrame();
@@ -382,7 +439,7 @@ const Logo: React.FC = () => {
 
 // ---------- Sonido ----------
 const SFX: { f: number; src: string; v: number }[] = [
-  { f: PLACED[3].from - 3, src: "whoosh1", v: 0.5 },
+  { f: t("0404", 6.1), src: "metal", v: 0.95 },
   { f: VOZ_FROM - 3, src: "whoosh2", v: 0.5 },
   { f: PLACED[6].from - 3, src: "whoosh1", v: 0.4 },
   { f: t("voz", 6.84) - 6, src: "deep", v: 0.45 },
@@ -399,10 +456,6 @@ const SFX: { f: number; src: string; v: number }[] = [
 ];
 
 const Reel: React.FC = () => {
-  const musicVol = (f: number) => {
-    const base = interpolate(f, [0, 12, CUT_END - 6, CUT_END + 4], [0.12, 0.2, 0.2, 0.55], { extrapolateRight: "clamp" });
-    return base * interpolate(f, [TOTAL - 14, TOTAL], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
-  };
   return (
     <AbsoluteFill style={{ background: "#000" }}>
       {PLACED.map((c, i) => (
@@ -410,7 +463,7 @@ const Reel: React.FC = () => {
           <ClipVideo c={c} />
         </Sequence>
       ))}
-      {BLOCKS.filter((b) => b.behind).map((b, i) => (
+      {BY_WORD.filter((b) => b.behind).map((b, i) => (
         <TextBlock key={i} b={b} />
       ))}
       {PLACED.filter((c) => c.cut).map((c, i) => (
@@ -418,7 +471,7 @@ const Reel: React.FC = () => {
           <ClipCutout c={c} />
         </Sequence>
       ))}
-      {BLOCKS.filter((b) => !b.behind).map((b, i) => (
+      {BY_WORD.filter((b) => !b.behind).map((b, i) => (
         <TextBlock key={i} b={b} />
       ))}
       <Sequence from={CUT_END} durationInFrames={LOGO_DUR} name="logo">
@@ -428,10 +481,9 @@ const Reel: React.FC = () => {
       <Sequence from={VOZ_FROM} name="voz en off">
         <Audio src={staticFile("s/voz.wav")} trimBefore={Math.round(VOZ_IN * FPS)} trimAfter={Math.round(13.15 * FPS)} />
       </Sequence>
-      <Audio src={staticFile("s/music.mp3")} volume={musicVol} trimBefore={32 * FPS} />
       {SFX.map((s, i) => (
         <Sequence key={i} from={s.f} name={`sfx ${s.src}`}>
-          <Audio src={staticFile(`s/${s.src}.mp3`)} volume={s.v} />
+          <Audio src={staticFile(`s/${s.src}.${s.src === "metal" ? "wav" : "mp3"}`)} volume={s.v} />
         </Sequence>
       ))}
     </AbsoluteFill>

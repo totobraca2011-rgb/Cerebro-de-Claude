@@ -5,6 +5,7 @@ Armado el 30 de octubre de 2026.
 ## Su compu
 - Usa **Windows**.
 - **Discos (31 de octubre 2026):** el C tiene 111 GB y está casi lleno (7,5 GB libres); el M ("Disco Rigido") tiene 931 GB, con 824 GB libres. Tiene 8 GB de memoria RAM. Lo pesado conviene ponerlo en el M.
+- **Juegos (31 de octubre 2026):** Tomás ya no juega porque su placa de video no le da, y pidió desinstalarlos. Minecraft y Roblox se movieron a `M:\Respaldo-juegos\`; sus mundos de Minecraft están en `M:\Respaldo-juegos\minecraft\saves`. Steam, Epic y TLauncher piden permiso de administrador, así que los tiene que desinstalar él.
 - Tiene instalados (octubre 2026): la app de escritorio de Claude, la extensión **Claude** de Chrome (con su cuenta) y **GitHub Desktop**.
 - El Cerebro está clonado con GitHub Desktop, en `Documentos\GitHub\Cerebro-de-Claude` salvo que lo haya cambiado.
 
@@ -45,7 +46,7 @@ Tomás prefiere escuchar en vez de leer todo. Para hablar usa Windows + H, y en 
 - **Las tomas del iPhone vienen en HDR** (probado el 31 de octubre 2026): hay que pasarlas a color normal antes de editar, o se ven mal y Remotion puede fallar. Con FFmpeg: `zscale=t=linear:npl=100,format=gbrpf32le,zscale=p=bt709,tonemap=tonemap=hable:desat=0,zscale=t=bt709:m=bt709:r=tv,format=yuv420p`.
 - **La compu se queda sin memoria con video pesado:** convertir de a un archivo por vez y renderizar con Remotion por tramos de 120 cuadros, cada uno en su propia corrida, con `npx remotion bundle` una vez y después `--frames=A-B --concurrency=2 --offthreadvideo-threads=1 --offthreadvideo-cache-size-in-bytes=200000000`; al final se unen con FFmpeg. De una sola tirada falla al azar (31 de octubre 2026: dos renders anduvieron y cuatro no); por tramos salió a la primera. Un reel de 46 s tarda unos 10 minutos.
 - Para Python de video (transcribir o recortar siluetas): `uv` con `UV_PYTHON_INSTALL_DIR` y `UV_CACHE_DIR` fuera de `AppData`. `yt-dlp` corre con `uvx yt-dlp` y baja reels públicos de Instagram sin iniciar sesión. Openverse limita las búsquedas seguidas: con `license=cc0` responde mejor.
-- La carpeta de trabajo de los reels es `C:\Users\MARCOS\reel-v2\` (fuera del Cerebro, porque pesa mucho).
+- La carpeta de trabajo de los reels es `M:\reel-v2\` (fuera del Cerebro, porque pesa mucho, y fuera del disco C, que está justo). El Python de transcribir y recortar siluetas (`whisper/`) quedó roto al moverlo: si hace falta, se crea de nuevo en el M. Los modelos siguen en `hf/` y `u2/`.
 - Tomás tiene CapCut 8.3 con plan pago, pero no tiene tiempo de editar: los reels los edita Claude con FFmpeg y Tomás los revisa.
 - No hay conexión oficial de Claude con CapCut. Existen conectores no oficiales (por ejemplo `jmsldrn/capcut-mcp`), que dependen de un formato de proyecto sin documentar y no se probaron con esta versión.
 
