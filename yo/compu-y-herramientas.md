@@ -39,7 +39,7 @@ Tomás prefiere escuchar en vez de leer todo. Para hablar usa Windows + H, y en 
 - En el plan gratis, por la clave se ven 21 voces en inglés o británicas que también hablan español. Ninguna tiene acento argentino. Tomás eligió George (31 de octubre 2026) y confirmó que suena sola al terminar cada respuesta.
 
 ## Video (31 de octubre 2026)
-- FFmpeg está instalado en la compu con winget. Node y Python no.
+- FFmpeg está instalado en la compu con winget. Node 26 está en `%LOCALAPPDATA%\Programs\node-v26.13.0-win-x64`, sin permisos de administrador, y se suma al PATH en las sesiones nuevas. Python no.
 - Tomás tiene CapCut 8.3 con plan pago, pero no tiene tiempo de editar: los reels los edita Claude con FFmpeg y Tomás los revisa.
 - No hay conexión oficial de Claude con CapCut. Existen conectores no oficiales (por ejemplo `jmsldrn/capcut-mcp`), que dependen de un formato de proyecto sin documentar y no se probaron con esta versión.
 
