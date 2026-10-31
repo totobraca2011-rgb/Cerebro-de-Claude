@@ -36,7 +36,7 @@ Tomás prefiere escuchar en vez de leer todo. Para hablar usa Windows + H, y en 
 - Se lee el comienzo de cada respuesta, hasta 400 caracteres: lo más importante tiene que ir al principio, en frases que se entiendan al oído.
 - Está en `C:\Users\MARCOS\.claude\voz\`, fuera del repo: `hablar.ps1` (lector), `config.json` (voz, modelo y largo) y `clave.txt` (la clave, que nunca va al Cerebro). Lo dispara un hook Stop en `~/.claude/settings.json`.
 - Si ElevenLabs falla, habla la voz de Windows y el error queda en `error.log`. Para apagarlo, se vacía `clave.txt`.
-- En el plan gratis, por la clave se ven 21 voces en inglés o británicas que también hablan español. Ninguna tiene acento argentino.
+- En el plan gratis, por la clave se ven 21 voces en inglés o británicas que también hablan español. Ninguna tiene acento argentino. Tomás eligió George (31 de octubre 2026) y confirmó que suena sola al terminar cada respuesta.
 
 ## Conexiones
 - **Metricool** (conectado el 30 de octubre 2026, cuenta monteriko.oficial, hora de Buenos Aires): estadísticas de los posts, mejores horarios y posts programados. Funciona desde la nube. Los posts que prepare Claude van como **borrador**: no se publica nada sin que Tomás lo apruebe.
