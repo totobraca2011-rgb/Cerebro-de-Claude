@@ -43,7 +43,7 @@ Claude los hizo desde Chrome a pedido de Tomás, que se tuvo que ir y dijo "camb
 8. Revisar los textos de `instagram-plan-noviembre-2026.md` y aprobar los borradores en Metricool.
 9. Revisar el reel "Quién está detrás" y elegirle música antes del martes 3 de noviembre.
 10. Grabar los dos reels que faltan: el de la escuela (21 nov) y el del freezer (26 nov).
-11. Crear las destacadas "Precios", "Cómo pedir" y "Envíos", usando el carrusel como historias.
+11. Crear las destacadas "Pedí acá" (primera, con el sticker de enlace a la página), "Precios" y "Envíos", usando el carrusel como historias.
 12. Pasar 10 cuentas de Mar del Plata para comentar.
 13. Decir si sigue tomando pedidos para eventos, como los XV. Si es así, se suma al contenido.
 14. Mirar "Ver insights" del reel de noviembre 2025: cuánta gente llegó y cuántos no lo seguían.

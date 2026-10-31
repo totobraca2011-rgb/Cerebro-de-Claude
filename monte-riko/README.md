@@ -8,6 +8,7 @@ Alfajores artesanales de Mar del Plata, hechos por Tomás Bracamonte.
 | `instagram-voz.md` | Cómo habla Monte Riko en Instagram. Lo leen las skills de Instagram |
 | `instagram.md` | El trabajo con la cuenta: proyecto de ordenar el perfil, cómo se reparte entre la nube y Chrome, y pendientes |
 | `instagram-plan-noviembre-2026.md` | Calendario y textos de noviembre 2026, con el objetivo de vender más |
+| `instagram-referentes.md` | Cuentas del nicho y qué se repite en sus perfiles |
 | `carruseles/` | Carruseles armados para Instagram |
 | `reels/` | Guiones y armado de cada reel |
 | `pagina-web.md` | La página web: cómo se trabaja, reglas, decisiones tomadas y pendientes |
