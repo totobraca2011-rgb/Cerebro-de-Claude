@@ -4,6 +4,7 @@ Armado el 30 de octubre de 2026.
 
 ## Su compu
 - Usa **Windows**.
+- **Discos (31 de octubre 2026):** el C tiene 111 GB y está casi lleno (7,5 GB libres); el M ("Disco Rigido") tiene 931 GB, con 824 GB libres. Tiene 8 GB de memoria RAM. Lo pesado conviene ponerlo en el M.
 - Tiene instalados (octubre 2026): la app de escritorio de Claude, la extensión **Claude** de Chrome (con su cuenta) y **GitHub Desktop**.
 - El Cerebro está clonado con GitHub Desktop, en `Documentos\GitHub\Cerebro-de-Claude` salvo que lo haya cambiado.
 
