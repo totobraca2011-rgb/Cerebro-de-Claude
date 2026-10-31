@@ -23,7 +23,10 @@ Tomás hablando a cámara, 5 tomas verticales grabadas con el celu y micrófono 
 - Sin música: se le pone en Instagram al subirlo.
 - A Tomás no lo convenció: pidió rehacerlo más profesional, con referencias y sonidos.
 
-## Versión 2 (31 de octubre de 2026, esperando que Tomás la apruebe)
+## Versión 3 (31 de octubre de 2026, esperando que Tomás la apruebe)
+`editor-de-ia/terminados/2026-10-31-quien-esta-detras-v3.mp4`: igual que la v2, con los textos de la cocina, la silla, el piano y el primer plano final más cerca de la cara. Tomás lo pidió para poder leer y mirarle la cara al mismo tiempo: **en las tomas hablando, el texto va pegado a la cara**. El código de `quien-esta-detras-v2.tsx` ya tiene estos cambios.
+
+## Versión 2 (31 de octubre de 2026)
 `editor-de-ia/terminados/2026-10-31-quien-esta-detras-v2.mp4`: 46,3 s, vertical 1080x1920, −16,3 LUFS, 28 MB. Hecha con Remotion. El código queda en `monte-riko/reels/quien-esta-detras-v2.tsx`, por si hay que hacer una v3.
 - Estilo de las referencias de `editor-de-ia/referencias/`: zoom lento en todas las tomas, salto de encuadre entre frases, textos palabra por palabra sincronizados con la voz.
 - Tipografías: Rubik Mono One naranja (la de la marca) para las palabras fuertes, Playfair cursiva y Montserrat para el resto.

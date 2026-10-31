@@ -248,7 +248,7 @@ const BLOCKS: Block[] = [
   },
   // Cocina
   {
-    from: t("0413", 0.95), to: t("0413", 4.34), y: 760,
+    from: t("0413", 0.95), to: t("0413", 4.34), y: 470,
     lines: [
       [w("No todos los que", t("0413", 1.1), "white")],
       [w("llegan lejos", t("0413", 1.7), "script", 96)],
@@ -257,7 +257,7 @@ const BLOCKS: Block[] = [
     ],
   },
   {
-    from: t("0413", 4.95), to: t("0413", 7.79), y: 800,
+    from: t("0413", 4.95), to: t("0413", 7.79), y: 680,
     lines: [
       [w("La mayoría de cosas", t("0413", 5.02), "white", 58)],
       [w("SE APRENDEN", t("0413", 5.96), "big")],
@@ -295,11 +295,11 @@ const BLOCKS: Block[] = [
   },
   // Silla
   {
-    from: t("0417", 4.6), to: t("0417", 5.72), y: 1150,
+    from: t("0417", 4.6), to: t("0417", 5.72), y: 640,
     lines: [[w("Por eso", t("0417", 4.68), "script", 110)]],
   },
   {
-    from: t("0417", 5.72), to: t("0417", 8.79), y: 1040,
+    from: t("0417", 5.72), to: t("0417", 8.79), y: 620,
     lines: [
       [w("yo creo que muchas veces", t("0417", 5.76), "white", 54)],
       [w("no es necesario", t("0417", 6.56), "script", 92)],
@@ -319,16 +319,16 @@ const BLOCKS: Block[] = [
     ],
   },
   {
-    from: t("0418", 4.6), to: t("0418", 7.04), y: 1090,
+    from: t("0418", 4.6), to: t("0418", 7.04), y: 720, align: "left", x: 40,
     lines: [
-      [w("y comprometerte", t("0418", 4.7), "script", 92)],
-      [w("con lo que querés", t("0418", 5.36), "script", 92)],
-      [w("LOGRAR", t("0418", 5.88), "big", 150)],
+      [w("y comprometerte", t("0418", 4.7), "scriptDark", 78)],
+      [w("con lo que querés", t("0418", 5.36), "scriptDark", 78)],
+      [w("LOGRAR", t("0418", 5.88), "big", 124)],
     ],
   },
   // Primer plano final
   {
-    from: t("0439", 0.7), to: t("0439", 2.3), y: 230,
+    from: t("0439", 0.7), to: t("0439", 2.3), y: 290,
     lines: [
       [w("Soy", t("0439", 0.72), "scriptDark", 92)],
       [w("TOMÁS", t("0439", 1.28), "big", 118)],
@@ -336,7 +336,7 @@ const BLOCKS: Block[] = [
     ],
   },
   {
-    from: t("0439", 2.3), to: t("0439", 3.49), y: 250,
+    from: t("0439", 2.3), to: t("0439", 3.49), y: 400,
     lines: [[w("el creador de", t("0439", 2.34), "scriptDark", 92)], [w("MONTE RIKO", t("0439", 2.88), "big", 104)]],
   },
   {
@@ -344,7 +344,7 @@ const BLOCKS: Block[] = [
     lines: [[w("y esto recién", t("0439", 3.74), "scriptDark", 96)], [w("EMPIEZA", t("0439", 4.46), "big", 170)]],
   },
   {
-    from: t("0439", 5.4), to: t("0439", 7.24), y: 240,
+    from: t("0439", 5.4), to: t("0439", 7.24), y: 310,
     lines: [[w("Si querés ver", t("0439", 5.5), "scriptDark", 92)], [w("cómo crece", t("0439", 5.88), "scriptDark", 92)], [w("MONTE RIKO", t("0439", 6.44), "big", 104)]],
   },
   {
@@ -356,7 +356,7 @@ const BLOCKS: Block[] = [
     lines: [[w("@monteriko.oficial", t("0439", 7.9), "pill", 66)]],
   },
   {
-    from: t("0439", 9.55), to: t("0439", 11.5), y: 240,
+    from: t("0439", 9.55), to: t("0439", 11.5), y: 300,
     lines: [[w("y acompañame", t("0439", 9.9), "scriptDark", 96)], [w("EN ESTE", t("0439", 10.72), "big", 118)], [w("CAMINO", t("0439", 11.0), "big", 118)]],
   },
 ];
