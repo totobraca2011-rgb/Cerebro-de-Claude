@@ -11,7 +11,7 @@ Qué se va a revisar: nombre, bio, link, destacadas, los 3 posts fijados, el fee
 
 Objetivo elegido por Tomás (30 de octubre 2026): **más ventas**. Plan del mes: `instagram-plan-noviembre-2026.md`.
 
-**La página va primero (Tomás, 31 de octubre 2026):** Instagram tiene que mandar a monteriko.com.ar, porque ahí la gente arma el pedido y le llega ya escrito por WhatsApp. Por eso el plan, el carrusel y los borradores dicen "link de la bio", y las historias llevan el sticker de enlace. Tomás también quiere una bio más simpática: falta que elija el texto.
+**La página va primero (Tomás, 31 de octubre 2026):** Instagram tiene que mandar a monteriko.com.ar, porque ahí la gente arma el pedido y le llega ya escrito por WhatsApp. Por eso el plan, el carrusel y los borradores dicen "link de la bio", y las historias llevan el sticker de enlace.
 
 ### Cómo está el perfil (visto en Chrome, 30 de octubre 2026)
 - 11 publicaciones, 580 seguidores, 31 seguidos.
@@ -24,7 +24,7 @@ Objetivo elegido por Tomás (30 de octubre 2026): **más ventas**. Plan del mes:
 ### Cambios hechos en la cuenta (30 de octubre 2026)
 Claude los hizo desde Chrome a pedido de Tomás, que se tuvo que ir y dijo "cambiá lo que tengas que cambiar". Tomás los tiene que revisar. Si no le gustan, se vuelve al texto anterior.
 - **Nombre.** Antes: "Alfajores Artesanales". Ahora: "Alfajores en Mar del Plata". Instagram deja cambiarlo solo dos veces cada 14 días.
-- **Bio.** Antes: "· Alfajores artesanales Monte Riko / · ENVIOS A TODO EL PAÍS / ·Comunicate a nuestro contacto 👇🏻 / 📍 Mar Del Plata". Ahora: "Alfajores artesanales hechos en Mar del Plata. / Cajas desde $16.500. Envíos a todo el país. / Pedidos por WhatsApp: 223 618-8694".
+- **Bio.** Antes: "· Alfajores artesanales Monte Riko / · ENVIOS A TODO EL PAÍS / ·Comunicate a nuestro contacto 👇🏻 / 📍 Mar Del Plata". Ahora (la eligió Tomás, 31 de octubre 2026): "Alfajores artesanales. El problema es frenar. / 📍 Mar del Plata · Envíos a todo el país / 🎁 Cajas desde $16.500 / 👇 Armá tu pedido acá". En la compu el último renglón queda detrás de "más".
 - Si cambia el precio de la media docena, hay que corregir la bio.
 
 ### Preparado para noviembre
