@@ -38,6 +38,11 @@ Tomás prefiere escuchar en vez de leer todo. Para hablar usa Windows + H, y en 
 - Si ElevenLabs falla, habla la voz de Windows y el error queda en `error.log`. Para apagarlo, se vacía `clave.txt`.
 - En el plan gratis, por la clave se ven 21 voces en inglés o británicas que también hablan español. Ninguna tiene acento argentino. Tomás eligió George (31 de octubre 2026) y confirmó que suena sola al terminar cada respuesta.
 
+## Video (31 de octubre 2026)
+- FFmpeg está instalado en la compu con winget. Node y Python no.
+- Tomás tiene CapCut 8.3 con plan pago, pero no tiene tiempo de editar: los reels los edita Claude con FFmpeg y Tomás los revisa.
+- No hay conexión oficial de Claude con CapCut. Existen conectores no oficiales (por ejemplo `jmsldrn/capcut-mcp`), que dependen de un formato de proyecto sin documentar y no se probaron con esta versión.
+
 ## Conexiones
 - **Metricool** (conectado el 30 de octubre 2026, cuenta monteriko.oficial, hora de Buenos Aires): estadísticas de los posts, mejores horarios y posts programados. Funciona desde la nube. Los posts que prepare Claude van como **borrador**: no se publica nada sin que Tomás lo apruebe.
 - Ningún programa puede cambiar la bio, las destacadas ni el orden del feed por su cuenta: eso se hace en la app o con la sesión local en Chrome.
