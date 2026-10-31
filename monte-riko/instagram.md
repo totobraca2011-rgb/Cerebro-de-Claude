@@ -15,7 +15,7 @@ Objetivo elegido por Tomás (30 de octubre 2026): **más ventas**. Plan del mes:
 
 ### Cómo está el perfil (visto en Chrome, 30 de octubre 2026)
 - 11 publicaciones, 580 seguidores, 31 seguidos.
-- En la versión web del perfil no se ve link en la bio ni botón de contacto: falta confirmar en el celu.
+- Link de la bio: Tomás puso monteriko.com.ar desde el celu el 31 de octubre 2026. Todos los posts mandan ahí.
 - Dos destacadas: "producción" y "ustedess" (con doble s), las dos con el logo de tapa. Tienen más de un año. En "ustedess" hay un pedido real para unos XV.
 - Lo último publicado es de febrero de 2026. El reel del patagónico está subido dos veces, con distinta música: 25 de febrero (42 me gusta) y 26 de febrero (44, fijado).
 - Fijados: reel del patagónico (26 feb 2026), packaging (ene 2025) y foto del patagónico (dic 2024).
@@ -35,7 +35,6 @@ Claude los hizo desde Chrome a pedido de Tomás, que se tuvo que ir y dijo "camb
 ### Lo que tiene que hacer Tomás (desde el celu, 30 de octubre 2026)
 1. Apretar **Push origin** en GitHub Desktop.
 2. Revisar el nombre y la bio nuevos.
-3. **Antes del martes 3:** poner el link `monteriko.com.ar` en el perfil, desde el celu. Todos los posts mandan al "link de la bio" y hoy no está.
 4. Fijar el reel del proceso del 19 de noviembre 2025 (123 me gusta) y sacar de fijados la foto de dic 2024.
 5. Archivar la copia del reel del patagónico del 25 de febrero.
 6. Cambiar el nombre de la destacada "ustedess". Desde la compu no se pudo: al editarla, la lista de historias aparecía vacía y se canceló para no vaciarla.
