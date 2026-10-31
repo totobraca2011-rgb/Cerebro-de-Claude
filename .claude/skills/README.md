@@ -15,6 +15,8 @@ Se cargan solas cuando este repo está en la sesión. Copias revisadas el 27 de 
 | `taste-skill`, `ui-ux-pro-max`, `impeccable` + agentes `constructor-ui`, `auditor-visual`, `auditor-tecnico` (en `.claude/agents/`) | El kit de diseño, traído entero desde el repo `kit-diseno` (octubre 2026): dirección artística, reglas de UX y accesibilidad, auditoría y pulido, y los tres agentes que construyen y revisan la página. Cada skill conserva su licencia y su origen en el `README.md` del kit | taste-skill (MIT), ui-ux-pro-max (MIT), impeccable (Apache 2.0), vía `totobraca2011-rgb/kit-diseno` `5f1af43` |
 | `claude-automation-recommender` | Plugin "Claude Code Setup" de Anthropic: lee un proyecto y recomienda avisos automáticos, skills, ayudantes y conexiones. Solo recomienda, no toca nada | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) `f8c5e7a` · Apache 2.0 |
 
+**Remotion** (31 de octubre 2026, pedido de Tomás): no vive en este repo, es un plugin instalado en su compu (`remotion@remotion`, versión 4.0.539). Hace animaciones de video con código: subtítulos, títulos y gráficos. Solo trae guías y ejemplos, sin avisos automáticos ni conexiones. Origen: [remotion-dev/claude-code-plugin](https://github.com/remotion-dev/claude-code-plugin). Gratis para personas y empresas chicas, según remotion.dev/license.
+
 Para actualizar una: volver a bajar el repo de origen, revisar qué cambió y reemplazar la carpeta.
 
 ## Pendiente
