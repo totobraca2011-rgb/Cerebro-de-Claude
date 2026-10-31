@@ -41,6 +41,10 @@ Tomás prefiere escuchar en vez de leer todo. Para hablar usa Windows + H, y en 
 ## Video (31 de octubre 2026)
 - FFmpeg está instalado en la compu con winget. Node 26 está en `%LOCALAPPDATA%\Programs\node-v26.13.0-win-x64`, sin permisos de administrador, y se suma al PATH en las sesiones nuevas. Python común no; Claude-Mem usa uno propio, con `uv`.
 - **La app de Claude esconde lo que guarda en `AppData`** (probado el 31 de octubre 2026): lo manda a una carpeta suya (`AppData\Local\Packages\Claude_pzs8sxrjxfjjc\LocalCache`), y algunos programas después no lo encuentran. Por eso Remotion no arrancaba desde la carpeta temporal de la sesión y sí desde `C:\Users\MARCOS\`. Los proyectos de video van fuera de `AppData`.
+- **Las tomas del iPhone vienen en HDR** (probado el 31 de octubre 2026): hay que pasarlas a color normal antes de editar, o se ven mal y Remotion puede fallar. Con FFmpeg: `zscale=t=linear:npl=100,format=gbrpf32le,zscale=p=bt709,tonemap=tonemap=hable:desat=0,zscale=t=bt709:m=bt709:r=tv,format=yuv420p`.
+- **La compu se queda sin memoria con video pesado:** convertir de a un archivo por vez y renderizar con Remotion usando `--concurrency=2 --offthreadvideo-threads=1 --offthreadvideo-cache-size-in-bytes=300000000`. Un reel de 46 s tarda unos 8 minutos.
+- Para Python de video (transcribir o recortar siluetas): `uv` con `UV_PYTHON_INSTALL_DIR` y `UV_CACHE_DIR` fuera de `AppData`. `yt-dlp` corre con `uvx yt-dlp` y baja reels públicos de Instagram sin iniciar sesión. Openverse limita las búsquedas seguidas: con `license=cc0` responde mejor.
+- La carpeta de trabajo de los reels es `C:\Users\MARCOS\reel-v2\` (fuera del Cerebro, porque pesa mucho).
 - Tomás tiene CapCut 8.3 con plan pago, pero no tiene tiempo de editar: los reels los edita Claude con FFmpeg y Tomás los revisa.
 - No hay conexión oficial de Claude con CapCut. Existen conectores no oficiales (por ejemplo `jmsldrn/capcut-mcp`), que dependen de un formato de proyecto sin documentar y no se probaron con esta versión.
 

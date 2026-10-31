@@ -21,3 +21,14 @@ Tomás hablando a cámara, 5 tomas verticales grabadas con el celu y micrófono 
 - Estilo tomado de la referencia de Instagram: colores cálidos y saturados en todo el reel; en las tomas hablando se alterna plano normal y plano cerrado (acercamiento de 1,15 a 1,25 veces) para dar ritmo. La toma del piano va sin acercamiento porque la cara está al costado.
 - Subtítulos en Montserrat Bold, blancos con borde negro, en mayúsculas, de a 3 palabras como máximo. "Monte Riko", "16" y "@monteriko.oficial" en naranja.
 - Sin música: se le pone en Instagram al subirlo.
+- A Tomás no lo convenció: pidió rehacerlo más profesional, con referencias y sonidos.
+
+## Versión 2 (31 de octubre de 2026, esperando que Tomás la apruebe)
+`editor-de-ia/terminados/2026-10-31-quien-esta-detras-v2.mp4`: 46,3 s, vertical 1080x1920, −16,3 LUFS, 28 MB. Hecha con Remotion. El código queda en `monte-riko/reels/quien-esta-detras-v2.tsx`, por si hay que hacer una v3.
+- Estilo de las referencias de `editor-de-ia/referencias/`: zoom lento en todas las tomas, salto de encuadre entre frases, textos palabra por palabra sincronizados con la voz.
+- Tipografías: Rubik Mono One naranja (la de la marca) para las palabras fuertes, Playfair cursiva y Montserrat para el resto.
+- Texto detrás de la cabeza en tres momentos: el gancho, "EMPIEZA" y "SEGUÍ A". Se logró recortando su silueta cuadro por cuadro.
+- La harina cae justo en "pero fue tomando forma". En "tengo mi propia marca" va la foto de la caja con cuatro alfajores.
+- Termina tapando la cámara con el mate, y corta al logo con un golpe.
+- Música y efectos sin obligación de dar crédito (CC0, de Freesound vía Openverse). Música: "Cinematic Lofi Beat" de Seth_Makes_Sounds. Efectos: whooshes de qubodup, "Deep Whoosh #1" de Kinoton, "Hit Impact" de Mrguff e "Impact" de chriskalos.
+- Volumen medido, pero el sonido no se escuchó: la música y los efectos los tiene que aprobar Tomás. La música de esta versión ya no necesita sumarse en Instagram.
