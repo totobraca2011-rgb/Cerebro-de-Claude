@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Las 3 partes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+<style>
+  :root { --naranja: #FF6900; --negro: #000000; --arena: #EBD9C5; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1080px; height: 1350px; overflow: hidden; background: var(--negro); }
+  section {
+    display: none; position: relative; width: 1080px; height: 1350px;
+    padding: 130px 120px; flex-direction: column; justify-content: center;
+    background: var(--negro); color: var(--arena);
+    font-family: 'Montserrat', sans-serif; font-weight: 500; font-size: 42px; line-height: 1.3;
+  }
+  section.activa { display: flex; }
+  section.naranja { background: var(--naranja); color: var(--negro); }
+  h1, h2 { font-family: 'Rubik Mono One', sans-serif; font-weight: 400; text-transform: uppercase; line-height: 1.08; }
+  h1 { font-size: 92px; color: var(--naranja); }
+  h2 { font-size: 66px; color: var(--naranja); margin-bottom: 56px; }
+  .naranja h1, .naranja h2 { color: var(--negro); }
+  .foto { position: absolute; inset: 0; background-size: cover; background-position: center; }
+  .velo { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,.88) 0%, rgba(0,0,0,.72) 42%, rgba(0,0,0,.12) 74%); }
+  .sobre { position: relative; }
+  .tapa { justify-content: flex-start; }
+  .bajada { margin-top: 36px; font-weight: 700; color: #fff; }
+  .fila { display: flex; justify-content: space-between; align-items: baseline; gap: 32px; padding: 32px 0; border-bottom: 3px solid rgba(235,217,197,.35); }
+  .fila b { font-weight: 700; color: #fff; }
+  .fila span { font-family: 'Rubik Mono One', sans-serif; color: var(--naranja); font-size: 46px; white-space: nowrap; }
+  .nota { margin-top: 44px; }
+  .paso { display: flex; gap: 32px; margin-bottom: 40px; }
+  .paso i { font-family: 'Rubik Mono One', sans-serif; font-style: normal; color: var(--naranja); font-size: 56px; line-height: 1.1; }
+  .numero { color: var(--naranja); font-family: 'Rubik Mono One', sans-serif; font-size: 62px; line-height: 1.1; margin: 28px 0 40px; }
+  .pie { position: absolute; left: 120px; right: 120px; bottom: 60px; display: flex; justify-content: space-between; font-size: 32px; font-weight: 700; }
+  .naranja .numero { color: var(--negro); }
+</style>
+</head>
+<body>
+
+<section class="tapa">
+  <div class="foto" style="background-image:url('../../pagina-web/assets/img/patagonico-corte-frutos-1177.jpg'); background-position: center 70%"></div>
+  <div class="velo"></div>
+  <div class="sobre">
+    <h1>Si una falla, falla el alfajor</h1>
+  </div>
+  <div class="pie"><span>@monteriko.oficial</span><span>1/7</span></div>
+</section>
+
+<section>
+  <h1>Las 3 partes de un alfajor de verdad</h1>
+  <div class="pie"><span>@monteriko.oficial</span><span>2/7</span></div>
+</section>
+
+<section>
+  <p class="numero">1</p>
+  <h2>Las tapas</h2>
+  <p>La base y la textura.</p>
+  <div class="pie"><span>@monteriko.oficial</span><span>3/7</span></div>
+</section>
+
+<section>
+  <p class="numero">2</p>
+  <h2>El relleno</h2>
+  <p>Le da humedad a las tapas.</p>
+  <div class="pie"><span>@monteriko.oficial</span><span>4/7</span></div>
+</section>
+
+<section>
+  <p class="numero">3</p>
+  <h2>El chocolate</h2>
+  <p>El cierre que equilibra todo.</p>
+  <div class="pie"><span>@monteriko.oficial</span><span>5/7</span></div>
+</section>
+
+<section>
+  <h2>Las 3 juntas</h2>
+  <div class="paso"><i>1</i><p>Las tapas: la base y la textura.</p></div>
+  <div class="paso"><i>2</i><p>El relleno: le da humedad a las tapas.</p></div>
+  <div class="paso"><i>3</i><p>El chocolate: el cierre que equilibra todo.</p></div>
+  <div class="pie"><span>@monteriko.oficial</span><span>6/7</span></div>
+</section>
+
+<section class="naranja">
+  <h1>Probalo.</h1>
+  <p class="numero" style="font-size:54px">monteriko.com.ar</p>
+  <p style="font-weight:700">Armá tu caja desde el link de la bio.</p>
+  <div class="pie"><span>@monteriko.oficial</span><span>7/7</span></div>
+</section>
+
+<script>
+  var n = Number(new URLSearchParams(location.search).get('s')) || 1;
+  document.querySelectorAll('section')[n - 1].classList.add('activa');
+</script>
+</body>
+</html>
