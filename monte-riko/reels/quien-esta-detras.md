@@ -23,7 +23,13 @@ Tomás hablando a cámara, 5 tomas verticales grabadas con el celu y micrófono 
 - Sin música: se le pone en Instagram al subirlo.
 - A Tomás no lo convenció: pidió rehacerlo más profesional, con referencias y sonidos.
 
-## Versión 4 (31 de octubre de 2026, esperando que Tomás la apruebe)
+## Versión 5 (1 de noviembre de 2026, editada por Tomás en CapCut)
+`editor-de-ia/terminados/2026-11-01-quien-esta-detras-v5.mp4`: 46 s. Copia en 1080x1920 y 30 cuadros para el Cerebro. El original de Tomás (`DownloadsQuien_esta_detras_V5.mp4`) está en 4K, 50 cuadros y 215 MB.
+- Sobre la v4 sumó unos 9 sonidos y sacó medio segundo de silencio después de "resuelto" (27,4 s). El golpe metálico del gancho quedó.
+- Sonidos en 0 s, 6,6, 7,3, 9,4, 10,5, 20,9, 24,6, 34,4, 39,8 y 41,9 s. Revisado con mediciones, sin escucharlo.
+- Posible ajuste: el golpe del primer segundo está más fuerte que su voz y se pisa con "¿Por", que arranca a los 0,18 s.
+
+## Versión 4 (31 de octubre de 2026)
 `editor-de-ia/terminados/2026-10-31-quien-esta-detras-v4.mp4`: 46,5 s, 27 MB, −16,3 LUFS. Pedidos de Tomás sobre la v3:
 - **Subtítulos palabra por palabra:** cada palabra aparece cuando la dice y se va sumando a la frase. Los tiempos salen de la transcripción (`monte-riko/reels/quien-esta-detras-palabras.json`).
 - **Sin música de fondo.** Quedan la voz y los efectos.

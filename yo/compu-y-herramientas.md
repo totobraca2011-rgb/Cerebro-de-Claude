@@ -48,6 +48,7 @@ Tomás prefiere escuchar en vez de leer todo. Para hablar usa Windows + H, y en 
 - Para Python de video (transcribir o recortar siluetas): `uv` con `UV_PYTHON_INSTALL_DIR` y `UV_CACHE_DIR` fuera de `AppData`. `yt-dlp` corre con `uvx yt-dlp` y baja reels públicos de Instagram sin iniciar sesión. Openverse limita las búsquedas seguidas: con `license=cc0` responde mejor.
 - La carpeta de trabajo de los reels es `M:\reel-v2\` (fuera del Cerebro, porque pesa mucho, y fuera del disco C, que está justo). El Python de transcribir y recortar siluetas (`whisper/`) quedó roto al moverlo: si hace falta, se crea de nuevo en el M. Los modelos siguen en `hf/` y `u2/`.
 - Tomás tiene CapCut 8.3 con plan pago, pero no tiene tiempo de editar: los reels los edita Claude con FFmpeg y Tomás los revisa.
+- Tomás prefiere sumar él mismo algunos sonidos en CapCut sobre el reel exportado, porque le resulta más fácil (noviembre 2026). Conviene pasarle una versión con la voz limpia. Para Instagram alcanza con exportar en 1080x1920 y 30 cuadros: el material no tiene más calidad que eso.
 - No hay conexión oficial de Claude con CapCut. Existen conectores no oficiales (por ejemplo `jmsldrn/capcut-mcp`), que dependen de un formato de proyecto sin documentar y no se probaron con esta versión.
 
 ## Conexiones
