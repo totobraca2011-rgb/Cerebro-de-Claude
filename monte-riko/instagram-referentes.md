@@ -35,4 +35,18 @@ Buscado en Instagram desde el Chrome de Tomás, con las palabras "alfajor", "alf
 | @fergigliello | 2 M | https://www.instagram.com/reel/DepuyPzBB9s/ | 6,9 M | 271 mil | 14 | 46,6 s. Receta de alfajor chocotorta. Solo sirve para el formato, por el tamaño de la cuenta |
 | @fonseee___ | 299 mil | https://www.instagram.com/reel/DWKAstRDVMi/ | No se pudo ver | 395 mil | Sin dato | 30 s. Receta de 3 ingredientes, abre con el alfajor partido y el dulce de leche chorreando |
 
+## Historias de marcas grandes (1 de noviembre 2026)
+Tomás pidió mirar también marcas grandes. Se revisaron las destacadas desde la cuenta de Monte Riko, así que esas marcas pueden ver que entró. Rasta no tenía historias activas al mirarla. Solo se vieron unas pocas pantallas de cada una: son ideas, no una medición.
+
+| Cuenta | Seguidores | Destacadas | Qué sirve |
+|---|---|---|---|
+| @havannaarg | 484 mil | Promociones, Tu historia, Costa Atlántica, Fiestas 2025 | "Tu historia cuenta": le pide historias a su gente con un enlace |
+| @rastaalfajores | 454 mil | ENVIOS, FÁBRICA, Comunidad RASTA, Distribuidores | Comparte clientes y creadores dentro de un marco con su marca y frases como "Por si no lo viste" |
+| @gula.alfajor | 110 mil | Sorteos, Ustedes, Collabs, Eventos, Encontranos | Muestra gente real y dónde aparece la marca |
+| @luccianos_ | 512 mil | Una por producto o temporada | Una destacada por tema, fácil de encontrar |
+| @camilatisnadopasteleria | 8.455 | USTEDES, ALFAJORES | Una cuenta chica también comparte a sus clientes y les agradece |
+
+Lo que se repite: compartir a los clientes y ordenar en destacadas lo que quien compra quiere encontrar. Falta confirmar que @gula.alfajor sea la cuenta de la marca que dijo Tomás: es la más grande de ese nombre.
+
+## Lo que tienen los reels virales
 Lo que se repite en los dos que más se destacan (los dos primeros): duran unos 17 s, son de cuentas chicas y lo que atrapa es **una sorpresa adentro**, no solo el corte. El marplatense no tiene relleno sorpresa; el patagónico sí, con su corazón de mermelada.

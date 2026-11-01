@@ -57,13 +57,27 @@ REELS = {
         dur=28.6, palabras=[3, 9, 15, 28, 38], whoosh=[3.6, 8.3, 10.5, 14.2], parte=20.6, cierre=26.1,
         reales=[("0498", 23, 26, 2.0, 15.7), ("0500", 1.5, 4.9, 2.0, 17.2)],
     ),
+    "Partido": dict(
+        dur=15.5, palabras=[3, 17, 23, 34, 40], whoosh=[9.0], parte=5.5, cierre=13.0, reales=[],
+        musica_desde=16, baja=(2.6, 5.2),
+        crujidos=[(5.82, 0.175, -15, 1.0), (5.82, 0.175, -13, 1.9), (5.82, 0.175, -12, 2.6), (0.787, 0.37, -10, 4.4)],
+    ),
 }
 
+solo = sys.argv[1:]
+
 for id, r in REELS.items():
+    if solo and id not in solo:
+        continue
     n = int(r["dur"] * SR)
     # La música arranca en el primer tiempo del loop de 120 pulsos
-    musica = leer(f"{BASE}/assets/music/fs-567959_disco-funk-drums-long.mp3", 0, r["dur"] + 1)[:n]
+    desde = r.get("musica_desde", 0)
+    musica = leer(f"{BASE}/assets/music/fs-567959_disco-funk-drums-long.mp3", desde, r["dur"] + 1)[:n]
     env = np.ones(n) * 10 ** (-5 / 20)
+    if r.get("baja"):
+        # Música bajita mientras crece la tensión
+        a, b = [int(t * SR) for t in r["baja"]]
+        env[a:b] = 10 ** (-17 / 20)
     if r["parte"]:
         # Corte de música justo antes de que se parta el alfajor
         a, b, c = [int(t * SR) for t in (r["parte"] - 0.3, r["parte"] - 0.02, r["parte"] + 0.9)]
@@ -83,6 +97,8 @@ for id, r in REELS.items():
     if r["parte"]:
         # El chasquido fuerte está 0,5 s adentro del recorte: cae cuando el alfajor ya se abre
         poner(fx, norm(crack.copy(), -3), r["parte"] - 0.2)
+    for desde_c, dur_c, nivel, t in r.get("crujidos", []):
+        poner(fx, norm(bordes(leer(f"{BASE}/assets/crack/fs-660866.mp3", desde_c, dur_c), 0.002, 0.03), nivel), t)
     poner(fx, norm(swoosh.copy(), -12), r["cierre"] - 0.12)
     poner(fx, norm(caja.copy(), -5), r["cierre"] + 8 / 30)
     for v, a, b, tempo, t in r["reales"]:

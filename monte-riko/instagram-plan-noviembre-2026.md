@@ -28,7 +28,7 @@ Tres posts por semana, a un ritmo que una sola persona pueda sostener: **martes 
 | Jue 5 | Carrusel | Venta | Cómo pedir tu caja | Armado en `monte-riko/carruseles/como-pedir/` |
 | Sáb 7 | Foto | Venta | La caja y el papel dorado | Borrador en Metricool |
 | Mar 10 | Reel | Proceso | La harina y la masa | Armado sin sonido. Tomás lo revisa y le pone sonidos |
-| Jue 12 | Reel | Proceso | El relleno | Armado sin sonido. Tomás lo revisa y le pone sonidos |
+| Jue 12 | Reel | Proceso | El relleno | Armado con sonido. Tomás lo revisa |
 | Sáb 14 | Foto | Marca | Auténtico marplatense | Borrador en Metricool |
 | Mar 17 | Reel | Proceso | Cortar las tapas | Armado sin sonido. Tomás lo revisa y le pone sonidos |
 | Jue 19 | Foto | Venta | El patagónico por dentro | Borrador en Metricool |
@@ -178,6 +178,15 @@ Hechos en Mar del Plata, con envíos a todo el país.
 
 #alfajores #chocolate #alfajoresartesanales
 
+### El marplatense por dentro
+Armá tu caja desde el link de la bio.
+
+Así se abre un Monte Riko. Vas a querer otro.
+
+Hechos en Mar del Plata, con envíos a todo el país.
+
+#alfajores #alfajormarplatense #alfajoresartesanales
+
 ### De la masa al alfajor
 Armá tu caja desde el link de la bio.
 
@@ -185,13 +194,8 @@ De la masa al alfajor: todo hecho a mano, en mi casa de Mar del Plata.
 
 #alfajores #alfajoresartesanales #mardelplata
 
-## Historias (todos los días, 3 pantallas)
-Son para vender sin hacer un post. Grabá lo que esté pasando ese día, no hace falta editar. **Las historias sí llevan links que se tocan:** poné el sticker de enlace a monteriko.com.ar siempre que se hable de pedir.
-- **Lunes:** lo que estás cocinando hoy.
-- **Martes y jueves:** compartí el post del día con una encuesta: "¿Marplatense o patagónico?"
-- **Miércoles:** caja de preguntas: "¿Qué querés saber de Monte Riko?"
-- **Viernes:** cajas listas para salir, con el sticker de enlace a la página.
-- **Sábado y domingo:** si alguien te etiqueta, compartilo. Si no, nada.
+## Historias (de lunes a viernes, 1 de noviembre 2026)
+Tomás las quiere al menos 5 veces por semana: hacen presencia entre los seguidores. Están armadas día por día en `historias-noviembre/`, con el calendario en su `README.md`. **Las historias sí llevan links que se tocan:** poné el sticker de enlace a monteriko.com.ar siempre que se hable de pedir. Sábado y domingo: si alguien te etiqueta, compartilo.
 
 ## 20 minutos por día, antes de publicar
 - Respondé todos los comentarios y mensajes, primero los que preguntan cómo comprar.

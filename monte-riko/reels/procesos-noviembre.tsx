@@ -189,6 +189,15 @@ const TODO: Props = {
   ],
 };
 
+const PARTIDO: Props = {
+  tomas: [n("a1", 3), n("a2", 4), n("a3", 2), n("a4", 4)],
+  gancho: [
+    [{ t: "ESPERÁ", at: 3, size: 150 }],
+    [{ t: "A", at: 17, size: 130 }, { t: "QUE", at: 23, size: 130 }],
+    [{ t: "SE", at: 34, size: 130 }, { t: "ABRA", at: 40, size: 130 }],
+  ],
+};
+
 const comp = (id: string, props: Props) => (
   <Composition
     id={id}
@@ -209,5 +218,6 @@ export const Procesos = () => (
     {comp("Relleno", RELLENO)}
     {comp("Bano", BANO)}
     {comp("Todo", TODO)}
+    {comp("Partido", PARTIDO)}
   </>
 );

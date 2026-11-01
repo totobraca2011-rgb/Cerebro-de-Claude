@@ -54,4 +54,5 @@ Claude los hizo desde Chrome a pedido de Tomás, que se tuvo que ir y dijo "camb
 ### Pendiente (30 de octubre 2026)
 - Cuando Tomás vuelva: revisar lo hecho y decidir cómo se trabaja de ahora en adelante.
 - El plan y las tareas de noviembre se siguen en Trello, en el tablero Monte Riko (1 de noviembre 2026).
-- Tomás tiene que revisar los reels del 10, 12, 17 y 24 y los dos de reserva (1 de noviembre 2026). El del 12 y los de reserva ya tienen sonido; los del 10, 17 y 24 todavía no.
+- Tomás tiene que revisar los reels del 10, 12, 17 y 24 y los tres de reserva (1 de noviembre 2026). El del 12 y los de reserva ya tienen sonido; los del 10, 17 y 24 todavía no.
+- Tomás tiene que revisar las historias de noviembre y crear las destacadas "Pedí acá", "Precios", "Envíos" y "Ustedes" (1 de noviembre 2026).
