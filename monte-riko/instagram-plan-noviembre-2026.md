@@ -28,7 +28,7 @@ Tres posts por semana, a un ritmo que una sola persona pueda sostener: **martes 
 | Jue 5 | Carrusel | Venta | Cómo pedir tu caja | Armado en `monte-riko/carruseles/como-pedir/` |
 | Sáb 7 | Foto | Venta | La caja y el papel dorado | Borrador en Metricool |
 | Mar 10 | Reel | Proceso | La harina y la masa | Armado sin sonido. Tomás lo revisa y le pone sonidos |
-| Jue 12 | Carrusel | Enseña | Las 3 partes del alfajor | Borrador en `monte-riko/carruseles/las-3-partes/`. Falta el OK de Tomás |
+| Jue 12 | Reel | Proceso | A definir, con los videos crudos nuevos | **Falta armarlo:** Tomás va a pasar más tomas del proceso |
 | Sáb 14 | Foto | Marca | Auténtico marplatense | Borrador en Metricool |
 | Mar 17 | Reel | Proceso | Cortar las tapas | Armado sin sonido. Tomás lo revisa y le pone sonidos |
 | Jue 19 | Foto | Venta | El patagónico por dentro | Borrador en Metricool |
@@ -84,18 +84,8 @@ Después viene el dulce de leche y el baño de chocolate. Eso te lo cuento la se
 
 #alfajores #alfajoresartesanales #mardelplata
 
-### Jue 12: Las 3 partes del alfajor
-Si una de estas 3 partes falla, falla el alfajor.
-
-1. Las tapas: la base y la textura.
-2. El relleno: le da humedad a las tapas.
-3. El chocolate: el cierre que equilibra todo.
-
-Pasá y fijate cómo las hago yo. Si después te da hambre, ya sabés: link de la bio.
-
-#alfajores #alfajoresartesanales #chocolate
-
-*Diapositivas:* 1) SI UNA FALLA, FALLA EL ALFAJOR. 2) Las 3 partes de un alfajor de verdad. 3) LAS TAPAS: la base y la textura. 4) EL RELLENO: le da humedad a las tapas. 5) EL CHOCOLATE: el cierre que equilibra todo. 6) Las 3 juntas: las tres líneas en una sola diapositiva. 7) Probalo: monteriko.com.ar, link en la bio.
+### Jue 12: a definir
+Se decidió el 1 de noviembre de 2026: Tomás descartó el carrusel "Las 3 partes del alfajor" porque no le gustó y ya tiene una publicación así, más corta y con más información. El lugar queda para un reel hecho con los videos crudos nuevos. El texto se escribe cuando se vean las tomas.
 
 ### Sáb 14: Auténtico marplatense
 Un alfajor, un termo y Mar del Plata de fondo. No hace falta mucho más.

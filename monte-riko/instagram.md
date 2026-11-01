@@ -54,4 +54,5 @@ Claude los hizo desde Chrome a pedido de Tomás, que se tuvo que ir y dijo "camb
 ### Pendiente (30 de octubre 2026)
 - Cuando Tomás vuelva: revisar lo hecho y decidir cómo se trabaja de ahora en adelante.
 - El plan y las tareas de noviembre se siguen en Trello, en el tablero Monte Riko (1 de noviembre 2026).
-- Tomás tiene que revisar el borrador del carrusel "Las 3 partes del alfajor" y los reels del 10, 17 y 24, que están armados sin sonido.
+- Tomás tiene que revisar los reels del 10, 17 y 24, que están armados sin sonido.
+- Tomás va a pasar más videos crudos del proceso para acortarlos y usarlos en reels, empezando por el jueves 12 (1 de noviembre 2026).
