@@ -54,5 +54,5 @@ Claude los hizo desde Chrome a pedido de Tomás, que se tuvo que ir y dijo "camb
 ### Pendiente (30 de octubre 2026)
 - Cuando Tomás vuelva: revisar lo hecho y decidir cómo se trabaja de ahora en adelante.
 - El plan y las tareas de noviembre se siguen en Trello, en el tablero Monte Riko (1 de noviembre 2026).
-- Tomás tiene que revisar los reels del 10, 17 y 24, que están armados sin sonido.
-- Tomás va a pasar más videos crudos del proceso para acortarlos y usarlos en reels, empezando por el jueves 12 (1 de noviembre 2026).
+- Tomás tiene que revisar los reels del 10, 12, 17 y 24 y los dos de reserva, que están armados sin sonido (1 de noviembre 2026).
+- Tomás tiene que confirmar si el alfajor partido de `fotos-proceso/` es un marplatense (1 de noviembre 2026). Si lo es, ya hay foto real del interior y se corrige la regla de `brief.md` y `README.md`.

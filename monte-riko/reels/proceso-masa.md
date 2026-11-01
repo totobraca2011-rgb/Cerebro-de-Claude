@@ -22,6 +22,26 @@ Hechos con Remotion sobre las tomas ya editadas: zoom lento, gancho en texto nar
 
 Si Tomás graba el alfajor terminado, esa toma puede reemplazar la foto del cierre del reel del 10.
 
+## Proceso completo (1 de noviembre de 2026, esperando que Tomás los revise)
+Tomás pasó 23 videos crudos distintos de todo el proceso (también mandó un zip con los mismos videos y una copia de `IMG_0482`). Están en `M:\reel-v2\crudos-noviembre\`, fuera del Cerebro porque suman 1,1 GB; los repetidos quedaron en `repetidos\`, adentro de esa carpeta.
+
+| Parte | Videos |
+|---|---|
+| Masa y tapas | 0466 (estira y corta), 0460 y 0461 (placa), 0470 y 0474 (horno), 0475 (tapas horneadas) |
+| Dulce de leche | 0479, 0481, 0482 |
+| Patagónico | 0483 (corona de dulce y mermelada), 0484 (cierra) |
+| Chocolate | 0490, 0491, 0492, 0493, 0494; 0489 y 0496 muestran a Tomás |
+| Baño | 0497, 0498, 0500, 0502 |
+| Alfajor partido | 0446 |
+
+Reels hechos con cortes de 1 a 3 s y tramos acelerados, sin cámara lenta. Gancho y cierre iguales a los otros de noviembre, sin sonido. Código: `procesos-noviembre.tsx`.
+
+| Sale | Archivo en `editor-de-ia/terminados/` | Duración | Gancho |
+|---|---|---|---|
+| Jue 12 | `2026-11-01-el-relleno-v1.mp4` | 22,3 s | ESTO VA ADENTRO |
+| Reserva | `2026-11-01-el-bano-de-chocolate-v1.mp4` | 22,7 s | CADA UNO SE BAÑA A MANO |
+| Reserva | `2026-11-01-de-la-masa-al-alfajor-v1.mp4` | 32,2 s | DE LA MASA AL ALFAJOR |
+
 ## Cinco tomas más (29 de octubre de 2026)
 Tomás mandó 5 videos más del proceso y pidió editarlos por separado, cortos y con el mismo estilo (cortes rápidos, acercamientos, colores cálidos, sin sonido). Se guardaron solo las versiones editadas, no los originales.
 

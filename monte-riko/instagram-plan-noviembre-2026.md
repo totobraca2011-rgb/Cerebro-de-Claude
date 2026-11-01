@@ -28,7 +28,7 @@ Tres posts por semana, a un ritmo que una sola persona pueda sostener: **martes 
 | Jue 5 | Carrusel | Venta | Cómo pedir tu caja | Armado en `monte-riko/carruseles/como-pedir/` |
 | Sáb 7 | Foto | Venta | La caja y el papel dorado | Borrador en Metricool |
 | Mar 10 | Reel | Proceso | La harina y la masa | Armado sin sonido. Tomás lo revisa y le pone sonidos |
-| Jue 12 | Reel | Proceso | A definir, con los videos crudos nuevos | **Falta armarlo:** Tomás va a pasar más tomas del proceso |
+| Jue 12 | Reel | Proceso | El relleno | Armado sin sonido. Tomás lo revisa y le pone sonidos |
 | Sáb 14 | Foto | Marca | Auténtico marplatense | Borrador en Metricool |
 | Mar 17 | Reel | Proceso | Cortar las tapas | Armado sin sonido. Tomás lo revisa y le pone sonidos |
 | Jue 19 | Foto | Venta | El patagónico por dentro | Borrador en Metricool |
@@ -80,12 +80,20 @@ Si querés probarlos, armá tu pedido desde el link de la bio.
 
 Así arranca cada alfajor Monte Riko: tapas de chocolate hechas a mano, en mi casa de Mar del Plata, de a una por vez.
 
-Después viene el dulce de leche y el baño de chocolate. Eso te lo cuento la semana que viene.
+Después viene el dulce de leche y el baño de chocolate. Eso te lo muestro el jueves.
 
 #alfajores #alfajoresartesanales #mardelplata
 
-### Jue 12: a definir
-Se decidió el 1 de noviembre de 2026: Tomás descartó el carrusel "Las 3 partes del alfajor" porque no le gustó y ya tiene una publicación así, más corta y con más información. El lugar queda para un reel hecho con los videos crudos nuevos. El texto se escribe cuando se vean las tomas.
+### Jue 12: El relleno
+Armá tu caja desde el link de la bio.
+
+Dulce de leche en cada tapa, a mano. Y en los patagónicos, además, un corazón de mermelada de frutos rojos.
+
+Hechos en Mar del Plata, con envíos a todo el país.
+
+#alfajores #dulcedeleche #alfajoresartesanales
+
+*Decisión (1 de noviembre de 2026):* Tomás descartó el carrusel "Las 3 partes del alfajor" porque no le gustó y ya tiene una publicación así, más corta y con más información. No hay que hacer otra.
 
 ### Sáb 14: Auténtico marplatense
 Un alfajor, un termo y Mar del Plata de fondo. No hace falta mucho más.
@@ -157,6 +165,25 @@ Media docena $16.500, docena $31.900. Armalas desde el link de la bio.
 #alfajores #regalos #mardelplata
 
 *Texto alternativo:* alfajor Monte Riko envuelto en papel dorado.
+
+## Reels de reserva (1 de noviembre 2026)
+Armados sin sonido, sin fecha. Sirven si no llega a grabarse el reel del 21 o del 26, o para diciembre.
+
+### El baño de chocolate
+Armá tu caja desde el link de la bio.
+
+Cada alfajor Monte Riko pasa por el chocolate a mano, uno por uno.
+
+Hechos en Mar del Plata, con envíos a todo el país.
+
+#alfajores #chocolate #alfajoresartesanales
+
+### De la masa al alfajor
+Armá tu caja desde el link de la bio.
+
+De la masa al alfajor: todo hecho a mano, en mi casa de Mar del Plata.
+
+#alfajores #alfajoresartesanales #mardelplata
 
 ## Historias (todos los días, 3 pantallas)
 Son para vender sin hacer un post. Grabá lo que esté pasando ese día, no hace falta editar. **Las historias sí llevan links que se tocan:** poné el sticker de enlace a monteriko.com.ar siempre que se hable de pedir.

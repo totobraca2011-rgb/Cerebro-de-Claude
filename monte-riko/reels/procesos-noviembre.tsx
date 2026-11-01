@@ -151,6 +151,45 @@ const APILAR: Props = {
   ],
 };
 
+// Tomas nuevas de noviembre: cada archivo ya viene cortado, con color corregido y a su velocidad
+const n = (src: string, hasta: number): Toma => ({ src: `n/${src}`, desde: 0, hasta });
+
+const RELLENO: Props = {
+  tomas: [
+    n("r1", 3.2), n("r2", 2), n("r3", 2.5), n("r4", 2),
+    n("r5", 2.1), n("r6", 2), n("r7", 2), n("r8", 4),
+  ],
+  gancho: [
+    [{ t: "ESTO", at: 3, size: 150 }],
+    [{ t: "VA", at: 16, size: 150 }],
+    [{ t: "ADENTRO", at: 29, size: 150 }],
+  ],
+};
+const BANO: Props = {
+  tomas: [
+    n("b1", 3.1), n("b2", 2), n("b4", 2), n("b5", 2.5),
+    n("b6", 2.5), n("b7", 3), n("b8", 2.5), n("b9", 2.6),
+  ],
+  gancho: [
+    [{ t: "CADA", at: 3, size: 118 }, { t: "UNO", at: 14, size: 118 }],
+    [{ t: "SE", at: 26, size: 130 }, { t: "BAÑA", at: 31, size: 130 }],
+    [{ t: "A MANO", at: 38, size: 150 }],
+  ],
+};
+const TODO: Props = {
+  tomas: [
+    n("p1", 1.2), n("p2", 1.2), n("p3", 1.2), n("p4", 1.2), n("p5", 1.1),
+    n("p6", 1.2), n("p7", 1.2), n("p8", 1), n("p9", 1.2), n("p10", 1.2),
+    n("p11", 1.2), n("p12", 1.16), n("p13", 1.2), n("p14", 1.2), n("p15", 1.3),
+    n("p16", 1.5), n("p17", 1.5), n("p18", 1.7), n("p19", 1.7), n("p20", 5.5),
+  ],
+  gancho: [
+    [{ t: "DE", at: 3, size: 118 }, { t: "LA", at: 9, size: 118 }, { t: "MASA", at: 15, size: 118 }],
+    [{ t: "AL", at: 28, size: 118 }],
+    [{ t: "ALFAJOR", at: 38, size: 150 }],
+  ],
+};
+
 const comp = (id: string, props: Props) => (
   <Composition
     id={id}
@@ -168,5 +207,8 @@ export const Procesos = () => (
     {comp("Harina", HARINA)}
     {comp("Tapas", TAPAS)}
     {comp("Apilar", APILAR)}
+    {comp("Relleno", RELLENO)}
+    {comp("Bano", BANO)}
+    {comp("Todo", TODO)}
   </>
 );
