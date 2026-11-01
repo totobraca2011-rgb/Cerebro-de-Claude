@@ -24,3 +24,15 @@ Malfatti, Alfajorería Rosario y @alfajoresmarplatenses ya las sigue la cuenta d
 - Sumar una destacada **"Pedí acá"**, primera en la fila, con el sticker de enlace a la página.
 - Probar textos con humor y el nombre Monte Riko, sin copiar los de otros.
 - Mandarle una caja a Mariano López (@alfajoresmarplatenses) es una idea para que Tomás decida.
+
+## Reels virales de alfajores (1 de noviembre 2026)
+Buscado en Instagram desde el Chrome de Tomás, con las palabras "alfajor", "alfajor partido", "alfajor relleno" y "alfajores artesanales". Se revisaron 34 publicaciones y se contaron las vistas de 4 cuentas. Es una muestra chica: sirve para sacar ideas, no para sacar conclusiones firmes. "Veces lo normal" es vistas dividido la mediana de los últimos reels de esa cuenta.
+
+| Cuenta | Seguidores | Reel | Vistas | Me gusta | Veces lo normal | Qué muestra |
+|---|---|---|---|---|---|---|
+| @camilatisnadopasteleria (Neuquén) | 8.455 | https://www.instagram.com/reel/DPNNem5DBPP/ | 6,1 M | 239 mil | 730 | 16,7 s. Abre el papel, muestra el alfajor y lo parte: adentro tiene un corazón rojo de frambuesa. Texto: "¿Por qué tengo que comer alfajores". Es su alfajor Franui |
+| @tentateenparana (Paraná) | 35 mil | https://www.instagram.com/reel/DX4-02qRJuS/ | 2,7 M | 124 mil | 150 | 17 s. Corta con cuchillo un alfajor alto y adentro aparece una bola rodeada de dulce de leche |
+| @fergigliello | 2 M | https://www.instagram.com/reel/DepuyPzBB9s/ | 6,9 M | 271 mil | 14 | 46,6 s. Receta de alfajor chocotorta. Solo sirve para el formato, por el tamaño de la cuenta |
+| @fonseee___ | 299 mil | https://www.instagram.com/reel/DWKAstRDVMi/ | No se pudo ver | 395 mil | Sin dato | 30 s. Receta de 3 ingredientes, abre con el alfajor partido y el dulce de leche chorreando |
+
+Lo que se repite en los dos que más se destacan (los dos primeros): duran unos 17 s, son de cuentas chicas y lo que atrapa es **una sorpresa adentro**, no solo el corte. El marplatense no tiene relleno sorpresa; el patagónico sí, con su corazón de mermelada.
