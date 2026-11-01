@@ -6,7 +6,7 @@ Sacadas de los videos crudos de noviembre 2026, a pedido de Tomás. Son cuadros 
 
 | Fotos | Qué muestran | Video |
 |---|---|---|
-| `alfajor-partido-mitades`, `alfajor-partido-abierto` | Alfajor partido al medio. Falta que Tomás confirme si es un marplatense | 0446 |
+| `alfajor-partido-mitades`, `alfajor-partido-abierto` | Marplatense partido al medio (lo confirmó Tomás, 1 de noviembre 2026). Son las únicas fotos reales de su interior | 0446 |
 | `tapas-en-placa`, `tapas-al-horno`, `tapas-horneadas` | Las tapas antes y después del horno | 0460, 0470, 0475 |
 | `dulce-copete`, `dulce-filas`, `dulce-mesada`, `dulce-cerrando` | El dulce de leche | 0479, 0481, 0482 |
 | `patagonico-corona-dulce`, `patagonico-mermelada`, `patagonico-relleno`, `patagonico-cerrado` | El relleno del patagónico | 0483, 0484 |

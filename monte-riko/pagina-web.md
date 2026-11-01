@@ -23,7 +23,7 @@ Leé `monte-riko/brief.md`: productos, precios, cómo se compra, historia, frase
 - Colores: naranja #FF6900, negro #222221, arena #EBD9C6, más los neutros del packaging (dorado y kraft).
 - El naranja nunca va como texto chico sobre fondo claro, porque no llega a 4,5:1.
 - Rubik Mono One es monoespaciada: los puntos y comas van en `<span class="p">` y los títulos llevan word-spacing negativo, así los precios no se leen "$2 . 800".
-- No va el chocolate blanco. No va ninguna foto de Tomás en la web. No hay foto del interior del marplatense: no se simula.
+- No va el chocolate blanco. No va ninguna foto de Tomás en la web. El interior del marplatense no se simula: usar solo las fotos reales de `fotos-proceso/`.
 - No se inventan reseñas, cifras, clientes, premios ni ingredientes.
 
 ## Cómo se trabaja el diseño

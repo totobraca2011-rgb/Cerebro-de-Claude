@@ -31,7 +31,7 @@ Tres a cinco ideas mías con las que no todos estarían de acuerdo. De acá sale
 ## Lo que no va
 - No se inventan reseñas, cifras, clientes, premios ni ingredientes.
 - No va el chocolate blanco.
-- No hay foto del interior del marplatense: no se simula.
+- El interior del marplatense no se simula: usar solo las fotos reales de `fotos-proceso/`.
 - **Temas de los que no hablo:**
 
 ## Pruebas reales que puedo usar

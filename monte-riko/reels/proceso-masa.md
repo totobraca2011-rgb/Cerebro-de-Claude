@@ -34,13 +34,24 @@ Tomás pasó 23 videos crudos distintos de todo el proceso (también mandó un z
 | Baño | 0497, 0498, 0500, 0502 |
 | Alfajor partido | 0446 |
 
-Reels hechos con cortes de 1 a 3 s y tramos acelerados, sin cámara lenta. Gancho y cierre iguales a los otros de noviembre, sin sonido. Código: `procesos-noviembre.tsx`.
+Reels hechos con cortes de 1 a 3 s y tramos acelerados, sin cámara lenta. Gancho y cierre iguales a los otros de noviembre. Código: `procesos-noviembre.tsx`; mezcla de sonido: `sonido-noviembre.py`.
 
 | Sale | Archivo en `editor-de-ia/terminados/` | Duración | Gancho |
 |---|---|---|---|
-| Jue 12 | `2026-11-01-el-relleno-v1.mp4` | 22,3 s | ESTO VA ADENTRO |
-| Reserva | `2026-11-01-el-bano-de-chocolate-v1.mp4` | 22,7 s | CADA UNO SE BAÑA A MANO |
-| Reserva | `2026-11-01-de-la-masa-al-alfajor-v1.mp4` | 32,2 s | DE LA MASA AL ALFAJOR |
+| Jue 12 | `2026-11-01-el-relleno-v2.mp4` | 16,2 s | ESTO VA ADENTRO |
+| Reserva | `2026-11-01-el-bano-de-chocolate-v2.mp4` | 22,7 s | CADA UNO SE BAÑA A MANO |
+| Reserva | `2026-11-01-de-la-masa-al-alfajor-v2.mp4` | 28,6 s | DE LA MASA AL ALFAJOR |
+
+**Sin mermelada (Tomás, 1 de noviembre 2026):** los reels que terminan con el marplatense partido no llevan las tomas del patagónico (0483 y 0484). El corazón de mermelada no aparece en ese alfajor y no queda.
+
+**Sonido (1 de noviembre 2026, lo pidió Tomás):** base funk de fondo, "pop" en cada palabra del gancho, swoosh en algunos cortes, y golpe de caja en el cierre. La música baja justo antes de que se parta el alfajor, para que se escuche el chocolate. El audio original de los crudos casi no sirve: lo único útil son los golpecitos en el bowl (0498) y al apoyar el alfajor (0500), que van en los tramos del baño.
+
+Todos los sonidos son CC0 (licencia comprobada en la página de cada uno): no hace falta dar crédito.
+- Música: "Disco funk loops 001 remix 1 long loop with drums 120 bpm", josefpres: https://freesound.org/people/josefpres/sounds/567959/
+- Chocolate: "Chocolate Crumble and Snapping", Finnssound: https://freesound.org/people/Finnssound/sounds/660866/
+- Caja: "hit-tap-strike-cardboard-box-13-times", newagesoup: https://freesound.org/people/newagesoup/sounds/364932/
+- Swoosh: "Whoosh #1", Kinoton: https://freesound.org/s/427823/
+- Pop: "Pop Sound", ConarB13: https://freesound.org/s/401542/
 
 ## Cinco tomas más (29 de octubre de 2026)
 Tomás mandó 5 videos más del proceso y pidió editarlos por separado, cortos y con el mismo estilo (cortes rápidos, acercamientos, colores cálidos, sin sonido). Se guardaron solo las versiones editadas, no los originales.

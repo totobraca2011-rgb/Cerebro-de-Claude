@@ -56,10 +56,10 @@
   - `termo-escollera-mar`: alfajor y termo en la escollera, con el mar.
   - `caja-cuatro-alfajores`: caja abierta con 4 alfajores dorados.
   - `feria-cajas-alfajores`: cajas llenas en una feria.
-  - `patagonico-corte-frutos`: patagónico cortado con frutos rojos. Es la única foto del interior.
+  - `patagonico-corte-frutos`: patagónico cortado con frutos rojos. Es la única foto del interior del patagónico.
   - `mano-alfajor-arbol` y `mano-alfajor-frente`: el alfajor en la mano contra el verde.
   - `alfajor-papel-dorado`, `alfajores-desenfoque`, `caja-envio`.
-- No hay foto del interior del marplatense: no inventarla ni simularla con IA.
+- Interior del marplatense: las únicas fotos reales son `alfajor-partido-mitades` y `alfajor-partido-abierto`, en `fotos-proceso/`. Tomás confirmó que es un marplatense (1 de noviembre 2026), pero todavía no aprobó las fotos. No inventarla ni simularla con IA.
 - Chocolate blanco: NO va en la web (decisión del dueño). Solo baño de chocolate negro.
 
 ## Reglas

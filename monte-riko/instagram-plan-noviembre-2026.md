@@ -87,7 +87,7 @@ Después viene el dulce de leche y el baño de chocolate. Eso te lo muestro el j
 ### Jue 12: El relleno
 Armá tu caja desde el link de la bio.
 
-Dulce de leche en cada tapa, a mano. Y en los patagónicos, además, un corazón de mermelada de frutos rojos.
+Dulce de leche en cada tapa, a mano.
 
 Hechos en Mar del Plata, con envíos a todo el país.
 
@@ -167,7 +167,7 @@ Media docena $16.500, docena $31.900. Armalas desde el link de la bio.
 *Texto alternativo:* alfajor Monte Riko envuelto en papel dorado.
 
 ## Reels de reserva (1 de noviembre 2026)
-Armados sin sonido, sin fecha. Sirven si no llega a grabarse el reel del 21 o del 26, o para diciembre.
+Armados con sonido, sin fecha. Sirven si no llega a grabarse el reel del 21 o del 26, o para diciembre.
 
 ### El baño de chocolate
 Armá tu caja desde el link de la bio.

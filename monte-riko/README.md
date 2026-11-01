@@ -21,5 +21,5 @@ Alfajores artesanales de Mar del Plata, hechos por Tomás Bracamonte.
 
 ## Reglas fijas
 - No inventar reseñas, cifras, clientes, premios ni ingredientes.
-- No va el chocolate blanco. No va ninguna foto de Tomás. No hay foto del interior del marplatense: no se simula.
+- No va el chocolate blanco. No va ninguna foto de Tomás. El interior del marplatense no se simula: usar solo las fotos reales de `fotos-proceso/`.
 - El logo es siempre el SVG oficial.
