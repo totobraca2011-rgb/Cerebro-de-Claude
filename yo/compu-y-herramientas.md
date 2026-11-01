@@ -9,6 +9,8 @@ Armado el 30 de octubre de 2026.
 - Tiene instalados (octubre 2026): la app de escritorio de Claude, la extensión **Claude** de Chrome (con su cuenta) y **GitHub Desktop**.
 - El Cerebro está clonado con GitHub Desktop, en `Documentos\GitHub\Cerebro-de-Claude` salvo que lo haya cambiado.
 
+- **Si git dice `reference broken` (1 de noviembre 2026):** a `.git\refs\heads\main` se le borró el contenido y quedó lleno de ceros; no se perdió nada. Se arregla escribiendo en ese archivo el último commit que figura en `.git\logs\HEAD`, después de comprobar que esté entero con `git rev-list --objects`.
+
 ## Dos formas de trabajar
 | | Sesión en la nube (claude.ai/code) | Sesión local (app de escritorio, en su compu) |
 |---|---|---|
