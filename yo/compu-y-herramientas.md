@@ -53,6 +53,7 @@ Tomás prefiere escuchar en vez de leer todo. Para hablar usa Windows + H, y en 
 
 ## Conexiones
 - **Metricool** (conectado el 30 de octubre 2026, cuenta monteriko.oficial, hora de Buenos Aires): estadísticas de los posts, mejores horarios y posts programados. Funciona desde la nube. Los posts que prepare Claude van como **borrador**: no se publica nada sin que Tomás lo apruebe.
+- **Trello** (conectado el 1 de noviembre 2026): el plan de noviembre está en el tablero [Monte Riko](https://trello.com/b/JhScbVQV/monte-riko), en las listas "Noviembre: ...". Las tarjetas se mueven de lista según su estado, y las publicaciones llevan fecha y descripción. Al ordenar listas, las posiciones con decimales fallan y reacomodan otras listas: usar números enteros.
 - Ningún programa puede cambiar la bio, las destacadas ni el orden del feed por su cuenta: eso se hace en la app o con la sesión local en Chrome.
 - **Qué se puede desde Chrome (octubre 2026):** la bio (Editar perfil) y el nombre (Centro de cuentas, que a veces cuelga la pestaña aunque guarde). Desde la compu **no** se puede cambiar el link, fijar ni archivar: eso va en la app del celu. Tampoco conviene editar destacadas: la lista de historias aparece vacía y se podría vaciar.
 - **Metricool (octubre 2026):** no trae estadísticas de lo publicado antes de conectarse. Para cargar un post necesita la foto o el video en un link público: las fotos de monteriko.com.ar sirven; los videos del repo no, porque es privado.
