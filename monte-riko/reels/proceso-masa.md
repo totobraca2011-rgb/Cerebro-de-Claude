@@ -17,7 +17,7 @@ Hechos con Remotion sobre las tomas ya editadas: zoom lento, gancho en texto nar
 | Sale | Archivo en `editor-de-ia/terminados/` | Duración | Gancho |
 |---|---|---|---|
 | Mar 10 | `2026-11-01-la-harina-y-la-masa-v3.mp4` | 17,9 s | ASÍ ARRANCA CADA ALFAJOR |
-| Mar 17 | `2026-11-01-cortar-las-tapas-v3.mp4` | 10,8 s | UNA POR UNA |
+| Descartado | `2026-11-01-cortar-las-tapas-v3.mp4` | 10,8 s | UNA POR UNA (a Tomás no le gustó para subir, 2 de noviembre 2026) |
 | No sale | `2026-11-01-estirar-y-apilar-v3.mp4` | 15,1 s | ESTIRAR CORTAR APILAR |
 
 Tomás sacó "Estirar y apilar" del plan porque no llama la atención. El martes 24 sale `2026-11-01-alfajor-partido-v2.mp4`.
@@ -40,16 +40,20 @@ Reels hechos con cortes de 1 a 3 s y tramos acelerados, sin cámara lenta. Ganch
 
 | Sale | Archivo en `editor-de-ia/terminados/` | Duración | Gancho |
 |---|---|---|---|
-| Jue 12 | `2026-11-02-el-relleno-v4.mp4` (reemplaza a la v2 y la v3) | 32,1 s | ESTO VA ADENTRO |
+| Jue 12 | `2026-11-02-el-relleno-v6.mp4` (la v5 de Tomás con zoom; esperando su visto) | 25,4 s | ESTO VA ADENTRO |
 | Reserva | `2026-11-01-el-bano-de-chocolate-v2.mp4` | 22,7 s | CADA UNO SE BAÑA A MANO |
 | Reserva | `2026-11-01-de-la-masa-al-alfajor-v2.mp4` | 28,6 s | DE LA MASA AL ALFAJOR |
 | Mar 24 | `2026-11-01-alfajor-partido-v2.mp4` | 22 s | ESPERÁ A QUE SE ABRA |
 
-**El relleno v3 (2 de noviembre 2026, pedido de Tomás):** a velocidad normal y sin música, con el sonido real de cada toma: 0482 (4 a 7,6 s), 0481 (84 a 95 y 101,5 a 107,5 s) y el marplatense partido de la 0446 (17 a 26 s). Las tomas del dulce llevan el filtro `GUSTOSO` de las historias, porque el dulce salía verdoso. Se armó con `M:eel-v2	rabajo-noviembreelleno-normalrmar.ps1`; el original sin comprimir queda en esa carpeta. Se revisó con earshot: no se escucha la voz de Tomás. **v4 (mismo día):** Tomás pidió que la toma del dulce empiece cuando arranca a rellenar y dure más antes de taparlo: en la v3 la manga se iba y volvía y parecía un error. Ahora empieza en 84 s, con la tapa vacía, y dura 11 s. Se subió a Drive (`Videos terminados`, en calidad completa) para que Tomás le haga cambios en CapCut; cuando la mande, su versión reemplaza a la v4 en Drive y se guarda acá como nueva versión.
+**El relleno v3 (2 de noviembre 2026, pedido de Tomás):** a velocidad normal y sin música, con el sonido real de cada toma: 0482 (4 a 7,6 s), 0481 (84 a 95 y 101,5 a 107,5 s) y el marplatense partido de la 0446 (17 a 26 s). Las tomas del dulce llevan el filtro `GUSTOSO` de las historias, porque el dulce salía verdoso. Se armó con `M:
+eel-v2	rabajo-noviembre
+elleno-normalrmar.ps1`; el original sin comprimir queda en esa carpeta. Se revisó con earshot: no se escucha la voz de Tomás. **v4 (mismo día):** Tomás pidió que la toma del dulce empiece cuando arranca a rellenar y dure más antes de taparlo: en la v3 la manga se iba y volvía y parecía un error. Ahora empieza en 84 s, con la tapa vacía, y dura 11 s. Se subió a Drive (`Videos terminados`, en calidad completa) para que Tomás le haga cambios en CapCut; cuando la mande, su versión reemplaza a la v4 en Drive y se guarda acá como nueva versión. **v5 (Tomás, 2 de noviembre 2026):** la editó él en CapCut (25,4 s, 60 cuadros) y la dejó en Drive como "relleno v5". **v6:** la v5 con zoom in y zoom out, siguiendo las referencias de pastelería (`editor-de-ia/referencias/`, noviembre 2026): se acerca a 1,3 o 1,4 veces y se aleja cada 1 a 2 s, con pasos de 7 cuadros, sin tocar el gancho ni el cierre para no cortar las letras. Código: `zoom-noviembre.tsx` y `zoom-armar.ps1`.
 
 Reels de reserva a velocidad normal y sin música (2 de noviembre 2026, a Tomás le gustaron): `2026-11-01-el-bano-de-chocolate-v4.mp4` (33,9 s) y `2026-11-01-de-la-masa-al-alfajor-v4.mp4` (50,8 s). Cada toma lleva su sonido real, menos la 0502, que va muda porque se escucha hablar a Tomás.
 
 El reel del marplatense partido salió del video 0446: la grieta avanzando, cómo se abre y las capas de costado. Lo pidió Tomás después de ver los reels virales de alfajores (`instagram-referentes.md`). El gancho lo escribió Claude.
+
+**Solo sonido original (Tomás, 2 de noviembre 2026):** en el partido van solo los sonidos del video, sin los crujidos, pops, swoosh ni golpe de caja agregados. El audio original es muy bajo (−50 LUFS): se sube 24 dB con un poco de reducción de ruido.
 
 **Sin música y a velocidad normal (Tomás, 1 de noviembre 2026):** es una sola toma sin acelerar, con los crujidos, el ambiente real del video y el golpe de caja del cierre. Para partir el alfajor, Tomás prefiere el momento a su ritmo y sin música.
 

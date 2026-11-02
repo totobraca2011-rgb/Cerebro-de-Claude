@@ -30,7 +30,7 @@ Tres posts por semana, a un ritmo que una sola persona pueda sostener: **martes 
 | Mar 10 | Reel | Proceso | La harina y la masa | Armado con sonido, sin música. Tomás lo revisa |
 | Jue 12 | Reel | Proceso | El relleno | Versión 4, sin música y a velocidad normal (2 de noviembre 2026). Tomás la revisa |
 | Sáb 14 | Foto | Marca | Auténtico marplatense | Borrador en Metricool |
-| Mar 17 | Reel | Proceso | Cortar las tapas | Armado con sonido, sin música. Tomás lo revisa |
+| Mar 17 | Reel | Proceso | (libre) | Cortar las tapas se descartó (Tomás, 2 de noviembre 2026): falta elegir qué reel va |
 | Jue 19 | Foto | Venta | El patagónico por dentro | Borrador en Metricool |
 | Sáb 21 | Reel | Historia | Cómo empezó todo, en la escuela | **Hay que grabarlo** |
 | Mar 24 | Reel | Proceso | El marplatense por dentro | Armado con sonido, sin música. Tomás lo revisa |
