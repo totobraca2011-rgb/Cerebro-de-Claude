@@ -28,7 +28,7 @@ Tres posts por semana, a un ritmo que una sola persona pueda sostener: **martes 
 | Jue 5 | Carrusel | Venta | Cómo pedir tu caja | Armado en `monte-riko/carruseles/como-pedir/` |
 | Sáb 7 | Foto | Venta | La caja y el papel dorado | Borrador en Metricool |
 | Mar 10 | Reel | Proceso | La harina y la masa | Armado con sonido, sin música. Tomás lo revisa |
-| Jue 12 | Reel | Proceso | El relleno | Armado con sonido. Tomás lo revisa |
+| Jue 12 | Reel | Proceso | El relleno | Versión 3, sin música y a velocidad normal (2 de noviembre 2026). Tomás la revisa |
 | Sáb 14 | Foto | Marca | Auténtico marplatense | Borrador en Metricool |
 | Mar 17 | Reel | Proceso | Cortar las tapas | Armado con sonido, sin música. Tomás lo revisa |
 | Jue 19 | Foto | Venta | El patagónico por dentro | Borrador en Metricool |

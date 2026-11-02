@@ -211,6 +211,11 @@ const TODO_NORMAL: Props = {
   ],
   gancho: TODO.gancho,
 };
+// El relleno a velocidad normal; z1 a z3 llevan el filtro GUSTOSO para que el dulce no salga verdoso
+const RELLENO_NORMAL: Props = {
+  tomas: [n("z1", 3.6), n("z2", 6), n("z3", 6), n("z4", 9)],
+  gancho: RELLENO.gancho,
+};
 
 const comp = (id: string, props: Props) => (
   <Composition
@@ -235,5 +240,6 @@ export const Procesos = () => (
     {comp("Partido", PARTIDO)}
     {comp("BanoNormal", BANO_NORMAL)}
     {comp("TodoNormal", TODO_NORMAL)}
+    {comp("RellenoNormal", RELLENO_NORMAL)}
   </>
 );

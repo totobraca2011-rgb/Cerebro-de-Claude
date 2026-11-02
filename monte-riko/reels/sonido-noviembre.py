@@ -100,6 +100,10 @@ REELS["BanoNormal"] = dict(dur=1017 / 30, palabras=[3, 14, 26, 31, 38], whoosh=[
 REELS["TodoNormal"] = dict(dur=1524 / 30, palabras=[3, 9, 15, 28, 38], whoosh=[], parte=None, cierre=48.3, reales=[],
                            sin_musica=True, camas=camas(TODO_TOMAS), crujidos=[(0.787, 0.37, -14, 40.0), (7.987, 1.25, -3, 40.7)])
 
+RELLENO_TOMAS = [("0482", 4.0, 3.6), ("0481", 82, 6), ("0481", 101.5, 6), ("0446", 17, 9)]
+REELS["RellenoNormal"] = dict(dur=813 / 30, palabras=[3, 16, 29], whoosh=[], parte=None, cierre=24.6, reales=[],
+                              sin_musica=True, camas=camas(RELLENO_TOMAS), crujidos=[(0.787, 0.37, -14, 16.3), (7.987, 1.25, -3, 17.0)])
+
 # Tomás pidió estos reels sin música, solo con los efectos
 for k in ("Harina", "Tapas", "Apilar"):
     REELS[f"{k}Solo"] = dict(REELS[k], sin_musica=True)
