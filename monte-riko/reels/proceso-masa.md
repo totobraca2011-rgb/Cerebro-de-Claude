@@ -45,7 +45,7 @@ Reels hechos con cortes de 1 a 3 s y tramos acelerados, sin cámara lenta. Ganch
 | Reserva | `2026-11-01-de-la-masa-al-alfajor-v2.mp4` | 28,6 s | DE LA MASA AL ALFAJOR |
 | Mar 24 | `2026-11-01-alfajor-partido-v2.mp4` | 22 s | ESPERÁ A QUE SE ABRA |
 
-Prueba a velocidad normal y sin música (2 de noviembre 2026, esperando que Tomás decida): `2026-11-01-el-bano-de-chocolate-v4.mp4` (33,9 s) y `2026-11-01-de-la-masa-al-alfajor-v4.mp4` (50,8 s), en `M:\reel-v2\para-drive\Videos terminados\`. Cada toma lleva su sonido real, menos la 0502, que va muda porque se escucha hablar a Tomás.
+Reels de reserva a velocidad normal y sin música (2 de noviembre 2026, a Tomás le gustaron): `2026-11-01-el-bano-de-chocolate-v4.mp4` (33,9 s) y `2026-11-01-de-la-masa-al-alfajor-v4.mp4` (50,8 s). Cada toma lleva su sonido real, menos la 0502, que va muda porque se escucha hablar a Tomás.
 
 El reel del marplatense partido salió del video 0446: la grieta avanzando, cómo se abre y las capas de costado. Lo pidió Tomás después de ver los reels virales de alfajores (`instagram-referentes.md`). El gancho lo escribió Claude.
 
