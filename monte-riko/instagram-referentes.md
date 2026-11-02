@@ -48,5 +48,7 @@ Tomás pidió mirar también marcas grandes. Se revisaron las destacadas desde l
 
 Lo que se repite: compartir a los clientes y ordenar en destacadas lo que quien compra quiere encontrar. Falta confirmar que @gula.alfajor sea la cuenta de la marca que dijo Tomás: es la más grande de ese nombre.
 
+Cómo mirar vistas: en la web de Instagram solo aparecen en la grilla de `/<cuenta>/reels/`. Buscar con pocas palabras: "alfajor" trajo los mejores resultados.
+
 ## Lo que tienen los reels virales
 Lo que se repite en los dos que más se destacan (los dos primeros): duran unos 17 s, son de cuentas chicas y lo que atrapa es **una sorpresa adentro**, no solo el corte. El marplatense no tiene relleno sorpresa; el patagónico sí, con su corazón de mermelada.

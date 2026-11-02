@@ -19,6 +19,23 @@
 - Revisa los textos que escribe Claude antes de darlos por buenos.
 - Quiere que lo que trabajamos quede guardado en este repo para no repetirlo en cada sesión.
 - Su compu es Windows. Qué tiene instalado y cómo trabajar con su Chrome: `yo/compu-y-herramientas.md`.
+- Prefiere resolver los pendientes de a uno, para terminar fácil y rápido (noviembre 2026).
+- Si no se puede hacer algo, quiere saber por qué y cuál es la otra forma. Muchas veces la encuentra él: mejor proponérsela antes.
+- Al terminar una tarea, el mensaje final dice solo "Listo Tomy". Si hay un problema o algo que tiene que hacer él, se le avisa igual (noviembre 2026).
+- Antes de decir que algo está hecho, comprobarlo. Si Claude le hace instalar un programa, tiene que avisarle antes qué opciones no tocar (noviembre 2026: Google Drive copió todo el disco M y llenó su espacio).
 
 ## Su estilo
-- (Se va completando: gustos, cosas que no le gustan, cómo le gusta que se vean y se escriban las cosas.)
+**Reels (noviembre 2026):**
+- Sin música: deja solo los sonidos, y prefiere los reales. Las pidió sacar en casi todos los reels de proceso.
+- Velocidad normal, sin acelerar. Tampoco cámara lenta.
+- Tiene que mostrar algo que llame la atención. Descartó "Estirar y apilar" porque solo se veía eso.
+- Lo que más le interesa es mostrar el alfajor por dentro. En los virales que miramos, eso es lo que atrapa.
+- No puede escucharse su voz de fondo en las tomas de proceso.
+
+**Historias (noviembre 2026):**
+- Solo imágenes, a pantalla completa y sin bordes negros.
+- Las letras no tapan el alfajor ni el relleno.
+- El dulce de leche tiene que verse color caramelo, que dé ganas.
+- Nunca decir que la cuenta estuvo ausente: se aparece y listo.
+
+**Referentes:** además de las cuentas chicas, quiere mirar marcas grandes como Havanna, Gula, Rasta y Lucciano's.
