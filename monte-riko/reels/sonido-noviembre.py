@@ -134,7 +134,9 @@ for id, r in REELS.items():
         v, a, b = r["cama"]
         poner(fx, norm(real(v, a, b, 1.0), -24), 0)
     for v, a, b, t in r.get("camas", []):
-        poner(fx, norm(real(v, a, b, 1.0), -16), t)
+        # En la toma 0502 se escucha hablar a Tomás: va muda
+        if v != "0502":
+            poner(fx, norm(real(v, a, b, 1.0), -16), t)
     for fr in r["palabras"]:
         poner(fx, norm(pop.copy(), -16), fr / 30)
     for t in r["whoosh"]:
