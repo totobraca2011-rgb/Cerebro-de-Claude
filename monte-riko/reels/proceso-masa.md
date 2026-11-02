@@ -12,13 +12,13 @@ Una sola toma fija y vertical de 63 s: Tomás, con guantes negros, tira harina s
 - Pendiente: no tiene el cierre con el producto terminado que tiene la referencia (falta una toma del alfajor terminado, o cerrar con el logo).
 
 ## Reels de noviembre (1 de noviembre de 2026, esperando que Tomás los revise)
-Hechos con Remotion sobre las tomas ya editadas: zoom lento, gancho en texto naranja que aparece palabra por palabra, y cierre con la foto de la caja y "ARMÁ TU CAJA / Link de la bio". **Van sin sonido**, para que Tomás se los ponga en CapCut. El código está en `monte-riko/reels/procesos-noviembre.tsx`.
+Hechos con Remotion sobre las tomas ya editadas: zoom lento, gancho en texto naranja que aparece palabra por palabra, y cierre con la foto de la caja y "ARMÁ TU CAJA / Link de la bio". Llevan color corregido y sonido: base funk, "pop" en el gancho y golpe de caja al cierre. El código está en `monte-riko/reels/procesos-noviembre.tsx`.
 
 | Sale | Archivo en `editor-de-ia/terminados/` | Duración | Gancho |
 |---|---|---|---|
-| Mar 10 | `2026-11-01-la-harina-y-la-masa-v1.mp4` | 17,9 s | ASÍ ARRANCA CADA ALFAJOR |
-| Mar 17 | `2026-11-01-cortar-las-tapas-v1.mp4` | 10,8 s | UNA POR UNA |
-| Mar 24 | `2026-11-01-estirar-y-apilar-v1.mp4` | 15,1 s | ESTIRAR CORTAR APILAR |
+| Mar 10 | `2026-11-01-la-harina-y-la-masa-v2.mp4` | 17,9 s | ASÍ ARRANCA CADA ALFAJOR |
+| Mar 17 | `2026-11-01-cortar-las-tapas-v2.mp4` | 10,8 s | UNA POR UNA |
+| Mar 24 | `2026-11-01-estirar-y-apilar-v2.mp4` | 15,1 s | ESTIRAR CORTAR APILAR |
 
 Si Tomás graba el alfajor terminado, esa toma puede reemplazar la foto del cierre del reel del 10.
 

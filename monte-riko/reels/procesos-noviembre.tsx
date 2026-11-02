@@ -124,7 +124,7 @@ const Proceso: React.FC<Props> = ({ tomas, gancho }) => {
 };
 
 const HARINA: Props = {
-  tomas: [{ src: "proceso-masa", desde: 0, hasta: 15.4 }],
+  tomas: [{ src: "c/proceso-masa", desde: 0, hasta: 15.4 }],
   gancho: [
     [{ t: "ASÍ", at: 3, size: 100 }, { t: "ARRANCA", at: 14, size: 100 }],
     [{ t: "CADA", at: 28, size: 118 }],
@@ -132,7 +132,7 @@ const HARINA: Props = {
   ],
 };
 const TAPAS: Props = {
-  tomas: [{ src: "cortar-tapas", desde: 0, hasta: 8.25 }],
+  tomas: [{ src: "c/cortar-tapas", desde: 0, hasta: 8.25 }],
   gancho: [
     [{ t: "UNA", at: 3, size: 150 }],
     [{ t: "POR", at: 16, size: 150 }],
@@ -141,8 +141,8 @@ const TAPAS: Props = {
 };
 const APILAR: Props = {
   tomas: [
-    { src: "estirar-masa", desde: 0, hasta: 9.25 },
-    { src: "apilar-tapas", desde: 0, hasta: 3.35 },
+    { src: "c/estirar-masa", desde: 0, hasta: 9.25 },
+    { src: "c/apilar-tapas", desde: 0, hasta: 3.35 },
   ],
   gancho: [
     [{ t: "ESTIRAR", at: 3, size: 140 }],

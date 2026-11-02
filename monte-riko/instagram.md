@@ -54,5 +54,5 @@ Claude los hizo desde Chrome a pedido de Tomás, que se tuvo que ir y dijo "camb
 ### Pendiente (30 de octubre 2026)
 - Cuando Tomás vuelva: revisar lo hecho y decidir cómo se trabaja de ahora en adelante.
 - El plan de noviembre se sigue en Trello, en el tablero [Planificaciones con Claude de contenido para INSTAGRAM](https://trello.com/b/7htHsRmf/planificaciones-con-claude-de-contenido-para-instagram): una lista por semana, una tarjeta por día y otra lista con lo que falta. Colores: verde publicado o terminado, amarillo lo de hoy o esta semana, rojo lo que viene (pedido de Tomás, 1 de noviembre 2026). Horarios: historias 12:00, martes y jueves 18:00, sábados 10:00. Las tarjetas se actualizan a mano: no cambian de color solas.
-- Tomás tiene que revisar los reels del 10, 12, 17 y 24 y los tres de reserva (1 de noviembre 2026). El del 12 y los de reserva ya tienen sonido; los del 10, 17 y 24 todavía no.
+- Tomás tiene que revisar los reels del 10, 12, 17 y 24 y los tres de reserva (1 de noviembre 2026). Todos tienen sonido.
 - Tomás tiene que revisar las historias de noviembre y crear las destacadas "Pedí acá", "Precios", "Envíos" y "Ustedes" (1 de noviembre 2026).

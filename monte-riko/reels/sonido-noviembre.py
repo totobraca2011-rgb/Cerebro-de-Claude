@@ -62,6 +62,15 @@ REELS = {
         musica_desde=16, baja=(2.6, 5.2),
         crujidos=[(5.82, 0.175, -15, 1.0), (5.82, 0.175, -13, 1.9), (5.82, 0.175, -12, 2.6), (0.787, 0.37, -10, 4.4)],
     ),
+    "Harina": dict(
+        dur=537 / 30, palabras=[3, 14, 28, 38], whoosh=[], parte=None, cierre=15.4, reales=[], musica_desde=32,
+    ),
+    "Tapas": dict(
+        dur=323 / 30, palabras=[3, 16, 29], whoosh=[], parte=None, cierre=8.25, reales=[], musica_desde=48,
+    ),
+    "Apilar": dict(
+        dur=454 / 30, palabras=[3, 18, 33], whoosh=[9.25], parte=None, cierre=12.6, reales=[], musica_desde=64,
+    ),
     # Tomás pidió velocidad normal y sin música: queda el ambiente real del video y los crujidos
     "PartidoV2": dict(
         dur=22.0, palabras=[3, 17, 23, 34, 40], whoosh=[], parte=None, cierre=19.5, reales=[],
