@@ -40,12 +40,12 @@ Reels hechos con cortes de 1 a 3 s y tramos acelerados, sin cámara lenta. Ganch
 
 | Sale | Archivo en `editor-de-ia/terminados/` | Duración | Gancho |
 |---|---|---|---|
-| Jue 12 | `2026-11-02-el-relleno-v3.mp4` (reemplaza a la v2) | 27,1 s | ESTO VA ADENTRO |
+| Jue 12 | `2026-11-02-el-relleno-v4.mp4` (reemplaza a la v2 y la v3) | 32,1 s | ESTO VA ADENTRO |
 | Reserva | `2026-11-01-el-bano-de-chocolate-v2.mp4` | 22,7 s | CADA UNO SE BAÑA A MANO |
 | Reserva | `2026-11-01-de-la-masa-al-alfajor-v2.mp4` | 28,6 s | DE LA MASA AL ALFAJOR |
 | Mar 24 | `2026-11-01-alfajor-partido-v2.mp4` | 22 s | ESPERÁ A QUE SE ABRA |
 
-**El relleno v3 (2 de noviembre 2026, pedido de Tomás):** a velocidad normal y sin música, con el sonido real de cada toma: 0482 (4 a 7,6 s), 0481 (82 a 88 y 101,5 a 107,5 s) y el marplatense partido de la 0446 (17 a 26 s). Las tomas del dulce llevan el filtro `GUSTOSO` de las historias, porque el dulce salía verdoso. Se armó con `M:eel-v2	rabajo-noviembreelleno-normalrmar.ps1`; el original sin comprimir queda en esa carpeta. Se revisó con earshot: no se escucha la voz de Tomás.
+**El relleno v3 (2 de noviembre 2026, pedido de Tomás):** a velocidad normal y sin música, con el sonido real de cada toma: 0482 (4 a 7,6 s), 0481 (84 a 95 y 101,5 a 107,5 s) y el marplatense partido de la 0446 (17 a 26 s). Las tomas del dulce llevan el filtro `GUSTOSO` de las historias, porque el dulce salía verdoso. Se armó con `M:eel-v2	rabajo-noviembreelleno-normalrmar.ps1`; el original sin comprimir queda en esa carpeta. Se revisó con earshot: no se escucha la voz de Tomás. **v4 (mismo día):** Tomás pidió que la toma del dulce empiece cuando arranca a rellenar y dure más antes de taparlo: en la v3 la manga se iba y volvía y parecía un error. Ahora empieza en 84 s, con la tapa vacía, y dura 11 s.
 
 Reels de reserva a velocidad normal y sin música (2 de noviembre 2026, a Tomás le gustaron): `2026-11-01-el-bano-de-chocolate-v4.mp4` (33,9 s) y `2026-11-01-de-la-masa-al-alfajor-v4.mp4` (50,8 s). Cada toma lleva su sonido real, menos la 0502, que va muda porque se escucha hablar a Tomás.
 

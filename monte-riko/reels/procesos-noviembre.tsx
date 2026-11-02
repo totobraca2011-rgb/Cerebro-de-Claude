@@ -213,7 +213,7 @@ const TODO_NORMAL: Props = {
 };
 // El relleno a velocidad normal; z1 a z3 llevan el filtro GUSTOSO para que el dulce no salga verdoso
 const RELLENO_NORMAL: Props = {
-  tomas: [n("z1", 3.6), n("z2", 6), n("z3", 6), n("z4", 9)],
+  tomas: [n("z1", 3.6), n("z2", 11), n("z3", 6), n("z4", 9)],
   gancho: RELLENO.gancho,
 };
 
