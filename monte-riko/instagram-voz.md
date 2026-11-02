@@ -29,6 +29,7 @@ Tres a cinco ideas mías con las que no todos estarían de acuerdo. De acá sale
 3.
 
 ## Lo que no va
+- No decir que la cuenta estuvo ausente o que "volvimos": la gente no se da cuenta. Se aparece y listo (Tomás, 1 de noviembre 2026).
 - No se inventan reseñas, cifras, clientes, premios ni ingredientes.
 - No va el chocolate blanco.
 - El interior del marplatense no se simula: usar solo las fotos reales de `fotos-proceso/`.

@@ -190,7 +190,7 @@ const TODO: Props = {
 };
 
 const PARTIDO: Props = {
-  tomas: [n("a1", 3), n("a2", 4), n("a3", 2), n("a4", 4)],
+  tomas: [n("a5", 19.5)],
   gancho: [
     [{ t: "ESPERÁ", at: 3, size: 150 }],
     [{ t: "A", at: 17, size: 130 }, { t: "QUE", at: 23, size: 130 }],

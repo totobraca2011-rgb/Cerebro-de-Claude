@@ -41,9 +41,11 @@ Reels hechos con cortes de 1 a 3 s y tramos acelerados, sin cámara lenta. Ganch
 | Jue 12 | `2026-11-01-el-relleno-v2.mp4` | 16,2 s | ESTO VA ADENTRO |
 | Reserva | `2026-11-01-el-bano-de-chocolate-v2.mp4` | 22,7 s | CADA UNO SE BAÑA A MANO |
 | Reserva | `2026-11-01-de-la-masa-al-alfajor-v2.mp4` | 28,6 s | DE LA MASA AL ALFAJOR |
-| Reserva | `2026-11-01-alfajor-partido-v1.mp4` | 15,5 s | ESPERÁ A QUE SE ABRA |
+| Reserva | `2026-11-01-alfajor-partido-v2.mp4` | 22 s | ESPERÁ A QUE SE ABRA |
 
 El reel del marplatense partido salió del video 0446: la grieta avanzando, cómo se abre y las capas de costado. Lo pidió Tomás después de ver los reels virales de alfajores (`instagram-referentes.md`). El gancho lo escribió Claude.
+
+**Sin música y a velocidad normal (Tomás, 1 de noviembre 2026):** es una sola toma sin acelerar, con los crujidos, el ambiente real del video y el golpe de caja del cierre. Para partir el alfajor, Tomás prefiere el momento a su ritmo y sin música.
 
 **Sin mermelada (Tomás, 1 de noviembre 2026):** los reels que terminan con el marplatense partido no llevan las tomas del patagónico (0483 y 0484). El corazón de mermelada no aparece en ese alfajor y no queda.
 

@@ -62,6 +62,13 @@ REELS = {
         musica_desde=16, baja=(2.6, 5.2),
         crujidos=[(5.82, 0.175, -15, 1.0), (5.82, 0.175, -13, 1.9), (5.82, 0.175, -12, 2.6), (0.787, 0.37, -10, 4.4)],
     ),
+    # Tomás pidió velocidad normal y sin música: queda el ambiente real del video y los crujidos
+    "PartidoV2": dict(
+        dur=22.0, palabras=[3, 17, 23, 34, 40], whoosh=[], parte=None, cierre=19.5, reales=[],
+        sin_musica=True, cama=("0446", 9.0, 28.5),
+        crujidos=[(5.82, 0.175, -18, 1.1), (5.82, 0.175, -16, 2.7), (0.787, 0.37, -14, 4.3), (5.82, 0.175, -14, 6.1),
+                  (0.787, 0.37, -12, 8.6), (7.987, 1.25, -3, 9.4), (0.787, 0.37, -14, 11.0)],
+    ),
 }
 
 solo = sys.argv[1:]
@@ -87,9 +94,12 @@ for id, r in REELS.items():
         env[c:c + d] = np.linspace(10 ** (-28 / 20), 10 ** (-5 / 20), d)
     f = int(0.9 * SR)
     env[-f:] *= np.linspace(1, 0, f) ** 1.5
-    mezcla = musica * env
+    mezcla = np.zeros(n) if r.get("sin_musica") else musica * env
 
     fx = np.zeros(n)
+    if r.get("cama"):
+        v, a, b = r["cama"]
+        poner(fx, norm(real(v, a, b, 1.0), -24), 0)
     for fr in r["palabras"]:
         poner(fx, norm(pop.copy(), -16), fr / 30)
     for t in r["whoosh"]:

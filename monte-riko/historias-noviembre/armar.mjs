@@ -7,6 +7,14 @@ const V = "M:/reel-v2/video";
 const dias = JSON.parse(readFileSync(`${BASE}/historias.json`, "utf8"));
 const slug = (s) => s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/ /g, "-");
 
+// Placas con el texto abajo porque el alfajor está arriba
+const ABAJO = new Set(JSON.parse(readFileSync(`${BASE}/abajo.json`, "utf8")));
+// Encuadre horizontal de las fotos cuadradas: 0 izquierda, 0.5 centro, 1 derecha
+const ENCUADRE = { "caja-envio": 0.2, "mano-alfajor-frente": 0.75, "alfajor-papel-dorado": 0.45 };
+// Sube el color del dulce de leche, que en estas tomas sale verdoso
+const GUSTOSO = "eq=saturation=1.3:gamma=1.05,colorbalance=rs=0.04:rm=0.11:gm=0.01:bm=-0.13:bh=-0.04";
+const lleva = (p) => (p.v ? p.v.some((c) => /^(r\d|p8|p9)$/.test(c)) : /^(dulce|patagonico)/.test(p.p || ""));
+
 const placas = [];
 for (const d of dias) {
   let i = 0;
@@ -14,10 +22,11 @@ for (const d of dias) {
     if (p.app) continue;
     i++;
     p.nombre = `${slug(d.dia)}-${i}`;
+    p.pos = ABAJO.has(p.nombre) ? "abajo" : "arriba";
     placas.push({ ...p, semana: Math.floor((Number(d.dia.split(" ")[1]) - 2) / 7) + 1 });
   }
 }
-writeFileSync(`${V}/src/historias-data.ts`, `export const PLACAS: { t: string; s?: string }[] = ${JSON.stringify(placas.map(({ t, s }) => ({ t, s })))};\n`);
+writeFileSync(`${V}/src/historias-data.ts`, `export const PLACAS: { t: string; s?: string; pos?: string }[] = ${JSON.stringify(placas.map(({ t, s, pos }) => ({ t, s, pos })))};\n`);
 
 const npx = process.platform === "win32" ? "npx.cmd" : "npx";
 const sh = (cmd) => execFileSync("cmd", ["/c", cmd], { cwd: V, stdio: "inherit" });
@@ -41,15 +50,14 @@ placas.forEach((p, n) => {
     const clip = (c) => (existsSync(`${V}/public/v/n/${c}.mp4`) ? `${V}/public/v/n/${c}.mp4` : `${V}/public/v/${c}.mp4`);
     const entradas = p.v.flatMap((c) => ["-i", clip(c)]);
     const m = p.v.length;
-    const unir = p.v.map((_, i) => `[${i}:v]`).join("") + `concat=n=${m}:v=1:a=0[b];[b][${m}:v]overlay=0:0,format=yuv420p[o]`;
+    const color = lleva(p) ? `,${GUSTOSO}` : "";
+    const unir = p.v.map((_, i) => `[${i}:v]`).join("") + `concat=n=${m}:v=1:a=0${color}[b];[b][${m}:v]overlay=0:0,format=yuv420p[o]`;
     ff(...entradas, "-i", capa, "-filter_complex", unir, "-map", "[o]", "-c:v", "libx264", "-crf", "25", "-preset", "medium", "-threads", "4", "-movflags", "+faststart", `${dir}/${p.nombre}.mp4`);
   } else {
     const foto = p.f ? `${REPO}/monte-riko/fotos-originales/${p.f}.jpg` : `${REPO}/monte-riko/fotos-proceso/${p.p}.jpg`;
-    const [w, h] = execFileSync("ffprobe", ["-v", "error", "-select_streams", "v", "-show_entries", "stream=width,height", "-of", "csv=p=0", foto]).toString().trim().split(",").map(Number);
-    // Las fotos cuadradas van enteras sobre negro; las verticales ocupan toda la pantalla
-    const base = w / h > 0.8
-      ? "[0:v]scale=1080:-2[f];color=black:s=1080x1920[n];[n][f]overlay=0:640[b]"
-      : "[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920[b]";
+    const x = ENCUADRE[p.f] ?? 0.5;
+    const color = lleva(p) ? `,${GUSTOSO}` : "";
+    const base = `[0:v]scale=1080:1920:force_original_aspect_ratio=increase:flags=lanczos,crop=1080:1920:(iw-1080)*${x}:(ih-1920)/2${color}[b]`;
     ff("-i", foto, "-i", capa, "-filter_complex", `${base};[b][1:v]overlay=0:0`, "-frames:v", "1", "-q:v", "3", "-update", "1", `${dir}/${p.nombre}.jpg`);
   }
 });
@@ -60,7 +68,7 @@ for (const d of dias) {
   for (const p of d.placas) {
     if (p.app) { md += `- **En la app:** ${p.app}\n`; continue; }
     const ext = p.v ? "mp4" : "jpg";
-    md += `- \`${p.nombre}.${ext}\`: ${p.t}${p.n ? `. *${p.n}.*` : ""}\n`;
+    md += `- \`${p.nombre}.${ext}\`: ${p.t.replace(/\?$/, "?")}${p.n ? `${p.t.endsWith("?") ? "" : "."} **${/Encuesta|Caja de|Barra|Sticker/.test(p.n) ? "Sticker" : "Ojo"}:** ${p.n}.` : ""}\n`;
   }
 }
 writeFileSync(`${BASE}/calendario.md`, md);

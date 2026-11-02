@@ -1,7 +1,7 @@
 [
-{"dia":"Lun 2","tema":"Volvimos","placas":[
- {"v":["p1","p2","p3"],"t":"VOLVIMOS","s":"8 meses sin subir nada. Este mes te muestro todo."},
- {"f":"alfajor-luz-mesa","t":"¿TE ACORDABAS DE NOSOTROS?","n":"Encuesta: Sí / Recién te conozco"},
+{"dia":"Lun 2","tema":"Así arranca","placas":[
+ {"v":["p1","p2","p3"],"t":"ASÍ ARRANCA CADA ALFAJOR"},
+ {"f":"alfajor-luz-mesa","t":"¿MATE O CAFÉ?","s":"Para acompañar el alfajor.","n":"Encuesta: Mate / Café"},
  {"v":["p16","p17"],"t":"DE LA MASA A LA CAJA","s":"Cada paso, hecho a mano en Mar del Plata."}
 ]},
 {"dia":"Mar 3","tema":"Quién está detrás","placas":[
@@ -18,7 +18,7 @@
 {"dia":"Jue 5","tema":"Cómo pedir","placas":[
  {"v":["r1","r2"],"t":"PEDIR LLEVA MENOS QUE COMERTE UNO"},
  {"f":"caja-cuatro-alfajores","t":"ARMÁS TU CAJA EN LA PÁGINA","s":"Media docena o docena, surtida como quieras.","n":"Guardala en la destacada \"Pedí acá\""},
- {"f":"alfajor-papel-dorado","t":"ME LLEGA POR WHATSAPP","s":"Coordinamos envío o retiro en Mar del Plata.","n":"Sticker de enlace a monteriko.com.ar. Guardala en \"Pedí acá\""}
+ {"f":"alfajor-luz-mesa","t":"ME LLEGA POR WHATSAPP","s":"Coordinamos envío o retiro en Mar del Plata.","n":"Sticker de enlace a monteriko.com.ar. Guardala en \"Pedí acá\""}
 ]},
 {"dia":"Vie 6","tema":"Precios y envíos","placas":[
  {"f":"alfajores-desenfoque","t":"PRECIOS","s":"Marplatense $2.800 · Patagónico $3.000\nMedia docena $16.500 · Docena $31.900","n":"Sticker de enlace. Guardala en la destacada \"Precios\""},
@@ -42,7 +42,7 @@
 {"dia":"Jue 12","tema":"Reel del relleno","placas":[
  {"v":["r2","r3"],"t":"ESTO VA ADENTRO"},
  {"app":"Después de publicar, compartí el reel y escribile encima: \"Mirá cómo se abre al final\"."},
- {"p":"dulce-filas","t":"¿MUCHO O MUCHÍSIMO?","n":"Encuesta: Mucho / Muchísimo"}
+ {"p":"dulce-copete","t":"¿MUCHO O MUCHÍSIMO?","n":"Encuesta: Mucho / Muchísimo"}
 ]},
 {"dia":"Vie 13","tema":"Por dentro","placas":[
  {"v":["a1","a2"],"t":"ESPERÁ A QUE SE ABRA"},
@@ -71,7 +71,7 @@
 {"dia":"Vie 20","tema":"El baño","placas":[
  {"v":["b1","b7"],"t":"CADA UNO SE BAÑA A MANO"},
  {"p":"alfajores-banados-filas","t":"A SECAR"},
- {"f":"alfajor-papel-dorado","t":"DESPUÉS, PAPEL DORADO","s":"Cada alfajor llega así, siempre.","n":"Sticker de enlace a monteriko.com.ar"},
+ {"f":"caja-cuatro-alfajores","t":"DESPUÉS, PAPEL DORADO","s":"Cada alfajor llega así, siempre.","n":"Sticker de enlace a monteriko.com.ar"},
  {"f":"mano-alfajor-arbol","t":"VOS SOS NUESTRO MEJOR INFLUENCER","s":"Subí tu alfajor y etiquetá a @monteriko.oficial.","n":"Lo que te manden, compartilo y guardalo en la destacada \"Ustedes\""}
 ]},
 {"dia":"Lun 23","tema":"Fiestas","placas":[
@@ -91,7 +91,7 @@
 {"dia":"Jue 26","tema":"El freezer","placas":[
  {"p":"alfajor-banado","t":"NO LO COMAS TODAVÍA"},
  {"p":"alfajor-partido-abierto","t":"10 MINUTOS EN EL FREEZER","s":"Después me contás."},
- {"f":"alfajor-papel-dorado","t":"¿YA LO PROBASTE ASÍ?","n":"Encuesta: Sí / Hoy mismo"}
+ {"f":"mano-alfajor-frente","t":"¿YA LO PROBASTE ASÍ?","n":"Encuesta: Sí / Hoy mismo"}
 ]},
 {"dia":"Vie 27","tema":"Auténtico marplatense","placas":[
  {"f":"termo-playa-skyline-mdp","t":"AUTÉNTICO MARPLATENSE"},
