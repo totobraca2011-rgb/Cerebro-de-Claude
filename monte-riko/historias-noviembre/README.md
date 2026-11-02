@@ -8,7 +8,7 @@ Cada placa está en 1080x1920, dentro de `semana-1/` a `semana-4/`. El nombre di
 - Las encuestas, cajas de preguntas, enlaces y música se agregan en la app: no se pueden dejar hechos en la imagen. En el calendario, las placas que llevan uno dicen **Sticker** (son 20). Ponelo en la parte de la foto donde no tape el alfajor.
 - Los videos van sin sonido: la música se elige en Instagram.
 - Las placas con enlace van a monteriko.com.ar.
-- Nada queda programado todavía. Metricool puede publicar historias solas, pero sin stickers: esas 20 las termina Tomás en la app. Falta probarlo: necesita las imágenes en un link público o tener Google Drive conectado a Metricool.
+- Nada queda programado todavía. Metricool puede publicar historias solas, pero sin stickers: esas 20 las termina Tomás en la app. Hay una prueba programada para el martes 3 a las 12:00. El plan de Metricool permite 20 publicaciones por mes y necesita las imágenes en un link público o en un Google Drive conectado.
 - Las fotos de `fotos-proceso/` se usan acá aunque Tomás todavía no las aprobó.
 - Los días con reel, la placa de la mañana anticipa y a la noche se comparte el reel con un comentario: compartirlo pelado es lo que más se saltea la gente.
 - El día que pase algo real (hornada, cajas saliendo, un cliente que etiqueta), eso va primero y la placa queda para otro día.
