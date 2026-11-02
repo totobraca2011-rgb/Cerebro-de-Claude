@@ -23,7 +23,7 @@ Lo que se miró de otras marcas está en `../instagram-referentes.md`.
 
 ## Calendario
 
-### Lun 2: Así arranca
+### Lun 2: Así arranca (publicadas por Tomás el 2 de noviembre 2026)
 - `lun-2-1.jpg`: ASÍ ARRANCA CADA ALFAJOR
 - `lun-2-2.jpg`: ¿MATE O CAFÉ? **Sticker:** Encuesta: Mate / Café.
 - `lun-2-3.jpg`: DE LA MASA A LA CAJA
