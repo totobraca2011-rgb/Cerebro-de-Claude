@@ -15,6 +15,13 @@ const ENCUADRE = { "caja-envio": 0.2, "mano-alfajor-frente": 0.75, "alfajor-pape
 const GUSTOSO = "eq=saturation=1.3:gamma=1.05,colorbalance=rs=0.04:rm=0.11:gm=0.01:bm=-0.13:bh=-0.04";
 const lleva = (p) => (p.v ? p.v.some((c) => /^(r\d|p8|p9)$/.test(c)) : /^(dulce|patagonico)/.test(p.p || ""));
 
+// Cuadro elegido de las placas que salían de video: toma y segundo
+const CUADRO = {
+  "lun-2-1": ["p1", 1], "lun-2-3": ["p16", 0.8], "jue-5-1": ["r2", 1.2], "lun-9-1": ["harina-mesada", 2],
+  "mar-10-1": ["estirar-masa", 4], "jue-12-1": ["r2", 1.5], "vie-13-1": ["a2", 1], "lun-16-1": ["p4", 0.6],
+  "mar-17-1": ["cortar-tapas", 7.5], "mie-18-1": ["b2", 1], "vie-20-1": ["b7", 1.5], "mar-24-1": ["a4", 2],
+};
+
 const placas = [];
 for (const d of dias) {
   let i = 0;
@@ -47,12 +54,11 @@ placas.forEach((p, n) => {
   mkdirSync(dir, { recursive: true });
   const capa = `${capas}/${pngs[n]}`;
   if (p.v) {
+    // Tomás quiere las historias solo como imágenes: se toma un cuadro de la toma
     const clip = (c) => (existsSync(`${V}/public/v/n/${c}.mp4`) ? `${V}/public/v/n/${c}.mp4` : `${V}/public/v/${c}.mp4`);
-    const entradas = p.v.flatMap((c) => ["-i", clip(c)]);
-    const m = p.v.length;
+    const [c, t] = CUADRO[p.nombre] ?? [p.v[p.v.length - 1], 1.2];
     const color = lleva(p) ? `,${GUSTOSO}` : "";
-    const unir = p.v.map((_, i) => `[${i}:v]`).join("") + `concat=n=${m}:v=1:a=0${color}[b];[b][${m}:v]overlay=0:0,format=yuv420p[o]`;
-    ff(...entradas, "-i", capa, "-filter_complex", unir, "-map", "[o]", "-c:v", "libx264", "-crf", "25", "-preset", "medium", "-threads", "4", "-movflags", "+faststart", `${dir}/${p.nombre}.mp4`);
+    ff("-ss", String(t), "-i", clip(c), "-i", capa, "-filter_complex", `[0:v]null${color}[b];[b][1:v]overlay=0:0`, "-frames:v", "1", "-q:v", "3", "-update", "1", `${dir}/${p.nombre}.jpg`);
   } else {
     const foto = p.f ? `${REPO}/monte-riko/fotos-originales/${p.f}.jpg` : `${REPO}/monte-riko/fotos-proceso/${p.p}.jpg`;
     const x = ENCUADRE[p.f] ?? 0.5;
@@ -67,8 +73,7 @@ for (const d of dias) {
   md += `\n### ${d.dia}: ${d.tema}\n`;
   for (const p of d.placas) {
     if (p.app) { md += `- **En la app:** ${p.app}\n`; continue; }
-    const ext = p.v ? "mp4" : "jpg";
-    md += `- \`${p.nombre}.${ext}\`: ${p.t.replace(/\?$/, "?")}${p.n ? `${p.t.endsWith("?") ? "" : "."} **${/Encuesta|Caja de|Barra|Sticker/.test(p.n) ? "Sticker" : "Ojo"}:** ${p.n}.` : ""}\n`;
+    md += `- \`${p.nombre}.jpg\`: ${p.t.replace(/\?$/, "?")}${p.n ? `${p.t.endsWith("?") ? "" : "."} **${/Encuesta|Caja de|Barra|Sticker/.test(p.n) ? "Sticker" : "Ojo"}:** ${p.n}.` : ""}\n`;
   }
 }
 writeFileSync(`${BASE}/calendario.md`, md);
