@@ -198,6 +198,20 @@ const PARTIDO: Props = {
   ],
 };
 
+// Versiones a velocidad normal, pedidas por Tomás
+const BANO_NORMAL: Props = {
+  tomas: [n("v1", 4), n("v2", 4), n("v3", 4), n("v4", 4), n("v5", 4), n("v6", 4), n("v7", 4), n("v8", 3.4)],
+  gancho: BANO.gancho,
+};
+const TODO_NORMAL: Props = {
+  tomas: [
+    n("w1", 2.4), n("w2", 1.8), n("w3", 1.2), n("w4", 1.2), n("w5", 2.2), n("w6", 1.8),
+    n("w7", 1.2), n("w8", 2.5), n("w9", 3), n("w10", 3), n("w11", 3), n("w12", 3.6),
+    n("w13", 3), n("w14", 3), n("w15", 3.4), n("w16", 3), n("w17", 9),
+  ],
+  gancho: TODO.gancho,
+};
+
 const comp = (id: string, props: Props) => (
   <Composition
     id={id}
@@ -219,5 +233,7 @@ export const Procesos = () => (
     {comp("Bano", BANO)}
     {comp("Todo", TODO)}
     {comp("Partido", PARTIDO)}
+    {comp("BanoNormal", BANO_NORMAL)}
+    {comp("TodoNormal", TODO_NORMAL)}
   </>
 );

@@ -80,6 +80,26 @@ REELS = {
     ),
 }
 
+# Velocidad normal: cada toma lleva su propio sonido real, sin música
+BANO_TOMAS = [("0498", 12.5, 4), ("0490", 20, 4), ("0493", 18, 4), ("0494", 33.5, 4), ("0497", 6, 4), ("0498", 22, 4), ("0500", 1, 4), ("0502", 1.2, 3.4)]
+TODO_TOMAS = [("0466", 14, 2.4), ("0466", 40, 1.8), ("0466", 80, 1.2), ("0460", 2, 1.2), ("0470", 1.8, 2.2), ("0474", 9.6, 1.8),
+              ("0475", 2.2, 1.2), ("0482", 5, 2.5), ("0481", 88, 3), ("0490", 20, 3), ("0494", 34, 3), ("0497", 6, 3.6),
+              ("0498", 15, 3), ("0498", 23, 3), ("0500", 1.5, 3.4), ("0502", 1.5, 3), ("0446", 17, 9)]
+
+
+def camas(tomas):
+    t, out = 0.0, []
+    for v, a, d in tomas:
+        out.append((v, a, a + d, t))
+        t += d
+    return out
+
+
+REELS["BanoNormal"] = dict(dur=1017 / 30, palabras=[3, 14, 26, 31, 38], whoosh=[], parte=None, cierre=31.4, reales=[],
+                           sin_musica=True, camas=camas(BANO_TOMAS))
+REELS["TodoNormal"] = dict(dur=1524 / 30, palabras=[3, 9, 15, 28, 38], whoosh=[], parte=None, cierre=48.3, reales=[],
+                           sin_musica=True, camas=camas(TODO_TOMAS), crujidos=[(0.787, 0.37, -14, 40.0), (7.987, 1.25, -3, 40.7)])
+
 # Tomás pidió estos reels sin música, solo con los efectos
 for k in ("Harina", "Tapas", "Apilar"):
     REELS[f"{k}Solo"] = dict(REELS[k], sin_musica=True)
@@ -113,6 +133,8 @@ for id, r in REELS.items():
     if r.get("cama"):
         v, a, b = r["cama"]
         poner(fx, norm(real(v, a, b, 1.0), -24), 0)
+    for v, a, b, t in r.get("camas", []):
+        poner(fx, norm(real(v, a, b, 1.0), -16), t)
     for fr in r["palabras"]:
         poner(fx, norm(pop.copy(), -16), fr / 30)
     for t in r["whoosh"]:
