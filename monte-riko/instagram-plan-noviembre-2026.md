@@ -27,13 +27,13 @@ Tres posts por semana, a un ritmo que una sola persona pueda sostener: **martes 
 | Mar 3 | Reel | Historia | Quién está detrás de Monte Riko | Listo: versión 5, aprobada por Tomás. Lo sube él |
 | Jue 5 | Carrusel | Venta | Cómo pedir tu caja | Armado en `monte-riko/carruseles/como-pedir/` |
 | Sáb 7 | Foto | Venta | La caja y el papel dorado | Borrador en Metricool |
-| Mar 10 | Reel | Proceso | La harina y la masa | Armado con sonido. Tomás lo revisa |
+| Mar 10 | Reel | Proceso | La harina y la masa | Armado con sonido, sin música. Tomás lo revisa |
 | Jue 12 | Reel | Proceso | El relleno | Armado con sonido. Tomás lo revisa |
 | Sáb 14 | Foto | Marca | Auténtico marplatense | Borrador en Metricool |
-| Mar 17 | Reel | Proceso | Cortar las tapas | Armado con sonido. Tomás lo revisa |
+| Mar 17 | Reel | Proceso | Cortar las tapas | Armado con sonido, sin música. Tomás lo revisa |
 | Jue 19 | Foto | Venta | El patagónico por dentro | Borrador en Metricool |
 | Sáb 21 | Reel | Historia | Cómo empezó todo, en la escuela | **Hay que grabarlo** |
-| Mar 24 | Reel | Proceso | Estirar y apilar las tapas | Armado con sonido. Tomás lo revisa |
+| Mar 24 | Reel | Proceso | El marplatense por dentro | Armado con sonido, sin música. Tomás lo revisa |
 | Jue 26 | Reel | Enseña | 10 minutos en el freezer | **Hay que grabarlo** |
 | Sáb 28 | Foto | Venta | Cajas para las fiestas | Borrador en Metricool |
 
@@ -137,14 +137,16 @@ Todavía no hay local ni fábrica. Por ahora.
 
 *Guion:* "Mis primeros alfajores los vendí en la escuela." Contá vos, en 20 o 30 segundos, qué pasó el primer día. Cerrá con: "Hoy los mando a todo el país."
 
-### Mar 24: Estirar y apilar
+### Mar 24: El marplatense por dentro
 Armá tu caja desde el link de la bio.
 
-Estirar, cortar, apilar. Así todas las semanas, en mi casa de Mar del Plata.
+Así se abre un Monte Riko. Vas a querer otro.
 
-Hay cosas que no se piensan, se muerden.
+Hechos en Mar del Plata, con envíos a todo el país.
 
-#alfajores #alfajoresartesanales #mardelplata
+#alfajores #alfajormarplatense #alfajoresartesanales
+
+*Decisión (1 de noviembre de 2026):* Tomás sacó "Estirar y apilar" del plan porque solo muestra estirar y apilar tapas, y no llama la atención.
 
 ### Jue 26: 10 minutos en el freezer
 ¿Ya tenés tu caja? Si no, armala desde el link de la bio.
@@ -177,15 +179,6 @@ Cada alfajor Monte Riko pasa por el chocolate a mano, uno por uno.
 Hechos en Mar del Plata, con envíos a todo el país.
 
 #alfajores #chocolate #alfajoresartesanales
-
-### El marplatense por dentro
-Armá tu caja desde el link de la bio.
-
-Así se abre un Monte Riko. Vas a querer otro.
-
-Hechos en Mar del Plata, con envíos a todo el país.
-
-#alfajores #alfajormarplatense #alfajoresartesanales
 
 ### De la masa al alfajor
 Armá tu caja desde el link de la bio.

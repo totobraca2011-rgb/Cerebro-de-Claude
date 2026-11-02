@@ -12,13 +12,15 @@ Una sola toma fija y vertical de 63 s: Tomás, con guantes negros, tira harina s
 - Pendiente: no tiene el cierre con el producto terminado que tiene la referencia (falta una toma del alfajor terminado, o cerrar con el logo).
 
 ## Reels de noviembre (1 de noviembre de 2026, esperando que Tomás los revise)
-Hechos con Remotion sobre las tomas ya editadas: zoom lento, gancho en texto naranja que aparece palabra por palabra, y cierre con la foto de la caja y "ARMÁ TU CAJA / Link de la bio". Llevan color corregido y sonido: base funk, "pop" en el gancho y golpe de caja al cierre. El código está en `monte-riko/reels/procesos-noviembre.tsx`.
+Hechos con Remotion sobre las tomas ya editadas: zoom lento, gancho en texto naranja que aparece palabra por palabra, y cierre con la foto de la caja y "ARMÁ TU CAJA / Link de la bio". Llevan color corregido y, a pedido de Tomás, van sin música: solo el "pop" del gancho y el golpe de caja al cierre (1 de noviembre 2026). El código está en `monte-riko/reels/procesos-noviembre.tsx`.
 
 | Sale | Archivo en `editor-de-ia/terminados/` | Duración | Gancho |
 |---|---|---|---|
-| Mar 10 | `2026-11-01-la-harina-y-la-masa-v2.mp4` | 17,9 s | ASÍ ARRANCA CADA ALFAJOR |
-| Mar 17 | `2026-11-01-cortar-las-tapas-v2.mp4` | 10,8 s | UNA POR UNA |
-| Mar 24 | `2026-11-01-estirar-y-apilar-v2.mp4` | 15,1 s | ESTIRAR CORTAR APILAR |
+| Mar 10 | `2026-11-01-la-harina-y-la-masa-v3.mp4` | 17,9 s | ASÍ ARRANCA CADA ALFAJOR |
+| Mar 17 | `2026-11-01-cortar-las-tapas-v3.mp4` | 10,8 s | UNA POR UNA |
+| No sale | `2026-11-01-estirar-y-apilar-v3.mp4` | 15,1 s | ESTIRAR CORTAR APILAR |
+
+Tomás sacó "Estirar y apilar" del plan porque no llama la atención. El martes 24 sale `2026-11-01-alfajor-partido-v2.mp4`.
 
 Si Tomás graba el alfajor terminado, esa toma puede reemplazar la foto del cierre del reel del 10.
 
@@ -41,7 +43,7 @@ Reels hechos con cortes de 1 a 3 s y tramos acelerados, sin cámara lenta. Ganch
 | Jue 12 | `2026-11-01-el-relleno-v2.mp4` | 16,2 s | ESTO VA ADENTRO |
 | Reserva | `2026-11-01-el-bano-de-chocolate-v2.mp4` | 22,7 s | CADA UNO SE BAÑA A MANO |
 | Reserva | `2026-11-01-de-la-masa-al-alfajor-v2.mp4` | 28,6 s | DE LA MASA AL ALFAJOR |
-| Reserva | `2026-11-01-alfajor-partido-v2.mp4` | 22 s | ESPERÁ A QUE SE ABRA |
+| Mar 24 | `2026-11-01-alfajor-partido-v2.mp4` | 22 s | ESPERÁ A QUE SE ABRA |
 
 El reel del marplatense partido salió del video 0446: la grieta avanzando, cómo se abre y las capas de costado. Lo pidió Tomás después de ver los reels virales de alfajores (`instagram-referentes.md`). El gancho lo escribió Claude.
 

@@ -79,9 +79,9 @@
  {"f":"alfajores-desenfoque","t":"¿A QUIÉN LE REGALARÍAS UNA CAJA?","n":"Caja de preguntas"},
  {"f":"caja-envio","t":"DE 6 O DE 12","s":"Surtida como quieras y en papel dorado.","n":"Sticker de enlace a monteriko.com.ar"}
 ]},
-{"dia":"Mar 24","tema":"Reel de estirar","placas":[
- {"v":["estirar-masa"],"t":"ESTIRAR. CORTAR. APILAR."},
- {"app":"Después de publicar, compartí el reel y escribile encima: \"Así todas las semanas\"."}
+{"dia":"Mar 24","tema":"Reel por dentro","placas":[
+ {"v":["a3","a4"],"t":"ASÍ SE ABRE UN MONTE RIKO"},
+ {"app":"Después de publicar, compartí el reel y escribile encima: \"Mirá cómo se abre\"."}
 ]},
 {"dia":"Mié 25","tema":"Cómo empezó","placas":[
  {"f":"feria-cajas-alfajores","t":"ESTO EMPEZÓ EN LA ESCUELA","s":"Mis primeros alfajores los vendí ahí."},

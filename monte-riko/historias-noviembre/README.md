@@ -103,9 +103,9 @@ Lo que se miró de otras marcas está en `../instagram-referentes.md`.
 - `lun-23-2.jpg`: ¿A QUIÉN LE REGALARÍAS UNA CAJA? **Sticker:** Caja de preguntas.
 - `lun-23-3.jpg`: DE 6 O DE 12. **Sticker:** Sticker de enlace a monteriko.com.ar.
 
-### Mar 24: Reel de estirar
-- `mar-24-1.mp4`: ESTIRAR. CORTAR. APILAR.
-- **En la app:** Después de publicar, compartí el reel y escribile encima: "Así todas las semanas".
+### Mar 24: Reel por dentro
+- `mar-24-1.mp4`: ASÍ SE ABRE UN MONTE RIKO
+- **En la app:** Después de publicar, compartí el reel y escribile encima: "Mirá cómo se abre".
 
 ### Mié 25: Cómo empezó
 - `mie-25-1.jpg`: ESTO EMPEZÓ EN LA ESCUELA

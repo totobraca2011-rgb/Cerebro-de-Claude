@@ -80,6 +80,10 @@ REELS = {
     ),
 }
 
+# Tomás pidió estos reels sin música, solo con los efectos
+for k in ("Harina", "Tapas", "Apilar"):
+    REELS[f"{k}Solo"] = dict(REELS[k], sin_musica=True)
+
 solo = sys.argv[1:]
 
 for id, r in REELS.items():
