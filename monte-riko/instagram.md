@@ -40,7 +40,7 @@ Claude los hizo desde Chrome a pedido de Tomás, que se tuvo que ir y dijo "camb
 6. Cambiar el nombre de la destacada "ustedess". Desde la compu no se pudo: al editarla, la lista de historias aparecía vacía y se canceló para no vaciarla.
 7. Decidir qué pasa con los huevos de Pascua: dejarlos o archivarlos.
 8. Revisar los textos de `instagram-plan-noviembre-2026.md` y aprobar los borradores en Metricool.
-9. Dar el visto final a la versión 5 del reel "Quién está detrás" antes del martes 3 de noviembre.
+9. Subir el martes 3 a las 18:00 la versión 5 del reel "Quién está detrás" (la aprobó el 1 de noviembre 2026).
 10. Grabar los dos reels que faltan: el de la escuela (21 nov) y el del freezer (26 nov).
 11. Crear las destacadas "Pedí acá" (primera, con el sticker de enlace a la página), "Precios" y "Envíos", usando el carrusel como historias.
 12. Pasar 10 cuentas de Mar del Plata para comentar.
