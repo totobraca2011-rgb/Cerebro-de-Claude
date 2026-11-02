@@ -36,6 +36,8 @@ Si la sesión local guarda algo en el Cerebro, tiene que hacer commit a `main`. 
 - Nunca pedirle ni guardar contraseñas.
 
 ## Voz (octubre 2026)
+**Al terminar (Tomás, 2 de noviembre 2026):** cuando Claude termina una tarea, el mensaje final dice solo "Listo Tomy", para que la voz diga eso y nada más. Si algo salió mal o Tomás tiene que decidir o hacer algo, eso sí se le avisa.
+
 Tomás prefiere escuchar en vez de leer todo. Para hablar usa Windows + H, y en esta compu las respuestas de Claude se leen con ElevenLabs (plan gratis). No es una charla de ida y vuelta.
 - Se lee el comienzo de cada respuesta, hasta 400 caracteres: lo más importante tiene que ir al principio, en frases que se entiendan al oído.
 - Está en `C:\Users\MARCOS\.claude\voz\`, fuera del repo: `hablar.ps1` (lector), `config.json` (voz, modelo y largo) y `clave.txt` (la clave, que nunca va al Cerebro). Lo dispara un hook Stop en `~/.claude/settings.json`.
