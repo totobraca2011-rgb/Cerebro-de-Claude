@@ -23,6 +23,13 @@ Tomás hablando a cámara, 5 tomas verticales grabadas con el celu y micrófono 
 - Sin música: se le pone en Instagram al subirlo.
 - A Tomás no lo convenció: pidió rehacerlo más profesional, con referencias y sonidos.
 
+## Calidad de imagen (revisado el 3 de noviembre de 2026)
+A Tomás la v5 le parece de mala calidad. Causas encontradas:
+- **Tomas de la masa (voz en off, de 10 a 23 s):** salen de copias ya achicadas a 720p (`crudos/proceso-masa/*-editado-v1.mp4`, unos 4 Mb/s) y encima tienen zoom. Es lo que más se nota. Los originales del celu no están en el Cerebro ni en M: (los de `M:\reel-v2\crudos-noviembre` son de otras sesiones).
+- **Tomas hablando:** los crudos son buenos (1080x1920), pero el zoom de 1,15 a 1,25 y el primer plano final los agranda y los ablanda.
+- **Muchas recompresiones:** crudo → copia preparada → Remotion → CapCut → 4K. El 4K de CapCut no suma detalle: está agrandado.
+- Probado: enfocar y limpiar con filtros casi no cambia nada. La mejora real es rehacer con los originales de la masa, menos zoom y una sola compresión, y subir con "Subir con la máxima calidad" activado en Instagram.
+
 ## Versión 5 (1 de noviembre de 2026, editada por Tomás en CapCut)
 `editor-de-ia/terminados/2026-11-01-quien-esta-detras-v5.mp4`: 46 s. Copia en 1080x1920 y 30 cuadros para el Cerebro. El original de Tomás (`DownloadsQuien_esta_detras_V5.mp4`) está en 4K, 50 cuadros y 215 MB.
 - Sobre la v4 sumó unos 9 sonidos y sacó medio segundo de silencio después de "resuelto" (27,4 s). El golpe metálico del gancho quedó.
