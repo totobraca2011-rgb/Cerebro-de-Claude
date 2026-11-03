@@ -57,6 +57,29 @@ const RELLENO_V5: Props = {
   ],
 };
 
+// Arma los zoom solos: dentro de cada toma se acerca y se aleja cada 1,7 s, sin tocar el gancho ni el cierre
+// cortes: desde dónde empieza a hacer zoom, cada corte de toma y dónde arranca el cierre
+const auto = (src: string, dur: number, cortes: number[], x = 0.5, y = 0.45): Props => {
+  const claves: Clave[] = [{ at: 0, z: 1 }];
+  let k = 0;
+  for (let i = 0; i < cortes.length - 1; i++) {
+    const b = cortes[i + 1];
+    let t = cortes[i] + 0.4;
+    while (true) {
+      const o = Math.min(t + 1.2, b - 0.3);
+      if (o - t < 0.45) break;
+      claves.push({ at: t, z: k++ % 2 ? 1.3 : 1.35, x, y }, { at: o, z: 1, x, y });
+      t = o + 0.5;
+    }
+  }
+  return { src, dur, claves };
+};
+
+const BANO = auto("z/2026-11-01-el-bano-de-chocolate-v4.mp4", 33.9, [4, 8, 12, 16, 20, 24, 28, 31.4]);
+const TODO = auto("z/2026-11-01-de-la-masa-al-alfajor-v4.mp4", 50.8,
+  [3, 4.2, 5.4, 6.6, 8.8, 10.6, 11.8, 14.3, 17.3, 20.3, 23.3, 26.9, 29.9, 32.9, 36.3, 39.3, 48.3]);
+const HARINA = auto("z/2026-11-01-la-harina-y-la-masa-v3.mp4", 537 / 30, [3, 15.4]);
+
 const comp = (id: string, props: Props) => (
   <Composition
     id={id}
@@ -69,4 +92,11 @@ const comp = (id: string, props: Props) => (
   />
 );
 
-export const Zooms = () => <>{comp("ZoomRelleno", RELLENO_V5)}</>;
+export const Zooms = () => (
+  <>
+    {comp("ZoomRelleno", RELLENO_V5)}
+    {comp("ZoomBano", BANO)}
+    {comp("ZoomTodo", TODO)}
+    {comp("ZoomHarina", HARINA)}
+  </>
+);
