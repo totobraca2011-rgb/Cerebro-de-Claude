@@ -23,6 +23,12 @@ Tomás hablando a cámara, 5 tomas verticales grabadas con el celu y micrófono 
 - Sin música: se le pone en Instagram al subirlo.
 - A Tomás no lo convenció: pidió rehacerlo más profesional, con referencias y sonidos.
 
+## Versión 6 (3 de noviembre de 2026, más calidad de imagen)
+`editor-de-ia/terminados/2026-11-03-quien-esta-detras-v6.mp4`: 46 s, 1080x1920, 30 cuadros, 17 Mb/s, 99 MB, −16,2 LUFS. Es para subir a Instagram.
+- Igual que la v5 de Tomás, con **los sonidos de la v5 tal cual** (copiados de su archivo de CapCut). Los cortes coinciden cuadro por cuadro.
+- Zoom a la mitad en todas las tomas, para que la imagen no se agrande ni se ablande. Las tomas de la masa se limpiaron de ruido, pero siguen limitadas porque vienen de copias en 720p.
+- Se renderizó una sola vez y con más calidad. Composición `ReelV6` en `quien-esta-detras-v2.tsx`, con la opción `hq`. Después se sacan los cuadros 822 a 836, el mismo corte que hizo Tomás en la v5.
+
 ## Calidad de imagen (revisado el 3 de noviembre de 2026)
 A Tomás la v5 le parece de mala calidad. Causas encontradas:
 - **Tomas de la masa (voz en off, de 10 a 23 s):** salen de copias ya achicadas a 720p (`crudos/proceso-masa/*-editado-v1.mp4`, unos 4 Mb/s) y encima tienen zoom. Es lo que más se nota. Los originales del celu no están en el Cerebro ni en M: (los de `M:\reel-v2\crudos-noviembre` son de otras sesiones).

@@ -85,10 +85,12 @@ const t = (id: string, s: number): number => {
 };
 
 // ---------- Zoom compartido por video y silueta ----------
-const clipStyle = (c: Placed, f: number): React.CSSProperties => {
+// v6 (hq): la mitad de zoom, para no agrandar tanto la imagen y que no se ablande
+const clipStyle = (c: Placed, f: number, hq = false): React.CSSProperties => {
   const p = f / c.dur;
-  const slow = c.z[0] + (c.z[1] - c.z[0]) * p;
-  const punch = 1 + 0.07 * (1 - Easing.out(Easing.cubic)(Math.min(1, f / 6)));
+  const z = hq ? c.z.map((v) => 1 + (v - 1) * 0.5) : c.z;
+  const slow = z[0] + (z[1] - z[0]) * p;
+  const punch = 1 + (hq ? 0.035 : 0.07) * (1 - Easing.out(Easing.cubic)(Math.min(1, f / 6)));
   return {
     transform: `scale(${slow * punch})`,
     transformOrigin: c.o ?? "50% 50%",
@@ -96,19 +98,19 @@ const clipStyle = (c: Placed, f: number): React.CSSProperties => {
   };
 };
 
-const ClipVideo: React.FC<{ c: Placed }> = ({ c }) => {
+const ClipVideo: React.FC<{ c: Placed; hq: boolean }> = ({ c, hq }) => {
   const f = useCurrentFrame();
   if (c.src === "foto") {
     return (
-      <AbsoluteFill style={clipStyle(c, f)}>
+      <AbsoluteFill style={clipStyle(c, f, hq)}>
         <Img src={staticFile("i/caja-cuatro-alfajores.jpg")} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
       </AbsoluteFill>
     );
   }
   return (
-    <AbsoluteFill style={clipStyle(c, f)}>
+    <AbsoluteFill style={clipStyle(c, f, hq)}>
       <OffthreadVideo
-        src={staticFile(`v/${c.src}.mp4`)}
+        src={staticFile(`v/${hq && !c.audio ? "hq/" : ""}${c.src}.mp4`)}
         trimBefore={Math.round(c.in * FPS)}
         muted={!c.audio}
         style={{ width: "100%", height: "100%", objectFit: "cover" }}
@@ -117,11 +119,11 @@ const ClipVideo: React.FC<{ c: Placed }> = ({ c }) => {
   );
 };
 
-const ClipCutout: React.FC<{ c: Placed }> = ({ c }) => {
+const ClipCutout: React.FC<{ c: Placed; hq: boolean }> = ({ c, hq }) => {
   const f = useCurrentFrame();
   const n = Math.round(c.in * FPS) + f;
   return (
-    <AbsoluteFill style={clipStyle(c, f)}>
+    <AbsoluteFill style={clipStyle(c, f, hq)}>
       <Img src={staticFile(`cut/${c.src}/${n}.webp`)} style={{ width: "100%", height: "100%" }} />
     </AbsoluteFill>
   );
@@ -455,12 +457,12 @@ const SFX: { f: number; src: string; v: number }[] = [
   { f: CUT_END - 2, src: "boom", v: 0.7 },
 ];
 
-const Reel: React.FC = () => {
+const Reel: React.FC<{ hq?: boolean }> = ({ hq = false }) => {
   return (
     <AbsoluteFill style={{ background: "#000" }}>
       {PLACED.map((c, i) => (
         <Sequence key={i} from={c.from} durationInFrames={c.dur} name={`${c.id} ${c.in}`}>
-          <ClipVideo c={c} />
+          <ClipVideo c={c} hq={hq} />
         </Sequence>
       ))}
       {BY_WORD.filter((b) => b.behind).map((b, i) => (
@@ -468,7 +470,7 @@ const Reel: React.FC = () => {
       ))}
       {PLACED.filter((c) => c.cut).map((c, i) => (
         <Sequence key={i} from={c.from} durationInFrames={c.dur} name={`silueta ${c.id}`}>
-          <ClipCutout c={c} />
+          <ClipCutout c={c} hq={hq} />
         </Sequence>
       ))}
       {BY_WORD.filter((b) => !b.behind).map((b, i) => (
@@ -491,5 +493,8 @@ const Reel: React.FC = () => {
 };
 
 export const MyComposition = () => (
-  <Composition id="Reel" component={Reel} durationInFrames={TOTAL} fps={FPS} width={1080} height={1920} />
+  <>
+    <Composition id="Reel" component={Reel} durationInFrames={TOTAL} fps={FPS} width={1080} height={1920} />
+    <Composition id="ReelV6" component={Reel} defaultProps={{ hq: true }} durationInFrames={TOTAL} fps={FPS} width={1080} height={1920} />
+  </>
 );
