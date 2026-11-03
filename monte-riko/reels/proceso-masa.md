@@ -16,7 +16,7 @@ Hechos con Remotion sobre las tomas ya editadas: zoom lento, gancho en texto nar
 
 | Sale | Archivo en `editor-de-ia/terminados/` | Duración | Gancho |
 |---|---|---|---|
-| Mar 10 | `2026-11-02-la-harina-y-la-masa-v4.mp4` (la v3 con zoom) | 17,9 s | ASÍ ARRANCA CADA ALFAJOR |
+| Mar 10 | `2026-11-01-la-harina-y-la-masa-v3.mp4` (sin el zoom nuevo: ya tenía su zoom lento) | 17,9 s | ASÍ ARRANCA CADA ALFAJOR |
 | Descartado | `2026-11-01-cortar-las-tapas-v3.mp4` | 10,8 s | UNA POR UNA (a Tomás no le gustó para subir, 2 de noviembre 2026) |
 | No sale | `2026-11-01-estirar-y-apilar-v3.mp4` | 15,1 s | ESTIRAR CORTAR APILAR |
 
@@ -47,7 +47,7 @@ Reels hechos con cortes de 1 a 3 s y tramos acelerados, sin cámara lenta. Ganch
 
 **El relleno v3 (2 de noviembre 2026, pedido de Tomás):** a velocidad normal y sin música, con el sonido real de cada toma: 0482 (4 a 7,6 s), 0481 (84 a 95 y 101,5 a 107,5 s) y el marplatense partido de la 0446 (17 a 26 s). Las tomas del dulce llevan el filtro `GUSTOSO` de las historias, porque el dulce salía verdoso. Se armó con `M:/reel-v2/trabajo-noviembre/relleno-normal/armar.ps1`.
 
-**Zoom a los demás (Tomás, 2 de noviembre 2026):** le gustó el zoom de la v6 y pidió el mismo a todos los reels de proceso menos al partido. Salieron el baño v5, De la masa al alfajor v5 y La harina v4: dentro de cada toma se acerca 1,3 o 1,35 veces y se aleja cada 1,7 s (la función `auto` de `zoom-noviembre.tsx`), sin tocar el gancho (primeros 3 s) ni el cierre. El sonido es el mismo de la versión anterior. En Drive (`Videos terminados`) quedaron estas versiones, el partido v3 y El relleno v6 al lado de la v5 de Tomás; se sacaron las anteriores.
+**Zoom a los demás (Tomás, 2 de noviembre 2026):** le gustó el zoom de la v6 y pidió el mismo a todos los reels de proceso menos al partido. Salieron el baño v5 y De la masa al alfajor v5 (también se hizo La harina v4, pero Tomás la descartó porque la v3 ya tenía zoom): dentro de cada toma se acerca 1,3 o 1,35 veces y se aleja cada 1,7 s (la función `auto` de `zoom-noviembre.tsx`), sin tocar el gancho (primeros 3 s) ni el cierre. El sonido es el mismo de la versión anterior. En Drive (`Videos terminados`) quedaron el baño v5, De la masa al alfajor v5, La harina v3, el partido v3 y El relleno v6 al lado de la v5 de Tomás; se sacaron las anteriores.
 
 Reels de reserva a velocidad normal y sin música (2 de noviembre 2026, a Tomás le gustaron): `2026-11-01-el-bano-de-chocolate-v4.mp4` (33,9 s) y `2026-11-01-de-la-masa-al-alfajor-v4.mp4` (50,8 s). Cada toma lleva su sonido real, menos la 0502, que va muda porque se escucha hablar a Tomás.
 
