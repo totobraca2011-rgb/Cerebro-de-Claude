@@ -27,3 +27,13 @@ Videos de otros que Tomás pasó como ejemplo. De dónde salió cada uno y qué 
 - La imagen pasa todo el tiempo de lejos a muy cerca: plano general, primer plano del producto, otra vez general. Nunca se queda en la misma distancia más de 1 o 2 segundos.
 - Mucho producto partido o cayendo (caramelo, relleno, piezas que se abren con las manos).
 - Las tomas de Tomás son todas de cerca y no hay plano general, así que el efecto se arma con zoom: se acerca y se aleja dentro de cada toma (noviembre 2026).
+
+## Lo que se repite en los 4 de @loconstruiste.mx (noviembre 2026)
+Tomás los vio en su inicio y quiere ese estilo de "construir algo" para un reel donde se haga un alfajor. La cuenta dice "Perfil generado con IA". No se sabe con qué programa lo hacen.
+- **Mundo en miniatura en 3D**, con formas simples y facetadas (low poly), colores suaves y luz cálida. La cámara gira despacio alrededor y a veces muestra un corte, como en una maqueta (el piso con sus capas, el elevador por dentro).
+- **Un muñequito protagonista**, siempre el mismo: obrero con casco naranja y chaleco. Aparece trabajando en cada paso.
+- **Paso a paso, de cero a terminado:** la cosa se arma pieza por pieza delante tuyo, y al final se ve completa y funcionando (el sauna con vapor, el iglú con luz adentro).
+- **Voz que explica el porqué de cada paso**, con datos curiosos ("en agua a noventa grados te cocinarías"). Es lo que hace que la gente lo comparta.
+- **Subtítulo blanco, grueso, con borde negro, palabra por palabra** en el centro. Las palabras clave aparecen grandes, en amarillo, arriba de la imagen.
+- **Tarjetas blancas con un dato** que aparecen encima ("30 °C TIBIO", "Centro histórico, 669 años").
+- **Duran entre 90 y 120 s**, mucho más que lo normal, y aun así se comparten mucho: el elevador tiene más de 8.000 compartidos.
