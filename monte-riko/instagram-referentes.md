@@ -65,3 +65,11 @@ Tomás pasó un carrusel de @ramiro.cubria (publicado el 2 de noviembre de 2026,
 7. **Cierre.** Repite el gancho ("Dejá de hacer carruseles pedorros") y ofrece un PDF con plantillas: "Comentá 'PDF' para recibirlo al instante".
 
 Para Monte Riko sirven sobre todo la 4, la 5 y la 6: un alfajor que se va mostrando de a poco, por ejemplo partiéndolo o acercándose al relleno. Tomás quiere usar la idea de "Caminando entre slides" para mejorar el carrusel "Cómo pedir" (`carruseles/como-pedir/`). El cierre "comentá una palabra" es el mismo mecanismo de ig-dm. Ojo: en los comentarios hay quejas de que no manda lo que promete, así que solo conviene si después se manda de verdad.
+
+### Propuesta para mejorar "Cómo pedir" (4 de noviembre 2026, **Tomás todavía no la aprobó**)
+Sale el jueves 5 a las 18:00. Propuesta de la sesión en la nube, a partir de la idea 3 ("Ícono que se mueve"), que es la que marcó Tomás:
+- Una línea punteada naranja cruza las 8 imágenes sin cortarse, y un alfajor real recortado avanza por ella: caja → página → WhatsApp → tu casa.
+- Fotos reales en vez de fondos negros solos: el alfajor partido en la tapa y la caja dorada en la 2. Las letras no tapan el alfajor.
+- Textos: 1 "TU CAJA EN 3 PASOS" / "Y cuánto sale, sin vueltas." · 2 "LA ARMÁS EN LA PÁGINA, ME LLEGA POR WHATSAPP" · 3 los alfajores con precio · 4 las cajas con precio, surtidas al mismo precio · 5 los 3 pasos · 6 cómo te llega · 7 resumen (precios, pasos y monteriko.com.ar) · 8 "Disfrutalo hoy." y "Armá tu caja desde el link de la bio".
+- Sin "comentá una palabra": Instagram manda a la página.
+- Idea para más adelante: con las ideas 4, 5 y 6, un carrusel aparte de un alfajor que se va mostrando por dentro de a poco.
