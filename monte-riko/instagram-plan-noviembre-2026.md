@@ -56,7 +56,7 @@ Entrás al link de la bio y armás tu caja: media docena o docena, marplatenses,
 
 Las cajas van a todo el país.
 
-Guardate este post para cuando te den ganas. O armá tu caja ahora.
+Guardate este post para cuando te den ganas.
 
 #alfajores #alfajoresartesanales #mardelplata
 
@@ -106,14 +106,8 @@ Si estás lejos, las cajas viajan a todo el país. Armá la tuya desde el link d
 
 *Texto alternativo:* alfajor y termo en la playa, con los edificios de Mar del Plata de fondo.
 
-### Mar 17: Cortar las tapas
-Las cajas surtidas te salen lo mismo: armá la tuya desde el link de la bio.
-
-Una por una, con el cortante. Mirá cómo queda la masa llena de círculos al final.
-
-Hechos a mano en Mar del Plata, con envíos a todo el país.
-
-#alfajores #alfajoresartesanales #mardelplata
+### Mar 17: (a elegir)
+"Cortar las tapas" se descartó. Va uno de los reels de reserva, con su texto (abajo, en "Reels de reserva"). En Trello están las dos descripciones.
 
 ### Jue 19: El patagónico por dentro
 Mirá lo que tiene adentro.
