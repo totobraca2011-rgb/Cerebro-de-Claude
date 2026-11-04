@@ -28,4 +28,4 @@ Tomás vio el carrusel "Cómo pedir tu caja" rehecho en este estilo y le encant�
 ## Carruseles armados
 | Carpeta | Qué es | Estado |
 |---|---|---|
-| `como-pedir/` | Cómo pedir tu caja: precios, cajas, envío y los 3 pasos (6 imágenes) | Rehecho en estilo VOX el 4 de noviembre 2026, para publicar el jueves 5 |
+| `como-pedir/` | Cómo pedir tu caja: precios, cajas, envío y los 3 pasos (6 imágenes) | Rehecho en estilo VOX el 4 de noviembre 2026, para publicar el jueves 5. La versión nueva ya está en Drive, en `0000-Monteriko/redes/Carruseles para publicar/Como pedir`: reemplazó a la vieja con los mismos nombres (1.png a 6.png) |
