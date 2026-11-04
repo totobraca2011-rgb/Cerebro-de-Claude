@@ -9,7 +9,7 @@ target_file: []
 siblings_checked: "familia ig-*: ig-human e ig-caption agregadas porque traen scripts de Python; ig-carousel e ig-plan no tienen scripts (leídas); las demás assumed"
 area: "Requisitos para correr y regla de entrada de ig-profile"
 date: 2026-10-30
-session_context: "Ordenar el Instagram de Monte Riko y planificar noviembre 2026, desde la sesión local con Chrome"
+session_context: "Ordenar el Instagram de Monte Riko y planificar noviembre 2026, desde la sesión local con Chrome; descripciones de noviembre en Trello (4 nov 2026)"
 parked_until:
 resolved:
 resolution:
@@ -22,3 +22,5 @@ commands_verified: "run: python --version → sin Python instalado, solo el acce
 **Suggested improvement:** En ig-human e ig-caption, decir qué hacer si no hay Python (instalarlo con permiso o aplicar la lista de `slop.json` a mano). En ig-profile, aclarar que no se piden contraseñas pero se puede usar una sesión ya abierta si la persona lo pide, y sumar qué cosas solo se cambian desde el celu.
 
 **Principle:** Una skill que depende de un programa tiene que decir qué hacer cuando ese programa no está, y sus reglas de seguridad tienen que distinguir entre pedir una contraseña y usar una sesión que la persona ya abrió.
+
+**Otra vez (4 de noviembre 2026):** al cargar en Trello las descripciones de noviembre, `caption.py` tampoco pudo correr porque no hay Python. Lo revisé a mano con Node: largo de la primera línea, cantidad de hashtags, links y una sola cosa pedida. Así encontré un pedido doble en la descripción del jueves 5.
