@@ -28,12 +28,12 @@ Lo que se miró de otras marcas está en `../instagram-referentes.md`.
 - `lun-2-2.jpg`: ¿MATE O CAFÉ? **Sticker:** Encuesta: Mate / Café.
 - `lun-2-3.jpg`: DE LA MASA A LA CAJA
 
-### Mar 3: Quién está detrás
+### Mar 3: Quién está detrás (reel publicado por Tomás el 3 de noviembre 2026)
 - `mar-3-1.jpg`: ¿QUIÉN ESTÁ DETRÁS DE ESTO? **Ojo:** Subila antes del reel.
 - **En la app:** Después de publicar, compartí el reel y escribile encima: "Te cuento cómo arrancó todo".
 - `mar-3-2.jpg`: PREGUNTAME LO QUE QUIERAS. **Sticker:** Caja de preguntas: "¿Qué querés saber de Monte Riko?".
 
-### Mié 4: Los dos alfajores
+### Mié 4: Los dos alfajores (publicadas por Tomás el 4 de noviembre 2026)
 - `mie-4-1.jpg`: MARPLATENSE
 - `mie-4-2.jpg`: PATAGÓNICO
 - `mie-4-3.jpg`: ¿CUÁL VA EN TU CAJA? **Sticker:** Encuesta: Marplatense / Patagónico.
