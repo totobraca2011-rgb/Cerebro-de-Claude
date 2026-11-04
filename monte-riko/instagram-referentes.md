@@ -89,6 +89,27 @@ Por qué funciona: cada imagen se lee en dos segundos, es una sola idea y todas 
 
 Cómo usarlo en "Cómo pedir tu caja" (`monte-riko/carruseles/como-pedir/`): las 6 imágenes ya tienen una idea cada una. Lo que se puede tomar es el molde fijo de título, frase corta y tres renglones, con mucho aire, y una portada con un número que se vea de lejos ("3 pasos"). Para el cierre hay dos opciones: dejar "Armá tu caja desde el link de la bio" o pasar a "Comentá CAJA y te mando el link". La segunda solo conviene si Tomás puede contestar todos los mensajes ese día. Tomás no eligió todavía.
 
+### Carrusel de @soyfranramos: estilo "VOX" (4 de noviembre 2026)
+A Tomás le encantó este estilo ("está zarpado"). Es https://www.instagram.com/p/DfFUivYloq9/, publicado hace unos 6 días. Cuando lo vi tenía pocos me gusta y ningún comentario: lo que importa es cómo se ve, no los números. Tiene 7 partes y algunas son videos cortos dentro del carrusel.
+
+**Cómo se ve:**
+- Alterna fondo oscuro con un cuadriculado finito y fondo crema liso. El acento es amarillo y hay detalles en rojo.
+- Los títulos van en sans muy gruesa, con la palabra clave subrayada como con resaltador amarillo ("sistema.", "solo con Claude.").
+- El remate va en letra a mano, en cursiva roja o amarilla ("Y si tiene reglas, cualquier editor lo puede repetir", "Guardalo para tu próximo video").
+- Arriba de cada imagen, en letra de máquina chiquita, hay un contador a la izquierda ("02 / 06") y el tema de la imagen a la derecha ("ESTILO EXPLICATIVO", "QUÉ LO DEFINE", "LOS RECURSOS"). Abajo van el usuario y una flecha o "Deslizá →".
+- Usa recortes de papel con sombra, fotos viejas en blanco y negro, un mapa, círculos hechos a mano y cinta de papel. Parece un collage de revista.
+
+**Qué hay en cada parte:**
+1. **Portada (video):** "¿Viste el estilo VOX?", con "VOX" encerrado en un círculo rojo hecho a mano. Abajo se anima un mapa recortado. Cierra con "Crealo en segundos con Claude, sin saber editar".
+2. **Video:** sigue la animación con una foto vieja recortada y un cartelito con el nombre de la persona.
+3. **"No es magia. Es un sistema."**, con "sistema." resaltado en amarillo y el remate en letra a mano roja.
+4. **"4 reglas que se repiten":** ritmo, gráficos, color y sonido, en una lista numerada con líneas finas entre cada una.
+5. **"6 recursos. Todo el estilo.":** seis tarjetas crema con un ícono simple cada una (resaltador, mapa, collage, gráfico, anotación y foco).
+6. **"¿Sos editor? Animaciones en este estilo, solo con Claude.":** una ventana de chat que arma un gráfico de barras, con la barra más alta en amarillo.
+7. **Cierre:** "El estilo entero, recurso por recurso", la captura de su página y "Guardalo para tu próximo video" en letra a mano.
+
+**Para Monte Riko:** la paleta se parece a la de la marca: negro, arena y un color de acento. Habría que usar el naranja de Monte Riko en lugar del amarillo. Se pueden tomar el contador con el tema arriba de cada imagen, la palabra clave resaltada, el remate en letra a mano y los recortes de papel con sombra (por ejemplo, una foto del alfajor recortada sobre el cuadriculado). Los videos cortos dentro del carrusel también sirven, como un alfajor que se parte en la portada.
+
 ## Referencia para reels (4 de noviembre 2026)
 Carrusel de @viralyx.es (https://www.instagram.com/p/De2IjJTlfQB/), del 23 de octubre: "30 formas de maximizar la retención de tus reels". Son 5 imágenes: la portada, tres listas de 10 y un cierre que dice "Síguenos". Está en español de España; acá va en nuestras palabras.
 
