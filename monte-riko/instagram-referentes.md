@@ -73,3 +73,27 @@ Sale el jueves 5 a las 18:00. Propuesta de la sesión en la nube, a partir de la
 - Textos: 1 "TU CAJA EN 3 PASOS" / "Y cuánto sale, sin vueltas." · 2 "LA ARMÁS EN LA PÁGINA, ME LLEGA POR WHATSAPP" · 3 los alfajores con precio · 4 las cajas con precio, surtidas al mismo precio · 5 los 3 pasos · 6 cómo te llega · 7 resumen (precios, pasos y monteriko.com.ar) · 8 "Disfrutalo hoy." y "Armá tu caja desde el link de la bio".
 - Sin "comentá una palabra": Instagram manda a la página.
 - Idea para más adelante: con las ideas 4, 5 y 6, un carrusel aparte de un alfajor que se va mostrando por dentro de a poco.
+
+### Carrusel de @nicofastt: el que más sirve (4 de noviembre 2026)
+Tomás lo marcó como la referencia principal para el carrusel "Cómo pedir tu caja" del jueves 5. Es https://www.instagram.com/p/DeKs1K2idBL/, del 6 de octubre: "8 skills de Claude que toda marca personal necesita en 2026", con 246 comentarios y casi todos dicen "Skills". Tiene 9 imágenes.
+
+- **Portada:** un número grande de color ("8 Skills"), la promesa en dos tamaños de letra y una foto de él trabajando de noche. El año ("2026") va bien grande.
+- **Imágenes 2 a 8:** todas con el mismo molde, sobre fondo negro liso y sin fotos:
+  1. Un título corto en letra serif gruesa y blanca, de dos o tres líneas ("Carruseles virales con tu voz", "Diseño automático sin diseñador", "Secuencias que venden", "Reels que no suenan a guion leído", "Estrategia de contenido completa", "Espía a tu competencia", "Reporte de tus mejores contenidos").
+  2. Una frase en cursiva que pincha un dolor ("Un carrusel genérico no vende. Uno con tu voz, sí.").
+  3. Tres renglones con guion que dicen qué te da, a veces con palabras en negrita.
+  4. Abajo, siempre su usuario con la foto chiquita, y los puntitos que marcan en qué imagen vas.
+- **Imagen 9 (cierre):** "¿Querés la lista de skills? Comentá 'SKILLS' y te mando la lista completa por DM".
+
+Por qué funciona: cada imagen se lee en dos segundos, es una sola idea y todas se ven iguales, así que pasar a la siguiente no cuesta nada. El cierre con una palabra llena los comentarios.
+
+Cómo usarlo en "Cómo pedir tu caja" (`monte-riko/carruseles/como-pedir/`): las 6 imágenes ya tienen una idea cada una. Lo que se puede tomar es el molde fijo de título, frase corta y tres renglones, con mucho aire, y una portada con un número que se vea de lejos ("3 pasos"). Para el cierre hay dos opciones: dejar "Armá tu caja desde el link de la bio" o pasar a "Comentá CAJA y te mando el link". La segunda solo conviene si Tomás puede contestar todos los mensajes ese día. Tomás no eligió todavía.
+
+## Referencia para reels (4 de noviembre 2026)
+Carrusel de @viralyx.es (https://www.instagram.com/p/De2IjJTlfQB/), del 23 de octubre: "30 formas de maximizar la retención de tus reels". Son 5 imágenes: la portada, tres listas de 10 y un cierre que dice "Síguenos". Está en español de España; acá va en nuestras palabras.
+
+**Lo que se dice (1 a 20):** plantear una intriga ("hay una parte de esto que nadie te cuenta"), prometer que se va a revelar algo, cortarse uno mismo ("pará, me olvidaba de lo más importante"), contradecir lo que se acaba de decir, guardar el dato clave para el final, sumar un problema nuevo justo cuando parecía resuelto, avisar antes de seguir ("no copies esto sin entender esta parte"), mostrar qué pasa si no lo hacés, sumar una excepción, adelantar qué va a pasar, tirar un dato concreto ("de cada 100 personas, pocas llegan hasta acá"), mostrar pruebas, el antes y el después, bajarlo a un caso real, mostrar dos caminos, hacer una pregunta incómoda, proponer un desafío ("fijate si ves qué está mal"), responder un comentario, hacer elegir ("¿sos más A o más B?") y pedir que encuentren el error.
+
+**Lo que se hace con la cámara (21 a 30):** pasar de plano abierto a primer plano, acercarse en la frase clave, cortar a una imagen que muestre lo que decís, meter un objeto en escena, seguir hablando en otro lugar sin cortar la idea, cambiar el formato (cámara, pantalla, pizarra), sumar otra voz que discuta o complete, quedarse un segundo en silencio antes de la respuesta, corregirse en vivo ("¡no, pará! eso no es del todo cierto") y contar en qué se equivocó.
+
+Para Monte Riko son fáciles de grabar: acercarse al alfajor cuando se parte (22), mostrar el relleno mientras se habla (23), meter la caja o el papel dorado en escena (24), el antes y el después de la masa al horno (13), un segundo de silencio antes del corte (28) y "¿marplatense o patagónico?" para hacer elegir (19). Ya se usó algo parecido en "Quién está detrás" (contar los errores del arranque, 30).
