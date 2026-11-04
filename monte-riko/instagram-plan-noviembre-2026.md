@@ -24,7 +24,7 @@ Tres posts por semana, a un ritmo que una sola persona pueda sostener: **martes 
 ## Calendario
 | Día | Formato | Tipo | Qué es | Estado |
 |---|---|---|---|---|
-| Mar 3 | Reel | Historia | Quién está detrás de Monte Riko | Listo: versión 5, aprobada por Tomás. Lo sube él |
+| Mar 3 | Reel | Historia | Quién está detrás de Monte Riko | **Publicado** por Tomás el 3 de noviembre 2026 (versión 5) |
 | Jue 5 | Carrusel | Venta | Cómo pedir tu caja | Armado en `monte-riko/carruseles/como-pedir/` |
 | Sáb 7 | Foto | Venta | La caja y el papel dorado | Borrador en Metricool |
 | Mar 10 | Reel | Proceso | La harina y la masa | Versión 3: con sonido y sin música. El zoom nuevo no va, ya tenía uno (2 de noviembre 2026) |

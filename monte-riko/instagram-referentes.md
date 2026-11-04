@@ -54,14 +54,14 @@ Cómo mirar vistas: en la web de Instagram solo aparecen en la grilla de `/<cuen
 Lo que se repite en los dos que más se destacan (los dos primeros): duran unos 17 s, son de cuentas chicas y lo que atrapa es **una sorpresa adentro**, no solo el corte. El marplatense no tiene relleno sorpresa; el patagónico sí, con su corazón de mermelada.
 
 ## Referencia para carruseles (4 de noviembre 2026)
-Carrusel de @ramiro.cubria (https://www.instagram.com/p/DfQb-eqnJ3Q/), visto un día después de publicado: 9.295 comentarios y 67 compartidos. Casi todos los comentarios dicen "PDF" porque el cierre lo pide. Son 7 imágenes en vertical, con fondo crema cuadriculado, títulos negros muy gruesos y un número de color arriba de cada idea.
+Tomás pasó un carrusel de @ramiro.cubria (publicado el 2 de noviembre de 2026, "Comentá PDF", 4.130 me gusta y 9.283 comentarios): https://www.instagram.com/p/DfQb-eqnJ3Q/. Visto un día después, tenía 9.295 comentarios y 67 compartidos. Son 7 imágenes verticales, con fondo crema cuadriculado, títulos negros muy gruesos y un número de color arriba de cada idea.
 
 1. **Portada.** "Dejá de hacer carruseles PEDORROS", con un chico serio al lado de una compu vieja con un emoji de caca. Abajo promete: "Te dejo 5 ideas de carruseles que están explotando". Engancha con un insulto gracioso y un número concreto.
-2. **Caminando entre slides.** Una persona camina de una imagen a la otra sobre un mismo paisaje, como si fuera una sola foto cortada en partes. Las imágenes van: hola, me presento, tu nombre, un dato curioso y "seguime". Sirve porque la gente quiere llegar al final.
+2. **Caminando entre slides.** Una persona camina de una imagen a la otra sobre un mismo paisaje, como si fuera una sola foto cortada en partes. La plantilla va de presentación y nombre a historia, logro, dato curioso y cierre con "Comentá INFO". Sirve porque la gente quiere llegar al final.
 3. **Ícono que se mueve.** Una línea punteada con un muñequito cruza las imágenes de una a otra. La idea es la misma que la anterior: un hilo que se sigue y retiene.
 4. **Mensaje oculto.** "¡Dale, abrí el sobre!": en cada imagen el sobre se abre un poco más hasta que aparece la carta. Funciona porque a la gente le gustan los misterios.
 5. **Zoom progresivo.** "Estás a esto de...", con una mano que hace la seña de "un poquito". Cada imagen se acerca más hasta que se puede leer el texto chico. Dan ganas de seguir para leerlo.
 6. **De borroso a claro.** La foto de un producto arranca borrosa y se va aclarando en cada imagen. En la última se ve entera y pide "Comentá INFO". La curiosidad hace que la gente siga pasando.
 7. **Cierre.** Repite el gancho ("Dejá de hacer carruseles pedorros") y ofrece un PDF con plantillas: "Comentá 'PDF' para recibirlo al instante".
 
-Para Monte Riko sirven sobre todo la 4, la 5 y la 6: un alfajor que se va mostrando de a poco, por ejemplo partiéndolo o acercándose al relleno. El cierre "comentá una palabra" es el mismo mecanismo de ig-dm. Ojo: en los comentarios hay quejas de que no manda lo que promete, así que solo conviene si después se manda de verdad.
+Para Monte Riko sirven sobre todo la 4, la 5 y la 6: un alfajor que se va mostrando de a poco, por ejemplo partiéndolo o acercándose al relleno. Tomás quiere usar la idea de "Caminando entre slides" para mejorar el carrusel "Cómo pedir" (`carruseles/como-pedir/`). El cierre "comentá una palabra" es el mismo mecanismo de ig-dm. Ojo: en los comentarios hay quejas de que no manda lo que promete, así que solo conviene si después se manda de verdad.

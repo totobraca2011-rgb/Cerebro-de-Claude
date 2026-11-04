@@ -35,7 +35,7 @@ Lo que se miró de otras marcas está en `../instagram-referentes.md`.
 - **En la app:** Después de publicar, compartí el reel y escribile encima: "Te cuento cómo arrancó todo".
 - `mar-3-2.jpg`: PREGUNTAME LO QUE QUIERAS. **Sticker:** Caja de preguntas: "¿Qué querés saber de Monte Riko?".
 
-### Mié 4: Los dos alfajores
+### Mié 4: Los dos alfajores (publicadas por Tomás el 4 de noviembre 2026)
 - `mie-4-1.jpg`: MARPLATENSE
 - `mie-4-2.jpg`: PATAGÓNICO
 - `mie-4-3.jpg`: ¿CUÁL VA EN TU CAJA? **Sticker:** Encuesta: Marplatense / Patagónico.
