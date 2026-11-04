@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <title>Cómo pedir</title>
 <!-- Estilo VOX (referencia de @soyfranramos, noviembre 2026) con los colores y letras de Monte Riko.
-     Se abre con ?s=1 a ?s=6 y se saca una captura de 1080x1350 por imagen. -->
+     Se abre con ?s=1 a ?s=7 y se saca una captura de 1080x1350 por imagen. -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&family=Rubik+Mono+One&family=Space+Mono:wght@700&family=Caveat:wght@700&display=swap" rel="stylesheet">
 <style>
@@ -78,9 +78,16 @@
   .ventana { background: #151515; border: 3px solid rgba(235,217,197,.25); border-radius: 22px; overflow: hidden; box-shadow: 0 24px 50px rgba(0,0,0,.5); }
   .ventana .top { display: flex; align-items: center; gap: 14px; padding: 22px 26px; background: #1f1f1f; }
   .ventana .top i { width: 18px; height: 18px; border-radius: 50%; background: rgba(235,217,197,.35); }
-  .ventana .url { margin-left: 16px; flex: 1; background: var(--papel); color: var(--negro); border-radius: 12px; padding: 10px 22px;
-    font-family: 'Space Mono', monospace; font-weight: 700; font-size: 30px; }
-  .ventana .url u { text-decoration: none; background: linear-gradient(transparent 55%, var(--naranja) 55%); }
+  .ventana .url { margin-left: 16px; flex: 1; background: var(--papel); color: var(--negro); border-radius: 12px; padding: 12px 24px;
+    font-family: 'Space Mono', monospace; font-weight: 700; font-size: 50px; }
+  .ventana .url u { text-decoration: none; padding-bottom: 4px; background: linear-gradient(transparent 82%, var(--naranja) 82%); }
+
+  /* Link grande (imagen de la marca) */
+  .link-grande { position:absolute; left:120px; right:120px; top:995px; display:flex; flex-direction:column; gap:14px; }
+  .link-rotulo { font-family:'Space Mono', monospace; font-weight:700; font-size:28px; letter-spacing:.12em; text-transform:uppercase; opacity:.7; }
+  .link-url { background:var(--negro); color:var(--papel); border-radius:16px; padding:22px 34px; text-align:center;
+    font-family:'Space Mono', monospace; font-weight:700; font-size:64px; letter-spacing:.01em; box-shadow:0 14px 28px rgba(0,0,0,.25); }
+  .link-url u { text-decoration:none; padding-bottom:6px; background:linear-gradient(transparent 84%, var(--naranja) 84%); }
 
   .flecha { position: absolute; }
 </style>
@@ -89,7 +96,7 @@
 
 <!-- 1 · Portada -->
 <section class="oscuro">
-  <div class="barra"><span>01 / 06</span><span>Cómo pedir</span></div>
+  <div class="barra"><span>01 / 07</span><span>Cómo pedir</span></div>
   <h1 style="margin-top:10px">Cómo pedir<br>tu caja</h1>
   <svg style="position:absolute; left:88px; top:292px" width="650" height="150" viewBox="0 0 560 190" preserveAspectRatio="none" fill="none">
     <path d="M40 104 C 20 40, 200 10, 330 18 C 470 26, 548 64, 530 116 C 512 170, 330 184, 200 176 C 90 170, 18 140, 34 96 C 44 70, 90 52, 150 44" stroke="#FF6900" stroke-width="7" stroke-linecap="round"/>
@@ -104,7 +111,7 @@
 
 <!-- 2 · Los alfajores -->
 <section class="claro">
-  <div class="barra"><span>02 / 06</span><span>Los sabores</span></div>
+  <div class="barra"><span>02 / 07</span><span>Los sabores</span></div>
   <h2>Los <span class="resalta">alfajores</span></h2>
   <div class="fila"><span class="n">01</span><b>Marplatense</b><span class="precio">$2.800</span></div>
   <div class="fila"><span class="n">02</span><b>Patagónico</b><span class="precio">$3.000</span></div>
@@ -119,7 +126,7 @@
 
 <!-- 3 · Las cajas -->
 <section class="oscuro">
-  <div class="barra"><span>03 / 06</span><span>Las cajas</span></div>
+  <div class="barra"><span>03 / 07</span><span>Las cajas</span></div>
   <h2>Elegí tu <span class="resalta">caja</span></h2>
   <div class="tarjetas">
     <div class="tarjeta">
@@ -141,7 +148,7 @@
 
 <!-- 4 · Cómo te llega -->
 <section class="claro">
-  <div class="barra"><span>04 / 06</span><span>El envío</span></div>
+  <div class="barra"><span>04 / 07</span><span>El envío</span></div>
   <h2>Cómo te <span class="resalta">llega</span></h2>
   <div class="fila" style="display:block"><b>Cajas</b><p>A todo el país y dentro de Mar del Plata.</p></div>
   <div class="fila" style="display:block"><b>Sueltos</b><p>Envío en Mar del Plata o retiro coordinado.</p></div>
@@ -159,7 +166,7 @@
 
 <!-- 5 · Los 3 pasos -->
 <section class="oscuro">
-  <div class="barra"><span>05 / 06</span><span>Paso a paso</span></div>
+  <div class="barra"><span>05 / 07</span><span>Paso a paso</span></div>
   <h2>Pedirlo,<br>en <span class="resalta">3 pasos</span></h2>
   <div class="fila"><span class="n">01</span><p style="margin:0">Entrá a <b style="font-size:inherit">monteriko.com.ar</b> y armá tu caja o tus sueltos.</p></div>
   <div class="fila"><span class="n">02</span><p style="margin:0">Mandame el pedido ya escrito por WhatsApp, con un toque.</p></div>
@@ -170,9 +177,28 @@
   <div class="pie"><span>@monteriko.oficial</span><span>→</span></div>
 </section>
 
-<!-- 6 · Cierre -->
+<!-- 6 · La marca (sumada el 4 de noviembre 2026 para que se vea el logo y el link) -->
+<section class="claro">
+  <div class="barra"><span>06 / 07</span><span>La marca</span></div>
+  <h2>Buscá la <span class="resalta">corona</span></h2>
+  <div class="recorte" style="left:150px; top:420px; width:780px; height:420px; padding:40px 60px; transform: rotate(-2deg)">
+    <img src="../../logo/Monteriko-alfajo-color-v03.svg" style="object-fit:contain; filter:none" alt="Logo de Monte Riko">
+  </div>
+  <div class="cinta" style="left:455px; top:394px; transform: rotate(3deg)"></div>
+  <svg style="position:absolute; left:440px; top:468px" width="200" height="170" viewBox="0 0 200 170" fill="none">
+    <path d="M60 18 C 120 0, 190 30, 188 86 C 186 140, 120 166, 70 156 C 20 146, 4 104, 16 64 C 26 34, 60 20, 104 16" stroke="#FF6900" stroke-width="6" stroke-linecap="round"/>
+  </svg>
+  <p class="mano" style="position:absolute; left:120px; right:120px; top:880px; font-size:62px">Si tiene la corona, es Monte Riko.</p>
+  <div class="link-grande">
+    <span class="link-rotulo">Pedí acá</span>
+    <span class="link-url"><u>monteriko.com.ar</u></span>
+  </div>
+  <div class="pie"><span>@monteriko.oficial</span><span>→</span></div>
+</section>
+
+<!-- 7 · Cierre -->
 <section class="naranja">
-  <div class="barra"><span>06 / 06</span><span>Armá tu caja</span></div>
+  <div class="barra"><span>07 / 07</span><span>Armá tu caja</span></div>
   <h1>Disfrutalo<br><span class="resalta">hoy.</span></h1>
   <div class="ventana" style="margin-top:70px">
     <div class="top"><i></i><i></i><i></i><span class="url"><u>monteriko.com.ar</u></span></div>

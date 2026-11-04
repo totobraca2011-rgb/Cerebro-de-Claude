@@ -23,9 +23,10 @@ Tomás vio el carrusel "Cómo pedir tu caja" rehecho en este estilo y le encant�
   - Tarjetas de papel para comparar opciones.
   - En el cierre, la foto va dentro de una ventana de navegador con "monteriko.com.ar".
 - **Lo que se tomó de las otras referencias:** una sola idea por imagen, con título corto y poco texto (@nicofastt), y las listas numeradas con líneas (@ramiro.cubria).
+- **Logo:** siempre el SVG oficial de `../logo/`, sin redibujar. Para que la marca se vea, el carrusel lleva una imagen con el logo grande sobre papel y el link de la página grande (pedido de Tomás, 4 de noviembre 2026).
 - **Fotos:** las de `../pagina-web/assets/img/` (tamaños 800 o 1200). No repetir una misma foto en un carrusel.
 
 ## Carruseles armados
 | Carpeta | Qué es | Estado |
 |---|---|---|
-| `como-pedir/` | Cómo pedir tu caja: precios, cajas, envío y los 3 pasos (6 imágenes) | Rehecho en estilo VOX el 4 de noviembre 2026, para publicar el jueves 5. La versión nueva ya está en Drive, en `0000-Monteriko/redes/Carruseles para publicar/Como pedir`: reemplazó a la vieja con los mismos nombres (1.png a 6.png) |
+| `como-pedir/` | Cómo pedir tu caja: precios, cajas, envío, los 3 pasos, la marca y el cierre (7 imágenes) | Rehecho en estilo VOX el 4 de noviembre 2026, para publicar el jueves 5. Ese mismo día, a pedido de Tomás, se sumó la imagen 6 "Buscá la corona", con el logo grande y el link de la página bien visible (el logo casi no aparecía, solo en las etiquetas), y se agrandó el link del cierre, que pasó a ser la 7. **Pendiente:** Tomás tiene que aprobar la versión nueva. En Drive (`0000-Monteriko/redes/Carruseles para publicar/Como pedir`) sigue la de 6 imágenes |
