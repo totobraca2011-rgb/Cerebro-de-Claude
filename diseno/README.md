@@ -12,6 +12,7 @@ Se carga solo con el Cerebro. El detector de impeccable se baja por sesión: `.c
 ## Lo que le gusta a Tomás
 - Diseño con idea propia, que no parezca hecho por una IA genérica.
 - Animaciones suaves y con sentido, nada que distraiga.
+- Carruseles: el estilo VOX, con recortes de papel, resaltador y letra a mano. Le encantó y es el de todos los carruseles (noviembre 2026). Detalle en `monte-riko/carruseles/README.md`.
 - (Se va completando.)
 
 ## Lo que no le gusta / descartado

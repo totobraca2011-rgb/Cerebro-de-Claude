@@ -10,7 +10,7 @@ Alfajores artesanales de Mar del Plata, hechos por Tomás Bracamonte.
 | `instagram-plan-noviembre-2026.md` | Calendario y textos de noviembre 2026, con el objetivo de vender más |
 | `instagram-referentes.md` | Cuentas del nicho, qué se repite en sus perfiles y referencias para carruseles y reels |
 | `historias-noviembre/` | Historias listas para subir en noviembre 2026, con su calendario |
-| `carruseles/` | Carruseles armados para Instagram |
+| `carruseles/` | Carruseles armados para Instagram. Su `README.md` tiene el estilo que llevan todos (VOX) |
 | `reels/` | Guiones y armado de cada reel |
 | `pagina-web.md` | La página web: cómo se trabaja, reglas, decisiones tomadas y pendientes |
 | `pagina-web/` | El código de la página (index.html y assets), listo para subir |
