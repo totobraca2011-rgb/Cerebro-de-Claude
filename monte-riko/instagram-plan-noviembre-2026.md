@@ -135,6 +135,8 @@ Todavía no hay local ni fábrica. Por ahora.
 
 #alfajores #emprendimiento #mardelplata
 
+**Prometido** en la historia del 4 de noviembre 2026 como respuesta a "¿cómo surgió?": no reemplazarlo por un reel de reserva.
+
 *Guion:* "Mis primeros alfajores los vendí en la escuela." Contá vos, en 20 o 30 segundos, qué pasó el primer día. Cerrá con: "Hoy los mando a todo el país."
 
 ### Mar 24: El marplatense por dentro

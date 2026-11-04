@@ -38,6 +38,7 @@ Lo que se miró de otras marcas está en `../instagram-referentes.md`.
 - `mie-4-2.jpg`: PATAGÓNICO
 - `mie-4-3.jpg`: ¿CUÁL VA EN TU CAJA? **Sticker:** Encuesta: Marplatense / Patagónico.
 - **En la app:** Respondé en una historia dos preguntas de ayer, con tu mano o el alfajor en la foto.
+- **Respuesta a "¿cómo surgió?"** (Tomás, 4 de noviembre 2026): compartir la pregunta con "Empezó en la escuela. Te cuento la historia completa en un reel el sábado 21." Queda prometido el reel del sábado 21.
 
 ### Jue 5: Cómo pedir
 - `jue-5-1.jpg`: PEDIR LLEVA MENOS QUE COMERTE UNO
