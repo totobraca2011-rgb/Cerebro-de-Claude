@@ -3,90 +3,183 @@
 <head>
 <meta charset="utf-8">
 <title>Cómo pedir</title>
+<!-- Estilo VOX (referencia de @soyfranramos, noviembre 2026) con los colores y letras de Monte Riko.
+     Se abre con ?s=1 a ?s=6 y se saca una captura de 1080x1350 por imagen. -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&family=Rubik+Mono+One&family=Space+Mono:wght@700&family=Caveat:wght@700&display=swap" rel="stylesheet">
 <style>
-  :root { --naranja: #FF6900; --negro: #000000; --arena: #EBD9C5; }
+  :root { --naranja: #FF6900; --negro: #000000; --arena: #EBD9C5; --papel: #F4EADF; }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   html, body { width: 1080px; height: 1350px; overflow: hidden; background: var(--negro); }
+
   section {
-    display: none; position: relative; width: 1080px; height: 1350px;
-    padding: 130px 120px; flex-direction: column; justify-content: center;
-    background: var(--negro); color: var(--arena);
-    font-family: 'Montserrat', sans-serif; font-weight: 500; font-size: 42px; line-height: 1.3;
+    display: none; position: relative; width: 1080px; height: 1350px; overflow: hidden;
+    padding: 190px 120px 170px; flex-direction: column;
+    font-family: 'Montserrat', sans-serif; font-weight: 500; font-size: 40px; line-height: 1.3;
   }
   section.activa { display: flex; }
-  section.naranja { background: var(--naranja); color: var(--negro); }
-  h1, h2 { font-family: 'Rubik Mono One', sans-serif; font-weight: 400; text-transform: uppercase; line-height: 1.08; }
-  h1 { font-size: 92px; color: var(--naranja); }
-  h2 { font-size: 66px; color: var(--naranja); margin-bottom: 56px; }
-  .naranja h1, .naranja h2 { color: var(--negro); }
-  .foto { position: absolute; inset: 0; background-size: cover; background-position: center; }
-  .velo { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,.88) 0%, rgba(0,0,0,.72) 42%, rgba(0,0,0,.12) 74%); }
-  .sobre { position: relative; }
-  .tapa { justify-content: flex-start; }
-  .bajada { margin-top: 36px; font-weight: 700; color: #fff; }
-  .fila { display: flex; justify-content: space-between; align-items: baseline; gap: 32px; padding: 32px 0; border-bottom: 3px solid rgba(235,217,197,.35); }
-  .fila b { font-weight: 700; color: #fff; }
-  .fila span { font-family: 'Rubik Mono One', sans-serif; color: var(--naranja); font-size: 46px; white-space: nowrap; }
-  .nota { margin-top: 44px; }
-  .paso { display: flex; gap: 32px; margin-bottom: 40px; }
-  .paso i { font-family: 'Rubik Mono One', sans-serif; font-style: normal; color: var(--naranja); font-size: 56px; line-height: 1.1; }
-  .numero { font-family: 'Rubik Mono One', sans-serif; font-size: 62px; line-height: 1.1; margin: 28px 0 40px; }
-  .pie { position: absolute; left: 120px; right: 120px; bottom: 60px; display: flex; justify-content: space-between; font-size: 32px; font-weight: 700; }
+
+  /* Fondos: negro cuadriculado y arena cuadriculado */
+  .oscuro { background-color: #0b0b0b; color: var(--arena);
+    background-image: linear-gradient(rgba(235,217,197,.07) 2px, transparent 2px), linear-gradient(90deg, rgba(235,217,197,.07) 2px, transparent 2px);
+    background-size: 54px 54px; }
+  .claro { background-color: var(--arena); color: var(--negro);
+    background-image: linear-gradient(rgba(0,0,0,.06) 2px, transparent 2px), linear-gradient(90deg, rgba(0,0,0,.06) 2px, transparent 2px);
+    background-size: 54px 54px; }
+  .naranja { background: var(--naranja); color: var(--negro); }
+
+  /* Barra de arriba y pie, en letra de máquina */
+  .barra, .pie { position: absolute; left: 120px; right: 120px; display: flex; justify-content: space-between;
+    font-family: 'Space Mono', monospace; font-weight: 700; font-size: 28px; letter-spacing: .12em; text-transform: uppercase; }
+  .barra { top: 84px; opacity: .75; }
+  .pie { bottom: 72px; letter-spacing: .04em; text-transform: none; font-size: 30px; }
+
+  h1, h2 { font-family: 'Rubik Mono One', sans-serif; font-weight: 400; text-transform: uppercase; line-height: 1.12; }
+  h1 { font-size: 96px; }
+  h2 { font-size: 70px; margin-bottom: 48px; }
+
+  /* Resaltador naranja detrás de la palabra clave */
+  .resalta { position: relative; z-index: 0; white-space: nowrap; }
+  .resalta::before { content: ""; position: absolute; z-index: -1; left: -10px; right: -12px; top: 52%; bottom: -4px;
+    background: var(--naranja); transform: rotate(-1.2deg); border-radius: 4px 10px 6px 12px; }
+  .naranja .resalta::before { background: var(--negro); top: 6%; bottom: -6px; left: -16px; right: -18px; }
+  .naranja .resalta { color: var(--papel); }
+
+  /* Remate escrito a mano */
+  .mano { font-family: 'Caveat', cursive; font-weight: 700; font-size: 66px; line-height: 1.05; color: var(--naranja); }
+  .claro .mano { color: #C24E00; }
+
+  /* Recorte de papel con sombra y cinta */
+  .recorte { position: absolute; background: var(--papel); padding: 18px 18px 18px; box-shadow: 0 22px 40px rgba(0,0,0,.45), 0 2px 0 rgba(0,0,0,.1); }
+  .recorte img { display: block; width: 100%; height: 100%; object-fit: cover; filter: contrast(1.05) saturate(1.05); }
+  .cinta { position: absolute; width: 170px; height: 54px; background: rgba(235,217,197,.78); box-shadow: 0 2px 6px rgba(0,0,0,.18); }
+  .claro .recorte { box-shadow: 0 18px 34px rgba(0,0,0,.28); }
+
+  /* Lista con líneas finas */
+  .fila { display: flex; align-items: baseline; gap: 30px; padding: 30px 0; border-top: 3px solid currentColor; }
+  .fila:last-of-type { border-bottom: 3px solid currentColor; }
+  .fila .n { font-family: 'Space Mono', monospace; font-weight: 700; font-size: 30px; opacity: .6; width: 56px; flex: none; }
+  .fila b { font-weight: 800; font-size: 46px; }
+  .fila .precio { margin-left: auto; font-family: 'Rubik Mono One', sans-serif; font-size: 52px; color: var(--naranja); white-space: nowrap; }
+  .claro .fila .precio { color: var(--negro); }
+  .fila p { font-size: 36px; margin-top: 8px; }
+
+  /* Tarjetas de papel (como los recursos del VOX) */
+  .tarjetas { display: flex; gap: 36px; margin-top: 20px; }
+  .tarjeta { flex: 1; display: flex; flex-direction: column; background: var(--papel); color: var(--negro); padding: 44px 40px 40px; box-shadow: 0 18px 34px rgba(0,0,0,.4); }
+  .tarjeta .cant { font-family: 'Space Mono', monospace; font-weight: 700; font-size: 28px; letter-spacing: .1em; text-transform: uppercase; opacity: .65; }
+  .tarjeta b { display: block; font-weight: 800; font-size: 48px; margin: 18px 0 28px; }
+  .tarjeta .precio { font-family: 'Rubik Mono One', sans-serif; font-size: 58px; color: var(--naranja); }
+  .cajita { display: flex; flex-wrap: wrap; align-content: flex-start; gap: 10px; width: 150px; height: 140px; }
+  .tarjeta .precio { margin-top: auto; }
+  .cajita i { width: 40px; height: 40px; border-radius: 50%; background: #3a2414; box-shadow: inset 0 -5px 0 rgba(0,0,0,.35); }
+
+  /* Ventana del navegador */
+  .ventana { background: #151515; border: 3px solid rgba(235,217,197,.25); border-radius: 22px; overflow: hidden; box-shadow: 0 24px 50px rgba(0,0,0,.5); }
+  .ventana .top { display: flex; align-items: center; gap: 14px; padding: 22px 26px; background: #1f1f1f; }
+  .ventana .top i { width: 18px; height: 18px; border-radius: 50%; background: rgba(235,217,197,.35); }
+  .ventana .url { margin-left: 16px; flex: 1; background: var(--papel); color: var(--negro); border-radius: 12px; padding: 10px 22px;
+    font-family: 'Space Mono', monospace; font-weight: 700; font-size: 30px; }
+  .ventana .url u { text-decoration: none; background: linear-gradient(transparent 55%, var(--naranja) 55%); }
+
+  .flecha { position: absolute; }
 </style>
 </head>
 <body>
 
-<section class="tapa">
-  <div class="foto" style="background-image:url('../../pagina-web/assets/img/caja-cuatro-alfajores-1530.jpg'); background-position: center 80%"></div>
-  <div class="velo"></div>
-  <div class="sobre">
-    <h1>Cómo pedir tu caja</h1>
-    <p class="bajada">Precios y pasos, en 30 segundos.</p>
+<!-- 1 · Portada -->
+<section class="oscuro">
+  <div class="barra"><span>01 / 06</span><span>Cómo pedir</span></div>
+  <h1 style="margin-top:10px">Cómo pedir<br>tu caja</h1>
+  <svg style="position:absolute; left:88px; top:292px" width="650" height="150" viewBox="0 0 560 190" preserveAspectRatio="none" fill="none">
+    <path d="M40 104 C 20 40, 200 10, 330 18 C 470 26, 548 64, 530 116 C 512 170, 330 184, 200 176 C 90 170, 18 140, 34 96 C 44 70, 90 52, 150 44" stroke="#FF6900" stroke-width="7" stroke-linecap="round"/>
+  </svg>
+  <div class="recorte" style="left:150px; top:560px; width:780px; height:520px; transform: rotate(-2.5deg)">
+    <img src="../../pagina-web/assets/img/caja-cuatro-alfajores-1200.jpg" style="object-position:center 75%" alt="">
   </div>
-  <div class="pie"><span>@monteriko.oficial</span><span>1/6</span></div>
+  <div class="cinta" style="left:460px; top:530px; transform: rotate(3deg)"></div>
+  <p class="mano" style="position:absolute; left:120px; right:120px; top:1120px">Precios y pasos, en 30 segundos.</p>
+  <div class="pie"><span>@monteriko.oficial</span><span>Deslizá →</span></div>
 </section>
 
-<section>
-  <h2>Los alfajores</h2>
-  <div class="fila"><b>Marplatense</b><span>$2.800</span></div>
-  <div class="fila"><b>Patagónico</b><span>$3.000</span></div>
-  <p class="nota">Tapas de chocolate, dulce de leche y baño de chocolate. El patagónico suma corazón de frutos rojos.</p>
-  <div class="pie"><span>@monteriko.oficial</span><span>2/6</span></div>
+<!-- 2 · Los alfajores -->
+<section class="claro">
+  <div class="barra"><span>02 / 06</span><span>Los sabores</span></div>
+  <h2>Los <span class="resalta">alfajores</span></h2>
+  <div class="fila"><span class="n">01</span><b>Marplatense</b><span class="precio">$2.800</span></div>
+  <div class="fila"><span class="n">02</span><b>Patagónico</b><span class="precio">$3.000</span></div>
+  <p style="margin-top:40px; max-width:560px">Tapas de chocolate, dulce de leche y baño de chocolate.</p>
+  <p class="mano" style="margin-top:26px; max-width:520px">+ corazón de frutos rojos en el patagónico</p>
+  <div class="recorte" style="right:96px; top:820px; width:330px; height:330px; transform: rotate(4deg)">
+    <img src="../../pagina-web/assets/img/patagonico-corte-frutos-800.jpg" alt="">
+  </div>
+  <div class="cinta" style="right:170px; top:796px; width:140px; transform: rotate(-6deg)"></div>
+  <div class="pie"><span>@monteriko.oficial</span><span>→</span></div>
 </section>
 
-<section>
-  <h2>Las cajas</h2>
-  <div class="fila"><b>Media docena</b><span>$16.500</span></div>
-  <div class="fila"><b>Docena</b><span>$31.900</span></div>
-  <p class="nota">Podés surtirlas como quieras, al mismo precio.</p>
-  <div class="pie"><span>@monteriko.oficial</span><span>3/6</span></div>
+<!-- 3 · Las cajas -->
+<section class="oscuro">
+  <div class="barra"><span>03 / 06</span><span>Las cajas</span></div>
+  <h2>Elegí tu <span class="resalta">caja</span></h2>
+  <div class="tarjetas">
+    <div class="tarjeta">
+      <div class="cajita"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      <b>Media docena</b>
+      <span class="precio">$16.500</span>
+    </div>
+    <div class="tarjeta">
+      <div class="cajita" style="width:200px"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      <b>Docena</b>
+      <span class="precio">$31.900</span>
+    </div>
+  </div>
+  <p class="mano" style="margin-top:64px; max-width:470px">Podés surtirlas como quieras, al mismo precio.</p>
+  <div class="recorte" style="right:110px; top:880px; width:360px; height:280px; transform: rotate(-3deg)"><img src="../../pagina-web/assets/img/feria-cajas-alfajores-1200.jpg" alt=""></div>
+  <div class="cinta" style="right:210px; top:856px; width:140px; transform: rotate(5deg)"></div>
+  <div class="pie"><span>@monteriko.oficial</span><span>→</span></div>
 </section>
 
-<section>
-  <h2>Cómo te llega</h2>
-  <div class="fila"><b>Cajas</b></div>
-  <p class="nota" style="margin-top:24px">A todo el país y dentro de Mar del Plata.</p>
-  <div class="fila" style="margin-top:32px"><b>Sueltos</b></div>
-  <p class="nota" style="margin-top:24px">Envío en Mar del Plata o retiro coordinado.</p>
-  <p class="nota">Siempre en caja y en papel dorado.</p>
-  <div class="pie"><span>@monteriko.oficial</span><span>4/6</span></div>
+<!-- 4 · Cómo te llega -->
+<section class="claro">
+  <div class="barra"><span>04 / 06</span><span>El envío</span></div>
+  <h2>Cómo te <span class="resalta">llega</span></h2>
+  <div class="fila" style="display:block"><b>Cajas</b><p>A todo el país y dentro de Mar del Plata.</p></div>
+  <div class="fila" style="display:block"><b>Sueltos</b><p>Envío en Mar del Plata o retiro coordinado.</p></div>
+  <div class="recorte" style="left:130px; top:760px; width:420px; height:320px; transform: rotate(-3deg)">
+    <img src="../../pagina-web/assets/img/alfajor-papel-dorado-800.jpg" alt="">
+  </div>
+  <div class="cinta" style="left:260px; top:736px; width:150px; transform: rotate(4deg)"></div>
+  <p class="mano" style="position:absolute; left:610px; right:90px; top:780px; font-size:62px">Siempre en caja y en papel dorado.</p>
+  <svg class="flecha" style="left:600px; top:1010px" width="150" height="90" viewBox="0 0 150 90" fill="none">
+    <path d="M140 12 C 110 60, 60 76, 14 62" stroke="#C24E00" stroke-width="6" stroke-linecap="round"/>
+    <path d="M34 40 L 12 62 L 40 80" stroke="#C24E00" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+  <div class="pie"><span>@monteriko.oficial</span><span>→</span></div>
 </section>
 
-<section>
-  <h2>Pedirlo, en 3 pasos</h2>
-  <div class="paso"><i>1</i><p>Entrá a monteriko.com.ar y armá tu caja o tus sueltos.</p></div>
-  <div class="paso"><i>2</i><p>Mandame el pedido ya escrito por WhatsApp, con un toque.</p></div>
-  <div class="paso"><i>3</i><p>Coordinamos el envío o el retiro, con su costo y tiempos.</p></div>
-  <div class="pie"><span>@monteriko.oficial</span><span>5/6</span></div>
+<!-- 5 · Los 3 pasos -->
+<section class="oscuro">
+  <div class="barra"><span>05 / 06</span><span>Paso a paso</span></div>
+  <h2>Pedirlo,<br>en <span class="resalta">3 pasos</span></h2>
+  <div class="fila"><span class="n">01</span><p style="margin:0">Entrá a <b style="font-size:inherit">monteriko.com.ar</b> y armá tu caja o tus sueltos.</p></div>
+  <div class="fila"><span class="n">02</span><p style="margin:0">Mandame el pedido ya escrito por WhatsApp, con un toque.</p></div>
+  <div class="fila"><span class="n">03</span><p style="margin:0">Coordinamos el envío o el retiro, con su costo y tiempos.</p></div>
+  <p class="mano" style="margin-top:56px; max-width:500px">Guardalo para cuando te den ganas.</p>
+  <div class="recorte" style="right:110px; top:930px; width:330px; height:250px; transform: rotate(3.5deg)"><img src="../../pagina-web/assets/img/caja-envio-800.jpg" alt=""></div>
+  <div class="cinta" style="right:200px; top:906px; width:140px; transform: rotate(-4deg)"></div>
+  <div class="pie"><span>@monteriko.oficial</span><span>→</span></div>
 </section>
 
+<!-- 6 · Cierre -->
 <section class="naranja">
-  <h1>Disfrutalo hoy.</h1>
-  <p class="numero" style="font-size:54px">monteriko.com.ar</p>
-  <p style="font-weight:700">Armá tu caja desde el link de la bio.</p>
-  <div class="pie"><span>@monteriko.oficial</span><span>6/6</span></div>
+  <div class="barra"><span>06 / 06</span><span>Armá tu caja</span></div>
+  <h1>Disfrutalo<br><span class="resalta">hoy.</span></h1>
+  <div class="ventana" style="margin-top:70px">
+    <div class="top"><i></i><i></i><i></i><span class="url"><u>monteriko.com.ar</u></span></div>
+    <img src="../../pagina-web/assets/img/mano-alfajor-frente-1179.jpg" style="display:block; width:100%; height:430px; object-fit:cover; object-position:center 45%" alt="">
+  </div>
+  <p class="mano" style="margin-top:44px; color:var(--negro)">Armá tu caja desde el link de la bio.</p>
+  <div class="pie"><span>@monteriko.oficial</span><span></span></div>
 </section>
 
 <script>

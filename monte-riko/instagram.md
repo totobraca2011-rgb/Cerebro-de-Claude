@@ -29,7 +29,7 @@ Claude los hizo desde Chrome a pedido de Tomás, que se tuvo que ir y dijo "camb
 
 ### Preparado para noviembre
 - Cuatro fotos como borrador en Metricool: 7, 14, 19 y 28 de noviembre. Están con publicación automática apagada y no salen solas.
-- Carrusel "Cómo pedir" listo en `carruseles/como-pedir/` (6 imágenes, 1080x1350). Se arma desde `diapositivas.html`.
+- Carrusel "Cómo pedir" listo en `carruseles/como-pedir/` (6 imágenes, 1080x1350). Se arma desde `diapositivas.html`. El 4 de noviembre 2026 se rehízo en el estilo VOX (ver `instagram-referentes.md`), con las letras de la marca más Space Mono para los rótulos y Caveat para lo escrito a mano.
 - Los reels no se pudieron cargar en Metricool: necesita los videos en un link público y el repo es privado.
 
 ### Lo que tiene que hacer Tomás (desde el celu, 30 de octubre 2026)
