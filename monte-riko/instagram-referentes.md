@@ -52,3 +52,9 @@ Cómo mirar vistas: en la web de Instagram solo aparecen en la grilla de `/<cuen
 
 ## Lo que tienen los reels virales
 Lo que se repite en los dos que más se destacan (los dos primeros): duran unos 17 s, son de cuentas chicas y lo que atrapa es **una sorpresa adentro**, no solo el corte. El marplatense no tiene relleno sorpresa; el patagónico sí, con su corazón de mermelada.
+
+## Referencia para carruseles (4 de noviembre 2026)
+Tomás pasó un carrusel de @ramiro.cubria (2 de noviembre 2026, "Comentá PDF", 4.130 me gusta y 9.283 comentarios) con ideas para armar carruseles: https://www.instagram.com/p/DfQb-eqnJ3Q/
+- Desde la nube solo se pudo ver la tapa: Instagram no deja bajar las demás imágenes. Para ver el resto hacen falta capturas de Tomás.
+- La primera idea se llama **"Caminando entre slides"**: una misma foto de fondo sigue de una imagen a la otra, así la gente quiere llegar hasta el final. La plantilla va así: presentación, nombre, la historia, un logro, un dato curioso y un cierre con "Comentá INFO".
+- Tomás la quiere usar para mejorar el carrusel "Cómo pedir" (`carruseles/como-pedir/`).
