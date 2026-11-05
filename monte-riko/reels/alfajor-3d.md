@@ -19,5 +19,13 @@ Idea de Tomás (4 de noviembre 2026): un reel en el estilo de @loconstruiste.mx 
 - **Logo en el delantal** (pedido de Tomás): es el SVG oficial blanco (`logo/Monteriko-blanco-v03.svg`), estampado en la falda y siguiendo su curva, en lugar del bolsillo. En el proyecto va copiado como `assets/logo-blanco.svg`.
 
 
+## Reel completo v1 (5 de noviembre 2026)
+- **Video:** `editor-de-ia/terminados/2026-11-05-alfajor-3d-v1.mp4` (36 s, 1080x1920, sin sonido todavía).
+- **Los 8 pasos** (los aprobó Tomás, con su proceso de `../proceso.md`): la masa y una noche en el freezer, estirar a 5 mm, las tapas 30 min a la heladera, horno a 160 °C por 8 min y a enfriar, 55 g de dulce con la panza para adentro, otra vez a la heladera para que el dulce no se escape, baño de chocolate semiamargo a 45 °C con un segundo baño abajo, y papel dorado con el sticker de la corona. Cierra con "Pedilo en monteriko.com.ar".
+- **Lo que se tomó de las referencias** (`editor-de-ia/referencias/`): el muñequito que arma todo paso a paso en una cocina en miniatura (@loconstruiste.mx), cortes de cámara de lejos a cerca cada 1 a 2 s (pastelería), subtítulo blanco con borde negro palabra por palabra, el dato grande en naranja arriba de cada paso y la tarjeta blanca del paso.
+- **Código:** `alfajor-3d/escena.js` (la escena 3D) y `alfajor-3d/armar.py` (los textos y tiempos; arma el `index.html`). Para renderizar, armá el proyecto como dice abajo, copiá `logo/Monteriko-color-v03.svg` como `assets/logo-color.svg` y corré `python3 armar.py` con la carpeta del proyecto `alfajor-3d/` al lado. En la nube tarda unos 3 minutos cada 5 segundos.
+- **Probado y sacado:** una flecha curva para mostrar "panza para adentro" se confundía con un hilo de dulce.
+- **Falta:** que Tomás lo vea, y el sonido (sonidos reales, sin música) y su voz si la quiere.
+
 ## Seguir desde la nube u otra compu
 El proyecto de `C:\Users\MARCOS\Videos\` no está en el repo. Para rearmarlo: `npx hyperframes init alfajor-3d --example=blank --resolution=portrait --non-interactive`, copiar `alfajor-3d-prueba.html` como `index.html` y bajar Three.js con `npm pack three@0.170.0`. De ese paquete, `build/three.module.min.js` va a `assets/lib/`, y `logo/Monteriko-blanco-v03.svg` se copia como `assets/logo-blanco.svg`. Antes del primer render: `npx hyperframes browser ensure`.
