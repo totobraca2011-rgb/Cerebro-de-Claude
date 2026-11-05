@@ -15,6 +15,7 @@ Alfajores artesanales de Mar del Plata, hechos por Tomás Bracamonte.
 | `reels/` | Guiones y armado de cada reel |
 | `pagina-web.md` | La página web: cómo se trabaja, reglas, decisiones tomadas y pendientes |
 | `pagina-web/` | El código de la página (index.html y assets), listo para subir |
+| `ganchos.md` | Lista de 20 ganchos para reels, con su formato y para qué sirve cada uno |
 | `proceso.md` | Cómo hace Tomás cada alfajor, paso a paso, con tiempos, temperaturas y gramos |
 | `logo/` | Los SVG oficiales del logo. Se usan tal cual, sin redibujar |
 | `destacadas/` | Portadas de las destacadas de Instagram |
