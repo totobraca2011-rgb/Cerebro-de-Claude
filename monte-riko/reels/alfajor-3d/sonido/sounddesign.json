@@ -1,0 +1,638 @@
+{
+ "_doc": "Reel 3D Monte Riko: solo sonidos reales de Mixkit (Sound Effects Free License), sin música por pedido de Tomás.",
+ "duration": 36.0,
+ "samples": {
+  "fx.swoosh": {
+   "file": "assets/mk-3115_short-wind-swoosh.wav",
+   "gain_db": -6
+  },
+  "fx.swoosh2": {
+   "file": "assets/mk-3205_quick-swoosh-accent.wav",
+   "gain_db": -8,
+   "fade_in": 0.01
+  },
+  "fx.pop": {
+   "file": "assets/mk-2357_explainer-video-pops-whoosh-light-pop.wav",
+   "mono": true,
+   "gain_db": -8,
+   "eq": {
+    "lp": 9000
+   }
+  },
+  "fx.pop_dato": {
+   "file": "assets/mk-414_hard-pop-click.wav",
+   "mono": true,
+   "end": 0.9,
+   "gain_db": -14,
+   "eq": {
+    "lp": 8000
+   },
+   "fade_out": 0.15
+  },
+  "fx.thud": {
+   "file": "assets/mk-2885_soft-quick-punch.wav",
+   "mono": true,
+   "end": 0.6,
+   "gain_db": -6,
+   "eq": {
+    "lp": 6000
+   }
+  },
+  "fx.squish1": {
+   "file": "assets/mk-137_shaking-jelly-liquid-on-a-plastic-box.wav",
+   "start": 16.235,
+   "end": 16.75,
+   "mono": true,
+   "gain_db": -10,
+   "fade_out": 0.08
+  },
+  "fx.squish2": {
+   "file": "assets/mk-137_shaking-jelly-liquid-on-a-plastic-box.wav",
+   "start": 11.07,
+   "end": 11.55,
+   "mono": true,
+   "gain_db": -8,
+   "fade_out": 0.08
+  },
+  "fx.squish3": {
+   "file": "assets/mk-137_shaking-jelly-liquid-on-a-plastic-box.wav",
+   "start": 21.817,
+   "end": 22.25,
+   "mono": true,
+   "gain_db": -9,
+   "fade_out": 0.08
+  },
+  "fx.fr_open": {
+   "file": "assets/mk-1865_refrigerator-door-open.wav",
+   "start": 0.15,
+   "end": 1.13,
+   "gain_db": 2,
+   "fade_out": 0.15,
+   "fade_in": 0.03
+  },
+  "fx.fr_open2": {
+   "file": "assets/mk-1865_refrigerator-door-open.wav",
+   "start": 3.645,
+   "end": 4.61,
+   "gain_db": 2,
+   "fade_out": 0.15,
+   "fade_in": 0.03
+  },
+  "fx.fr_close": {
+   "file": "assets/mk-1863_refrigerator-door-close.wav",
+   "gain_db": 8
+  },
+  "fx.roll": {
+   "file": "assets/mk-188_cupboard-sliding-door.wav",
+   "start": 0.182,
+   "end": 0.75,
+   "gain_db": 0,
+   "fade_out": 0.08,
+   "eq": {
+    "hp": 120
+   }
+  },
+  "fx.tray": {
+   "file": "assets/mk-1800_cast-iron-pan-set-down.wav",
+   "mono": true,
+   "gain_db": -10,
+   "pitch": 2
+  },
+  "fx.ov_open": {
+   "file": "assets/mk-1840_kitchen-oven-open.wav",
+   "gain_db": -4
+  },
+  "fx.ov_close": {
+   "file": "assets/mk-1851_kitchen-oven-close.wav",
+   "gain_db": -4
+  },
+  "fx.steam": {
+   "file": "assets/mk-3165_steam-swoosh.wav",
+   "gain_db": -12
+  },
+  "fx.plop": {
+   "file": "assets/mk-2885_soft-quick-punch.wav",
+   "mono": true,
+   "end": 0.5,
+   "pitch": 4,
+   "gain_db": -12,
+   "eq": {
+    "lp": 5000
+   }
+  },
+  "fx.bowl": {
+   "file": "assets/mk-2936_dish-placed-in-a-wood-table.wav",
+   "mono": true,
+   "gain_db": -10
+  },
+  "fx.choco": {
+   "file": "assets/mk-3179_deep-water-bubbles.wav",
+   "pitch": -4,
+   "gain_db": -6,
+   "fade_out": 0.2
+  },
+  "fx.choco_small": {
+   "file": "assets/mk-3179_deep-water-bubbles.wav",
+   "end": 0.6,
+   "pitch": -4,
+   "gain_db": -12,
+   "fade_out": 0.15
+  },
+  "fx.drip": {
+   "file": "assets/mk-1304_bathroom-sink-water-drip.wav",
+   "mono": true,
+   "end": 0.9,
+   "pitch": -5,
+   "gain_db": -12,
+   "fade_out": 0.1
+  },
+  "fx.paper": {
+   "file": "assets/mk-1104_paper-slide.wav",
+   "gain_db": -8
+  },
+  "fx.foil": {
+   "file": "assets/mk-2380_papers-being-moved-or-wrinkling.wav",
+   "gain_db": -8
+  },
+  "fx.sticker": {
+   "file": "assets/mk-414_hard-pop-click.wav",
+   "mono": true,
+   "end": 0.9,
+   "pitch": -5,
+   "gain_db": -14,
+   "fade_out": 0.15
+  }
+ },
+ "place": [
+  {
+   "sample": "fx.swoosh2",
+   "at": 0.0,
+   "align": "start"
+  },
+  {
+   "sample": "fx.thud",
+   "at": 0.6,
+   "align": "attack",
+   "gain_db": -6
+  },
+  {
+   "sample": "fx.pop",
+   "at": 1.35,
+   "align": "attack",
+   "gain_db": -4
+  },
+  {
+   "sample": "fx.squish1",
+   "at": 2.227,
+   "align": "attack",
+   "gain_db": -4
+  },
+  {
+   "sample": "fx.pop",
+   "at": 2.35,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.squish2",
+   "at": 2.682,
+   "align": "attack",
+   "gain_db": -4
+  },
+  {
+   "sample": "fx.squish3",
+   "at": 3.136,
+   "align": "attack",
+   "gain_db": -4
+  },
+  {
+   "sample": "fx.squish1",
+   "at": 3.591,
+   "align": "attack",
+   "gain_db": -4
+  },
+  {
+   "sample": "fx.fr_open",
+   "at": 3.97,
+   "align": "start"
+  },
+  {
+   "sample": "fx.swoosh",
+   "at": 4.5,
+   "align": "peak"
+  },
+  {
+   "sample": "fx.pop_dato",
+   "at": 4.8,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.fr_close",
+   "at": 5.2,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.fr_open2",
+   "at": 5.82,
+   "align": "start"
+  },
+  {
+   "sample": "fx.swoosh",
+   "at": 6.3,
+   "align": "peak"
+  },
+  {
+   "sample": "fx.pop",
+   "at": 6.35,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.thud",
+   "at": 6.6,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.fr_close",
+   "at": 6.7,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.roll",
+   "at": 7.1,
+   "align": "start",
+   "pitch": -1,
+   "gain_db": -1.5
+  },
+  {
+   "sample": "fx.roll",
+   "at": 7.66,
+   "align": "start",
+   "pitch": 0,
+   "gain_db": 0
+  },
+  {
+   "sample": "fx.roll",
+   "at": 8.21,
+   "align": "start",
+   "pitch": -1,
+   "gain_db": -1.5
+  },
+  {
+   "sample": "fx.roll",
+   "at": 8.77,
+   "align": "start",
+   "pitch": 0,
+   "gain_db": 0
+  },
+  {
+   "sample": "fx.pop_dato",
+   "at": 8.8,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.roll",
+   "at": 9.32,
+   "align": "start",
+   "pitch": -1,
+   "gain_db": -1.5
+  },
+  {
+   "sample": "fx.chop#0",
+   "at": 10.3,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.pop",
+   "at": 10.35,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.chop#1",
+   "at": 10.42,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.chop#2",
+   "at": 10.54,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.chop#3",
+   "at": 10.66,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.chop#4",
+   "at": 10.78,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.chop#5",
+   "at": 10.9,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.tray",
+   "at": 11.5,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.fr_open",
+   "at": 12.07,
+   "align": "start"
+  },
+  {
+   "sample": "fx.pop_dato",
+   "at": 12.4,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.swoosh",
+   "at": 12.6,
+   "align": "peak"
+  },
+  {
+   "sample": "fx.fr_close",
+   "at": 13.3,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.fr_open2",
+   "at": 13.77,
+   "align": "start"
+  },
+  {
+   "sample": "fx.ov_open",
+   "at": 14.3,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.pop",
+   "at": 14.35,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.swoosh",
+   "at": 14.45,
+   "align": "peak"
+  },
+  {
+   "sample": "fx.fr_close",
+   "at": 14.6,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.pop_dato",
+   "at": 15.0,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.ov_close",
+   "at": 15.22,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.ov_open",
+   "at": 16.85,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.swoosh",
+   "at": 17.3,
+   "align": "peak"
+  },
+  {
+   "sample": "fx.tray",
+   "at": 17.55,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.steam",
+   "at": 17.65,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.ov_close",
+   "at": 17.87,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.pop",
+   "at": 18.35,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.squish2",
+   "at": 18.35,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.squish1",
+   "at": 18.7,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.squish3",
+   "at": 19.05,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.plop",
+   "at": 20.55,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.plop",
+   "at": 20.8,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.plop",
+   "at": 21.05,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.tray",
+   "at": 22.3,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.pop",
+   "at": 22.35,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.fr_open",
+   "at": 22.47,
+   "align": "start"
+  },
+  {
+   "sample": "fx.swoosh",
+   "at": 23.0,
+   "align": "peak"
+  },
+  {
+   "sample": "fx.pop_dato",
+   "at": 23.2,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.fr_close",
+   "at": 23.7,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.fr_open2",
+   "at": 25.17,
+   "align": "start"
+  },
+  {
+   "sample": "fx.swoosh",
+   "at": 25.7,
+   "align": "peak"
+  },
+  {
+   "sample": "fx.tray",
+   "at": 26.0,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.bowl",
+   "at": 26.1,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.fr_close",
+   "at": 26.2,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.pop",
+   "at": 26.35,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.swoosh2",
+   "at": 26.4,
+   "align": "peak"
+  },
+  {
+   "sample": "fx.choco",
+   "at": 26.95,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.pop_dato",
+   "at": 27.2,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.drip",
+   "at": 27.6,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.drip",
+   "at": 27.9,
+   "align": "attack",
+   "pitch": -1
+  },
+  {
+   "sample": "fx.paper",
+   "at": 28.55,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.swoosh2",
+   "at": 29.4,
+   "align": "peak"
+  },
+  {
+   "sample": "fx.choco_small",
+   "at": 29.6,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.foil",
+   "at": 30.2,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.pop",
+   "at": 30.35,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.sticker",
+   "at": 31.85,
+   "align": "attack"
+  },
+  {
+   "sample": "fx.pop",
+   "at": 34.0,
+   "align": "attack",
+   "gain_db": -2
+  }
+ ],
+ "ambience": [
+  {
+   "name": "am.freezer",
+   "file": "assets/mk-1864_fridge-soft-motor-hum.wav",
+   "at": 5.0,
+   "until": 6.0,
+   "fade_in": 0.2,
+   "fade_out": 0.3,
+   "gain_db": -16
+  },
+  {
+   "name": "am.heladera",
+   "file": "assets/mk-1864_fridge-soft-motor-hum.wav",
+   "at": 13.0,
+   "until": 14.0,
+   "fade_in": 0.2,
+   "fade_out": 0.3,
+   "gain_db": -16
+  },
+  {
+   "name": "am.horno",
+   "file": "assets/mk-154_gas-stove-hum.wav",
+   "at": 15.0,
+   "until": 17.0,
+   "fade_in": 0.3,
+   "fade_out": 0.3,
+   "gain_db": -14
+  },
+  {
+   "name": "am.heladera2",
+   "file": "assets/mk-1864_fridge-soft-motor-hum.wav",
+   "at": 23.5,
+   "until": 24.8,
+   "fade_in": 0.2,
+   "fade_out": 0.3,
+   "gain_db": -16
+  }
+ ],
+ "buses": {
+  "sfx": {
+   "gain_db": 0
+  },
+  "amb": {
+   "gain_db": 0
+  }
+ },
+ "master": {
+  "lufs": -14,
+  "ceiling": 0.77,
+  "no_glue": true
+ },
+ "slices": {
+  "fx.chop": {
+   "file": "assets/mk-125_chopping-food-on-the-table.wav",
+   "mono": true,
+   "len": 0.18,
+   "gain_db": -12,
+   "max": 6,
+   "fade_out": 0.04
+  }
+ },
+ "pools": {}
+}
