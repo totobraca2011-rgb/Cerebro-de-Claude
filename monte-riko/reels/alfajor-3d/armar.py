@@ -7,8 +7,9 @@ DUR = 36
 
 # Subtítulos: (inicio, fin, texto, palabras clave en naranja)
 SUBS = [
-    (0.0, 1.0, "Así se hace", []),
-    (1.0, 2.0, "un alfajor", ["alfajor"]),
+    (0.0, 0.75, "Así es como se hace", []),
+    (0.75, 1.2, "un alfajor", ["alfajor"]),
+    (1.2, 2.0, "de más de 100 g", ["100"]),
     (2.0, 3.6, "Primero, la masa", ["masa"]),
     (3.6, 4.8, "derecho al freezer", ["freezer"]),
     (4.8, 6.0, "una noche o más", ["noche"]),
@@ -42,6 +43,7 @@ PASOS = [
 ]
 # Dato grande en la escena: (inicio, fin, texto)
 DATOS = [
+    (0.0, 2.0, "+100 G"),
     (4.8, 6.0, "UNA NOCHE"), (8.8, 10.0, "5 MM"), (12.4, 14.0, "30 MIN"), (15.0, 17.0, "160 °C · 8 MIN"),
     (18.4, 20.2, "55 G"), (23.2, 25.4, "BIEN FRÍOS"), (27.2, 28.8, "45 °C"), (30.3, 31.6, "PAPEL DORADO"),
 ]
@@ -70,7 +72,10 @@ for (a, b, n, nombre) in PASOS:
     anim.append(f'tl.fromTo("#paso-{n}-num", {{ rotation: -90 }}, {{ rotation: 0, duration: 0.45, ease: "power3.out" }}, {r(a + 0.05)});')
 
 for k, (a, b, txt) in enumerate(DATOS, 1):
-    clips.append(f'<div id="dato-{k}" class="dato clip" data-start="{r(a)}" data-duration="{r(round(b - a, 3))}" data-track-index="4"><span id="dato-{k}-t">{html.escape(txt)}</span></div>')
+    clips.append(f'<div id="dato-{k}" class="dato{" gancho" if a == 0 else ""} clip" data-start="{r(a)}" data-duration="{r(round(b - a, 3))}" data-track-index="4"><span id="dato-{k}-t">{html.escape(txt)}</span></div>')
+    if a == 0:
+        anim.append(f'tl.fromTo("#dato-{k}-t", {{ rotation: -4, scale: 1 }}, {{ rotation: -4, scale: 1.12, duration: 0.25, ease: "power2.out", yoyo: true, repeat: 1 }}, 1.35);')
+        continue
     anim.append(f'tl.fromTo("#dato-{k}-t", {{ scale: 0.3, opacity: 0, rotation: -14 }}, {{ scale: 1, opacity: 1, rotation: -4, duration: 0.3, ease: "back.out(2.6)" }}, {r(a)});')
 
 clips.append('<div id="cierre" class="cierre clip" data-start="34" data-duration="2" data-track-index="5">'
@@ -104,8 +109,10 @@ doc = f'''<!doctype html>
       .paso-txt b {{ display: block; font-weight: 900; font-size: 58px; color: #1d120c; line-height: 1.05; }}
       /* Dato grande dentro de la escena */
       .dato {{ position: absolute; left: 0; right: 0; top: 470px; text-align: center; z-index: 5; }}
-      .dato span {{ display: inline-block; font-weight: 900; font-size: 104px; color: var(--naranja); letter-spacing: -0.01em;
+      .dato span {{ display: inline-block; transform: rotate(-4deg); font-weight: 900; font-size: 104px; color: var(--naranja); letter-spacing: -0.01em;
         -webkit-text-stroke: 12px #1d120c; paint-order: stroke fill; text-shadow: 0 10px 0 rgba(0,0,0,.3); }}
+      .dato.gancho {{ top: 200px; }}
+      .dato.gancho span {{ font-size: 200px; -webkit-text-stroke: 18px #1d120c; }}
       /* Cierre */
       .cierre {{ position: absolute; left: 0; right: 0; top: 1150px; z-index: 7; display: flex; justify-content: center; }}
       .cierre-caja {{ background: #fffaf3; border-radius: 34px; padding: 34px 56px; text-align: center; box-shadow: 0 18px 40px rgba(0,0,0,.35); }}

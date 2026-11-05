@@ -27,5 +27,9 @@ Idea de Tomás (4 de noviembre 2026): un reel en el estilo de @loconstruiste.mx 
 - **Probado y sacado:** una flecha curva para mostrar "panza para adentro" se confundía con un hilo de dulce.
 - **Falta:** que Tomás lo vea, y el sonido (sonidos reales, sin música) y su voz si la quiere.
 
+## Reel completo v2 (5 de noviembre 2026)
+- **Video:** `editor-de-ia/terminados/2026-11-05-alfajor-3d-v2.mp4`.
+- **Gancho nuevo** (lo eligió Tomás, sacado de `../ganchos.md`, el 9 "Así es como yo..."): el subtítulo dice "Así es como se hace un alfajor de más de 100 g" y arriba aparece **+100 G** bien grande desde el primer cuadro. Antes decía "Así se hace un alfajor", sin ningún dato.
+
 ## Seguir desde la nube u otra compu
 El proyecto de `C:\Users\MARCOS\Videos\` no está en el repo. Para rearmarlo: `npx hyperframes init alfajor-3d --example=blank --resolution=portrait --non-interactive`, copiar `alfajor-3d-prueba.html` como `index.html` y bajar Three.js con `npm pack three@0.170.0`. De ese paquete, `build/three.module.min.js` va a `assets/lib/`, y `logo/Monteriko-blanco-v03.svg` se copia como `assets/logo-blanco.svg`. Antes del primer render: `npx hyperframes browser ensure`.
