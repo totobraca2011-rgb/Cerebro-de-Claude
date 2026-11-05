@@ -17,6 +17,7 @@ Cada placa está en 1080x1920, dentro de `semana-1/` a `semana-4/`. El nombre di
 - **Nunca decir que estuvimos ausentes:** la gente no se da cuenta, se olvida. Solo hay que aparecer de nuevo.
 - **Sin bordes negros:** la foto ocupa toda la pantalla.
 - **Las letras no tapan el alfajor ni el relleno.** Van chicas y arriba o abajo, donde la foto queda libre.
+- **Nada movido (5 de noviembre 2026):** los cuadros sacados de video pueden salir movidos. Antes de entregar una placa de video, mirala a tamaño real; si se ve movida, usá una foto quieta de `fotos-proceso/` o `fotos-originales/`.
 - **Color del dulce de leche:** en las tomas sale verdoso. Lleva el filtro `GUSTOSO` de `armar.mjs`, que lo deja color caramelo.
 
 Lo que se miró de otras marcas está en `../instagram-referentes.md`.
@@ -43,7 +44,7 @@ Lo que se miró de otras marcas está en `../instagram-referentes.md`.
 - **Respuesta a "¿cómo surgió?"** (Tomás, 4 de noviembre 2026): compartir la pregunta con "Empezó en la escuela. Te cuento la historia completa en un reel el sábado 21." Queda prometido el reel del sábado 21.
 
 ### Jue 5: Cómo pedir
-- `jue-5-1.jpg`: PEDIR LLEVA MENOS QUE COMERTE UNO
+- `jue-5-1.jpg`: PEDIR LLEVA MENOS QUE COMERTE UNO. Rehecha el 5 de noviembre 2026 con la foto `patagonico-cerrado`: el cuadro del video salía movido (Tomás). En Drive sigue la vieja: se reemplaza a mano.
 - `jue-5-2.jpg`: ARMÁS TU CAJA EN LA PÁGINA. **Ojo:** Guardala en la destacada "Pedí acá".
 - `jue-5-3.jpg`: ME LLEGA POR WHATSAPP. **Sticker:** Sticker de enlace a monteriko.com.ar. Guardala en "Pedí acá".
 
