@@ -59,5 +59,18 @@ Idea de Tomás (4 de noviembre 2026): un reel en el estilo de @loconstruiste.mx 
   - `mk-3205_quick-swoosh-accent.wav` (Mixkit 3205)
   - `mk-414_hard-pop-click.wav` (Mixkit 414)
 
+## Pendiente: la voz (5 de noviembre 2026)
+Tomás eligió narrarlo con su voz (no con una voz de IA). Lo graba él con el celu: se le rompió el micrófono corbatero, así que hay que escuchar cómo suena antes de usarlo. Cuando llegue el audio: limpiarlo (ruido y volumen), cortar cada frase y ponerla en su paso, y bajar un poco los sonidos mientras habla. Texto (el mismo de los subtítulos, una línea por paso):
+
+> Así es como se hace un alfajor de más de 100 gramos.
+> Primero, la masa, derecho al freezer: una noche o más.
+> La saco y la estiro hasta 5 milímetros.
+> Salen las tapas, a la heladera, media hora.
+> De la heladera, directo al horno… y a enfriar.
+> 55 gramos de dulce de leche, panza para adentro.
+> Otra vez al frío, así el dulce no se escapa.
+> Chocolate semiamargo, a 45 grados, y abajo, otra vez.
+> Papel dorado y la corona. Listo para vos.
+
 ## Seguir desde la nube u otra compu
 El proyecto de `C:\Users\MARCOS\Videos\` no está en el repo. Para rearmarlo: `npx hyperframes init alfajor-3d --example=blank --resolution=portrait --non-interactive`, copiar `alfajor-3d-prueba.html` como `index.html` y bajar Three.js con `npm pack three@0.170.0`. De ese paquete, `build/three.module.min.js` va a `assets/lib/`, y `logo/Monteriko-blanco-v03.svg` se copia como `assets/logo-blanco.svg`. Antes del primer render: `npx hyperframes browser ensure`.
