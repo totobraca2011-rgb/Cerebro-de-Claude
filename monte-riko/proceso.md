@@ -2,6 +2,8 @@
 
 Contado por Tomás el 5 de noviembre 2026, para el reel 3D. Sirve para reels, historias, la página y cualquier texto que explique el proceso. Si cambia algo del proceso, se corrige acá.
 
+**Peso:** cada alfajor pesa más de 100 g (Tomás, 5 de noviembre 2026).
+
 1. **La masa:** hace la mezcla y la deja en el freezer una noche o más.
 2. **Estirar:** la saca del freezer y la estira hasta unos 5 mm.
 3. **Al frío:** guarda las tapas separadas en una fuente, 30 minutos en la heladera.
