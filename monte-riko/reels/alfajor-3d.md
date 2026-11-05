@@ -11,7 +11,13 @@ Idea de Tomás (4 de noviembre 2026): un reel en el estilo de @loconstruiste.mx 
 ## Prueba v2 (5 de noviembre 2026)
 - **Video:** `editor-de-ia/terminados/2026-11-05-alfajor-3d-prueba-v2.mp4`. El código actualizado es el mismo `alfajor-3d-prueba.html`.
 - **Cambios que pidió Tomás:** la frase queda solo "Así se hace un alfajor", sin "Monte Riko". El delantal se rehízo para que se lea como delantal: pechera, tiras al cuello, tira en la cintura, falda que sigue el cuerpo y bolsillo. Se sacó el bowl verde con cacao que estaba al lado del pastelero.
-- **Pendiente:** Tomás lo ve "pixeleado". Son las caras planas del estilo low poly (cabeza, gorro, masa, harina en triangulitos), no la calidad del video. Se le propuso suavizarlo.
+- Tomás lo veía "pixeleado": Tomás lo ve "pixeleado". Son las caras planas del estilo low poly (cabeza, gorro, masa, harina en triangulitos), no la calidad del video. Se corrigió en la v3.
+
+## Prueba v3 (5 de noviembre 2026)
+- **Video:** `editor-de-ia/terminados/2026-11-05-alfajor-3d-prueba-v3.mp4`.
+- **Menos pixeleado:** superficies lisas en vez de caras planas, con más detalle en las piezas redondas. La harina cae como polvo redondo y no en triangulitos. Se dibuja al doble de tamaño y se achica, así que los bordes quedan finos. Renderizar tarda unos 3 minutos cada 5 segundos en la nube.
+- **Logo en el delantal** (pedido de Tomás): es el SVG oficial blanco (`logo/Monteriko-blanco-v03.svg`), estampado en la falda y siguiendo su curva, en lugar del bolsillo. En el proyecto va copiado como `assets/logo-blanco.svg`.
+
 
 ## Seguir desde la nube u otra compu
-El proyecto de `C:\Users\MARCOS\Videos\` no está en el repo. Para rearmarlo: `npx hyperframes init alfajor-3d --example=blank --resolution=portrait --non-interactive`, copiar `alfajor-3d-prueba.html` como `index.html` y bajar Three.js con `npm pack three@0.170.0`. De ese paquete, `build/three.module.min.js` va a `assets/lib/`. Antes del primer render: `npx hyperframes browser ensure`.
+El proyecto de `C:\Users\MARCOS\Videos\` no está en el repo. Para rearmarlo: `npx hyperframes init alfajor-3d --example=blank --resolution=portrait --non-interactive`, copiar `alfajor-3d-prueba.html` como `index.html` y bajar Three.js con `npm pack three@0.170.0`. De ese paquete, `build/three.module.min.js` va a `assets/lib/`, y `logo/Monteriko-blanco-v03.svg` se copia como `assets/logo-blanco.svg`. Antes del primer render: `npx hyperframes browser ensure`.
