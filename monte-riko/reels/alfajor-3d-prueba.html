@@ -46,11 +46,8 @@
       <div id="sub-1" class="sub clip" data-start="0" data-duration="1.6" data-track-index="2">
         <span id="w1">Así</span> <span id="w2">se</span> <span id="w3">hace</span>
       </div>
-      <div id="sub-2" class="sub clip" data-start="1.5" data-duration="1.4" data-track-index="2">
+      <div id="sub-2" class="sub clip" data-start="1.5" data-duration="3.5" data-track-index="2">
         <span id="w4">un</span> <span id="w5" class="clave">alfajor</span>
-      </div>
-      <div id="sub-3" class="sub clip" data-start="2.9" data-duration="2.1" data-track-index="2">
-        <span id="w6">Monte</span> <span id="w7" class="clave">Riko</span>
       </div>
 
       <div id="tarjeta" class="clip" data-start="2.2" data-duration="2.8" data-track-index="3">
@@ -73,7 +70,6 @@
       // El primer cuadro es la portada: "Así se hace" ya está en pantalla y solo late
       tl.fromTo("#sub-1 span", { scale: 1 }, { scale: 1.08, duration: 0.18, ease: "power2.out", yoyo: true, repeat: 1, stagger: 0.12 }, 0.15);
       pop("#w4", 1.5); pop("#w5", 1.75);
-      pop("#w6", 2.9); pop("#w7", 3.15);
       tl.fromTo("#tarjeta-caja", { scale: 0.6, opacity: 0, y: -40 }, { scale: 1, opacity: 1, y: 0, duration: 0.35, ease: "back.out(1.8)" }, 2.2);
       tl.fromTo("#tarjeta-num", { rotation: -90 }, { rotation: 0, duration: 0.45, ease: "power3.out" }, 2.25);
       window.__timelines["main"] = tl;
@@ -132,22 +128,13 @@
       tablaAmasar.castShadow = true; tablaAmasar.receiveShadow = true;
       scene.add(tablaAmasar);
 
-      // Bolsa de harina y bowl de fondo
+      // Bolsa de harina de fondo
       const bolsa = new THREE.Mesh(new THREE.BoxGeometry(0.9, 1.3, 0.6, 1, 2, 1), mat("#f3ece2"));
       bolsa.position.set(-2.6, 0.65, -1.4); bolsa.rotation.y = 0.4; bolsa.castShadow = true;
       scene.add(bolsa);
       const etiqueta = new THREE.Mesh(new THREE.BoxGeometry(0.92, 0.36, 0.62), mat("#ff6900"));
       etiqueta.position.copy(bolsa.position); etiqueta.position.y = 0.7; etiqueta.rotation.y = 0.4;
       scene.add(etiqueta);
-      const perfil = [];
-      for (let i = 0; i <= 6; i++) perfil.push(new THREE.Vector2(0.15 + Math.sin((i / 6) * Math.PI * 0.5) * 0.75, i * 0.13));
-      const bowl = new THREE.Mesh(new THREE.LatheGeometry(perfil, 10), mat("#7fb3a8", { side: THREE.DoubleSide }));
-      bowl.position.set(2.6, 0, -1.3); bowl.castShadow = true;
-      scene.add(bowl);
-      // Cacao en el bowl
-      const cacao = new THREE.Mesh(new THREE.CylinderGeometry(0.78, 0.78, 0.06, 10), mat("#5a3220"));
-      cacao.position.set(2.6, 0.62, -1.3);
-      scene.add(cacao);
 
       // La masa: arranca como bollo y se estira
       const masa = new THREE.Mesh(new THREE.IcosahedronGeometry(0.5, 1), mat("#5b3421", { roughness: 0.95 }));
@@ -159,8 +146,23 @@
       const blanco = mat("#f7f3ee"), piel = mat("#f0b58c"), negro = mat("#1a1a1a"), naranja = mat("#ff6900");
       const cuerpo = new THREE.Mesh(new THREE.CylinderGeometry(0.42, 0.5, 1.0, 8), blanco);
       cuerpo.position.y = 0.95; cuerpo.castShadow = true;
-      const delantal = new THREE.Mesh(new THREE.BoxGeometry(0.62, 0.78, 0.08), naranja);
-      delantal.position.set(0, 0.86, 0.46); delantal.castShadow = true;
+      // Delantal: falda y pechera que siguen la forma del cuerpo, tira en la cintura, tiras al cuello y bolsillo
+      const naranjaOscuro = mat("#d95500");
+      const doble = { side: THREE.DoubleSide };
+      const delantal = new THREE.Group();
+      const falda = new THREE.Mesh(new THREE.CylinderGeometry(0.485, 0.535, 0.6, 12, 1, true, -1.05, 2.1), mat("#ff6900", doble));
+      falda.position.y = 0.7; falda.castShadow = true;
+      const pechera = new THREE.Mesh(new THREE.CylinderGeometry(0.448, 0.478, 0.38, 10, 1, true, -0.5, 1.0), mat("#ff6900", doble));
+      pechera.position.y = 1.18; pechera.castShadow = true;
+      const cintura = new THREE.Mesh(new THREE.CylinderGeometry(0.488, 0.49, 0.07, 16, 1, true), mat("#d95500", doble));
+      cintura.position.y = 1.0;
+      const tira = (lado) => {
+        const t = new THREE.Mesh(new THREE.BoxGeometry(0.05, 0.26, 0.03), naranjaOscuro);
+        t.position.set(0.19 * lado, 1.47, 0.33); t.rotation.set(-0.5, 0, 0.35 * lado); return t;
+      };
+      const bolsillo = new THREE.Mesh(new THREE.BoxGeometry(0.3, 0.16, 0.03), naranjaOscuro);
+      bolsillo.position.set(0, 0.7, 0.51); bolsillo.rotation.x = 0.08;
+      delantal.add(falda, pechera, cintura, tira(-1), tira(1), bolsillo);
       const piernaI = new THREE.Mesh(new THREE.CylinderGeometry(0.13, 0.13, 0.5, 6), mat("#2d2d36"));
       piernaI.position.set(-0.18, 0.25, 0); piernaI.castShadow = true;
       const piernaD = piernaI.clone(); piernaD.position.x = 0.18;
