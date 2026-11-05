@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><title>Portadas de destacadas</title>
+<!-- Portadas de las destacadas de Instagram (noviembre 2026). 1080x1920, negro con el ícono naranja en el centro:
+     Instagram la recorta en un círculo chico, así que todo va dentro de los 700 px del medio.
+     Se abre con ?s=1 y se saca una captura de 1080x1920. -->
+<style>
+  html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:#000}
+  section{display:none;position:relative;width:1080px;height:1920px;background:#000}
+  section.activa{display:block}
+  .icono{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%)}
+</style></head><body>
+
+<!-- 1 · Pedí acá: bolsa naranja con la corona oficial -->
+<section>
+  <svg class="icono" width="620" height="620" viewBox="0 0 620 620">
+    <path d="M220 230 V185 a90 90 0 0 1 180 0 V230" fill="none" stroke="#FF6900" stroke-width="40" stroke-linecap="round"/>
+    <path d="M120 215 H500 L530 560 a24 24 0 0 1 -24 26 H114 a24 24 0 0 1 -24 -26 Z" fill="#FF6900" stroke="#FF6900" stroke-width="20" stroke-linejoin="round"/>
+    <image href="../logo/Monteriko-icono-negro-v03.svg" x="142" y="262" width="336" height="315"/>
+  </svg>
+</section>
+
+<script>
+  var n = Number(new URLSearchParams(location.search).get('s')) || 1;
+  document.querySelectorAll('section')[n - 1].classList.add('activa');
+</script>
+</body></html>

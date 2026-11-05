@@ -16,6 +16,7 @@ Alfajores artesanales de Mar del Plata, hechos por Tomás Bracamonte.
 | `pagina-web.md` | La página web: cómo se trabaja, reglas, decisiones tomadas y pendientes |
 | `pagina-web/` | El código de la página (index.html y assets), listo para subir |
 | `logo/` | Los SVG oficiales del logo. Se usan tal cual, sin redibujar |
+| `destacadas/` | Portadas de las destacadas de Instagram |
 | `fotos-originales/` | Fotos reales de Tomás, todas aprobadas |
 | `fotos-proceso/` | Fotos sacadas de los videos del proceso, sin aprobar todavía |
 | `mockups/` | Stickers y caja kraft, de referencia para la paleta |
