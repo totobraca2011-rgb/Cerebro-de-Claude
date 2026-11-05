@@ -6,7 +6,7 @@ Idea de Tomás (4 de noviembre 2026): un reel en el estilo de @loconstruiste.mx 
 - **Video:** `editor-de-ia/terminados/2026-11-04-alfajor-3d-prueba-v1.mp4` (5 s, 1080x1920, sin sonido).
 - **Qué muestra:** el pastelero (gorro blanco y delantal naranja), el bollo de masa de chocolate que rebota, cae harina y lo estira con el palo de amasar. Subtítulo "Así se hace un alfajor Monte Riko" palabra por palabra y la tarjeta "Paso 1 · La masa".
 - **Cómo se hizo:** HyperFrames con Three.js, todo armado con código (no hay modelos 3D bajados). El código es `alfajor-3d-prueba.html`. El proyecto para renderizar vive en la compu, en `C:\Users\MARCOS\Videos\monte-riko-3d\alfajor-3d\`, fuera de `AppData`: ahí está Three.js en `assets/lib/`. Se renderiza con `npx hyperframes render --output <archivo>.mp4` y tarda unos 20 s cada 5 s de video.
-- **Falta, si Tomás la aprueba:** el resto de los pasos (tapas con el cortante, horno, dulce de leche, tapa, baño de chocolate, papel dorado y caja), su voz y los datos reales de su proceso para las tarjetas (temperatura y minutos de horno, cuánto dulce lleva cada uno, algún porqué).
+- **Falta, si Tomás la aprueba:** el resto de los pasos y su voz. Los datos reales del proceso ya están en `../proceso.md` (5 de noviembre 2026).
 
 ## Prueba v2 (5 de noviembre 2026)
 - **Video:** `editor-de-ia/terminados/2026-11-05-alfajor-3d-prueba-v2.mp4`. El código actualizado es el mismo `alfajor-3d-prueba.html`.
