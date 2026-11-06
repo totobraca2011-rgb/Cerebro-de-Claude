@@ -19,6 +19,33 @@
   </svg>
 </section>
 
+<!-- 2 · Precios: etiqueta de precio naranja con el agujerito y la corona -->
+<section>
+  <svg class="icono" width="620" height="620" viewBox="0 0 620 620">
+    <path d="M60 310 L200 170 H540 a30 30 0 0 1 30 30 V420 a30 30 0 0 1 -30 30 H200 Z" fill="#FF6900" stroke="#FF6900" stroke-width="24" stroke-linejoin="round"/>
+    <circle cx="180" cy="310" r="30" fill="#000"/>
+    <image href="../logo/Monteriko-icono-negro-v03.svg" x="268" y="198" width="240" height="225"/>
+  </svg>
+</section>
+
+<!-- 3 · Envíos: camioncito naranja con la corona en la caja -->
+<section>
+  <svg class="icono" width="620" height="620" viewBox="0 0 620 620">
+    <g transform="translate(0 -36)">
+      <rect x="40" y="160" width="360" height="290" rx="26" fill="#FF6900"/>
+      <path d="M420 250 H520 L585 340 V450 H420 Z" fill="#FF6900" stroke="#FF6900" stroke-width="20" stroke-linejoin="round"/>
+      <path d="M448 280 H505 L548 338 H448 Z" fill="#000"/>
+      <circle cx="140" cy="470" r="76" fill="#000"/>
+      <circle cx="140" cy="470" r="54" fill="#FF6900"/>
+      <circle cx="140" cy="470" r="18" fill="#000"/>
+      <circle cx="490" cy="470" r="76" fill="#000"/>
+      <circle cx="490" cy="470" r="54" fill="#FF6900"/>
+      <circle cx="490" cy="470" r="18" fill="#000"/>
+      <image href="../logo/Monteriko-icono-negro-v03.svg" x="105" y="180" width="230" height="216"/>
+    </g>
+  </svg>
+</section>
+
 <script>
   var n = Number(new URLSearchParams(location.search).get('s')) || 1;
   document.querySelectorAll('section')[n - 1].classList.add('activa');

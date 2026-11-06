@@ -9,3 +9,5 @@ Portadas para las destacadas de @monteriko.oficial (noviembre 2026). Se arman en
 | Archivo | Destacada | Estado |
 |---|---|---|
 | `pedi-aca.jpg` | Pedí acá: una bolsa con la corona | Armada el 5 de noviembre 2026; falta que Tomás la vea |
+| `precios.jpg` | Precios: una etiqueta de precio con la corona | Armada el 6 de noviembre 2026; falta que Tomás la vea |
+| `envios.jpg` | Envíos: un camioncito con la corona en la caja | Armada el 6 de noviembre 2026; falta que Tomás la vea |
