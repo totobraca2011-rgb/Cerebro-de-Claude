@@ -25,12 +25,12 @@ Tres posts por semana, a un ritmo que una sola persona pueda sostener: **martes 
 | Día | Formato | Tipo | Qué es | Estado |
 |---|---|---|---|---|
 | Mar 3 | Reel | Historia | Quién está detrás de Monte Riko | **Publicado** por Tomás el 3 de noviembre 2026 (versión 5) |
-| Jue 5 | Carrusel | Venta | Cómo pedir tu caja | Armado en `monte-riko/carruseles/como-pedir/` |
+| Jue 5 | Carrusel | Venta | Cómo pedir tu caja | **Publicado** por Tomás el 5 de noviembre 2026, con las historias del día (7 imágenes) |
 | Sáb 7 | Foto | Venta | La caja y el papel dorado | Borrador en Metricool |
-| Mar 10 | Reel | Proceso | La harina y la masa | Versión 3: con sonido y sin música. El zoom nuevo no va, ya tenía uno (2 de noviembre 2026) |
+| Mar 10 | Reel | Proceso | Así se hace un alfajor (3D) | Versión 4, con la voz de Tomás. Se adelantó del martes 17 a pedido de Tomás (6 de noviembre 2026) |
 | Jue 12 | Reel | Proceso | El relleno | Versión 6: la v5 que editó Tomás, con zoom in y zoom out. Le gustó (2 de noviembre 2026) |
 | Sáb 14 | Foto | Marca | Auténtico marplatense | Borrador en Metricool |
-| Mar 17 | Reel | Proceso | (libre) | Cortar las tapas se descartó (Tomás, 2 de noviembre 2026): falta elegir qué reel va |
+| Mar 17 | Reel | Proceso | La harina y la masa | Versión 3, con sonido y sin música. Se corrió del martes 10 por el reel 3D (6 de noviembre 2026). Los dos de reserva siguen sin fecha |
 | Jue 19 | Foto | Venta | El patagónico por dentro | Borrador en Metricool |
 | Sáb 21 | Reel | Historia | Cómo empezó todo, en la escuela | **Hay que grabarlo** |
 | Mar 24 | Reel | Proceso | El marplatense por dentro | Armado con sonido, sin música. Tomás lo revisa |
@@ -75,12 +75,12 @@ Armá la tuya desde el link de la bio.
 
 *Texto alternativo:* caja abierta con cuatro alfajores envueltos en papel dorado.
 
-### Mar 10: La harina y la masa
-Si querés probarlos, armá tu pedido desde el link de la bio.
+### Mar 10: Así se hace un alfajor (3D)
+Armá tu caja desde el link de la bio.
 
-Así arranca cada alfajor Monte Riko: tapas de chocolate hechas a mano, en mi casa de Mar del Plata, de a una por vez.
+Así se hace un alfajor de más de 100 gramos: una noche en el freezer, 8 minutos de horno, 55 gramos de dulce de leche y chocolate semiamargo a 45 grados.
 
-Después viene el dulce de leche y el baño de chocolate. Eso te lo muestro el jueves.
+Todo a mano, en mi casa de Mar del Plata.
 
 #alfajores #alfajoresartesanales #mardelplata
 
@@ -106,8 +106,16 @@ Si estás lejos, las cajas viajan a todo el país. Armá la tuya desde el link d
 
 *Texto alternativo:* alfajor y termo en la playa, con los edificios de Mar del Plata de fondo.
 
-### Mar 17: (a elegir)
-"Cortar las tapas" se descartó. Va uno de los reels de reserva, con su texto (abajo, en "Reels de reserva"). En Trello están las dos descripciones.
+### Mar 17: La harina y la masa
+Se corrió del martes 10 por el reel 3D (6 de noviembre 2026). Se sacó el "Eso te lo muestro el jueves", porque el jueves 19 no hay reel.
+
+Si querés probarlos, armá tu pedido desde el link de la bio.
+
+Así arranca cada alfajor Monte Riko: tapas de chocolate hechas a mano, en mi casa de Mar del Plata, de a una por vez.
+
+Después vienen el dulce de leche y el baño de chocolate.
+
+#alfajores #alfajoresartesanales #mardelplata
 
 ### Jue 19: El patagónico por dentro
 Mirá lo que tiene adentro.
