@@ -59,18 +59,10 @@ Idea de Tomás (4 de noviembre 2026): un reel en el estilo de @loconstruiste.mx 
   - `mk-3205_quick-swoosh-accent.wav` (Mixkit 3205)
   - `mk-414_hard-pop-click.wav` (Mixkit 414)
 
-## Pendiente: la voz (5 de noviembre 2026)
-Tomás eligió narrarlo con su voz (no con una voz de IA). Lo graba él con el celu: se le rompió el micrófono corbatero, así que hay que escuchar cómo suena antes de usarlo. Cuando llegue el audio: limpiarlo (ruido y volumen), cortar cada frase y ponerla en su paso, y bajar un poco los sonidos mientras habla. Texto (el mismo de los subtítulos, una línea por paso):
-
-> Así es como se hace un alfajor de más de 100 gramos.
-> Primero, la masa, derecho al freezer: una noche o más.
-> La saco y la estiro hasta 5 milímetros.
-> Salen las tapas, a la heladera, media hora.
-> De la heladera, directo al horno… y a enfriar.
-> 55 gramos de dulce de leche, panza para adentro.
-> Otra vez al frío, así el dulce no se escapa.
-> Chocolate semiamargo, a 45 grados, y abajo, otra vez.
-> Papel dorado y la corona. Listo para vos.
+## Con la voz de Tomás v4 (6 de noviembre 2026)
+- **Video:** `editor-de-ia/terminados/2026-11-06-alfajor-3d-v4-voz.mp4` (40 s). La voz cruda está en `editor-de-ia/crudos/alfajor-3d/Nueva grabación 4.m4a`. La grabó con el celu, sin el corbatero, y salió bien: sin ruido ni saturación, con un poco de graves de más que se bajaron.
+- **Cómo se armó:** se pasó a texto con Whisper (`alfajor-3d/voz-palabras.json`), que confirmó el guion completo sin errores. `alfajor-3d/tiempos.py` estira cada paso a lo que dura su frase, sin acelerar la voz, y pone cada palabra del subtítulo en el momento en que se dice. `armar.py` y `escena.js` leen esos tiempos.
+- **Mezcla:** a la voz se le sacan los graves de más (filtro de 90 Hz y -3 dB en 180 Hz), se le baja apenas el ruido y se la comprime. Los sonidos de cocina, movidos a los tiempos nuevos (`alfajor-3d/sonido/sounddesign-voz.json`), bajan solos mientras habla. Queda en -14 LUFS y -3 dBTP.
 
 ## Seguir desde la nube u otra compu
 El proyecto de `C:\Users\MARCOS\Videos\` no está en el repo. Para rearmarlo: `npx hyperframes init alfajor-3d --example=blank --resolution=portrait --non-interactive`, copiar `alfajor-3d-prueba.html` como `index.html` y bajar Three.js con `npm pack three@0.170.0`. De ese paquete, `build/three.module.min.js` va a `assets/lib/`, y `logo/Monteriko-blanco-v03.svg` se copia como `assets/logo-blanco.svg`. Antes del primer render: `npx hyperframes browser ensure`.
