@@ -364,7 +364,17 @@ function alfajorEn(k, t, fp) {
   return papelP;
 }
 
-function renderAt(t) {
+// Tiempo del video (con la voz) -> tiempo de la escena original: cada paso se estira lo que dura su frase
+const TI = window.__TIEMPOS || { viejo: [0, 1], nuevo: [0, 1] };
+function aEscena(tf) {
+  const V0 = TI.viejo, N0 = TI.nuevo;
+  for (let i = 0; i < N0.length - 1; i++) {
+    if (tf <= N0[i + 1] || i === N0.length - 2) return V0[i] + (tf - N0[i]) * (V0[i + 1] - V0[i]) / (N0[i + 1] - N0[i]);
+  }
+  return tf;
+}
+function renderAt(tf) {
+  const t = aEscena(tf);
   camara(t);
   const fp = fuenteEn(t);
   fuente.position.copy(fp[0]);

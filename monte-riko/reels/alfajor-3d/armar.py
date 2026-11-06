@@ -1,6 +1,6 @@
 # Arma index.html del reel 3D "Así se hace un alfajor" (8 pasos, 36 s).
 # Los textos se escriben en el HTML (uno por clip, con id fijo) y la escena 3D va en escena.js.
-import pathlib, html
+import pathlib, html, json
 
 AQUI = pathlib.Path(__file__).parent
 DUR = 36
@@ -48,18 +48,33 @@ DATOS = [
     (18.4, 20.2, "55 G"), (23.2, 25.4, "BIEN FRÍOS"), (27.2, 28.8, "45 °C"), (30.3, 31.6, "PAPEL DORADO"),
 ]
 
+# ---- Tiempos a partir de la voz de Tomás (tiempos.py) ----
+T = json.load(open(AQUI / "tiempos.json", encoding="utf-8"))
+VIEJO, NUEVO = T["viejo"], T["nuevo"]
+def f(t):  # tiempo de la escena original -> tiempo del video con voz
+    for i in range(len(VIEJO) - 1):
+        a, b = VIEJO[i], VIEJO[i + 1]
+        if t <= b or i == len(VIEJO) - 2:
+            return round(NUEVO[i] + (t - a) * (NUEVO[i + 1] - NUEVO[i]) / (b - a), 3)
+DUR = NUEVO[-1]
+PASOS = [(f(a), f(b), n, nom) for (a, b, n, nom) in PASOS]
+DATOS = [(f(a), f(b), txt) for (a, b, txt) in DATOS]
+SUBS = [(x["t"], x["fin"], x["texto"], x["claves"], x["palabras"]) for x in T["subs"]]
+PULSO_100 = SUBS[2][4][3]  # el dato +100 G late cuando se dice "100"
+CIERRE = f(34)
+
 def r(x):
     return f"{x:g}"
 
 clips, anim = [], []
-for i, (a, b, txt, claves) in enumerate(SUBS, 1):
+for i, (a, b, txt, claves, tw) in enumerate(SUBS, 1):
     spans = []
     for j, w in enumerate(txt.split(" "), 1):
         limpio = w.strip(",").lower()
         cls = ' class="clave"' if limpio in [c.lower() for c in claves] else ""
         spans.append(f'<span id="s{i}w{j}"{cls}>{html.escape(w)}</span>')
         if not (i == 1):
-            anim.append(f'pop("#s{i}w{j}", {r(a + 0.12 * (j - 1))});')
+            anim.append(f'pop("#s{i}w{j}", {r(tw[j - 1])});')
     clips.append(f'<div id="sub-{i}" class="sub clip" data-start="{r(a)}" data-duration="{r(round(b - a, 3))}" data-track-index="2">{" ".join(spans)}</div>')
 anim.append('tl.fromTo("#sub-1 span", { scale: 1 }, { scale: 1.08, duration: 0.18, ease: "power2.out", yoyo: true, repeat: 1, stagger: 0.12 }, 0.15);')
 
@@ -74,15 +89,15 @@ for (a, b, n, nombre) in PASOS:
 for k, (a, b, txt) in enumerate(DATOS, 1):
     clips.append(f'<div id="dato-{k}" class="dato{" gancho" if a == 0 else ""} clip" data-start="{r(a)}" data-duration="{r(round(b - a, 3))}" data-track-index="4"><span id="dato-{k}-t">{html.escape(txt)}</span></div>')
     if a == 0:
-        anim.append(f'tl.fromTo("#dato-{k}-t", {{ rotation: -4, scale: 1 }}, {{ rotation: -4, scale: 1.12, duration: 0.25, ease: "power2.out", yoyo: true, repeat: 1 }}, 1.35);')
+        anim.append(f'tl.fromTo("#dato-{k}-t", {{ rotation: -4, scale: 1 }}, {{ rotation: -4, scale: 1.12, duration: 0.25, ease: "power2.out", yoyo: true, repeat: 1 }}, {r(PULSO_100)});')
         continue
     anim.append(f'tl.fromTo("#dato-{k}-t", {{ scale: 0.3, opacity: 0, rotation: -14 }}, {{ scale: 1, opacity: 1, rotation: -4, duration: 0.3, ease: "back.out(2.6)" }}, {r(a)});')
 
-clips.append('<div id="cierre" class="cierre clip" data-start="34" data-duration="2" data-track-index="5">'
+clips.append(f'<div id="cierre" class="cierre clip" data-start="{r(CIERRE)}" data-duration="{r(round(DUR - CIERRE, 3))}" data-track-index="5">'
              '<div id="cierre-caja" class="cierre-caja"><small>Pedilo en</small><b>monteriko.com.ar</b></div></div>')
-anim.append('tl.fromTo("#cierre-caja", { scale: 0.6, opacity: 0, y: 40 }, { scale: 1, opacity: 1, y: 0, duration: 0.4, ease: "back.out(1.8)" }, 34);')
+anim.append(f'tl.fromTo("#cierre-caja", {{ scale: 0.6, opacity: 0, y: 40 }}, {{ scale: 1, opacity: 1, y: 0, duration: 0.4, ease: "back.out(1.8)" }}, {r(CIERRE)});')
 
-escena = (AQUI / "escena.js").read_text(encoding="utf-8")
+escena = f"window.__TIEMPOS = {json.dumps({'viejo': VIEJO, 'nuevo': NUEVO})};\n" + (AQUI / "escena.js").read_text(encoding="utf-8")
 doc = f'''<!doctype html>
 <html lang="es" data-resolution="portrait">
   <head>
