@@ -43,12 +43,12 @@ Lo que se miró de otras marcas está en `../instagram-referentes.md`.
 - **En la app:** Respondé en una historia dos preguntas de ayer, con tu mano o el alfajor en la foto.
 - **Respuesta a "¿cómo surgió?"** (Tomás, 4 de noviembre 2026): compartir la pregunta con "Empezó en la escuela. Te cuento la historia completa en un reel el sábado 21." Queda prometido el reel del sábado 21.
 
-### Jue 5: Cómo pedir
+### Jue 5: Cómo pedir (publicadas por Tomás el 5 de noviembre 2026, con el carrusel)
 - `jue-5-1.jpg`: PEDIR LLEVA MENOS QUE COMERTE UNO. Rehecha el 5 de noviembre 2026 con la foto `patagonico-cerrado`: el cuadro del video salía movido (Tomás). En Drive sigue la vieja: se reemplaza a mano.
 - `jue-5-2.jpg`: ARMÁS TU CAJA EN LA PÁGINA. **Ojo:** Guardala en la destacada "Pedí acá".
 - `jue-5-3.jpg`: ME LLEGA POR WHATSAPP. **Sticker:** Sticker de enlace a monteriko.com.ar. Guardala en "Pedí acá".
 
-### Vie 6: Precios y envíos
+### Vie 6: Precios y envíos (publicadas por Tomás el 6 de noviembre 2026, a la tarde)
 - `vie-6-1.jpg`: PRECIOS. **Sticker:** Sticker de enlace. Guardala en la destacada "Precios".
 - `vie-6-2.jpg`: LAS CAJAS VAN A TODO EL PAÍS. **Ojo:** Guardala en la destacada "Envíos".
 - `vie-6-3.jpg`: ¿DESDE DÓNDE ME VES? **Sticker:** Caja de preguntas: "Decime tu ciudad".
