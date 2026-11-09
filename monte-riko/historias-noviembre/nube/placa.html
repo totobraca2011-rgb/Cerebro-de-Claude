@@ -16,6 +16,6 @@ document.getElementById('t').textContent=t; document.getElementById('s').textCon
 const largo=Math.max(...t.split(' ').map(w=>w.length));
 document.getElementById('t').style.fontSize=Math.min(t.length>22?66:80,900/(largo*0.86))+'px';
 document.getElementById('g').style.background=abajo?'linear-gradient(0deg, rgba(0,0,0,.62) 0%, rgba(0,0,0,.42) 24%, rgba(0,0,0,0) 36%)':'linear-gradient(180deg, rgba(0,0,0,.62) 0%, rgba(0,0,0,.42) 17%, rgba(0,0,0,0) 29%)';
-document.getElementById('tx').style[abajo?'bottom':'top']=(abajo?330:200)+'px';
+if(q.get('top')) document.getElementById('tx').style.top=q.get('top')+'px'; else document.getElementById('tx').style[abajo?'bottom':'top']=(abajo?330:200)+'px';
 if(!s) document.getElementById('s').remove();
 </script></body></html>

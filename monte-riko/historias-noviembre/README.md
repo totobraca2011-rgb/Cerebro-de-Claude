@@ -57,7 +57,7 @@ Lo que se miró de otras marcas está en `../instagram-referentes.md`.
 
 ### Lun 9: Alguien nuevo en la cocina (rehechas el 9 de noviembre 2026: anuncian el reel 3D del martes)
 - `lun-9-1.jpg`: HAY ALGUIEN NUEVO EN LA COCINA. "Mañana lo conocés." El pastelero 3D con la masa, sin los textos del reel.
-- `lun-9-2.jpg`: MAÑANA TE MUESTRO CÓMO SE HACE. "Un alfajor de más de 100 g, paso a paso. A las 18:00, en un reel." Foto `alfajor-partido-mitades` con el filtro del dulce. **Sticker:** cuenta regresiva para mañana a las 18:00, abajo del texto.
+- `lun-9-2.jpg`: MAÑANA TE MUESTRO CÓMO SE HACE. "Un alfajor de +100 g. A las 18:00." Foto `alfajor-partido-mitades` con el filtro del dulce. El texto va más arriba para dejar lugar al contador (pedido de Tomás, 9 de noviembre 2026). **Sticker:** cuenta regresiva para mañana a las 18:00, en el hueco gris de abajo del texto.
 
 ### Mar 10: Reel 3D "Así se hace un alfajor"
 - `mar-10-1.jpg`: LA PARTE QUE NADIE VE
