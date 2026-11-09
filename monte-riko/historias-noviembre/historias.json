@@ -1,101 +1,426 @@
 [
-{"dia":"Lun 2","tema":"Así arranca","placas":[
- {"v":["p1","p2","p3"],"t":"ASÍ ARRANCA CADA ALFAJOR"},
- {"f":"termo-playa-skyline-mdp","t":"¿MATE O CAFÉ?","s":"Para acompañar el alfajor.","n":"Encuesta: Mate / Café"},
- {"v":["p16","p17"],"t":"DE LA MASA A LA CAJA","s":"Cada paso, hecho a mano en Mar del Plata."}
-]},
-{"dia":"Mar 3","tema":"Quién está detrás","placas":[
- {"f":"mano-alfajor-frente","t":"¿QUIÉN ESTÁ DETRÁS DE ESTO?","s":"Hoy te lo cuento en un reel.","n":"Subila antes del reel"},
- {"app":"Después de publicar, compartí el reel y escribile encima: \"Te cuento cómo arrancó todo\"."},
- {"f":"caja-envio","t":"PREGUNTAME LO QUE QUIERAS","s":"Cómo empezó, cómo se hacen, lo que sea.","n":"Caja de preguntas: \"¿Qué querés saber de Monte Riko?\""}
-]},
-{"dia":"Mié 4","tema":"Los dos alfajores","placas":[
- {"p":"alfajor-partido-abierto","t":"MARPLATENSE","s":"Tapas de chocolate, dulce de leche y baño de chocolate."},
- {"f":"patagonico-corte-frutos","t":"PATAGÓNICO","s":"Con corazón de mermelada de frutos rojos."},
- {"f":"caja-cuatro-alfajores","t":"¿CUÁL VA EN TU CAJA?","n":"Encuesta: Marplatense / Patagónico"},
- {"app":"Respondé en una historia dos preguntas de ayer, con tu mano o el alfajor en la foto."}
-]},
-{"dia":"Jue 5","tema":"Cómo pedir","placas":[
- {"p":"patagonico-cerrado","t":"PEDIR LLEVA MENOS QUE COMERTE UNO"},
- {"f":"caja-cuatro-alfajores","t":"ARMÁS TU CAJA EN LA PÁGINA","s":"Media docena o docena, surtida como quieras.","n":"Guardala en la destacada \"Pedí acá\""},
- {"f":"alfajor-luz-mesa","t":"ME LLEGA POR WHATSAPP","s":"Coordinamos envío o retiro en Mar del Plata.","n":"Sticker de enlace a monteriko.com.ar. Guardala en \"Pedí acá\""}
-]},
-{"dia":"Vie 6","tema":"Precios y envíos","placas":[
- {"f":"alfajores-desenfoque","t":"PRECIOS","s":"Marplatense $2.800 · Patagónico $3.000\nMedia docena $16.500 · Docena $31.900","n":"Sticker de enlace. Guardala en la destacada \"Precios\""},
- {"f":"termo-escollera-mar","t":"LAS CAJAS VAN A TODO EL PAÍS","s":"Los sueltos, solo en Mar del Plata.","n":"Guardala en la destacada \"Envíos\""},
- {"f":"mano-alfajor-arbol","t":"¿DESDE DÓNDE ME VES?","n":"Caja de preguntas: \"Decime tu ciudad\""}
-]},
-{"dia":"Lun 9","tema":"La masa","placas":[
- {"v":["harina-mesada"],"t":"ASÍ EMPIEZA TODO"},
- {"p":"tapas-en-placa","t":"MAÑANA TE MUESTRO LA MASA","n":"Sticker de cuenta regresiva para mañana a las 18:00"}
-]},
-{"dia":"Mar 10","tema":"Reel de la masa","placas":[
- {"v":["estirar-de-cerca"],"t":"LA PARTE QUE NADIE VE"},
- {"app":"Después de publicar, compartí el reel y escribile encima: \"Mirá la harina\"."},
- {"p":"tapas-horneadas","t":"¿TE COMERÍAS LA TAPA SOLA?","n":"Encuesta: Sí, y dos / Con dulce siempre"}
-]},
-{"dia":"Mié 11","tema":"El horno","placas":[
- {"p":"tapas-al-horno","t":"ASÍ ENTRAN"},
- {"p":"tapas-horneadas","t":"ASÍ SALEN"},
- {"p":"dulce-mesada","t":"¿CUÁNTO DULCE LE PONEMOS?","n":"Barra deslizante con el emoji 🤤"}
-]},
-{"dia":"Jue 12","tema":"Reel del relleno","placas":[
- {"v":["r2","r3"],"t":"ESTO VA ADENTRO"},
- {"app":"Después de publicar, compartí el reel y escribile encima: \"Mirá cómo se abre al final\"."},
- {"p":"dulce-copete","t":"¿MUCHO O MUCHÍSIMO?","n":"Encuesta: Mucho / Muchísimo"}
-]},
-{"dia":"Vie 13","tema":"Por dentro","placas":[
- {"v":["a1","a2"],"t":"ESPERÁ A QUE SE ABRA"},
- {"p":"alfajor-partido-mitades","t":"UN MARPLATENSE POR DENTRO"},
- {"f":"caja-cuatro-alfajores","t":"¿CAJA PARA EL FINDE?","n":"Sticker de enlace a monteriko.com.ar"}
-]},
-{"dia":"Lun 16","tema":"Las tapas","placas":[
- {"v":["p4","p5"],"t":"PLACAS Y MÁS PLACAS"},
- {"p":"tapas-en-placa","t":"¿CUÁNTAS TAPAS HAY?","n":"Caja de preguntas. Contalas antes y al otro día decí quién acertó"}
-]},
-{"dia":"Mar 17","tema":"Reel de las tapas","placas":[
- {"v":["cortar-tapas"],"t":"UNA POR UNA"},
- {"app":"Después de publicar, compartí el reel y escribile encima: \"Mirá la masa al final\"."}
-]},
-{"dia":"Mié 18","tema":"El chocolate","placas":[
- {"v":["b2","b4"],"t":"ACÁ MANDA EL CHOCOLATE"},
- {"p":"bano-en-bowl","t":"NEGRO. SIEMPRE.","s":"El baño de Monte Riko es de chocolate negro."},
- {"p":"chocolate-espatula","t":"¿FINITO O BIEN GRUESO?","n":"Encuesta: Finito / Bien grueso"}
-]},
-{"dia":"Jue 19","tema":"El patagónico","placas":[
- {"p":"patagonico-corona-dulce","t":"PRIMERO, LA CORONA","s":"Dulce de leche con un hueco al medio."},
- {"p":"patagonico-mermelada","t":"DESPUÉS, EL CORAZÓN","s":"Mermelada de frutos rojos."},
- {"f":"patagonico-corte-frutos","t":"ASÍ QUEDA","s":"$3.000 cada uno.","n":"Sticker de enlace a monteriko.com.ar"},
- {"app":"Compartí el post del día y escribile encima: \"Este es el que más te sorprende\"."}
-]},
-{"dia":"Vie 20","tema":"El baño","placas":[
- {"v":["b1","b7"],"t":"CADA UNO SE BAÑA A MANO"},
- {"p":"alfajores-banados-filas","t":"A SECAR"},
- {"f":"caja-cuatro-alfajores","t":"DESPUÉS, PAPEL DORADO","s":"Cada alfajor llega así, siempre.","n":"Sticker de enlace a monteriko.com.ar"},
- {"f":"mano-alfajor-arbol","t":"VOS SOS NUESTRO MEJOR INFLUENCER","s":"Subí tu alfajor y etiquetá a @monteriko.oficial.","n":"Lo que te manden, compartilo y guardalo en la destacada \"Ustedes\""}
-]},
-{"dia":"Lun 23","tema":"Fiestas","placas":[
- {"f":"caja-cuatro-alfajores","t":"¿YA PENSASTE EN LAS FIESTAS?"},
- {"f":"alfajores-desenfoque","t":"¿A QUIÉN LE REGALARÍAS UNA CAJA?","n":"Caja de preguntas"},
- {"f":"caja-envio","t":"DE 6 O DE 12","s":"Surtida como quieras y en papel dorado.","n":"Sticker de enlace a monteriko.com.ar"}
-]},
-{"dia":"Mar 24","tema":"Reel por dentro","placas":[
- {"v":["a3","a4"],"t":"ASÍ SE ABRE UN MONTE RIKO"},
- {"app":"Después de publicar, compartí el reel y escribile encima: \"Mirá cómo se abre\"."}
-]},
-{"dia":"Mié 25","tema":"Cómo empezó","placas":[
- {"f":"feria-cajas-alfajores","t":"ESTO EMPEZÓ EN LA ESCUELA","s":"Mis primeros alfajores los vendí ahí."},
- {"f":"termo-playa-skyline-mdp","t":"HOY VAN A TODO EL PAÍS"},
- {"f":"alfajor-luz-mesa","t":"¿QUÉ QUERÉS VER DEL PROCESO?","n":"Caja de preguntas"}
-]},
-{"dia":"Jue 26","tema":"El freezer","placas":[
- {"p":"alfajor-banado","t":"NO LO COMAS TODAVÍA"},
- {"p":"alfajor-partido-abierto","t":"10 MINUTOS EN EL FREEZER","s":"Después me contás."},
- {"f":"mano-alfajor-frente","t":"¿YA LO PROBASTE ASÍ?","n":"Encuesta: Sí / Hoy mismo"}
-]},
-{"dia":"Vie 27","tema":"Auténtico marplatense","placas":[
- {"f":"termo-playa-skyline-mdp","t":"AUTÉNTICO MARPLATENSE"},
- {"f":"termo-escollera-mar","t":"¿TENÉS A ALGUIEN LEJOS DE MAR DEL PLATA?"},
- {"f":"caja-envio","t":"MANDALE UNA CAJA","s":"Van a todo el país.","n":"Sticker de enlace a monteriko.com.ar"}
-]}
+ {
+  "dia": "Lun 2",
+  "tema": "Así arranca",
+  "placas": [
+   {
+    "v": [
+     "p1",
+     "p2",
+     "p3"
+    ],
+    "t": "ASÍ ARRANCA CADA ALFAJOR"
+   },
+   {
+    "f": "termo-playa-skyline-mdp",
+    "t": "¿MATE O CAFÉ?",
+    "s": "Para acompañar el alfajor.",
+    "n": "Encuesta: Mate / Café"
+   },
+   {
+    "v": [
+     "p16",
+     "p17"
+    ],
+    "t": "DE LA MASA A LA CAJA",
+    "s": "Cada paso, hecho a mano en Mar del Plata."
+   }
+  ]
+ },
+ {
+  "dia": "Mar 3",
+  "tema": "Quién está detrás",
+  "placas": [
+   {
+    "f": "mano-alfajor-frente",
+    "t": "¿QUIÉN ESTÁ DETRÁS DE ESTO?",
+    "s": "Hoy te lo cuento en un reel.",
+    "n": "Subila antes del reel"
+   },
+   {
+    "app": "Después de publicar, compartí el reel y escribile encima: \"Te cuento cómo arrancó todo\"."
+   },
+   {
+    "f": "caja-envio",
+    "t": "PREGUNTAME LO QUE QUIERAS",
+    "s": "Cómo empezó, cómo se hacen, lo que sea.",
+    "n": "Caja de preguntas: \"¿Qué querés saber de Monte Riko?\""
+   }
+  ]
+ },
+ {
+  "dia": "Mié 4",
+  "tema": "Los dos alfajores",
+  "placas": [
+   {
+    "p": "alfajor-partido-abierto",
+    "t": "MARPLATENSE",
+    "s": "Tapas de chocolate, dulce de leche y baño de chocolate."
+   },
+   {
+    "f": "patagonico-corte-frutos",
+    "t": "PATAGÓNICO",
+    "s": "Con corazón de mermelada de frutos rojos."
+   },
+   {
+    "f": "caja-cuatro-alfajores",
+    "t": "¿CUÁL VA EN TU CAJA?",
+    "n": "Encuesta: Marplatense / Patagónico"
+   },
+   {
+    "app": "Respondé en una historia dos preguntas de ayer, con tu mano o el alfajor en la foto."
+   }
+  ]
+ },
+ {
+  "dia": "Jue 5",
+  "tema": "Cómo pedir",
+  "placas": [
+   {
+    "p": "patagonico-cerrado",
+    "t": "PEDIR LLEVA MENOS QUE COMERTE UNO"
+   },
+   {
+    "f": "caja-cuatro-alfajores",
+    "t": "ARMÁS TU CAJA EN LA PÁGINA",
+    "s": "Media docena o docena, surtida como quieras.",
+    "n": "Guardala en la destacada \"Pedí acá\""
+   },
+   {
+    "f": "alfajor-luz-mesa",
+    "t": "ME LLEGA POR WHATSAPP",
+    "s": "Coordinamos envío o retiro en Mar del Plata.",
+    "n": "Sticker de enlace a monteriko.com.ar. Guardala en \"Pedí acá\""
+   }
+  ]
+ },
+ {
+  "dia": "Vie 6",
+  "tema": "Precios y envíos",
+  "placas": [
+   {
+    "f": "alfajores-desenfoque",
+    "t": "PRECIOS",
+    "s": "Marplatense $2.800 · Patagónico $3.000\nMedia docena $16.500 · Docena $31.900",
+    "n": "Sticker de enlace. Guardala en la destacada \"Precios\""
+   },
+   {
+    "f": "termo-escollera-mar",
+    "t": "LAS CAJAS VAN A TODO EL PAÍS",
+    "s": "Los sueltos, solo en Mar del Plata.",
+    "n": "Guardala en la destacada \"Envíos\""
+   },
+   {
+    "f": "mano-alfajor-arbol",
+    "t": "¿DESDE DÓNDE ME VES?",
+    "n": "Caja de preguntas: \"Decime tu ciudad\""
+   }
+  ]
+ },
+ {
+  "dia": "Lun 9",
+  "tema": "Alguien nuevo en la cocina",
+  "placas": [
+   {
+    "nube": "cuadro del reel 3D (segundo 0,3, sin textos)",
+    "t": "HAY ALGUIEN NUEVO EN LA COCINA",
+    "s": "Mañana lo conocés."
+   },
+   {
+    "p": "alfajor-partido-mitades",
+    "t": "MAÑANA TE MUESTRO CÓMO SE HACE",
+    "s": "Un alfajor de más de 100 g, paso a paso.\nA las 18:00, en un reel.",
+    "n": "Sticker de cuenta regresiva para mañana a las 18:00"
+   }
+  ]
+ },
+ {
+  "dia": "Mar 10",
+  "tema": "Reel 3D: así se hace un alfajor",
+  "placas": [
+   {
+    "v": [
+     "estirar-de-cerca"
+    ],
+    "t": "LA PARTE QUE NADIE VE"
+   },
+   {
+    "app": "Después de publicar, compartí el reel y escribile encima: \"Así se hace, paso a paso\"."
+   },
+   {
+    "p": "tapas-horneadas",
+    "t": "¿TE COMERÍAS LA TAPA SOLA?",
+    "n": "Encuesta: Sí, y dos / Con dulce siempre"
+   }
+  ]
+ },
+ {
+  "dia": "Mié 11",
+  "tema": "El horno",
+  "placas": [
+   {
+    "p": "tapas-al-horno",
+    "t": "ASÍ ENTRAN"
+   },
+   {
+    "p": "tapas-horneadas",
+    "t": "ASÍ SALEN"
+   },
+   {
+    "p": "dulce-mesada",
+    "t": "¿CUÁNTO DULCE LE PONEMOS?",
+    "n": "Barra deslizante con el emoji 🤤"
+   }
+  ]
+ },
+ {
+  "dia": "Jue 12",
+  "tema": "Reel del relleno",
+  "placas": [
+   {
+    "v": [
+     "r2",
+     "r3"
+    ],
+    "t": "ESTO VA ADENTRO"
+   },
+   {
+    "app": "Después de publicar, compartí el reel y escribile encima: \"Mirá cómo se abre al final\"."
+   },
+   {
+    "p": "dulce-copete",
+    "t": "¿MUCHO O MUCHÍSIMO?",
+    "n": "Encuesta: Mucho / Muchísimo"
+   }
+  ]
+ },
+ {
+  "dia": "Vie 13",
+  "tema": "Por dentro",
+  "placas": [
+   {
+    "v": [
+     "a1",
+     "a2"
+    ],
+    "t": "ESPERÁ A QUE SE ABRA"
+   },
+   {
+    "p": "alfajor-partido-mitades",
+    "t": "UN MARPLATENSE POR DENTRO"
+   },
+   {
+    "f": "caja-cuatro-alfajores",
+    "t": "¿CAJA PARA EL FINDE?",
+    "n": "Sticker de enlace a monteriko.com.ar"
+   }
+  ]
+ },
+ {
+  "dia": "Lun 16",
+  "tema": "Las tapas",
+  "placas": [
+   {
+    "v": [
+     "p4",
+     "p5"
+    ],
+    "t": "PLACAS Y MÁS PLACAS"
+   },
+   {
+    "p": "tapas-en-placa",
+    "t": "¿CUÁNTAS TAPAS HAY?",
+    "n": "Caja de preguntas. Contalas antes y al otro día decí quién acertó"
+   }
+  ]
+ },
+ {
+  "dia": "Mar 17",
+  "tema": "Reel de las tapas",
+  "placas": [
+   {
+    "v": [
+     "cortar-tapas"
+    ],
+    "t": "UNA POR UNA"
+   },
+   {
+    "app": "Después de publicar, compartí el reel y escribile encima: \"Mirá la masa al final\"."
+   }
+  ]
+ },
+ {
+  "dia": "Mié 18",
+  "tema": "El chocolate",
+  "placas": [
+   {
+    "v": [
+     "b2",
+     "b4"
+    ],
+    "t": "ACÁ MANDA EL CHOCOLATE"
+   },
+   {
+    "p": "bano-en-bowl",
+    "t": "NEGRO. SIEMPRE.",
+    "s": "El baño de Monte Riko es de chocolate negro."
+   },
+   {
+    "p": "chocolate-espatula",
+    "t": "¿FINITO O BIEN GRUESO?",
+    "n": "Encuesta: Finito / Bien grueso"
+   }
+  ]
+ },
+ {
+  "dia": "Jue 19",
+  "tema": "El patagónico",
+  "placas": [
+   {
+    "p": "patagonico-corona-dulce",
+    "t": "PRIMERO, LA CORONA",
+    "s": "Dulce de leche con un hueco al medio."
+   },
+   {
+    "p": "patagonico-mermelada",
+    "t": "DESPUÉS, EL CORAZÓN",
+    "s": "Mermelada de frutos rojos."
+   },
+   {
+    "f": "patagonico-corte-frutos",
+    "t": "ASÍ QUEDA",
+    "s": "$3.000 cada uno.",
+    "n": "Sticker de enlace a monteriko.com.ar"
+   },
+   {
+    "app": "Compartí el post del día y escribile encima: \"Este es el que más te sorprende\"."
+   }
+  ]
+ },
+ {
+  "dia": "Vie 20",
+  "tema": "El baño",
+  "placas": [
+   {
+    "v": [
+     "b1",
+     "b7"
+    ],
+    "t": "CADA UNO SE BAÑA A MANO"
+   },
+   {
+    "p": "alfajores-banados-filas",
+    "t": "A SECAR"
+   },
+   {
+    "f": "caja-cuatro-alfajores",
+    "t": "DESPUÉS, PAPEL DORADO",
+    "s": "Cada alfajor llega así, siempre.",
+    "n": "Sticker de enlace a monteriko.com.ar"
+   },
+   {
+    "f": "mano-alfajor-arbol",
+    "t": "VOS SOS NUESTRO MEJOR INFLUENCER",
+    "s": "Subí tu alfajor y etiquetá a @monteriko.oficial.",
+    "n": "Lo que te manden, compartilo y guardalo en la destacada \"Ustedes\""
+   }
+  ]
+ },
+ {
+  "dia": "Lun 23",
+  "tema": "Fiestas",
+  "placas": [
+   {
+    "f": "caja-cuatro-alfajores",
+    "t": "¿YA PENSASTE EN LAS FIESTAS?"
+   },
+   {
+    "f": "alfajores-desenfoque",
+    "t": "¿A QUIÉN LE REGALARÍAS UNA CAJA?",
+    "n": "Caja de preguntas"
+   },
+   {
+    "f": "caja-envio",
+    "t": "DE 6 O DE 12",
+    "s": "Surtida como quieras y en papel dorado.",
+    "n": "Sticker de enlace a monteriko.com.ar"
+   }
+  ]
+ },
+ {
+  "dia": "Mar 24",
+  "tema": "Reel por dentro",
+  "placas": [
+   {
+    "v": [
+     "a3",
+     "a4"
+    ],
+    "t": "ASÍ SE ABRE UN MONTE RIKO"
+   },
+   {
+    "app": "Después de publicar, compartí el reel y escribile encima: \"Mirá cómo se abre\"."
+   }
+  ]
+ },
+ {
+  "dia": "Mié 25",
+  "tema": "Cómo empezó",
+  "placas": [
+   {
+    "f": "feria-cajas-alfajores",
+    "t": "ESTO EMPEZÓ EN LA ESCUELA",
+    "s": "Mis primeros alfajores los vendí ahí."
+   },
+   {
+    "f": "termo-playa-skyline-mdp",
+    "t": "HOY VAN A TODO EL PAÍS"
+   },
+   {
+    "f": "alfajor-luz-mesa",
+    "t": "¿QUÉ QUERÉS VER DEL PROCESO?",
+    "n": "Caja de preguntas"
+   }
+  ]
+ },
+ {
+  "dia": "Jue 26",
+  "tema": "El freezer",
+  "placas": [
+   {
+    "p": "alfajor-banado",
+    "t": "NO LO COMAS TODAVÍA"
+   },
+   {
+    "p": "alfajor-partido-abierto",
+    "t": "10 MINUTOS EN EL FREEZER",
+    "s": "Después me contás."
+   },
+   {
+    "f": "mano-alfajor-frente",
+    "t": "¿YA LO PROBASTE ASÍ?",
+    "n": "Encuesta: Sí / Hoy mismo"
+   }
+  ]
+ },
+ {
+  "dia": "Vie 27",
+  "tema": "Auténtico marplatense",
+  "placas": [
+   {
+    "f": "termo-playa-skyline-mdp",
+    "t": "AUTÉNTICO MARPLATENSE"
+   },
+   {
+    "f": "termo-escollera-mar",
+    "t": "¿TENÉS A ALGUIEN LEJOS DE MAR DEL PLATA?"
+   },
+   {
+    "f": "caja-envio",
+    "t": "MANDALE UNA CAJA",
+    "s": "Van a todo el país.",
+    "n": "Sticker de enlace a monteriko.com.ar"
+   }
+  ]
+ }
 ]

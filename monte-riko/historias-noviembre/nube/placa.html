@@ -1,0 +1,21 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Montserrat:wght@800&display=block" rel="stylesheet">
+<style>
+html,body{margin:0;width:1080px;height:1920px;overflow:hidden;background:#000}
+#f{position:absolute;inset:0;width:1080px;height:1920px;object-fit:cover}
+#g{position:absolute;inset:0}
+#tx{position:absolute;left:64px;right:64px;text-align:center}
+#t{font-family:'Rubik Mono One';line-height:1.08;color:#FF6900;text-shadow:0 4px 18px rgba(0,0,0,.75)}
+#s{white-space:pre-line;font-family:Montserrat;font-weight:800;font-size:38px;line-height:1.25;color:#fff;margin-top:18px;text-shadow:0 3px 12px rgba(0,0,0,.85)}
+</style></head><body>
+<img id="f"><div id="g"></div><div id="tx"><div id="t"></div><div id="s"></div></div>
+<script>
+const q=new URLSearchParams(location.search), t=q.get('t'), s=q.get('s')||'', abajo=q.get('pos')==='abajo';
+document.getElementById('f').src=q.get('img');
+document.getElementById('t').textContent=t; document.getElementById('s').textContent=s;
+const largo=Math.max(...t.split(' ').map(w=>w.length));
+document.getElementById('t').style.fontSize=Math.min(t.length>22?66:80,900/(largo*0.86))+'px';
+document.getElementById('g').style.background=abajo?'linear-gradient(0deg, rgba(0,0,0,.62) 0%, rgba(0,0,0,.42) 24%, rgba(0,0,0,0) 36%)':'linear-gradient(180deg, rgba(0,0,0,.62) 0%, rgba(0,0,0,.42) 17%, rgba(0,0,0,0) 29%)';
+document.getElementById('tx').style[abajo?'bottom':'top']=(abajo?330:200)+'px';
+if(!s) document.getElementById('s').remove();
+</script></body></html>

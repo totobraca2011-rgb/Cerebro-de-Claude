@@ -20,6 +20,8 @@ Cada placa está en 1080x1920, dentro de `semana-1/` a `semana-4/`. El nombre di
 - **Nada movido (5 de noviembre 2026):** los cuadros sacados de video pueden salir movidos. Antes de entregar una placa de video, mirala a tamaño real; si se ve movida, usá una foto quieta de `fotos-proceso/` o `fotos-originales/`.
 - **Color del dulce de leche:** en las tomas sale verdoso. Lleva el filtro `GUSTOSO` de `armar.mjs`, que lo deja color caramelo.
 
+**Placas hechas desde la nube (9 de noviembre 2026):** `armar.mjs` corre en la compu de Tomás. En la nube se usan `nube/placa.html` (misma letra y estilo) y `nube/placas.js` con Playwright; los cuadros limpios del reel 3D salen de `nube/cuadro-3d.js`, con el proyecto armado como dice `../reels/alfajor-3d.md`. Si se vuelve a correr `armar.mjs`, las de `lun-9` se pisan con las viejas: copiarlas de nuevo desde el repo.
+
 Lo que se miró de otras marcas está en `../instagram-referentes.md`.
 
 ## Calendario
@@ -53,13 +55,13 @@ Lo que se miró de otras marcas está en `../instagram-referentes.md`.
 - `vie-6-2.jpg`: LAS CAJAS VAN A TODO EL PAÍS. **Ojo:** Guardala en la destacada "Envíos".
 - `vie-6-3.jpg`: ¿DESDE DÓNDE ME VES? **Sticker:** Caja de preguntas: "Decime tu ciudad".
 
-### Lun 9: La masa
-- `lun-9-1.jpg`: ASÍ EMPIEZA TODO
-- `lun-9-2.jpg`: MAÑANA TE MUESTRO LA MASA. **Sticker:** Sticker de cuenta regresiva para mañana a las 18:00.
+### Lun 9: Alguien nuevo en la cocina (rehechas el 9 de noviembre 2026: anuncian el reel 3D del martes)
+- `lun-9-1.jpg`: HAY ALGUIEN NUEVO EN LA COCINA. "Mañana lo conocés." El pastelero 3D con la masa, sin los textos del reel.
+- `lun-9-2.jpg`: MAÑANA TE MUESTRO CÓMO SE HACE. "Un alfajor de más de 100 g, paso a paso. A las 18:00, en un reel." Foto `alfajor-partido-mitades` con el filtro del dulce. **Sticker:** cuenta regresiva para mañana a las 18:00, abajo del texto.
 
-### Mar 10: Reel de la masa
+### Mar 10: Reel 3D "Así se hace un alfajor"
 - `mar-10-1.jpg`: LA PARTE QUE NADIE VE
-- **En la app:** Después de publicar, compartí el reel y escribile encima: "Mirá la harina".
+- **En la app:** Después de publicar, compartí el reel y escribile encima: "Así se hace, paso a paso".
 - `mar-10-2.jpg`: ¿TE COMERÍAS LA TAPA SOLA? **Sticker:** Encuesta: Sí, y dos / Con dulce siempre.
 
 ### Mié 11: El horno
