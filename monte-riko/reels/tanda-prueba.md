@@ -19,7 +19,7 @@ Todas en `editor-de-ia/terminados/2026-11-10-prueba-por-dentro-<versión>.mp4` y
 | 05-mandaselo | "Mandáselo a quien te debe un alfajor." | Baño y corte | 14 s |
 | 06-dieta | "No lo partas si estás a dieta." | Corte entero | 12,5 s |
 | 07-hecho-a-mano | "Así es por dentro un alfajor hecho a mano en Mar del Plata." | Cierre, baño y corte | 16 s |
-| 08-16-segundos | "Un alfajor de principio a fin, en 16 segundos." | Dulce, cierre, baño, apoyo y capas | 16,5 s |
+| 08-15-segundos (el archivo se llama así; el texto dice 16) | "Un alfajor de principio a fin, en 16 segundos." | Dulce, cierre, baño, apoyo y capas | 16,5 s |
 | 09-nadie-muestra | "La parte que nadie te muestra de un alfajor." | Baño, apoyo y corte | 14,5 s |
 
 El texto nunca tapa el alfajor: va sobre el guante, el bowl o la mesada. Las tomas son las de `M:\reel-v2\crudos-noviembre\` (0446, 0481, 0498, 0500), con la corrección de color del iPhone y el filtro del dulce. Se arman con `tanda-prueba-armar.mjs` (copia del que está en `M:\reel-v2\trabajo-noviembre\tanda-prueba\`).
