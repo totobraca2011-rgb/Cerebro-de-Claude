@@ -20,7 +20,7 @@ Armado el 30 de octubre de 2026.
 
 - **Nube:** para dejar trabajo hecho mientras no está (análisis, textos, planes, video, página).
 - **Local:** para hacer cosas en su Chrome con él mirando, por ejemplo cambiar la bio de Instagram.
-- Una sesión de la nube **no se puede conectar con su compu**: Remote Control solo anda con Mac o Linux (octubre 2026).
+- **Remote Control (9 de noviembre 2026):** en la app de escritorio de Windows está prendido para todas las sesiones nuevas (Configuración → "Conectar sesiones nuevas a Remote Control"). Así Tomás sigue y maneja desde la app de Claude del celu una sesión local, que trabaja en su compu: la compu tiene que quedar prendida y con la tapa abierta (la opción de mantenerla despierta no frena el reposo al cerrar la tapa). Una sesión de la nube sigue sin poder usar su compu.
 
 ## Cómo abrir la sesión local con Chrome
 1. En GitHub Desktop, apretar **Fetch origin** y después **Pull**, para traer lo último que se guardó desde la nube.
