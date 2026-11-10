@@ -36,7 +36,14 @@ Uno por día a las 20:00, para no pisarse con los posts de las 18:00: el 00 el m
 ## Cómo se decide cuál gana
 A los 3 días de cada uno se miran en Instagram las vistas, cuántos lo mandaron por mensaje y cuánto lo miraron en promedio. El que más supere a los demás pasa al perfil, y con su gancho se arma la tanda siguiente: el mismo gancho con otras tomas y otros finales. Los que no anduvieron no se borran: quedan como prueba.
 
-## Por qué todavía no están programados
+## Programados (10 de noviembre 2026)
+Los 10 están cargados en Metricool como reel de prueba con publicación automática: el 00 el miércoles 11 a las 18:00 y del 01 al 09 del jueves 12 al viernes 20, a las 20:00. Los subió Claude desde el Chrome de Tomás, con copias de menos de 10 MB (Chrome no deja subir más por vez): 3.800 kbps, misma imagen y sonido. Comprobado con la lista de programados de Metricool.
+
+**Riesgo:** Metricool avisa que con menos de 1000 seguidores el reel de prueba puede fallar si Meta todavía no habilitó la función en la cuenta (Monte Riko tiene 657). El primero sale el miércoles 11: si falla, los demás también, y se suben a mano desde el celu.
+
+**Cómo se suben desde Chrome (para la próxima tanda):** en el editor de Metricool, el tipo "Reel de Prueba", Multimedia → Añadir vídeo y el archivo al campo de subida (sin abrir la ventana de Windows), el texto, la fecha y "Auto publicar".
+
+## Antes de programarlos
 Metricool puede programar reels de prueba solos (tipo `TRIAL_REEL`), pero necesita el video en un link público o en un Google Drive conectado a Metricool. El 10 de noviembre 2026 Drive no estaba conectado en Metricool, y hacer público el link desde acá pide un permiso que tiene que dar Tomás. **Actualización (10 de noviembre 2026, a la mañana):** conectar Drive en Metricool es solo para planes pagos (el de Tomás es el gratis). Otras formas: que Claude suba cada video desde la compu en el editor web de Metricool, con Chrome, eligiendo "Reel de Prueba" y publicación automática; o subirlos a mano desde el celu activando "reel de prueba".
 
 Límite: el plan de Metricool permite 20 publicaciones por mes. En noviembre ya hay 4 cargadas: con estos 10 quedan 6.

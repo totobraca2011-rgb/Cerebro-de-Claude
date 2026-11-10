@@ -47,7 +47,10 @@ Cuando Tomás marca un pedido como entregado, un mensaje corto: que lo disfrute,
 Hay dos partes y conviene no mezclarlas:
 
 **1. Registrar el número en WhatsApp oficial (la API de Meta).** Desde septiembre 2026 Meta tiene una conexión oficial para Claude, en prueba ("WhatsApp Business Tools MCP"). Con ella Claude hace la parte técnica: crear la cuenta de WhatsApp Business en Meta, registrar el número, verificarlo con el código, crear el webhook y las plantillas de mensaje.
-- **Tomás:** agrega el conector en la app de Claude (Configuración → Conectores) y entra con su cuenta de Meta; recibe el código de verificación en el celu y se lo pasa a Claude en el chat. Claude no crea cuentas ni escribe contraseñas.
+- **No aparece en la lista de conectores (10 de noviembre 2026):** se agrega a mano como conector personalizado. En la app de Claude: Configuración → Conectores → Agregar conector personalizado, con el nombre "WhatsApp Business Tools" y la dirección `https://mcp.facebook.com/whatsapp_business_tools`. Después se entra con la cuenta de desarrollador de Meta y se aceptan tres permisos (manejar el negocio, manejar WhatsApp Business y mandar mensajes).
+- **Antes, en Meta (lo hace Tomás):** ser administrador del negocio en Meta Business, tener una app de desarrollador de Meta con WhatsApp agregado y conectada a ese negocio, y aceptar las condiciones de la API de WhatsApp Business. Sin eso la conexión entra pero casi nada funciona. Meta lo está habilitando de a poco: puede no estar disponible todavía para su cuenta.
+- **Tomás:** recibe el código de verificación en el celu y se lo pasa a Claude en el chat. Claude no crea cuentas ni escribe contraseñas.
+- Para probar que anda, Claude pide la lista de negocios (`whatsapp_biz_businesses`).
 - **Claude:** todo lo demás de este paso, con Tomás mirando.
 - Meta avisa que esta conexión es para desarrollar y probar, no para mandar muchos mensajes.
 
