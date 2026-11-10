@@ -139,10 +139,10 @@
   "tema": "Reel 3D: así se hace un alfajor",
   "placas": [
    {
-    "v": [
-     "estirar-de-cerca"
-    ],
-    "t": "LA PARTE QUE NADIE VE"
+    "p": "bano-chorreando",
+    "t": "HOY A LAS 18:00",
+    "s": "El pastelero nuevo te muestra\ncómo se hace, paso a paso.",
+    "pos": "abajo"
    },
    {
     "app": "Después de publicar, compartí el reel y escribile encima: \"Así se hace, paso a paso\"."

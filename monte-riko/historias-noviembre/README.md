@@ -48,7 +48,7 @@ Lo que se miró de otras marcas está en `../instagram-referentes.md`.
 - **Respuesta a "¿cómo surgió?"** (Tomás, 4 de noviembre 2026): compartir la pregunta con "Empezó en la escuela. Te cuento la historia completa en un reel el sábado 21." Queda prometido el reel del sábado 21.
 
 ### Jue 5: Cómo pedir (publicadas por Tomás el 5 de noviembre 2026, con el carrusel)
-- `jue-5-1.jpg`: PEDIR LLEVA MENOS QUE COMERTE UNO. Rehecha el 5 de noviembre 2026 con la foto `patagonico-cerrado`: el cuadro del video salía movido (Tomás). En Drive sigue la vieja: se reemplaza a mano.
+- `jue-5-1.jpg`: PEDIR LLEVA MENOS QUE COMERTE UNO. Rehecha el 5 de noviembre 2026 con la foto `patagonico-cerrado`: el cuadro del video salía movido (Tomás). En Drive se reemplazó el 10 de noviembre 2026.
 - `jue-5-2.jpg`: ARMÁS TU CAJA EN LA PÁGINA. **Ojo:** Guardala en la destacada "Pedí acá".
 - `jue-5-3.jpg`: ME LLEGA POR WHATSAPP. **Sticker:** Sticker de enlace a monteriko.com.ar. Guardala en "Pedí acá".
 
@@ -62,7 +62,7 @@ Lo que se miró de otras marcas está en `../instagram-referentes.md`.
 - `lun-9-2.jpg`: MAÑANA TE MUESTRO CÓMO SE HACE. "Un alfajor de +100 g. A las 18:00." Foto `alfajor-partido-mitades` con el filtro del dulce. El texto va más arriba para dejar lugar al contador (pedido de Tomás, 9 de noviembre 2026). **Sticker:** cuenta regresiva para mañana a las 18:00, en el hueco gris de abajo del texto.
 
 ### Mar 10: Reel 3D "Así se hace un alfajor"
-- `mar-10-1.jpg`: LA PARTE QUE NADIE VE
+- `mar-10-1.jpg`: HOY A LAS 18:00. "El pastelero nuevo te muestra cómo se hace, paso a paso." Foto `bano-chorreando` con el filtro del chocolate. Rehecha el 10 de noviembre 2026: la vieja (un cuadro borroso de la masa) no le convencía a Tomás. **Sticker:** cuenta regresiva a las 18:00 (opcional).
 - **En la app:** Después de publicar, compartí el reel y escribile encima: "Así se hace, paso a paso".
 - `mar-10-2.jpg`: ¿TE COMERÍAS LA TAPA SOLA? **Sticker:** Encuesta: Sí, y dos / Con dulce siempre.
 
