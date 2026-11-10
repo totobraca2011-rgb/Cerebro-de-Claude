@@ -11,6 +11,7 @@ Alfajores artesanales de Mar del Plata, hechos por Tomás Bracamonte.
 | `instagram-referentes.md` | Cuentas del nicho, qué se repite en sus perfiles y referencias para carruseles y reels |
 | `historias-noviembre/` | Historias listas para subir en noviembre 2026, con su calendario |
 | `reels/alfajor-3d.md` | Reel en 3D "Así se hace un alfajor": la prueba y lo que falta |
+| `reels/un-poquito.md` | Reel "Un poquito de chocolate": chiste en pantalla sobre el baño de chocolate (9 de noviembre 2026) |
 | `carruseles/` | Carruseles armados para Instagram. Su `README.md` tiene el estilo que llevan todos (VOX) |
 | `reels/` | Guiones y armado de cada reel |
 | `pagina-web.md` | La página web: cómo se trabaja, reglas, decisiones tomadas y pendientes |
