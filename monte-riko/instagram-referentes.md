@@ -119,27 +119,66 @@ Carrusel de @viralyx.es (https://www.instagram.com/p/De2IjJTlfQB/), del 23 de oc
 
 Para Monte Riko son fáciles de grabar: acercarse al alfajor cuando se parte (22), mostrar el relleno mientras se habla (23), meter la caja o el papel dorado en escena (24), el antes y el después de la masa al horno (13), un segundo de silencio antes del corte (28) y "¿marplatense o patagónico?" para hacer elegir (19).
 
-## Lo que pasó Tomás el 10 de noviembre 2026: 6 reels y 3 carruseles
-Casi todos son de cuentas que enseñan marketing o IA, no de comida. Sirven por la forma, no por el tema. Los reels están en `editor-de-ia/referencias/` y los carruseles solo se miraron.
+## Lo que pasó Tomás el 10 de noviembre 2026: qué dice cada uno
+6 reels y 3 carruseles, casi todos de cuentas que enseñan marketing o IA. Tomás pidió la información de cada uno, no el estilo. Los reels se pasaron a texto con Whisper y están en `editor-de-ia/referencias/`.
 
-### Lo que se repite: "comentá una palabra"
-7 de los 9 cierran pidiendo comentar una palabra (AGENTES, REELS, CLASE, PROMPTS, HOOKS, Shorts) a cambio de algo gratis por mensaje. En varios los comentarios igualan o pasan a los me gusta: @textura.us tiene 4.216 comentarios y 7.254 me gusta, y @autopsia.viral 846 y 824. Funciona porque regalan información. Para una marca de comida, lo equivalente es algo que sirva para comprar: los precios de las cajas de fin de año, el link para pedir o un aviso antes que el resto. Se contesta a mano: con los comentarios que tiene hoy la cuenta, no hace falta ManyChat.
+### 1. El asistente de WhatsApp de la pizzería (@valentinpanizza, [reel](https://www.instagram.com/reel/Dfdd8VFsOyd/))
+Cómo armar un asistente de WhatsApp que venda, pieza por pieza, cada una para un problema:
+1. **El cerebro:** entiende lo que le escriben, aunque esté mal escrito ("kiero 1 grand d muza"). Un contestador de "oprimí 1" hace que el cliente se vaya.
+2. **La base de conocimiento:** se le da la carta real y solo puede contestar con eso. Si no, inventa precios.
+3. **El agrupador de mensajes:** espera unos segundos y junta todo antes de contestar ("quería una pizza… no, mejor dos").
+4. **La transcripción:** pasa los audios a texto antes de leerlos.
+5. **Las herramientas:** además de hablar, carga el pedido y lo manda a la cocina (la comandera).
+6. **El pase a una persona:** si el cliente está enojado, no ofrece una promo: le pasa la charla al dueño con un resumen y se calla.
+7. **Por la conexión oficial de WhatsApp**, para que no bloqueen el número.
 
-### Uno por uno
-| Post | Qué es | ¿Se puede usar en Monte Riko? |
-|---|---|---|
-| [@salvador.reels](https://www.instagram.com/reel/DWztfj8Df32/) (reel, 204 mil me gusta) | Un efecto de sonido por frase, mostrando la pista mientras suena | **Sí, la idea.** Un sonido marcado en cada momento: el crujido al partir, el chorro de chocolate, el golpecito en el bowl. Con sonidos reales, como prefiere Tomás, no los de efecto |
-| [@duostudio.digital](https://www.instagram.com/p/DfAX0h0EcWt/) (carrusel, "No hagas esto en tus historias") | Cuatro historias de antes y después: lanzamiento con encuesta, producto para elegir con link, turnos que pasan a acción con link, promo que pide una reacción | **Sí, directo en las historias.** "¿Cuál va en tu caja?" con encuesta y el link abajo; "Quedan X cajas para el viernes" con el link (solo si es verdad); una novedad anunciada antes con encuesta. La promo con descuento la decide Tomás |
-| [@valentinpanizza](https://www.instagram.com/reel/Dfdd8VFsOyd/) (reel 3D, pizzería) | Una historia corta con personajes en miniatura y globos de chat | **Sí, con el pastelero 3D.** Un capítulo corto con un cliente que pide por WhatsApp. Lleva bastante trabajo: conviene después de ver cómo anda el reel 3D del martes 10 |
-| [@autopsia.viral](https://www.instagram.com/reel/DfaIjaDIbaV/) (infografía, "Claude sube reels de prueba por vos") | Dice que Claude sube hasta 10 reels de prueba por día y que el ganador se promociona con USD 20 por día | **En parte.** Los reels de prueba ya los usamos ("Un poquito", miércoles 11). Subirlos solo desde Claude no se puede hoy: Meta no tiene una conexión oficial para publicar en Instagram (sí para WhatsApp y anuncios), y las que existen son pagas y de terceros. Además Monte Riko no tiene 10 videos por día. Pagar para mostrar el reel que gana es una decisión de Tomás |
-| [@liordiaz](https://www.instagram.com/reel/DfEJpDQgx61/) (animación, la pastelera Mariana) | Una pastelera que deja de contestar lo mismo todo el día: catálogo con precios, cupos del día y un regalo | **Sí, es el caso más parecido.** Monte Riko ya tiene la página que arma el pedido. Se puede sumar: respuestas rápidas en WhatsApp Business (gratis, de la app) y "cupos de la semana" en historias si Tomás produce por tandas |
-| [@nacho.mirandap](https://www.instagram.com/reel/DfXp1f1Ds-0/) (videojuego pixelado) | Conectar un agente al WhatsApp oficial de Meta, paso a paso como niveles | **El estilo no va con la marca.** El tema sí sirve: desde septiembre 2026 hay una conexión oficial de Meta para WhatsApp Business, en prueba. Es la forma oficial de retomar lo de WhatsApp que quedó en pausa (`yo/compu-y-herramientas.md`). Meta avisa que es para probar, no para mandar muchos mensajes |
-| [@textura.us](https://www.instagram.com/p/DfHzvg_mTiU/) (carrusel, prompts de páginas web) | Cinco páginas con su prompt. "Comment PROMPTS": 4.216 comentarios | **La mecánica sí, el tema no.** Ver arriba |
-| [@saralinares.content](https://www.instagram.com/p/DfKiZR1IHyl/) (carrusel, "Pésimo vs. viral") | Cada imagen compara lo malo arriba y lo bueno abajo. El molde de 10 imágenes: 1 gancho que frena, 2 y 3 un ejemplo, 4 y 5 un diagrama, 6 a 9 información práctica, 10 un pedido simple | **Sí, el formato de comparación.** Por ejemplo "Un alfajor cualquiera vs. un Monte Riko": el peso (más de 100 g), el dulce de leche, el baño. Sin nombrar otras marcas ni inventar datos. **Ojo:** dice que la medida actual es 1080x1080, pero Instagram muestra la grilla en vertical desde 2025: los carruseles siguen en 1080x1350 |
-| [@watsonmadeit](https://www.instagram.com/reel/DfiNKBytuU0/) (13 s, editor de video con IA) | Una toma fija de la pantalla y el pedido de comentar | **No.** Es una herramienta, no algo para mostrar en la marca |
+**Para Monte Riko:** es la base del asistente (ver `whatsapp-asistente.md`).
 
-### Lo que se lleva Monte Riko
-1. **Probar una vez "comentá una palabra"** con algo que sirva para comprar. Por ejemplo, en la foto de las cajas de fin de año (sábado 28): "Comentá FIESTAS y te mando los precios". Tomás contesta cada comentario por mensaje ese día.
-2. **Historias que piden algo**, como las de antes y después de @duostudio.digital: elegir con encuesta y el link al lado.
-3. **El carrusel de comparación** como próximo carrusel, en estilo VOX.
-4. **Respuestas rápidas en WhatsApp Business** para las preguntas de siempre (precios, envíos, cómo pedir). Es gratis y lo configura Tomás en el celu.
+### 2. Mariana, la pastelera que vende mientras duerme (@liordiaz, [reel](https://www.instagram.com/reel/DfEJpDQgx61/), 90 mil me gusta)
+Mariana contesta hasta las 11 de la noche y pierde una venta porque respondió una consulta de las 10 recién a la mañana. Le explican un "embudo" en cuatro pasos:
+1. **Atracción:** un video del producto. Quien comenta una palabra ("cupcake") recibe al instante un mensaje automático con un botón.
+2. **Nutrición:** un regalo gratis que da confianza (su receta), mandado por link.
+3. **Conversión:** una página con una sola cosa por hacer, pedir. Se elige cantidad, si retira o le llevan, y se paga ahí.
+4. **Fidelización:** a los que ya compraron, otro regalo y después un producto más grande (un kit para hornear en casa).
+
+Lo que más sirve: **la asistente por mensaje** se presenta como asistente de la pastelería, pregunta qué quiere, cuántos y si retira o se lo llevan, da los datos para transferir y **pide la foto del comprobante**. Mariana confirma a la mañana. Y **el cupo**: cada mañana le dice cuántos pedidos puede hacer ese día; cuando se llena, la asistente ofrece otra fecha. Herramientas que nombra: ManyChat, Google Drive y GoHighLevel.
+
+**Para Monte Riko:** el cupo y el comprobante van al asistente de WhatsApp. La página ya es "una sola cosa por hacer". El regalo no puede ser la receta: Tomás decide qué se regala, si se regala algo.
+
+### 3. Conectar WhatsApp de forma oficial con Claude (@nacho.mirandap, [reel](https://www.instagram.com/reel/DfXp1f1Ds-0/))
+Meta sacó una conexión oficial (MCP) para que Claude haga la parte técnica: 1) agregar el conector a Claude y entrar con la cuenta de Meta; 2) pedirle que cree la cuenta de WhatsApp Business, conecte el número y lo verifique con el código; 3) que lo registre en la API oficial y cree un webhook para el asistente; 4) que arme una plantilla de mensaje y pruebe el número. Comprobado en la página de Meta: existe ("WhatsApp Business Tools MCP"), está en prueba desde septiembre 2026 y Meta avisa que es para desarrollar y probar, no para mandar muchos mensajes.
+
+### 4. Claude sube reels de prueba (@autopsia.viral, [reel](https://www.instagram.com/reel/DfaIjaDIbaV/))
+Dice que conectando Claude a Instagram se pueden subir hasta 10 reels de prueba por día: los ve gente que no te sigue, así que se prueban ideas sin gastar la cuenta. Claude arma las ideas, sube los videos, mira en qué segundo se va la gente y mejora el siguiente. Consejo: cuando un reel pase las 100 mil vistas, ponerlo como anuncio con USD 20 por día.
+
+**Comprobado:** Metricool, que ya está conectado, puede programar reels de prueba ("TRIAL_REEL"). Los límites: el plan de Metricool permite 20 publicaciones por mes, y los videos tienen que estar en un link público o en un Google Drive conectado a Metricool. Los datos de "en qué segundo se va la gente" se ven en Instagram, no llegan solos.
+
+### 5. Efectos de sonido (@salvador.reels, [reel](https://www.instagram.com/reel/DWztfj8Df32/), 204 mil me gusta)
+Cinco sonidos y para qué sirve cada uno: un grito largo para llamar la atención, un whoosh para acercar o alejar la imagen, un riser (sonido que sube) para la espera, un click o pop para mostrar algo y un golpe dramático para darle peso a la escena.
+
+**Para Monte Riko:** Tomás prefiere sonidos reales. Lo mismo con sonidos de la cocina: el golpecito en el bowl al mostrar algo, el crujido al partir para el momento fuerte.
+
+### 6. Edición automática con IA (@watsonmadeit, [reel](https://www.instagram.com/reel/DfiNKBytuU0/))
+En inglés y casi sin hablar: muestra un editor de video que corta solo con una IA conectada a un programa de efectos (Higgsfield). Pide comentar "Shorts" para el link. No trae información para usar.
+
+### 7. Historias que hacen participar (@duostudio.digital, [carrusel](https://www.instagram.com/p/DfAX0h0EcWt/))
+Cuatro cambios de antes y después:
+1. **Lanzamiento:** en vez de avisar "nuevo ingreso", crear expectativa con una encuesta ("¿Te imaginás qué es?").
+2. **Producto:** en vez de mostrar, hacer elegir ("¿Cuál elegirías?") y poner el link para comprar al lado.
+3. **Información:** en vez de "hay turnos disponibles", decir cuántos quedan y poner el link para reservar.
+4. **Promo:** en vez de "hoy 20% off", pedir una reacción a cambio del descuento.
+
+**Para Monte Riko:** se aplicó a las historias de noviembre (ver `historias-noviembre/README.md`, 10 de noviembre 2026).
+
+### 8. Prompts de páginas web (@textura.us, [carrusel](https://www.instagram.com/p/DfHzvg_mTiU/), 4.221 comentarios)
+Cinco páginas web de ejemplo (Auralis, Brewns, Codescan, Dantora y Evolve), cada una con un prompt de 800 a 1.500 líneas en getlayers.ai que la describe entera. Se copia el prompt, se pega en una IA y sale la página en un archivo, que después se adapta a la marca. Piden comentar "PROMPTS" para recibirlos.
+
+**Para Monte Riko:** sirve para la página web, no para Instagram. Brewns es de una cafetería: puede ser una referencia si algún día se rehace monteriko.com.ar.
+
+### 9. Carrusel pésimo vs. viral (@saralinares.content, [carrusel](https://www.instagram.com/p/DfKiZR1IHyl/))
+Cuatro consejos: 1) usar la medida actual (dice 1080x1080; no es así: Instagram muestra la grilla vertical desde 2025, los carruseles siguen en 1080x1350); 2) seguir un orden probado de 10 imágenes: 1 gancho que frena, 2 y 3 un ejemplo, 4 y 5 diagramas, 6 a 9 información práctica y 10 un pedido simple; 3) texto e imágenes grandes, no letra chica; 4) un pedido al final ("Comentá HOOKS y te mando 100 ganchos").
+
+**Para Monte Riko:** el orden de 10 imágenes sirve para el próximo carrusel.
+
+### Lo que se repite
+7 de los 9 terminan pidiendo comentar una palabra a cambio de algo gratis, y varios tienen tantos comentarios como me gusta. Para Monte Riko, lo equivalente es algo que sirva para comprar (los precios de las cajas de fiestas, el link), contestado a mano o por el asistente de WhatsApp.

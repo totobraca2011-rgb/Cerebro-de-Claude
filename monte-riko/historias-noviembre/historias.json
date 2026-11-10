@@ -190,7 +190,7 @@
    {
     "p": "dulce-copete",
     "t": "¿MUCHO O MUCHÍSIMO?",
-    "n": "Encuesta: Mucho / Muchísimo"
+    "n": "Encuesta: Mucho / Muchísimo, y abajo un sticker de enlace a monteriko.com.ar que diga \"Pedí el tuyo\""
    }
   ]
  },
@@ -212,7 +212,7 @@
    {
     "f": "caja-cuatro-alfajores",
     "t": "¿CAJA PARA EL FINDE?",
-    "n": "Sticker de enlace a monteriko.com.ar"
+    "n": "Encuesta: Sí / La semana que viene, y abajo un sticker de enlace a monteriko.com.ar"
    }
   ]
  },
@@ -331,8 +331,10 @@
   "tema": "Fiestas",
   "placas": [
    {
-    "f": "caja-cuatro-alfajores",
-    "t": "¿YA PENSASTE EN LAS FIESTAS?"
+    "f": "feria-cajas-alfajores",
+    "t": "¿YA PENSASTE EN LAS FIESTAS?",
+    "s": "El sábado te muestro las cajas para regalar.",
+    "n": "Cuenta regresiva \"Cajas para las fiestas\" al sábado 28 a las 10:00 (la gente toca \"Recordarme\" y le avisa Instagram)"
    },
    {
     "f": "alfajores-desenfoque",
@@ -341,9 +343,9 @@
    },
    {
     "f": "caja-envio",
-    "t": "DE 6 O DE 12",
+    "t": "¿DE 6 O DE 12?",
     "s": "Surtida como quieras y en papel dorado.",
-    "n": "Sticker de enlace a monteriko.com.ar"
+    "n": "Encuesta: De 6 / De 12, y abajo un sticker de enlace a monteriko.com.ar"
    }
   ]
  },

@@ -24,6 +24,8 @@ Cada placa está en 1080x1920, dentro de `semana-1/` a `semana-4/`. El nombre di
 
 Lo que se miró de otras marcas está en `../instagram-referentes.md`.
 
+**Historias que piden algo (10 de noviembre 2026, pedido de Tomás):** se aplicó el carrusel de @duostudio.digital (ver `../instagram-referentes.md`). Cada historia que muestra producto hace elegir con una encuesta y pone el link al lado; la de fiestas crea expectativa con una cuenta regresiva en vez de solo avisar. Cambiaron los stickers del jueves 12, viernes 13 y lunes 23, y se rehicieron `mie-18-2`, `mie-18-3`, `lun-23-1` y `lun-23-3` (en el repo y en Drive). Queda para que Tomás decida: una historia de promo que pida una reacción a cambio de un descuento, y una de "quedan X cajas para el viernes" si produce por tandas. Las placas sueltas se rehacen con la composición `CapaHistoria` de `M:eel-v2ideosrcChiste.tsx` (`npx remotion still` con el texto por props) y FFmpeg encima de la foto.
+
 ## Calendario
 
 ### Lun 2: Así arranca (publicadas por Tomás el 2 de noviembre 2026)
@@ -72,12 +74,12 @@ Lo que se miró de otras marcas está en `../instagram-referentes.md`.
 ### Jue 12: Reel del relleno
 - `jue-12-1.jpg`: ESTO VA ADENTRO
 - **En la app:** Después de publicar, compartí el reel y escribile encima: "Mirá cómo se abre al final".
-- `jue-12-2.jpg`: ¿MUCHO O MUCHÍSIMO? **Sticker:** Encuesta: Mucho / Muchísimo.
+- `jue-12-2.jpg`: ¿MUCHO O MUCHÍSIMO? **Sticker:** Encuesta: Mucho / Muchísimo, y abajo un sticker de enlace a monteriko.com.ar que diga "Pedí el tuyo".
 
 ### Vie 13: Por dentro
 - `vie-13-1.jpg`: ESPERÁ A QUE SE ABRA
 - `vie-13-2.jpg`: UN MARPLATENSE POR DENTRO
-- `vie-13-3.jpg`: ¿CAJA PARA EL FINDE? **Sticker:** Sticker de enlace a monteriko.com.ar.
+- `vie-13-3.jpg`: ¿CAJA PARA EL FINDE? **Sticker:** Encuesta: Sí / La semana que viene, y abajo un sticker de enlace a monteriko.com.ar.
 
 ### Lun 16: Las tapas
 - `lun-16-1.jpg`: PLACAS Y MÁS PLACAS
@@ -89,8 +91,8 @@ Lo que se miró de otras marcas está en `../instagram-referentes.md`.
 
 ### Mié 18: El chocolate
 - `mie-18-1.jpg`: ACÁ MANDA EL CHOCOLATE
-- `mie-18-2.jpg`: NEGRO. SIEMPRE.
-- `mie-18-3.jpg`: ¿FINITO O BIEN GRUESO? **Sticker:** Encuesta: Finito / Bien grueso.
+- `mie-18-2.jpg`: NEGRO. SIEMPRE. Rehecha el 10 de noviembre 2026: el chocolate salía verdoso.
+- `mie-18-3.jpg`: ¿FINITO O BIEN GRUESO? Rehecha el 10 de noviembre 2026: el chocolate salía verdoso. **Sticker:** Encuesta: Finito / Bien grueso.
 
 ### Jue 19: El patagónico
 - `jue-19-1.jpg`: PRIMERO, LA CORONA
@@ -105,9 +107,9 @@ Lo que se miró de otras marcas está en `../instagram-referentes.md`.
 - `vie-20-4.jpg`: VOS SOS NUESTRO MEJOR INFLUENCER. **Ojo:** Lo que te manden, compartilo y guardalo en la destacada "Ustedes".
 
 ### Lun 23: Fiestas
-- `lun-23-1.jpg`: ¿YA PENSASTE EN LAS FIESTAS?
+- `lun-23-1.jpg`: ¿YA PENSASTE EN LAS FIESTAS? "El sábado te muestro las cajas para regalar." Rehecha el 10 de noviembre 2026 con otra foto (la de antes era la misma del viernes 13). **Sticker:** Cuenta regresiva "Cajas para las fiestas" al sábado 28 a las 10:00: la gente toca "Recordarme" y Instagram le avisa.
 - `lun-23-2.jpg`: ¿A QUIÉN LE REGALARÍAS UNA CAJA? **Sticker:** Caja de preguntas.
-- `lun-23-3.jpg`: DE 6 O DE 12. **Sticker:** Sticker de enlace a monteriko.com.ar.
+- `lun-23-3.jpg`: ¿DE 6 O DE 12? Rehecha el 10 de noviembre 2026. **Sticker:** Encuesta: De 6 / De 12, y abajo un sticker de enlace a monteriko.com.ar.
 
 ### Mar 24: Reel por dentro
 - `mar-24-1.jpg`: ASÍ SE ABRE UN MONTE RIKO

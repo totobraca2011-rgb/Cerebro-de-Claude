@@ -22,6 +22,7 @@
 - Prefiere resolver los pendientes de a uno, para terminar fácil y rápido (noviembre 2026).
 - Si no se puede hacer algo, quiere saber por qué y cuál es la otra forma. Muchas veces la encuentra él: mejor proponérsela antes.
 - Al terminar una tarea, el mensaje final dice solo "Listo Tomy". Si hay un problema o algo que tiene que hacer él, se le avisa igual (noviembre 2026).
+- Quiere todo lo más automático posible (noviembre 2026). Cuando pide publicar algo en Instagram, se hace directo, sin volver a preguntarle; lo que Claude decide por su cuenta va como borrador (detalle en `compu-y-herramientas.md`, Metricool).
 - Antes de decir que algo está hecho, comprobarlo. Si Claude le hace instalar un programa, tiene que avisarle antes qué opciones no tocar (noviembre 2026: Google Drive copió todo el disco M y llenó su espacio).
 
 ## Su estilo
