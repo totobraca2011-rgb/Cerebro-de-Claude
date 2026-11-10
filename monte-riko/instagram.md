@@ -21,6 +21,16 @@ Objetivo elegido por Tomás (30 de octubre 2026): **más ventas**. Plan del mes:
 - Fijados: reel del patagónico (26 feb 2026), packaging (ene 2025) y foto del patagónico (dic 2024).
 - Abajo hay contenido de huevos de Pascua decorados con hilos que parecen de chocolate blanco: Tomás tiene que decir si queda (la marca dice que el chocolate blanco no va y hoy no hay huevos de Pascua).
 
+### Cómo está el perfil (visto en Chrome, 9 de noviembre 2026)
+- 13 publicaciones, 657 seguidores (eran 580 el 30 de octubre), 32 seguidos. Hay historia activa.
+- Nombre y bio: los del 30 de octubre, sin cambios. Link: monteriko.com.ar.
+- Destacadas: ENVIOS, PRECIOS y PEDI ACÁ, con portadas naranjas nuevas. "producción" y "ustedess" ya no están.
+- Fijados: carrusel "Cómo pedir tu caja" (5 nov 2026), packaging (ene 2025) y foto del patagónico (dic 2024).
+- Sigue duplicado el reel del patagónico (25 y 26 de febrero), uno al lado del otro en la grilla.
+- El reel del proceso de noviembre 2025 (123 me gusta) y el de "Quién está detrás" (3 nov 2026) no están fijados.
+- Al final siguen los dos posts de huevos de Pascua.
+- Puntaje con ig-profile: 75 de 100 (contacto y tapas de la grilla sin verificar del todo).
+
 ### Cambios hechos en la cuenta (30 de octubre 2026)
 Claude los hizo desde Chrome a pedido de Tomás, que se tuvo que ir y dijo "cambiá lo que tengas que cambiar". Tomás los tiene que revisar. Si no le gustan, se vuelve al texto anterior.
 - **Nombre.** Antes: "Alfajores Artesanales". Ahora: "Alfajores en Mar del Plata". Instagram deja cambiarlo solo dos veces cada 14 días.
