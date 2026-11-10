@@ -2,7 +2,7 @@
 
 Primera idea de `monte-riko/marketing-instagram.md` (punto 6.1): un chiste escrito arriba de una toma real del proceso. Sale del reel de @salvatoreartesanal que hizo 505 mil vistas, unas 75 veces lo normal para esa cuenta: el mismo proceso de siempre con una frase con humor arriba. Se copia la forma, no el chiste.
 
-**Estado:** versión 1 hecha y mandada a Tomás para que la revise. Todavía no tiene fecha en el plan.
+**Estado:** a Tomás le gustó la versión 1 (9 de noviembre 2026). Sale como **reel de prueba el miércoles 11 a las 18:00**: lo ve solo gente que no sigue la cuenta. El sábado 14 se mira cómo anduvo y, si supera a los reels normales, se pasa al perfil. "La harina y la masa" sigue el martes 17. Está en la tarjeta del miércoles 11 en Trello y en Drive, en `Videos terminados`.
 
 ## Cómo es
 - **Dura 17,5 s**, sin música y a velocidad normal, con el sonido real de cada toma.
