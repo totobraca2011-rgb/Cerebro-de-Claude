@@ -1,6 +1,6 @@
 # Cuentas de referencia para Instagram
 
-Mirado el 31 de octubre de 2026, a pedido de Tomás, para ver cómo son los perfiles que funcionan en el nicho. Es una mirada a los perfiles y a algunos posts, no una medición: no se contaron vistas de reels ni la mediana de cada cuenta. Para saber qué reels se destacan de verdad hay que pasar la skill `ig-viral`.
+Mirado el 31 de octubre de 2026, a pedido de Tomás, para ver cómo son los perfiles que funcionan en el nicho. Es una mirada a los perfiles y a algunos posts, no una medición: no se contaron vistas de reels ni la mediana de cada cuenta. Para saber qué reels se destacan de verdad hay que pasar la skill `ig-viral`. La medición del 9 de noviembre 2026 (6 cuentas, con mediana) está en `marketing-instagram.md`.
 
 | Cuenta | Seguidores | Qué es | Para qué sirve mirarla |
 |---|---|---|---|
