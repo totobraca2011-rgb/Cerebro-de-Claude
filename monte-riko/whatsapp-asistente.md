@@ -1,6 +1,6 @@
 # Asistente de WhatsApp de Monte Riko
 
-Armado el 10 de noviembre de 2026, a pedido de Tomás, con las ideas de dos reels: la pizzería 3D de @valentinpanizza y la pastelera Mariana de @liordiaz (`instagram-referentes.md`). **Estado:** diseñado, sin conectar. Para conectarlo hacen falta pasos que solo puede hacer Tomás (abajo).
+Armado el 10 de noviembre de 2026, a pedido de Tomás, con las ideas de dos reels: la pizzería 3D de @valentinpanizza y la pastelera Mariana de @liordiaz (`instagram-referentes.md`). **Estado:** diseñado. Tomás agregó el conector "WhatsApp Business Tools" en Claude el 10 de noviembre 2026; esa tarde todavía figuraba "conectando" y sin herramientas en la sesión, así que falta probarlo con `whatsapp_biz_businesses`.
 
 ## Para qué
 Que los clientes que escriben al WhatsApp de pedidos reciban respuesta al instante, a cualquier hora, y que Tomás solo tenga que confirmar los pedidos y atender lo que el asistente no puede resolver.
