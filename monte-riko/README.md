@@ -12,6 +12,7 @@ Alfajores artesanales de Mar del Plata, hechos por Tomás Bracamonte.
 | `historias-noviembre/` | Historias listas para subir en noviembre 2026, con su calendario |
 | `reels/alfajor-3d.md` | Reel en 3D "Así se hace un alfajor": la prueba y lo que falta |
 | `reels/un-poquito.md` | Reel "Un poquito de chocolate": chiste en pantalla sobre el baño de chocolate (9 de noviembre 2026) |
+| `reels/tanda-prueba.md` | Tanda de 10 reels de prueba "El alfajor por dentro": ganchos, calendario y cómo se elige el que gana (10 de noviembre 2026) |
 | `carruseles/` | Carruseles armados para Instagram. Su `README.md` tiene el estilo que llevan todos (VOX) |
 | `reels/` | Guiones y armado de cada reel |
 | `whatsapp-asistente.md` | Asistente de WhatsApp para atender clientes: cómo trabaja, qué sabe, cómo se conecta y qué falta decidir (10 de noviembre 2026) |
