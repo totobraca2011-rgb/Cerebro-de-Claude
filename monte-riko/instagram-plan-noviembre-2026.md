@@ -27,7 +27,7 @@ Tres posts por semana, a un ritmo que una sola persona pueda sostener: **martes 
 | Mar 3 | Reel | Historia | Quién está detrás de Monte Riko | **Publicado** por Tomás el 3 de noviembre 2026 (versión 5) |
 | Jue 5 | Carrusel | Venta | Cómo pedir tu caja | **Publicado** por Tomás el 5 de noviembre 2026, con las historias del día (7 imágenes) |
 | Sáb 7 | Foto | Venta | La caja y el papel dorado | Borrador en Metricool |
-| Mar 10 | Reel | Proceso | Así se hace un alfajor (3D) | Versión 4, con la voz de Tomás. Se adelantó del martes 17 a pedido de Tomás (6 de noviembre 2026) |
+| Mié 11 | Reel | Proceso | Así se hace un alfajor (3D) | Versión 4, con la voz de Tomás. Iba el martes 10 a las 18:00, pero no se publicó: **programado en Metricool para el miércoles 11 a las 20:00**, con publicación automática (10 de noviembre 2026) |
 | Mié 11 | Reel de prueba | Humor | Un poquito de chocolate | 18:00, como reel de prueba: lo ve solo gente que no sigue la cuenta. Se mira el sábado 14 y, si anda, se pasa al perfil (Tomás, 9 de noviembre 2026). Ver `reels/un-poquito.md` |
 | Jue 12 | Reel | Proceso | El relleno | Versión 6: la v5 que editó Tomás, con zoom in y zoom out. Le gustó (2 de noviembre 2026) |
 | Sáb 14 | Foto | Marca | Auténtico marplatense | Borrador en Metricool |

@@ -1,6 +1,6 @@
 # Reel "Así se hace un alfajor" en 3D (noviembre 2026)
 
-Idea de Tomás (4 de noviembre 2026): un reel en el estilo de @loconstruiste.mx (ver `editor-de-ia/referencias/README.md`), donde un pastelero chiquito en 3D arma un alfajor paso a paso. **Sale el martes 10 de noviembre a las 18:00** (Tomás lo adelantó el 6 de noviembre 2026; "La harina y la masa" pasó al martes 17). La descripción está en su tarjeta de Trello.
+Idea de Tomás (4 de noviembre 2026): un reel en el estilo de @loconstruiste.mx (ver `editor-de-ia/referencias/README.md`), donde un pastelero chiquito en 3D arma un alfajor paso a paso. **Sale el miércoles 11 de noviembre a las 20:00**, programado en Metricool con publicación automática. Iba el martes 10 a las 18:00 (Tomás lo había adelantado el 6 de noviembre 2026; "La harina y la masa" pasó al martes 17), pero ese día no se publicó. A Metricool se subió una copia de menos de 10 MB (1.700 kbps), porque Chrome no deja subir más. La descripción está en su tarjeta de Trello.
 
 ## Prueba v1 (4 de noviembre 2026)
 - **Video:** `editor-de-ia/terminados/2026-11-04-alfajor-3d-prueba-v1.mp4` (5 s, 1080x1920, sin sonido).

@@ -62,11 +62,13 @@ Lo que se miró de otras marcas está en `../instagram-referentes.md`.
 - `lun-9-2.jpg`: MAÑANA TE MUESTRO CÓMO SE HACE. "Un alfajor de +100 g. A las 18:00." Foto `alfajor-partido-mitades` con el filtro del dulce. El texto va más arriba para dejar lugar al contador (pedido de Tomás, 9 de noviembre 2026). **Sticker:** cuenta regresiva para mañana a las 18:00, en el hueco gris de abajo del texto.
 
 ### Mar 10: Reel 3D "Así se hace un alfajor"
+**Cambio (10 de noviembre 2026, a la noche):** Tomás se olvidó de publicar ese día. El reel pasó al miércoles 11 a las 20:00 (programado en Metricool) y `mar-10-1` no se subió: la reemplaza `mie-11-0`. `mar-10-2` se sube esa noche (23 h).
 - `mar-10-1.jpg`: HOY A LAS 18:00. "El pastelero nuevo te muestra cómo se hace, paso a paso." Foto `bano-chorreando` con el filtro del chocolate. Rehecha el 10 de noviembre 2026: la vieja (un cuadro borroso de la masa) no le convencía a Tomás. **Sticker:** cuenta regresiva a las 18:00 (opcional).
 - **En la app:** Después de publicar, compartí el reel y escribile encima: "Así se hace, paso a paso".
 - `mar-10-2.jpg`: ¿TE COMERÍAS LA TAPA SOLA? **Sticker:** Encuesta: Sí, y dos / Con dulce siempre.
 
 ### Mié 11: El horno
+- `mie-11-0.jpg` (sumada el 10 de noviembre 2026, va primero, al mediodía): HOY A LAS 20:00. "El pastelero nuevo te muestra cómo se hace, paso a paso." Misma foto que `mar-10-1`, para el reel 3D que se corrió a las 20:00. Está en el repo y en Drive (no en `historias.json`). **Sticker:** cuenta regresiva a las 20:00 (opcional). Después del reel, compartilo con el texto "Así se hace, paso a paso".
 - `mie-11-1.jpg`: ASÍ ENTRAN
 - `mie-11-2.jpg`: ASÍ SALEN
 - `mie-11-3.jpg`: ¿CUÁNTO DULCE LE PONEMOS? **Sticker:** Barra deslizante con el emoji 🤤.
