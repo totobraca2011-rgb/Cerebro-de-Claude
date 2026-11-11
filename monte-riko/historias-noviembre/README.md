@@ -69,8 +69,9 @@ Lo que se miró de otras marcas está en `../instagram-referentes.md`.
 
 ### Mié 11: El horno
 - `mie-11-0.jpg` (sumada el 10 de noviembre 2026, va primero, al mediodía): HOY A LAS 20:00. "El pastelero nuevo te muestra cómo se hace, paso a paso." Misma foto que `mar-10-1`, para el reel 3D que se corrió a las 20:00. Está en el repo y en Drive (no en `historias.json`). **Sticker:** cuenta regresiva a las 20:00 (opcional). Después del reel, compartilo con el texto "Así se hace, paso a paso".
-- `mie-11-1.jpg`: ASÍ ENTRAN
-- `mie-11-2.jpg`: ASÍ SALEN
+- `mie-11-1.jpg`: ASÍ ENTRAN. "Tapas de chocolate, cortadas a mano."
+- `mie-11-2.jpg`: ASÍ SALEN. "8 minutos a 160 °C y a enfriar."
+- **Rehechas el 11 de noviembre 2026:** a Tomás no le convencían. La 1 era un cuadro borroso de la bandeja entrando al horno, y la 2 tenía media placa de mesada vacía y era la misma foto de `mar-10-2`. Ahora son un par antes/después: cuadros nítidos de los videos 0460 (tapas crudas) y 0475 (tapas horneadas), con la misma mesada, recortados más cerca y con una línea de texto debajo del título. Ningún cuadro del video 0470 (la bandeja entrando al horno) sale nítido, porque la bandeja va en movimiento. Se armaron a mano (no figuran así en `historias.json`). En Drive, las viejas quedaron como "VIEJA - …".
 - `mie-11-3.jpg`: ¿CUÁNTO DULCE LE PONEMOS? **Sticker:** Barra deslizante con el emoji 🤤.
 
 ### Jue 12: Reel del relleno
