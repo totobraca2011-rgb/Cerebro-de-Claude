@@ -178,11 +178,9 @@
   "tema": "Reel del relleno",
   "placas": [
    {
-    "v": [
-     "r2",
-     "r3"
-    ],
-    "t": "ESTO VA ADENTRO"
+    "p": "dulce-cerrando",
+    "t": "ESTO VA ADENTRO",
+    "color": "caramelo.py 29 1 0.8 0.95"
    },
    {
     "app": "Después de publicar, compartí el reel y escribile encima: \"Mirá cómo se abre al final\"."
@@ -190,7 +188,8 @@
    {
     "p": "dulce-copete",
     "t": "¿MUCHO O MUCHÍSIMO?",
-    "n": "Encuesta: Mucho / Muchísimo, y abajo un sticker de enlace a monteriko.com.ar que diga \"Pedí el tuyo\""
+    "n": "Encuesta: Mucho / Muchísimo, y abajo un sticker de enlace a monteriko.com.ar que diga \"Pedí el tuyo\"",
+    "color": "caramelo.py 28"
    }
   ]
  },

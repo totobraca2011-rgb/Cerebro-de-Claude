@@ -18,13 +18,15 @@ Cada placa está en 1080x1920, dentro de `semana-1/` a `semana-4/`. El nombre di
 - **Sin bordes negros:** la foto ocupa toda la pantalla.
 - **Las letras no tapan el alfajor ni el relleno.** Van chicas y arriba o abajo, donde la foto queda libre.
 - **Nada movido (5 de noviembre 2026):** los cuadros sacados de video pueden salir movidos. Antes de entregar una placa de video, mirala a tamaño real; si se ve movida, usá una foto quieta de `fotos-proceso/` o `fotos-originales/`.
-- **Color del dulce de leche:** en las tomas sale verdoso. Lleva el filtro `GUSTOSO` de `armar.mjs`, que lo deja color caramelo.
+- **Color del dulce de leche:** en las tomas sale verdoso. El filtro `GUSTOSO` de `armar.mjs` lo dejaba amarillo, color mostaza, y a Tomás no le gustó (12 de noviembre 2026). Ahora se usa `nube/caramelo.py`, que cambia solo el color del dulce y lo deja caramelo: `python3 caramelo.py foto.jpg salida.png 28` (si la foto ya viene naranja, `29 1 0.8 0.95`). Las placas de antes del 12 de noviembre que tienen dulce siguen con el filtro viejo.
+- **Nada borroso (12 de noviembre 2026):** Tomás rechazó otra placa sacada de video por borrosa. Para las placas, preferí las fotos quietas de `fotos-proceso/`.
 
 **Placas hechas desde la nube (9 de noviembre 2026):** `armar.mjs` corre en la compu de Tomás. En la nube se usan `nube/placa.html` (misma letra y estilo) y `nube/placas.js` con Playwright; los cuadros limpios del reel 3D salen de `nube/cuadro-3d.js`, con el proyecto armado como dice `../reels/alfajor-3d.md`. Si se vuelve a correr `armar.mjs`, las de `lun-9` se pisan con las viejas: copiarlas de nuevo desde el repo.
 
 Lo que se miró de otras marcas está en `../instagram-referentes.md`.
 
-**Historias que piden algo (10 de noviembre 2026, pedido de Tomás):** se aplicó el carrusel de @duostudio.digital (ver `../instagram-referentes.md`). Cada historia que muestra producto hace elegir con una encuesta y pone el link al lado; la de fiestas crea expectativa con una cuenta regresiva en vez de solo avisar. Cambiaron los stickers del jueves 12, viernes 13 y lunes 23, y se rehicieron `mie-18-2`, `mie-18-3`, `lun-23-1` y `lun-23-3` (en el repo y en Drive). Queda para que Tomás decida: una historia de promo que pida una reacción a cambio de un descuento, y una de "quedan X cajas para el viernes" si produce por tandas. Las placas sueltas se rehacen con la composición `CapaHistoria` de `M:eel-v2ideosrcChiste.tsx` (`npx remotion still` con el texto por props) y FFmpeg encima de la foto.
+**Historias que piden algo (10 de noviembre 2026, pedido de Tomás):** se aplicó el carrusel de @duostudio.digital (ver `../instagram-referentes.md`). Cada historia que muestra producto hace elegir con una encuesta y pone el link al lado; la de fiestas crea expectativa con una cuenta regresiva en vez de solo avisar. Cambiaron los stickers del jueves 12, viernes 13 y lunes 23, y se rehicieron `mie-18-2`, `mie-18-3`, `lun-23-1` y `lun-23-3` (en el repo y en Drive). Queda para que Tomás decida: una historia de promo que pida una reacción a cambio de un descuento, y una de "quedan X cajas para el viernes" si produce por tandas. Las placas sueltas se rehacen con la composición `CapaHistoria` de `M:
+eel-v2ideosrcChiste.tsx` (`npx remotion still` con el texto por props) y FFmpeg encima de la foto.
 
 ## Calendario
 
@@ -74,10 +76,10 @@ Lo que se miró de otras marcas está en `../instagram-referentes.md`.
 - **Rehechas el 11 de noviembre 2026:** a Tomás no le convencían. La 1 era un cuadro borroso de la bandeja entrando al horno, y la 2 tenía media placa de mesada vacía y era la misma foto de `mar-10-2`. Ahora son un par antes/después: cuadros nítidos de los videos 0460 (tapas crudas) y 0475 (tapas horneadas), con la misma mesada, recortados más cerca y con una línea de texto debajo del título. Ningún cuadro del video 0470 (la bandeja entrando al horno) sale nítido, porque la bandeja va en movimiento. Se armaron a mano (no figuran así en `historias.json`). En Drive, las viejas quedaron como "VIEJA - …".
 - `mie-11-3.jpg`: ¿CUÁNTO DULCE LE PONEMOS? **Sticker:** Barra deslizante con el emoji 🤤.
 
-### Jue 12: Reel del relleno
-- `jue-12-1.jpg`: ESTO VA ADENTRO
+### Jue 12: Reel del relleno (rehechas el 12 de noviembre 2026: la 1 salía borrosa y el dulce de las dos, color mostaza)
+- `jue-12-1.jpg`: ESTO VA ADENTRO. Foto `dulce-cerrando`, con el dulce en color caramelo.
 - **En la app:** Después de publicar, compartí el reel y escribile encima: "Mirá cómo se abre al final".
-- `jue-12-2.jpg`: ¿MUCHO O MUCHÍSIMO? **Sticker:** Encuesta: Mucho / Muchísimo, y abajo un sticker de enlace a monteriko.com.ar que diga "Pedí el tuyo".
+- `jue-12-2.jpg`: ¿MUCHO O MUCHÍSIMO? Foto `dulce-copete`, con el dulce en color caramelo. **Sticker:** Encuesta: Mucho / Muchísimo, y abajo un sticker de enlace a monteriko.com.ar que diga "Pedí el tuyo".
 
 ### Vie 13: Por dentro
 - `vie-13-1.jpg`: ESPERÁ A QUE SE ABRA
