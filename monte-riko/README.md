@@ -16,6 +16,7 @@ Alfajores artesanales de Mar del Plata, hechos por Tomás Bracamonte.
 | `carruseles/` | Carruseles armados para Instagram. Su `README.md` tiene el estilo que llevan todos (VOX) |
 | `reels/` | Guiones y armado de cada reel |
 | `whatsapp-asistente.md` | Asistente de WhatsApp para atender clientes: cómo trabaja, qué sabe, cómo se conecta y qué falta decidir (10 de noviembre 2026) |
+| `finanzas-agente.md` | Agente de finanzas: qué hace, conectores y skills que sirven (y cuáles no), reglas y lo que falta decidir (13 de noviembre 2026) |
 | `pagina-web.md` | La página web: cómo se trabaja, reglas, decisiones tomadas y pendientes |
 | `pagina-web/` | El código de la página (index.html y assets), listo para subir |
 | `marketing-instagram.md` | Qué funciona en Instagram en 2026, reels de alfajores medidos, marcas que venden e ideas para Monte Riko (9 de noviembre 2026) |
