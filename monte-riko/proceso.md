@@ -4,6 +4,8 @@ Contado por Tomás el 5 de noviembre 2026, para el reel 3D. Sirve para reels, hi
 
 **Peso:** cada alfajor pesa más de 100 g (Tomás, 5 de noviembre 2026).
 
+**Cantidades por alfajor (Tomás, 13 de noviembre 2026):** 55 g de dulce de leche y 20 g de chocolate de baño, o sea 660 g de dulce y 240 g de chocolate por docena. Lo usa el contador para calcular costos (`finanzas/`).
+
 1. **La masa:** hace la mezcla y la deja en el freezer una noche o más.
 2. **Estirar:** la saca del freezer y la estira hasta unos 5 mm.
 3. **Al frío:** guarda las tapas separadas en una fuente, 30 minutos en la heladera.
