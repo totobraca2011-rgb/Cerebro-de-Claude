@@ -15,6 +15,7 @@ Alfajores artesanales de Mar del Plata, hechos por Tomás Bracamonte.
 | `reels/tanda-prueba.md` | Tanda de 10 reels de prueba "El alfajor por dentro": ganchos, calendario y cómo se elige el que gana (10 de noviembre 2026) |
 | `carruseles/` | Carruseles armados para Instagram. Su `README.md` tiene el estilo que llevan todos (VOX) |
 | `reels/` | Guiones y armado de cada reel |
+| `reels/estadisticas.md` | Estadísticas de cada reel (lo que importa: cuánto tiempo lo miran) y las próximas versiones a probar (14 de noviembre 2026) |
 | `whatsapp-asistente.md` | Asistente de WhatsApp para atender clientes: cómo trabaja, qué sabe, cómo se conecta y qué falta decidir (10 de noviembre 2026) |
 | `finanzas/` | La plata del negocio: situación, receta por docena, planilla de costos, ventas y gastos, conectores y lo que falta (13 de noviembre 2026). Lo usa la skill `finanzas-monte-riko` |
 | `pagina-web.md` | La página web: cómo se trabaja, reglas, decisiones tomadas y pendientes |
