@@ -3,7 +3,7 @@
 Calculado con la planilla (`planilla-finanzas.xlsx` y la de Drive), con precios de insumos relevados el 13/11/2026 (`precios-insumos.md`) y la receta por docena (`README.md`). Es la ganancia **antes** de pagar tu tiempo y los gastos fijos. Hay supuestos marcados: el patagónico, las horas, la merma y el gas.
 
 ## Un alfajor
-| | Marplatense | Patagónico (supuesto) |
+| | Marplatense | Patagónico |
 |---|---|---|
 | Ingredientes (con 5% de merma) | $872 | $865 |
 | Papel dorado, sticker, etiqueta y papel manteca | $248 | $248 |
@@ -16,9 +16,9 @@ Lo que más pesa: dulce de leche (unos $270 por alfajor), chocolate (unos $260) 
 | Producto | Precio | Costo | Ganancia | Margen | Ganancia por alfajor |
 |---|---|---|---|---|---|
 | Marplatense suelto | $2.800 | $1.128 | $1.672 | 60% | $1.672 |
-| Patagónico suelto | $3.000 | $1.122 | $1.878 | 63% | $1.878 |
-| Media docena | $16.500 | $7.078 | $9.422 | 57% | $1.570 |
-| Docena | $31.900 | $13.892 | $18.008 | 56% | $1.501 |
+| Patagónico suelto | $3.000 | $1.142 | $1.858 | 62% | $1.858 |
+| Media docena | $16.500 | $7.139 | $9.361 | 57% | $1.560 |
+| Docena | $31.900 | $14.015 | $17.885 | 56% | $1.490 |
 
 - De cada $100 que cobrás por una docena, $44 se van en insumos, envoltorio y caja, y te quedan $56.
 - Una tanda grande da 12 docenas en unas 6 horas (Tomás, 14/11/2026): media hora por docena, o sea unos $35.800 de ganancia por hora de trabajo. Con 3 g de mermelada, el patagónico cuesta unos $1.142. El salario mínimo de noviembre 2026 es $1.994 por hora.

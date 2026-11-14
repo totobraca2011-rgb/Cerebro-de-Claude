@@ -26,7 +26,7 @@ Relleno y baño (Tomás, 13/11/2026): **55 g de dulce de leche y 20 g de chocola
 Envoltorio (planilla 2025): unos 2,5 g de papel metalizado, una calcomanía y una etiqueta nutricional por alfajor.
 
 ## Resultado (detalle en `costos.md`)
-Un marplatense cuesta unos **$1.128** y deja **$1.672** (60%). Una docena cuesta **$13.892** y deja **$18.008** (56%). Es antes de pagar su tiempo y los gastos fijos.
+Un marplatense cuesta unos **$1.128** y deja **$1.672** (60%). Una docena cuesta **$14.015** y deja **$17.885** (56%; 14/11/2026). Es antes de pagar su tiempo y los gastos fijos.
 
 ## Lo legal, en corto (detalle y fuentes en `reglas-argentina.md`; se confirma con un contador)
 - **Con 16 o 17 años** puede sacar CUIT y entrar al monotributo a su nombre, con autorización de un padre o madre firmada ante escribano (RG ARCA 5803/2025). Siendo menor no paga jubilación ni obra social: la categoría A le cuesta unos **$15.600 por mes** (ARCA + ARBA, agosto 2026 a enero 2027). Tope de la A: $12.009.410 por año.
