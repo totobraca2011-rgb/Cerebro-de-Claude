@@ -50,4 +50,3 @@ Con el kit de diseño, que está en este Cerebro (ver `diseno/README.md`):
 - Opcionales que marcaron los auditores: ocultar las burbujas y no partir stickers de sus fotos al imprimir (`@media print`).
 - Probar en Safari de iPhone el acordeón de "Cómo te llega".
 - Tomás tiene que revisar los textos que escribió el constructor.
-- **Foto del Marplatense** (14 de noviembre 2026, pedido de Tomás): en "Los alfajores", la tarjeta del Marplatense pasó de la mano con el papel dorado (`mano-alfajor-frente`) al alfajor recién bañado, sin envoltorio (`assets/img/alfajor-banado-480/800/1080`, en jpg, webp y avif). Recorte cuadrado de `fotos-originales/alfajor-banado.jpg` (1080x1080 desde y=230) con un filtro suave que calienta el chocolate (contraste +6%, saturación +8%). Queda en `main`; se publica cuando Tomás diga "subilo".
