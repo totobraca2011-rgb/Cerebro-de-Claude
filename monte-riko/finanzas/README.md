@@ -59,4 +59,4 @@ Cuando alguien aprieta "Enviar por WhatsApp" en monteriko.com.ar, la página avi
 - Dirección del programa (está en `pagina-web/assets/main.js`, constante `PLANILLA`): `https://script.google.com/macros/s/AKfycbxN2Wugu1LTiYHFUfxQRsDEm9fHe7P0mxJE2WlIelzwajBtIIWn1EhsPqLV-A01YlA7/exec`. Si se cambia el programa, hay que hacer "Gestionar implementaciones → editar → versión nueva" para que la dirección siga igual.
 - Son pedidos **armados**, no ventas: mucha gente arma y no compra. Cuando Tomás confirma y cobra, el contador pasa la fila a Ventas y le pone "Confirmado" en Estado.
 - Probado el 14/11/2026 desde la vista previa: la fila llegó bien. La planilla se pasó a hora de Argentina ese día.
-- **Estado:** el cambio en la página está en `main` y en la vista previa; falta que Tomás diga "subilo" para publicarlo.
+- **Estado:** publicado en monteriko.com.ar el 14/11/2026 (Tomás dijo "subilo"); comprobado que el `main.js` publicado tiene la dirección del programa.
