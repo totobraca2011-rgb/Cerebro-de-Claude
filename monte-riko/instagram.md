@@ -68,3 +68,6 @@ Claude los hizo desde Chrome a pedido de Tomás, que se tuvo que ir y dijo "camb
 - Para retomar (2 de noviembre 2026, a la madrugada; el espacio de Google ya bajó a 10,87 GB al mediodía): darles fecha a los reels de reserva; aprobar los 4 borradores de Metricool; grabar los reels del 21 y del 26 y el video de partir un patagónico; crear las destacadas; pasar 10 cuentas de Mar del Plata. Las historias arrancaron el lunes 2: Tomás subió las de ese día desde el celu.
 - Metricool: solo conviene si cada historia no cuenta como publicación, porque el plan permite 20 por mes. Falta conectar Drive para probarlo con las imágenes reales.
 - Tomás tiene que revisar las historias de noviembre y crear las destacadas "Pedí acá", "Precios", "Envíos" y "Ustedes" (1 de noviembre 2026).
+
+## Trello de contenido (14 de noviembre 2026)
+El plan de publicaciones de Instagram vive en el tablero **"Planificaciones con Claude de contenido para INSTAGRAM"** (https://trello.com/b/7htHsRmf), con una lista por semana y una tarjeta por día. Cuando Tomás habla de "Trello" para historias, reels o semanas, es ese tablero, no "Monte Riko". El color va en el nombre de la lista y en la etiqueta: 🟢 completa, 🟡 en curso, 🔴 por venir. Marcar una semana completa = renombrar la lista con 🟢, marcar sus tarjetas como completas y ponerles la etiqueta verde.

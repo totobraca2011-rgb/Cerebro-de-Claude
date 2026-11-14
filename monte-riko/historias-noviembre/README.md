@@ -141,4 +141,4 @@ eel-v2ideosrcChiste.tsx` (`npx remotion still` con el texto por props) y FFmpeg
 - Todas las placas del 16 al 27 están en Drive (`Historias para publicar/Semana 3` y `Semana 4`) y coinciden con las del repo.
 - Arregladas: `jue-19-1` y `jue-19-2` (dulce mostaza → caramelo). `jue-26-2` y `mar-24-1` ya tenían buen color.
 - Fotos repetidas, se dejaron porque van en días distintos: la de la caja en `lun-23-3` y `vie-27-3`, la del termo en la playa en `mie-25-2` y `vie-27-1`. `lun-16-1` y `lun-16-2` son la misma bandeja (la 2 pregunta cuántas tapas hay).
-- Trello: las semanas del 16 al 20 y del 23 al 27 pasaron a "Noviembre: listo para publicar".
+- Trello (tablero de contenido "Planificaciones con Claude de contenido para INSTAGRAM"): la semana del 9 al 14 quedó en verde (🟢) con todas sus tarjetas completas, y la tarjeta del jueves 19 tiene la nota del cambio.
