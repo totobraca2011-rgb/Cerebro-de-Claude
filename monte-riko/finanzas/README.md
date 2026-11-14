@@ -17,7 +17,7 @@ Pedido de Tomás (13 de noviembre 2026): un agente experto que maneje la plata, 
 - Ya vende. No anota ventas ni gastos. Cobra casi todo por transferencia o en efectivo.
 - Es menor de edad y no está en el monotributo. Cumple 17 a fines de noviembre 2026 (dijo "en una semana" el 14/11/2026): con 16 o 17 ya puede inscribirse a su nombre con autorización de un padre o madre ante escribano.
 - Ya conectó Google Sheets en Claude (14/11/2026).
-- Tiempo de trabajo (14/11/2026): hace las tandas en 2 días (un día las masas, otro hornea y termina). Todo junto le llevaría 6 horas o más por tanda. Falta saber cuántas docenas salen por tanda para sacar las horas por docena.
+- Tiempo de trabajo (14/11/2026): hace las tandas en 2 días (un día las masas, otro hornea y termina). Todo junto le llevaría 6 horas o más por tanda. Una tanda grande da 12 docenas: media hora de trabajo por docena (cargado en la planilla).
 - Su "Panilla de gastos" de febrero 2025 (en `0000-Monteriko`) tenía la receta por docena y su idea de reparto: **50% negocio, 30% personal, 20% ahorro**. La planilla nueva la usa.
 
 ## Receta por docena
@@ -36,8 +36,8 @@ Un marplatense cuesta unos **$1.128** y deja **$1.672** (60%). Una docena cuesta
 - **Envíos a otras provincias** pueden meterlo en el Convenio Multilateral de Ingresos Brutos al formalizarse: consultarlo con el contador.
 
 ## Pendientes
-1. Tomás: cuántas docenas salen por tanda, si el patagónico lleva los 55 g de dulce, si usa el dulce de leche clásico, tickets de sus últimas compras y cómo lo calculaba él (para comparar). El resto de las preguntas está al final de `mercado.md`.
-2. Pasar a la planilla de Google la mermelada de 3 g y las horas (cuando se sepa cuántas docenas por tanda).
+1. Tomás: si el patagónico lleva los 55 g de dulce, si usa el dulce de leche clásico, tickets de sus últimas compras y cómo lo calculaba él (para comparar). El resto de las preguntas está al final de `mercado.md`.
+2. Hecho el 14/11/2026: la planilla de Google ya tiene la mermelada de 3 g y la media hora por docena.
 3. Quedaron sin datos (la investigación se quedó sin búsquedas): precios de equipos y locales para crecer, habilitación en General Pueyrredon y precios de Gula, Rasta y Lucciano's. Se buscan de a uno cuando haga falta.
 4. Revisar que la planilla de Google se vea bien (se subió convertida desde Excel; las cuentas se verificaron antes de subirla).
 

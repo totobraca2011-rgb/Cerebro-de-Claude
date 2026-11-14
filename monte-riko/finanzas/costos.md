@@ -21,7 +21,7 @@ Lo que más pesa: dulce de leche (unos $270 por alfajor), chocolate (unos $260) 
 | Docena | $31.900 | $13.892 | $18.008 | 56% | $1.501 |
 
 - De cada $100 que cobrás por una docena, $44 se van en insumos, envoltorio y caja, y te quedan $56.
-- Si una docena te lleva 2 horas (a confirmar), ganás unos $9.000 por hora. El salario mínimo de noviembre 2026 es $1.994 por hora.
+- Una tanda grande da 12 docenas en unas 6 horas (Tomás, 14/11/2026): media hora por docena, o sea unos $35.800 de ganancia por hora de trabajo. Con 3 g de mermelada, el patagónico cuesta unos $1.142. El salario mínimo de noviembre 2026 es $1.994 por hora.
 - El envío no está en la cuenta: un envío de 1 a 2 kg por OCA a otra provincia sale entre $14.400 y $26.000. Tiene que pagarlo el cliente aparte, porque se come más de la mitad de la ganancia de una docena.
 
 ## Lo que dice el contador
