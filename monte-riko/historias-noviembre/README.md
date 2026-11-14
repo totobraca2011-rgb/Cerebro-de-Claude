@@ -94,12 +94,12 @@ eel-v2ideosrcChiste.tsx` (`npx remotion still` con el texto por props) y FFmpeg
 
 ### Mar 17: Reel de las tapas
 - `mar-17-1.jpg`: UNA POR UNA
-- **En la app:** Después de publicar, compartí el reel y escribile encima: "Mirá la masa al final".
+- **En la app:** Después de publicar, compartí el reel y escribile encima: "Mirá la masa al final". Sumale un enlace "Pedí el tuyo" (14/11).
 
 ### Mié 18: El chocolate
 - `mie-18-1.jpg`: ACÁ MANDA EL CHOCOLATE
 - `mie-18-2.jpg`: NEGRO. SIEMPRE. Rehecha el 10 de noviembre 2026: el chocolate salía verdoso.
-- `mie-18-3.jpg`: ¿FINITO O BIEN GRUESO? Rehecha el 10 de noviembre 2026: el chocolate salía verdoso. **Sticker:** Encuesta: Finito / Bien grueso.
+- `mie-18-3.jpg`: ¿FINITO O BIEN GRUESO? Rehecha el 10 de noviembre 2026: el chocolate salía verdoso. **Sticker:** Encuesta: Finito / Bien grueso, y abajo un enlace a monteriko.com.ar que diga "Pedí el tuyo" (14/11).
 
 ### Jue 19: El patagónico (revisadas el 14 de noviembre 2026: la 1 y la 2 tenían el dulce color mostaza y se pasaron por `caramelo.py`; en Drive las viejas quedaron como "VIEJA - …")
 - `jue-19-1.jpg`: PRIMERO, LA CORONA
@@ -120,7 +120,7 @@ eel-v2ideosrcChiste.tsx` (`npx remotion still` con el texto por props) y FFmpeg
 
 ### Mar 24: Reel por dentro
 - `mar-24-1.jpg`: ASÍ SE ABRE UN MONTE RIKO
-- **En la app:** Después de publicar, compartí el reel y escribile encima: "Mirá cómo se abre".
+- **En la app:** Después de publicar, compartí el reel y escribile encima: "Mirá cómo se abre". Sumale un enlace "Pedí el tuyo" (14/11).
 
 ### Mié 25: Cómo empezó
 - `mie-25-1.jpg`: ESTO EMPEZÓ EN LA ESCUELA
@@ -130,7 +130,7 @@ eel-v2ideosrcChiste.tsx` (`npx remotion still` con el texto por props) y FFmpeg
 ### Jue 26: El freezer
 - `jue-26-1.jpg`: NO LO COMAS TODAVÍA
 - `jue-26-2.jpg`: 10 MINUTOS EN EL FREEZER
-- `jue-26-3.jpg`: ¿YA LO PROBASTE ASÍ? **Sticker:** Encuesta: Sí / Hoy mismo.
+- `jue-26-3.jpg`: ¿YA LO PROBASTE ASÍ? **Sticker:** Encuesta: Sí / Hoy mismo, y abajo un enlace "Pedí el tuyo" (14/11).
 
 ### Vie 27: Auténtico marplatense
 - `vie-27-1.jpg`: AUTÉNTICO MARPLATENSE
@@ -142,3 +142,4 @@ eel-v2ideosrcChiste.tsx` (`npx remotion still` con el texto por props) y FFmpeg
 - Arregladas: `jue-19-1` y `jue-19-2` (dulce mostaza → caramelo). `jue-26-2` y `mar-24-1` ya tenían buen color.
 - Fotos repetidas, se dejaron porque van en días distintos: la de la caja en `lun-23-3` y `vie-27-3`, la del termo en la playa en `mie-25-2` y `vie-27-1`. `lun-16-1` y `lun-16-2` son la misma bandeja (la 2 pregunta cuántas tapas hay).
 - Trello (tablero de contenido "Planificaciones con Claude de contenido para INSTAGRAM"): la semana del 9 al 14 quedó en verde (🟢) con todas sus tarjetas completas, y la tarjeta del jueves 19 tiene la nota del cambio.
+- **Reglas de los guardados aplicadas (14 de noviembre 2026, `../guardados-instagram.md`):** cada día con producto tiene contexto, valor y acción; la acción lleva enlace "Pedí el tuyo". Se sumó el enlace en `mie-18-3`, `jue-26-3` y al compartir los reels del 17 y del 24. Se revisó la zona segura: los títulos quedan debajo de la barra de Instagram, no hizo falta rehacer placas.

@@ -26,6 +26,9 @@ Se aplican a reels, historias y carruseles de Monte Riko desde ahora, salvo que 
 
 **Buena cámara no salva un video aburrido** (@mariapaulacreator, #3): mejorar el guion antes que el equipo, publicar cuando el video está listo en vez de buscar la hora mágica, y tomar estructuras de videos virales adaptadas a lo propio (ya se hace con `ganchos.md` y la tanda de prueba).
 
+## Aplicado (14 de noviembre 2026)
+En el tablero de contenido de Trello y en Metricool: enlace "Pedí el tuyo" en las historias de producto, "Mandáselo a…" en las descripciones de reels y fotos del 17 al 28 (también en los borradores del 19 y del 28 en Metricool), consejos de grabación en los reels del 21 y del 26, y control de dónde se va la gente a los 3 días de cada reel.
+
 ## Para vender por WhatsApp (asistente y Tomás)
 **Antes de pasar el precio, tres preguntas** (#26): para qué es (regalo, evento, antojo), para cuándo (una fecha real es señal de compra) y cuánto pensaba gastar (si es poco, ofrecer media docena en vez de perderlo). Después, cerrar con el paso siguiente concreto ("¿te la llevo el sábado a la tarde?"), no con el precio suelto. Sumarlo al asistente de WhatsApp (`whatsapp-asistente.md`) cuando se arme.
 
