@@ -4,7 +4,7 @@
   "supuestos": {
     "merma": 0.05,
     "energia_docena": 100,
-    "horas_docena": 0.5,
+    "horas_docena": 1,
     "valor_hora": 1994,
     "mix_marplatense": 0.5,
     "margen_objetivo": 0.65,
