@@ -19,6 +19,7 @@ Alfajores artesanales de Mar del Plata, hechos por Tomás Bracamonte.
 | `finanzas/` | La plata del negocio: situación, receta por docena, planilla de costos, ventas y gastos, conectores y lo que falta (13 de noviembre 2026). Lo usa la skill `finanzas-monte-riko` |
 | `pagina-web.md` | La página web: cómo se trabaja, reglas, decisiones tomadas y pendientes |
 | `pagina-web/` | El código de la página (index.html y assets), listo para subir |
+| `guardados-instagram.md` | Lo que sirve de los 27 guardados de Instagram de Tomás: reglas para reels, historias y ventas por WhatsApp (14 de noviembre 2026) |
 | `marketing-instagram.md` | Qué funciona en Instagram en 2026, reels de alfajores medidos, marcas que venden e ideas para Monte Riko (9 de noviembre 2026) |
 | `ganchos.md` | Lista de 20 ganchos para reels, con su formato y para qué sirve cada uno |
 | `proceso.md` | Cómo hace Tomás cada alfajor, paso a paso, con tiempos, temperaturas y gramos |
