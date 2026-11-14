@@ -15,12 +15,14 @@ Pedido de Tomás (13 de noviembre 2026): un agente experto que maneje la plata, 
 
 ## Situación (13 de noviembre 2026)
 - Ya vende. No anota ventas ni gastos. Cobra casi todo por transferencia o en efectivo.
-- Es menor de edad y no está en el monotributo. Falta saber la edad exacta.
+- Es menor de edad y no está en el monotributo. Cumple 17 a fines de noviembre 2026 (dijo "en una semana" el 14/11/2026): con 16 o 17 ya puede inscribirse a su nombre con autorización de un padre o madre ante escribano.
+- Ya conectó Google Sheets en Claude (14/11/2026).
+- Tiempo de trabajo (14/11/2026): hace las tandas en 2 días (un día las masas, otro hornea y termina). Todo junto le llevaría 6 horas o más por tanda. Falta saber cuántas docenas salen por tanda para sacar las horas por docena.
 - Su "Panilla de gastos" de febrero 2025 (en `0000-Monteriko`) tenía la receta por docena y su idea de reparto: **50% negocio, 30% personal, 20% ahorro**. La planilla nueva la usa.
 
 ## Receta por docena
 Masa (planilla 2025): harina 200 g, maicena 50 g, 1 huevo, manteca 100 g, azúcar 100 g, cacao 25 g, miel 25 g, extracto de malta 25 g, naranja 250 g, vainilla 5 ml, bicarbonato de sodio 2,5 g, bicarbonato de amonio 2,5 g, polvo de hornear 3,75 g y un chorrito de ron.
-Relleno y baño (Tomás, 13/11/2026): **55 g de dulce de leche y 20 g de chocolate por alfajor**.
+Relleno y baño (Tomás, 13/11/2026): **55 g de dulce de leche y 20 g de chocolate por alfajor**. Patagónico: 3 g de mermelada por alfajor (14/11/2026); falta confirmar si lleva también los 55 g de dulce.
 Envoltorio (planilla 2025): unos 2,5 g de papel metalizado, una calcomanía y una etiqueta nutricional por alfajor.
 
 ## Resultado (detalle en `costos.md`)
@@ -34,8 +36,8 @@ Un marplatense cuesta unos **$1.128** y deja **$1.672** (60%). Una docena cuesta
 - **Envíos a otras provincias** pueden meterlo en el Convenio Multilateral de Ingresos Brutos al formalizarse: consultarlo con el contador.
 
 ## Pendientes
-1. Tomás: edad exacta, cuánto rellena el patagónico, horas por docena, si usa el dulce de leche clásico, tickets de sus últimas compras y cómo lo calculaba él (para comparar). El resto de las preguntas está al final de `mercado.md`.
-2. Tomás: conectar Google Sheets en Claude.
+1. Tomás: cuántas docenas salen por tanda, si el patagónico lleva los 55 g de dulce, si usa el dulce de leche clásico, tickets de sus últimas compras y cómo lo calculaba él (para comparar). El resto de las preguntas está al final de `mercado.md`.
+2. Pasar a la planilla de Google la mermelada de 3 g y las horas (cuando se sepa cuántas docenas por tanda).
 3. Quedaron sin datos (la investigación se quedó sin búsquedas): precios de equipos y locales para crecer, habilitación en General Pueyrredon y precios de Gula, Rasta y Lucciano's. Se buscan de a uno cuando haga falta.
 4. Revisar que la planilla de Google se vea bien (se subió convertida desde Excel; las cuentas se verificaron antes de subirla).
 

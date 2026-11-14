@@ -73,8 +73,8 @@
       {"insumo": "Ron", "marplatense": 0.00375, "patagonico": 0.00375, "origen": "Planilla feb 2025 (1/200 de botella de 750 ml)"}
     ]},
     {"bloque": "Relleno y baño", "empaque": false, "items": [
-      {"insumo": "Dulce de leche repostero", "marplatense": 0.66, "patagonico": 0.48, "origen": "Marplatense: 55 g por alfajor (Tomás, 13/11/2026). Patagónico: SUPUESTO 40 g de dulce + 15 g de mermelada", "confirmar": true},
-      {"insumo": "Mermelada de frutos rojos", "marplatense": 0, "patagonico": 0.18, "origen": "SUPUESTO: 15 g por alfajor. A confirmar", "confirmar": true},
+      {"insumo": "Dulce de leche repostero", "marplatense": 0.66, "patagonico": 0.66, "origen": "55 g por alfajor (Tomás, 13/11/2026). Patagónico: SUPUESTO que lleva los mismos 55 g más la mermelada"},
+      {"insumo": "Mermelada de frutos rojos", "marplatense": 0, "patagonico": 0.036, "origen": "3 g por alfajor (Tomás, 14/11/2026)"},
       {"insumo": "Dulce de leche clásico", "marplatense": 0, "patagonico": 0, "origen": "En 2025 usabas 120 g por docena. ¿Se sigue usando? Si sí, poné la cantidad", "confirmar": true},
       {"insumo": "Chocolate semiamargo (baño)", "marplatense": 0.24, "patagonico": 0.24, "origen": "20 g por alfajor (Tomás, 13/11/2026)"}
     ]},
