@@ -66,3 +66,9 @@ Idea de Tomás (4 de noviembre 2026): un reel en el estilo de @loconstruiste.mx 
 
 ## Seguir desde la nube u otra compu
 El proyecto de `C:\Users\MARCOS\Videos\` no está en el repo. Para rearmarlo: `npx hyperframes init alfajor-3d --example=blank --resolution=portrait --non-interactive`, copiar `alfajor-3d-prueba.html` como `index.html` y bajar Three.js con `npm pack three@0.170.0`. De ese paquete, `build/three.module.min.js` va a `assets/lib/`, y `logo/Monteriko-blanco-v03.svg` se copia como `assets/logo-blanco.svg`. Antes del primer render: `npx hyperframes browser ensure`.
+
+## Versiones cortas para probar (14 de noviembre 2026)
+Salen de las estadísticas (`estadisticas.md`): el gancho anduvo bien, pero la gente se fue cuando arrancó la explicación (promedio 13,9 s de 40).
+- **v5, corto:** `editor-de-ia/terminados/2026-11-14-alfajor-3d-v5-corto.mp4` (16,3 s). Es la v3 con sonido, cortada con FFmpeg: el gancho "+100 G" (0 a 2 s) y el momento del dato de cada paso (4,6-6; 8,6-10; 12,4-14; 15-17; 18,3-20,2; 26,6-28,8; 30,2-34). Sin voz.
+- **v6, corto con voz:** `editor-de-ia/terminados/2026-11-14-alfajor-3d-v6-corto-voz.mp4`. La v5 con una voz generada con `edge-tts` (voz `es-AR-TomasNeural`, +12% de velocidad, gratis y sin cuenta): "Más de cien gramos de alfajor. / Una noche en el freezer. / Cinco milímetros. / Media hora de frío. / Ocho minutos de horno. / Cincuenta y cinco gramos de dulce. / Chocolate. Dos veces. / Papel dorado. Y es tuyo." Cada frase entra al empezar su paso; los sonidos de cocina bajan solos cuando habla. -14 LUFS. Los archivos de trabajo están en `M:\reel-v2\versiones-3d\`.
+- **Para comparar:** cambian una sola cosa entre sí (la voz). Se suben como reels de prueba y a los 3 días se mira el tiempo promedio visto.
