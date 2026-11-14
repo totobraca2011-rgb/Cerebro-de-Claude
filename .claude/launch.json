@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "pagina-web",
+      "runtimeExecutable": "C:/Users/MARCOS/.local/bin/uv.exe",
+      "runtimeArgs": ["run", "--no-project", "python", "-m", "http.server", "8090", "-d", "monte-riko/pagina-web"],
+      "port": 8090
+    }
+  ]
+}

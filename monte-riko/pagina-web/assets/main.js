@@ -305,6 +305,28 @@
       build();
       updateSueltos();
 
+      /* al tocar "enviar por WhatsApp" se avisa el pedido a la planilla de Monte Riko (pestaña
+         "Pedidos web", Apps Script de monte-riko/finanzas/pedidos-web.gs). Va sin el nombre ni
+         ningún dato de la persona, con sendBeacon para no frenar la apertura de WhatsApp. Si
+         falla, WhatsApp se abre igual */
+      const PLANILLA = 'https://script.google.com/macros/s/AKfycbxN2Wugu1LTiYHFUfxQRsDEm9fHe7P0mxJE2WlIelzwajBtIIWn1EhsPqLV-A01YlA7/exec';
+      const avisar = (key) => {
+        if (!PLANILLA || !navigator.sendBeacon) return;
+        const m = MESSAGE[key]();
+        if (!m.total) return;
+        const cajas = key === 'cajas';
+        const mdp = cajas ? boxes.reduce((t, b) => t + b.mdp * b.count, 0) : loose.marplatense;
+        const pat = cajas ? boxes.reduce((t, b) => t + (SIZES[b.size].n - b.mdp) * b.count, 0) : loose.patagonico;
+        const detalle = cajas ? boxes.map(describeBox).join('; ')
+          : [mdp && `${mdp} ${flavor('marplatense', mdp)}`, pat && `${pat} ${flavor('patagonico', pat)}`].filter(Boolean).join(' y ');
+        try {
+          navigator.sendBeacon(PLANILLA, new Blob([JSON.stringify({
+            tipo: key, detalle, entrega: m.entrega, total: m.total, marplatenses: mdp, patagonicos: pat
+          })], { type: 'text/plain' }));
+        } catch (_) { /* WhatsApp se abre igual */ }
+      };
+      Object.keys(OUT).forEach((key) => OUT[key].send.addEventListener('click', () => avisar(key)));
+
       /* los botones de precios cargan el formato elegido. Sin JS apuntan a #pedido (el armador
          está oculto); con JS, a su bloque */
       document.querySelectorAll('[data-formato]').forEach((a) => {

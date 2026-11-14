@@ -52,3 +52,11 @@ Un marplatense cuesta unos **$1.128** y deja **$1.672** (60%). Una docena cuesta
 | QuickBooks, Xero, FreshBooks, Stripe, plugin "Finance" | No: son para otros países o empresas grandes |
 
 **Para gastar pocos créditos:** investigar de a un tema, con pocas búsquedas, y empezar por los tickets de Tomás (`references/fuentes-de-precios.md`).
+
+## Pedidos de la página web (14 de noviembre 2026)
+Cuando alguien aprieta "Enviar por WhatsApp" en monteriko.com.ar, la página avisa el pedido a la pestaña **"Pedidos web"** de la planilla: fecha y hora, cajas o sueltos, detalle, entrega, total y cuántos marplatenses y patagónicos. Va sin el nombre ni ningún dato de la persona, y WhatsApp se abre igual.
+- Programa: `pedidos-web.gs`, pegado en la planilla (Extensiones → Apps Script, proyecto "Proyecto sin título"), implementado como aplicación web: ejecuta como Tomás, acceso "cualquier usuario". Tomás dio el permiso el 14/11/2026.
+- Dirección del programa (está en `pagina-web/assets/main.js`, constante `PLANILLA`): `https://script.google.com/macros/s/AKfycbxN2Wugu1LTiYHFUfxQRsDEm9fHe7P0mxJE2WlIelzwajBtIIWn1EhsPqLV-A01YlA7/exec`. Si se cambia el programa, hay que hacer "Gestionar implementaciones → editar → versión nueva" para que la dirección siga igual.
+- Son pedidos **armados**, no ventas: mucha gente arma y no compra. Cuando Tomás confirma y cobra, el contador pasa la fila a Ventas y le pone "Confirmado" en Estado.
+- Probado el 14/11/2026 desde la vista previa: la fila llegó bien. La planilla se pasó a hora de Argentina ese día.
+- **Estado:** el cambio en la página está en `main` y en la vista previa; falta que Tomás diga "subilo" para publicarlo.
