@@ -59,6 +59,8 @@ eel-v2ideosrcChiste.tsx` (`npx remotion still` con el texto por props) y FFmpeg
 - `vie-6-2.jpg`: LAS CAJAS VAN A TODO EL PAÍS. **Ojo:** Guardala en la destacada "Envíos".
 - `vie-6-3.jpg`: ¿DESDE DÓNDE ME VES? **Sticker:** Caja de preguntas: "Decime tu ciudad".
 
+### Semana del 9 al 13: publicada y marcada completa en Trello (14 de noviembre 2026).
+
 ### Lun 9: Alguien nuevo en la cocina (rehechas el 9 de noviembre 2026: anuncian el reel 3D del martes)
 - `lun-9-1.jpg`: HAY ALGUIEN NUEVO EN LA COCINA. "Mañana lo conocés." El pastelero 3D con la masa, sin los textos del reel.
 - `lun-9-2.jpg`: MAÑANA TE MUESTRO CÓMO SE HACE. "Un alfajor de +100 g. A las 18:00." Foto `alfajor-partido-mitades` con el filtro del dulce. El texto va más arriba para dejar lugar al contador (pedido de Tomás, 9 de noviembre 2026). **Sticker:** cuenta regresiva para mañana a las 18:00, en el hueco gris de abajo del texto.
@@ -99,7 +101,7 @@ eel-v2ideosrcChiste.tsx` (`npx remotion still` con el texto por props) y FFmpeg
 - `mie-18-2.jpg`: NEGRO. SIEMPRE. Rehecha el 10 de noviembre 2026: el chocolate salía verdoso.
 - `mie-18-3.jpg`: ¿FINITO O BIEN GRUESO? Rehecha el 10 de noviembre 2026: el chocolate salía verdoso. **Sticker:** Encuesta: Finito / Bien grueso.
 
-### Jue 19: El patagónico
+### Jue 19: El patagónico (revisadas el 14 de noviembre 2026: la 1 y la 2 tenían el dulce color mostaza y se pasaron por `caramelo.py`; en Drive las viejas quedaron como "VIEJA - …")
 - `jue-19-1.jpg`: PRIMERO, LA CORONA
 - `jue-19-2.jpg`: DESPUÉS, EL CORAZÓN
 - `jue-19-3.jpg`: ASÍ QUEDA. **Sticker:** Sticker de enlace a monteriko.com.ar.
@@ -134,3 +136,9 @@ eel-v2ideosrcChiste.tsx` (`npx remotion still` con el texto por props) y FFmpeg
 - `vie-27-1.jpg`: AUTÉNTICO MARPLATENSE
 - `vie-27-2.jpg`: ¿TENÉS A ALGUIEN LEJOS DE MAR DEL PLATA?
 - `vie-27-3.jpg`: MANDALE UNA CAJA. **Sticker:** Sticker de enlace a monteriko.com.ar.
+
+## Revisión del 14 de noviembre 2026 (semanas 3 y 4)
+- Todas las placas del 16 al 27 están en Drive (`Historias para publicar/Semana 3` y `Semana 4`) y coinciden con las del repo.
+- Arregladas: `jue-19-1` y `jue-19-2` (dulce mostaza → caramelo). `jue-26-2` y `mar-24-1` ya tenían buen color.
+- Fotos repetidas, se dejaron porque van en días distintos: la de la caja en `lun-23-3` y `vie-27-3`, la del termo en la playa en `mie-25-2` y `vie-27-1`. `lun-16-1` y `lun-16-2` son la misma bandeja (la 2 pregunta cuántas tapas hay).
+- Trello: las semanas del 16 al 20 y del 23 al 27 pasaron a "Noviembre: listo para publicar".
