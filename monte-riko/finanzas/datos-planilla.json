@@ -3,53 +3,86 @@
   "precios_venta": {"marplatense": 2800, "patagonico": 3000, "media_docena": 16500, "docena": 31900},
   "supuestos": {
     "merma": 0.05,
-    "energia_docena": 250,
+    "energia_docena": 100,
     "horas_docena": 2,
-    "valor_hora": 4000,
+    "valor_hora": 1994,
     "mix_marplatense": 0.5,
     "margen_objetivo": 0.65,
     "sueldo_objetivo": 0,
-    "notas": {}
+    "notas": {
+      "merma": "Estimado: 5% de insumos que se pierden (tapas rotas, chocolate que queda en el bowl). Corregilo si sabés cuánto se pierde.",
+      "energia": "Estimado: horno a gas 0,32 m3 por hora (ENARGAS) por unos 30 minutos por docena, a $336 el m3 más impuestos (Camuzzi, noviembre 2026), más la hornalla del chocolate.",
+      "horas": "A confirmar por Tomás: horas de punta a punta para una docena (masa, estirar, hornear, armar, bañar dos veces, envolver).",
+      "valor_hora": "Referencia mínima: salario mínimo de noviembre 2026, $398.800 por mes = $1.994 por hora. Un pastelero de convenio cobra más.",
+      "sueldo": "Poné cuánto querés sacar por mes para vos y la planilla te dice cuántas docenas tenés que vender."
+    }
   },
   "reparto": {"negocio": 0.5, "personal": 0.3, "ahorro": 0.2},
-  "monotributo": {"tope_a": 12009410.45, "nota": "PRUEBA"},
+  "monotributo": {"tope_a": 12009410.45, "nota": "Tabla oficial de ARCA vigente del 1/8/2026 a enero 2027 (venta de cosas muebles). Se actualiza en febrero y agosto."},
   "resumen_desde": [2026, 11],
   "resumen_meses": 14,
   "fijos": [
-    ["Dominio monteriko.com.ar (lo del año ÷ 12)", 0, "PRUEBA"]
+    ["Dominio monteriko.com.ar ($8.500 por año ÷ 12)", 708, "NIC Argentina: alta y renovación anual $8.500 (consultado el 13/11/2026)."],
+    ["Metricool", 0, "Plan gratis. Si pasás a pago, poné el monto."],
+    ["CapCut (plan pago)", 0, "Poné lo que pagás por mes."],
+    ["Claude (la parte del negocio)", 0, "Poné la parte que le corresponde al negocio, si querés contarla."],
+    ["Celular e internet (la parte del negocio)", 0, "Opcional."],
+    ["Desgaste de equipos (horno, batidora, moldes)", 0, "Opcional: lo que te costaría reponerlos ÷ meses que duran."]
   ],
   "insumos": [
-    {"insumo": "Harina 000", "rubro": "Masa", "presentacion": "Bolsa 25 kg", "cantidad": 25, "unidad": "kg", "precio": 30000, "fecha": "2026-11-13", "fuente": "PRUEBA", "feb2025": 1056.8},
-    {"insumo": "Maicena", "rubro": "Masa", "presentacion": "15 kg", "cantidad": 15, "unidad": "kg", "precio": 30000, "fecha": "2026-11-13", "fuente": "PRUEBA", "feb2025": 1532.33},
-    {"insumo": "Huevos", "rubro": "Masa", "presentacion": "Maple 30", "cantidad": 30, "unidad": "u.", "precio": 7000, "fecha": "2026-11-13", "fuente": "PRUEBA", "feb2025": 166.67},
-    {"insumo": "Manteca", "rubro": "Masa", "presentacion": "5 kg", "cantidad": 5, "unidad": "kg", "precio": 60000, "fecha": "2026-11-13", "fuente": "PRUEBA", "feb2025": 8595},
-    {"insumo": "Azúcar", "rubro": "Masa", "presentacion": "25 kg", "cantidad": 25, "unidad": "kg", "precio": 50000, "fecha": "2026-11-13", "fuente": "PRUEBA", "feb2025": 1832.64},
-    {"insumo": "Cacao amargo", "rubro": "Masa", "presentacion": "1 kg", "cantidad": 1, "unidad": "kg", "precio": 25000, "fecha": "2026-11-13", "fuente": "PRUEBA", "feb2025": 21616},
-    {"insumo": "Miel", "rubro": "Masa", "presentacion": "5 kg", "cantidad": 5, "unidad": "kg", "precio": 40000, "fecha": "2026-11-13", "fuente": "PRUEBA", "feb2025": 6400},
-    {"insumo": "Extracto de malta", "rubro": "Masa", "presentacion": "6 kg", "cantidad": 6, "unidad": "kg", "precio": 20000, "fecha": "2026-11-13", "fuente": "PRUEBA", "feb2025": 2479.3},
-    {"insumo": "Naranjas", "rubro": "Masa", "presentacion": "1 kg", "cantidad": 1, "unidad": "kg", "precio": 1500, "fecha": "2026-11-13", "fuente": "PRUEBA", "feb2025": 790},
-    {"insumo": "Esencia de vainilla", "rubro": "Masa", "presentacion": "5 L", "cantidad": 5, "unidad": "L", "precio": 15000, "fecha": "2026-11-13", "fuente": "PRUEBA", "feb2025": 2059.6},
-    {"insumo": "Bicarbonato de sodio", "rubro": "Masa", "presentacion": "1 kg", "cantidad": 1, "unidad": "kg", "precio": 7000, "fecha": "2026-11-13", "fuente": "PRUEBA", "feb2025": 5490},
-    {"insumo": "Bicarbonato de amonio", "rubro": "Masa", "presentacion": "1 kg", "cantidad": 1, "unidad": "kg", "precio": 9000, "fecha": "2026-11-13", "fuente": "PRUEBA", "feb2025": 7420},
-    {"insumo": "Polvo para hornear", "rubro": "Masa", "presentacion": "1 kg", "cantidad": 1, "unidad": "kg", "precio": 9000, "fecha": "2026-11-13", "fuente": "PRUEBA", "feb2025": 7831},
-    {"insumo": "Ron", "rubro": "Masa", "presentacion": "Botella 750 ml", "cantidad": 0.75, "unidad": "L", "precio": 5000, "fecha": "2026-11-13", "fuente": "PRUEBA", "feb2025": 4666.67},
-    {"insumo": "Dulce de leche repostero", "rubro": "Relleno", "presentacion": "Balde 10 kg", "cantidad": 10, "unidad": "kg", "precio": 60000, "fecha": "2026-11-13", "fuente": "PRUEBA", "feb2025": 4410.21},
-    {"insumo": "Dulce de leche clásico", "rubro": "Relleno", "presentacion": "4 kg", "cantidad": 4, "unidad": "kg", "precio": 28000, "fecha": "2026-11-13", "fuente": "PRUEBA", "feb2025": 4987.5},
-    {"insumo": "Mermelada de frutos rojos", "rubro": "Relleno", "presentacion": "1 kg", "cantidad": 1, "unidad": "kg", "precio": 8000, "fecha": "2026-11-13", "fuente": "PRUEBA", "feb2025": null},
-    {"insumo": "Chocolate semiamargo (baño)", "rubro": "Baño", "presentacion": "1 kg", "cantidad": 1, "unidad": "kg", "precio": 12000, "fecha": "2026-11-13", "fuente": "PRUEBA", "feb2025": 8333.33},
-    {"insumo": "Papel metalizado dorado", "rubro": "Empaque", "presentacion": "1 kg", "cantidad": 1, "unidad": "kg", "precio": 70000, "fecha": "2026-11-13", "fuente": "PRUEBA", "feb2025": 50000},
-    {"insumo": "Calcomanía Monte Riko", "rubro": "Empaque", "presentacion": "350 u.", "cantidad": 350, "unidad": "u.", "precio": 35000, "fecha": "2026-11-13", "fuente": "PRUEBA", "feb2025": 76},
-    {"insumo": "Etiqueta nutricional", "rubro": "Empaque", "presentacion": "Rollo 500 u.", "cantidad": 500, "unidad": "u.", "precio": 10000, "fecha": "2026-11-13", "fuente": "PRUEBA", "feb2025": null},
-    {"insumo": "Papel manteca", "rubro": "Empaque", "presentacion": "Rollo 10 m", "cantidad": 10, "unidad": "m", "precio": 3000, "fecha": "2026-11-13", "fuente": "PRUEBA", "feb2025": null},
-    {"insumo": "Caja para docena", "rubro": "Empaque", "presentacion": "36 u.", "cantidad": 36, "unidad": "u.", "precio": 40000, "fecha": "2026-11-13", "fuente": "PRUEBA", "feb2025": 750},
-    {"insumo": "Caja para media docena", "rubro": "Empaque", "presentacion": "72 u.", "cantidad": 72, "unidad": "u.", "precio": 50000, "fecha": "2026-11-13", "fuente": "PRUEBA", "feb2025": 500}
+    {"insumo": "Harina 000", "rubro": "Masa", "presentacion": "Bolsa 25 kg", "cantidad": 25, "unidad": "kg", "precio": 20000, "fecha": "2026-11-13", "fuente": "Referencia $800/kg (bolsa en molino $18.000-18.500 más flete, prensa 2026; 1 kg en Maxiconsumo $780)", "feb2025": 1056.8},
+    {"insumo": "Maicena", "rubro": "Masa", "presentacion": "Bolsa 15 kg (Maizena)", "cantidad": 15, "unidad": "kg", "precio": 52999.9, "fecha": "2026-11-13", "fuente": "Maxiconsumo web (hay sucursal en MdP). Un almidón genérico puede salir menos", "feb2025": 1532.33},
+    {"insumo": "Huevos", "rubro": "Masa", "presentacion": "Maple 30", "cantidad": 30, "unidad": "u.", "precio": 7524, "fecha": "2026-11-13", "fuente": "Promedio de los maples más baratos de súper online (Carrefour, Día)", "feb2025": 166.67},
+    {"insumo": "Manteca", "rubro": "Masa", "presentacion": "Bloque 5 kg", "cantidad": 5, "unidad": "kg", "precio": 68600, "fecha": "2026-11-13", "fuente": "Referencia $13.720/kg (3 distribuidoras online; El Calito 5 kg $65.664 en Distribuidora Alpes)", "feb2025": 8595},
+    {"insumo": "Azúcar", "rubro": "Masa", "presentacion": "1 kg (Marolio, por bulto)", "cantidad": 1, "unidad": "kg", "precio": 1299.9, "fecha": "2026-11-13", "fuente": "Maxiconsumo web; San Remo 1 kg $1.149 en Yaguar (sucursal MdP)", "feb2025": 1832.64},
+    {"insumo": "Cacao amargo", "rubro": "Masa", "presentacion": "1 kg", "cantidad": 1, "unidad": "kg", "precio": 34300, "fecha": "2026-11-13", "fuente": "ESTIMADO: lo que pagabas en feb 2025 ajustado por inflación (×1,59). En súper el de 200 g sale $40.000/kg", "feb2025": 21616},
+    {"insumo": "Miel", "rubro": "Masa", "presentacion": "Balde 5 kg", "cantidad": 5, "unidad": "kg", "precio": 39000, "fecha": "2026-11-13", "fuente": "Referencia $7.800/kg (baldes de apicultor en ML $5.100-6.580/kg sin verificar)", "feb2025": 6400},
+    {"insumo": "Extracto de malta", "rubro": "Masa", "presentacion": "Balde 6 kg (Circe)", "cantidad": 6, "unidad": "kg", "precio": 27000, "fecha": "2026-11-13", "fuente": "Razzetto Distribuciones", "feb2025": 2479.3},
+    {"insumo": "Naranjas", "rubro": "Masa", "presentacion": "1 kg", "cantidad": 1, "unidad": "kg", "precio": 899, "fecha": "2026-11-13", "fuente": "Carrefour online (Día en promo $890)", "feb2025": 790},
+    {"insumo": "Esencia de vainilla", "rubro": "Masa", "presentacion": "1 L (Tahiti)", "cantidad": 1, "unidad": "L", "precio": 3499.9, "fecha": "2026-11-13", "fuente": "Maxiconsumo web, por bulto", "feb2025": 2059.6},
+    {"insumo": "Bicarbonato de sodio", "rubro": "Masa", "presentacion": "1 kg", "cantidad": 1, "unidad": "kg", "precio": 11600, "fecha": "2026-11-13", "fuente": "Referencia de súper (formato 500 g)", "feb2025": 5490},
+    {"insumo": "Bicarbonato de amonio", "rubro": "Masa", "presentacion": "1 kg", "cantidad": 1, "unidad": "kg", "precio": 11800, "fecha": "2026-11-13", "fuente": "ESTIMADO: feb 2025 ajustado por inflación (×1,59); no se encontró precio", "feb2025": 7420},
+    {"insumo": "Polvo para hornear", "rubro": "Masa", "presentacion": "1 kg", "cantidad": 1, "unidad": "kg", "precio": 15600, "fecha": "2026-11-13", "fuente": "Referencia de súper (Dicomere 250 g $3.900); en 1 kg debería salir menos", "feb2025": 7831},
+    {"insumo": "Ron", "rubro": "Masa", "presentacion": "Botella 1 L", "cantidad": 1, "unidad": "L", "precio": 4199.9, "fecha": "2026-11-13", "fuente": "Maxiconsumo web (New Style Dorado), por bulto", "feb2025": 4666.67},
+    {"insumo": "Dulce de leche repostero", "rubro": "Relleno", "presentacion": "Balde 10 kg (Vacalín)", "cantidad": 10, "unidad": "kg", "precio": 49000, "fecha": "2026-11-13", "fuente": "Vacalín 10 kg entre $44.310 y $54.800 en 5 distribuidoras (Mercadito Pastelero $48.782). Otras marcas desde $32.000", "feb2025": 4410.21},
+    {"insumo": "Dulce de leche clásico", "rubro": "Relleno", "presentacion": "4 kg (Vacalín familiar)", "cantidad": 4, "unidad": "kg", "precio": 23845, "fecha": "2026-11-13", "fuente": "Distribuidora Alpes", "feb2025": 4987.5},
+    {"insumo": "Mermelada de frutos rojos", "rubro": "Relleno", "presentacion": "5 kg (Emeth frutos del bosque)", "cantidad": 5, "unidad": "kg", "precio": 22500, "fecha": "2026-11-13", "fuente": "Razzetto. A confirmar qué mermelada usa Tomás (referencia general $8.200/kg)", "feb2025": null},
+    {"insumo": "Chocolate semiamargo (baño)", "rubro": "Baño", "presentacion": "Sticks 6 kg (Alpino)", "cantidad": 6, "unidad": "kg", "precio": 77480.2, "fecha": "2026-11-13", "fuente": "La Repo, con fecha 13/11/2026 ($12.913/kg). Alpino 1 kg en Botica del Pastelero $9.380", "feb2025": 8333.33},
+    {"insumo": "Papel metalizado dorado", "rubro": "Empaque", "presentacion": "1 kg (unas 650 hojas de 15x19)", "cantidad": 1, "unidad": "kg", "precio": 47159, "fecha": "2026-11-13", "fuente": "Bioboxar, precio mayorista", "feb2025": 50000},
+    {"insumo": "Calcomanía Monte Riko", "rubro": "Empaque", "presentacion": "500 u.", "cantidad": 500, "unidad": "u.", "precio": 31250, "fecha": "2026-11-13", "fuente": "Referencia $62,5 por sticker troquelado (CCprint: 500 circulares $10.000)", "feb2025": 76},
+    {"insumo": "Etiqueta nutricional", "rubro": "Empaque", "presentacion": "1000 u.", "cantidad": 1000, "unidad": "u.", "precio": 37000, "fecha": "2026-11-13", "fuente": "Referencia $37 por etiqueta impresa; en rollo térmico desde $14 (hace falta impresora)", "feb2025": null},
+    {"insumo": "Papel manteca", "rubro": "Empaque", "presentacion": "Rollo 5 m", "cantidad": 5, "unidad": "m", "precio": 3675, "fecha": "2026-11-13", "fuente": "Súper de MdP", "feb2025": null},
+    {"insumo": "Caja para docena", "rubro": "Empaque", "presentacion": "50 u. (cartulina 26x19,5x7)", "cantidad": 50, "unidad": "u.", "precio": 19619.87, "fecha": "2026-11-13", "fuente": "Multienvases (MdP), caja de docena de facturas. Confirmar que entren tus alfajores", "feb2025": 750},
+    {"insumo": "Caja para media docena", "rubro": "Empaque", "presentacion": "50 u. (cartulina 19x14,5x6,5)", "cantidad": 50, "unidad": "u.", "precio": 16421.74, "fecha": "2026-11-13", "fuente": "Multienvases (MdP), caja de media docena de facturas. Confirmar medidas", "feb2025": 500}
   ],
   "receta": [
     {"bloque": "Masa (24 tapas)", "empaque": false, "items": [
-      {"insumo": "Harina 000", "marplatense": 0.2, "patagonico": 0.2, "origen": "PRUEBA"}
+      {"insumo": "Harina 000", "marplatense": 0.2, "patagonico": 0.2, "origen": "Planilla de gastos feb 2025 (columna por docena)"},
+      {"insumo": "Maicena", "marplatense": 0.05, "patagonico": 0.05, "origen": "Planilla feb 2025"},
+      {"insumo": "Huevos", "marplatense": 1, "patagonico": 1, "origen": "Planilla feb 2025"},
+      {"insumo": "Manteca", "marplatense": 0.1, "patagonico": 0.1, "origen": "Planilla feb 2025"},
+      {"insumo": "Azúcar", "marplatense": 0.1, "patagonico": 0.1, "origen": "Planilla feb 2025"},
+      {"insumo": "Cacao amargo", "marplatense": 0.025, "patagonico": 0.025, "origen": "Planilla feb 2025"},
+      {"insumo": "Miel", "marplatense": 0.025, "patagonico": 0.025, "origen": "Planilla feb 2025"},
+      {"insumo": "Extracto de malta", "marplatense": 0.025, "patagonico": 0.025, "origen": "Planilla feb 2025"},
+      {"insumo": "Naranjas", "marplatense": 0.25, "patagonico": 0.25, "origen": "Planilla feb 2025 (250 g: ¿una naranja por docena?)", "confirmar": true},
+      {"insumo": "Esencia de vainilla", "marplatense": 0.005, "patagonico": 0.005, "origen": "Planilla feb 2025"},
+      {"insumo": "Bicarbonato de sodio", "marplatense": 0.0025, "patagonico": 0.0025, "origen": "Planilla feb 2025"},
+      {"insumo": "Bicarbonato de amonio", "marplatense": 0.0025, "patagonico": 0.0025, "origen": "Planilla feb 2025"},
+      {"insumo": "Polvo para hornear", "marplatense": 0.00375, "patagonico": 0.00375, "origen": "Planilla feb 2025"},
+      {"insumo": "Ron", "marplatense": 0.00375, "patagonico": 0.00375, "origen": "Planilla feb 2025 (1/200 de botella de 750 ml)"}
+    ]},
+    {"bloque": "Relleno y baño", "empaque": false, "items": [
+      {"insumo": "Dulce de leche repostero", "marplatense": 0.66, "patagonico": 0.48, "origen": "Marplatense: 55 g por alfajor (Tomás, 13/11/2026). Patagónico: SUPUESTO 40 g de dulce + 15 g de mermelada", "confirmar": true},
+      {"insumo": "Mermelada de frutos rojos", "marplatense": 0, "patagonico": 0.18, "origen": "SUPUESTO: 15 g por alfajor. A confirmar", "confirmar": true},
+      {"insumo": "Dulce de leche clásico", "marplatense": 0, "patagonico": 0, "origen": "En 2025 usabas 120 g por docena. ¿Se sigue usando? Si sí, poné la cantidad", "confirmar": true},
+      {"insumo": "Chocolate semiamargo (baño)", "marplatense": 0.24, "patagonico": 0.24, "origen": "20 g por alfajor (Tomás, 13/11/2026)"}
     ]},
     {"bloque": "Envoltorio de cada alfajor", "empaque": true, "items": [
-      {"insumo": "Papel metalizado dorado", "marplatense": 0.03, "patagonico": 0.03, "origen": "PRUEBA"}
+      {"insumo": "Papel metalizado dorado", "marplatense": 0.03, "patagonico": 0.03, "origen": "Planilla feb 2025 (2,5 g por alfajor)"},
+      {"insumo": "Calcomanía Monte Riko", "marplatense": 12, "patagonico": 12, "origen": "Una por alfajor"},
+      {"insumo": "Etiqueta nutricional", "marplatense": 12, "patagonico": 12, "origen": "Una por alfajor"},
+      {"insumo": "Papel manteca", "marplatense": 0.5, "patagonico": 0.5, "origen": "ESTIMADO: medio metro por docena para el secado"}
     ]}
   ]
 }
