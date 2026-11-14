@@ -11,6 +11,6 @@ Sacadas de los videos crudos de noviembre 2026, a pedido de Tomás. Son cuadros 
 | `dulce-copete`, `dulce-filas`, `dulce-mesada`, `dulce-cerrando` | El dulce de leche | 0479, 0481, 0482 |
 | `patagonico-corona-dulce`, `patagonico-mermelada`, `patagonico-relleno`, `patagonico-cerrado` | El relleno del patagónico | 0483, 0484 |
 | `chocolate-espatula`, `bano-en-bowl`, `bano-sacando`, `bano-chorreando` | El chocolate y el baño | 0494, 0497, 0498 |
-| `alfajor-banado`, `alfajores-banados-filas` | Alfajores recién bañados | 0500, 0502 |
+| `alfajores-banados-filas` | Alfajores recién bañados (`alfajor-banado` la aprobó Tomás el 14/11/2026 y pasó a `fotos-originales/`) | 0500, 0502 |
 
 No se sacaron fotos de los videos 0489 y 0496 porque se ve a Tomás, y la marca no usa fotos suyas.
