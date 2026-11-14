@@ -6,6 +6,7 @@ Lo que Claude tiene que saber de Tomás Bracamonte y de lo que hace, en un solo 
 1. Leé `yo/perfil.md`: quién es Tomás y cómo trabaja con vos. Vale para todo, también para los otros repos. Si el pedido es usar su Chrome o su compu, o trabajar con Metricool, leé también `yo/compu-y-herramientas.md`.
 2. Según el pedido, leé la carpeta que corresponda:
    - `monte-riko/`: la marca, los productos y precios, el material original, el Instagram (`monte-riko/instagram.md`) y la página web (el código está en `monte-riko/pagina-web/`; para trabajarla leé antes `monte-riko/pagina-web.md`).
+   - `monte-riko/finanzas/`: la plata del negocio (costos, ventas, gastos, precios de insumos, monotributo). Para cualquier tema de plata usá la skill `finanzas-monte-riko` o el agente `contador`.
    - `diseno/`: cómo se trabaja el diseño, el kit y los gustos de Tomás.
    - `editor-de-ia/`: los videos para editar (crudos, referencias y terminados). Leé su `README.md` antes de guardar un video.
 3. Si algo de acá contradice lo que pide Tomás, preguntale. No inventes datos que no estén escritos.
@@ -41,6 +42,7 @@ Las skills de `.claude/skills/` se cargan solas con este repo (la lista y el ori
   - HyperFrames: el programa corre con `npx hyperframes` (necesita Node 22+). Antes del primer render: `npx hyperframes browser ensure`. Docker no hace falta para renderizar en la compu.
 - **Sonido para videos** (octubre 2026): `real-sound` y `earshot` necesitan el programa de Earshot instalado en cada sesión: `git clone --depth 1 https://github.com/Leonxlnx/earshot <scratchpad>/earshot`, un venv, `pip install torch --index-url https://download.pytorch.org/whl/cpu` y `pip install -e <scratchpad>/earshot`. Ese Python (`<venv>/bin/python`) es el `{{PY}}` de real-sound. La primera vez baja unos 1,1 GB de modelos de huggingface.co. Openverse no necesita instalar nada (ver la skill `openverse`). Monte Riko es una marca: solo sonidos con licencia que permita uso comercial.
 - **Kit de diseño** (octubre 2026, ahora vive acá y no en el repo `kit-diseno`): skills `taste-skill`, `ui-ux-pro-max` e `impeccable`, y los agentes de `.claude/agents/`. Para trabajar la página: el agente `constructor-ui` hace los cambios, `auditor-visual` y `auditor-tecnico` revisan en paralelo, y se repite hasta que los dos aprueben (Tomás autorizó que estas vueltas se hagan solas). El detector automático de impeccable se baja una vez por sesión con `.claude/skills/impeccable/scripts/impeccable engine-probe`. Correr `inspect.mjs` de taste-skill con `--allow mono` (la tipografía mono es de la marca). Los agentes sirven para páginas web, no para video.
+- **Finanzas (noviembre 2026, pedido de Tomás):** la skill propia `finanzas-monte-riko` es el manual del contador y el agente `contador` (`.claude/agents/contador.md`) la usa. Los números viven en la planilla de Google Drive (link en `monte-riko/finanzas/README.md`). Nunca mueve plata ni cambia precios publicados sin el "sí" de Tomás.
 - Antes de sumar una skill nueva, explicale a Tomás qué hace y si le sirve, revisá el código y anotala en `.claude/skills/README.md`.
 
 ## Task Observer
