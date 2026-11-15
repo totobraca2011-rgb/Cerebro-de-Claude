@@ -16,6 +16,7 @@ Cómo sacarlas: Metricool, Instagram > Reels, métricas `IGRE24` (tiempo promedi
 ## Qué dicen
 - **Las pruebas del alfajor por dentro no funcionan** (Tomás, 14/11): menos de 2 mil visitas, casi sin likes y sin comentarios. La gente se queda unos 6 segundos. Se frenaron las 7 que quedaban programadas (14 al 20 de noviembre): quedaron como borrador en Metricool, no se borraron.
 - **Reel 3D:** el gancho anduvo mejor que el anterior (solo 30% se va al principio), pero la gente se fue cuando arrancó la explicación (Tomás). El promedio es 13,9 s de 40: un tercio.
+- **Reel 3D v8, con voz y chistes (prueba, 14/11 20:00, 30 s):** captura de retención que mandó Tomás esa misma noche, con pocas vistas todavía. La mitad se va en los primeros 8 s (masa, freezer, estirar): 93% al segundo 1, 76% al 4, 50% al 8. Del segundo 10 al 25 queda casi plano (~30%). En los últimos 4 s baja otra vez a 10% (cierre y cartel). Conclusión: lo flojo son los pasos lentos del principio, no la explicación del medio. Respuesta: v9 (ver `alfajor-3d.md`).
 - **El que más conecta es el de Tomás a cámara:** muchos se van al principio (64%), pero los que se quedan comentan y guardan. Es el único con comentarios.
 
 ## Próximas versiones (a probar como reels de prueba)
