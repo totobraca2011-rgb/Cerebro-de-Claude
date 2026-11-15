@@ -53,7 +53,7 @@ Claude los hizo desde Chrome a pedido de Tomás, que se tuvo que ir y dijo "camb
 9. ~~Subir el reel "Quién está detrás"~~: hecho, lo publicó el 3 de noviembre 2026.
 10. Grabar los dos reels que faltan: el de la escuela (21 nov) y el del freezer (26 nov).
 11. ~~Crear las destacadas "Pedí acá", "Precios" y "Envíos"~~: hechas (14/11/2026).
-12. Pasar 10 cuentas de Mar del Plata para comentar.
+12. ~~10 cuentas de Mar del Plata para comentar~~: las buscó Claude (14/11/2026), están en `instagram-plan-noviembre-2026.md`.
 13. ~~Pedidos para eventos~~: sí los toma (14/11/2026). Se suma al contenido (por ejemplo, una historia o post de "cajas para tu evento").
 14. Mirar "Ver insights" del reel de noviembre 2025: cuánta gente llegó y cuántos no lo seguían.
 

@@ -198,7 +198,19 @@ Tomás las quiere al menos 5 veces por semana: hacen presencia entre los seguido
 ## 20 minutos por día, antes de publicar
 - Respondé todos los comentarios y mensajes, primero los que preguntan cómo comprar.
 - Comentá en cuentas de Mar del Plata (comercios, cafés, lugares de regalos). Sin vender en los comentarios.
-- Falta una lista de 10 cuentas: Tomás conoce el barrio mejor que Claude.
+- **Las 10 cuentas para comentar** (buscadas por Claude en Instagram el 14/11/2026, a pedido de Tomás; seguidores de ese día). Comentar algo real sobre el post, nunca "pasá por mi perfil":
+  1. @mardelplataok (375 mil): la página turística más grande de la ciudad. Comentarios en sus posts de comida o de la costa.
+  2. @mardelplataweb (439 mil): el medio con más alcance de la ciudad.
+  3. @paladaresmdp (1,3 mil): reseñas de dónde comer en MdP, con ranking propio. Chica pero justa del rubro.
+  4. @acomerlamdp (2,4 mil): tips de cafés y restaurantes marplatenses.
+  5. @slowfoodmdq (1,7 mil): productores locales y comida de calidad; encaja con lo artesanal.
+  6. @bruna.coffee.mdp (8 mil): cafetería de Rivadavia 3901.
+  7. @selvacafe.mdp (3,5 mil): cafetería takeaway.
+  8. @desayunos_reinadesorpresas (27 mil): desayunos y regalos a domicilio en MdP.
+  9. @desayunosdulcineamdp (2,9 mil): desayunos y meriendas para regalar.
+  10. @elpoint.mdp (1,1 mil): eventos y planes de la ciudad.
+- **Idea a futuro:** las de desayunos sorpresa (8 y 9) y las cafeterías (6 y 7) podrían comprarle alfajores a Monte Riko para sus cajas o su mostrador. Primero comentar unas semanas; después, si Tomás quiere, un mensaje ofreciendo una muestra.
+- **Eventos:** Tomás sí toma pedidos para eventos (14/11/2026). Sumar al contenido, por ejemplo una historia de "cajas para tu evento".
 
 ## Cómo saber si funcionó
 Lo que importa no son los me gusta. Anotá cada semana:
