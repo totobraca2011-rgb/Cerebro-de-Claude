@@ -54,6 +54,8 @@ Hay dos partes y conviene no mezclarlas:
 - **Claude:** todo lo demás de este paso, con Tomás mirando.
 - Meta avisa que esta conexión es para desarrollar y probar, no para mandar muchos mensajes.
 
+**Estado en Meta (revisado por Claude el 14/11/2026):** negocio "Monte Riko" (Business ID 1141331868439888) con el perfil completo y la app "Monte Riko" conectada. Falta, en orden: (1) **un número de producción**: el conector solo acepta un número que **no** esté registrado en WhatsApp (no hace migración ni coexistencia), así que el número de pedidos que usa la app de WhatsApp Business no sirve por esta vía. Hace falta un **chip aparte**, nuevo o que nunca haya tenido WhatsApp, en un celu donde llegue el SMS con el código. (2) Verificación del negocio en el Centro de seguridad de Meta (la hace Tomás subiendo documentos; siendo menor, probablemente vaya a nombre de un adulto). Sin verificar se puede probar igual, con límites. (3) El webhook y publicar la app, que dependen de dónde corra el "cerebro" (plataforma o programa propio). (4) Un token permanente (usuario del sistema), solo para el programa propio.
+
 **2. El asistente que contesta (el "cerebro").** El conector de Meta no contesta mensajes solo: hace falta algo prendido todo el día que reciba cada mensaje y responda. Una sesión de Claude en la compu no sirve para eso, porque se apaga. Opciones:
 - **Una plataforma ya hecha** (ManyChat, Wati u otra aprobada por Meta), con la base y las reglas de arriba cargadas. Es lo más rápido. Cuesta un abono mensual en dólares.
 - **Un programa propio en la nube** que use la API de Claude con la base de arriba. Más trabajo de armar, más barato por mes y más a medida (cupo, Trello, comprobantes).
@@ -63,7 +65,7 @@ Hay dos partes y conviene no mezclarlas:
 **Gratis y ya, mientras tanto:** en la app de WhatsApp Business del celu, Tomás puede cargar respuestas rápidas (precios, envíos, cómo pedir), un mensaje de bienvenida y uno de ausencia fuera de horario con el link a monteriko.com.ar. No piensa, pero corta las preguntas repetidas desde hoy.
 
 ## Decisiones que faltan (Tomás)
-1. ¿Chip aparte para probar o directo el número de pedidos?
+1. Chip aparte: es obligatorio para conectarlo por esta vía (14/11/2026). Falta conseguirlo.
 2. ¿Plataforma ya hecha o programa propio?
 3. Formas de pago, tiempo de preparación, horario y cupo semanal.
 4. ¿Se regala algo para atraer (la "probadita" de Mariana)? No puede ser la receta: es el producto.
