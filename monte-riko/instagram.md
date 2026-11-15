@@ -45,16 +45,16 @@ Claude los hizo desde Chrome a pedido de Tomás, que se tuvo que ir y dijo "camb
 ### Lo que tiene que hacer Tomás (desde el celu, 30 de octubre 2026)
 1. Apretar **Push origin** en GitHub Desktop.
 2. Revisar el nombre y la bio nuevos.
-4. Fijar el reel del proceso del 19 de noviembre 2025 (123 me gusta) y sacar de fijados la foto de dic 2024.
-5. Archivar la copia del reel del patagónico del 25 de febrero.
-6. Cambiar el nombre de la destacada "ustedess". Desde la compu no se pudo: al editarla, la lista de historias aparecía vacía y se canceló para no vaciarla.
+4. ~~Fijar el reel del proceso del 19 de noviembre 2025~~: hecho (14/11/2026).
+5. ~~Archivar la copia del reel del patagónico del 25 de febrero~~: hecho (14/11/2026).
+6. ~~Destacada "ustedess"~~: Tomás la archivó (14/11/2026).
 7. Decidir qué pasa con los huevos de Pascua: dejarlos o archivarlos.
 8. Revisar los textos de `instagram-plan-noviembre-2026.md` y aprobar los borradores en Metricool.
 9. ~~Subir el reel "Quién está detrás"~~: hecho, lo publicó el 3 de noviembre 2026.
 10. Grabar los dos reels que faltan: el de la escuela (21 nov) y el del freezer (26 nov).
-11. Crear las destacadas "Pedí acá" (primera, con el sticker de enlace a la página), "Precios" y "Envíos", usando el carrusel como historias.
+11. ~~Crear las destacadas "Pedí acá", "Precios" y "Envíos"~~: hechas (14/11/2026).
 12. Pasar 10 cuentas de Mar del Plata para comentar.
-13. Decir si sigue tomando pedidos para eventos, como los XV. Si es así, se suma al contenido.
+13. ~~Pedidos para eventos~~: sí los toma (14/11/2026). Se suma al contenido (por ejemplo, una historia o post de "cajas para tu evento").
 14. Mirar "Ver insights" del reel de noviembre 2025: cuánta gente llegó y cuántos no lo seguían.
 
 ### Metricool (30 de octubre 2026)

@@ -29,7 +29,7 @@ Sacado de `brief.md`. Si cambia un precio, se cambia acá y en el asistente.
 - **Retiro:** en Mar del Plata, coordinando antes. No hay local.
 - **Pedir:** en monteriko.com.ar se arma la caja y el pedido llega escrito por WhatsApp.
 - **Consejo:** 10 minutos en el freezer antes de comerlo.
-- **Falta que Tomás defina:** formas de pago (y los datos, que se cargan solo en el asistente, nunca en este repo), cuánto tarda en tener lista una caja, horario en que contesta él, el cupo semanal y si toma pedidos para eventos.
+- **Falta que Tomás defina:** formas de pago (y los datos, que se cargan solo en el asistente, nunca en este repo), cuánto tarda en tener lista una caja, horario en que contesta él, el cupo semanal. **Eventos: sí toma pedidos para eventos (Tomás, 14/11/2026)**; el asistente igual se los pasa a Tomás para que arregle cantidad y fecha.
 
 ## Cómo habla
 Como Monte Riko: voseo, cercano, corto, con un poco de humor (`instagram-voz.md`). Se presenta como el asistente de Monte Riko, no como Tomás.

@@ -1,6 +1,6 @@
 # Costo y ganancia por producto (13 de noviembre 2026)
 
-Calculado con la planilla (`planilla-finanzas.xlsx` y la de Drive), con precios de insumos relevados el 13/11/2026 (`precios-insumos.md`) y la receta por docena (`README.md`). Es la ganancia **antes** de pagar tu tiempo y los gastos fijos. Hay supuestos marcados: el patagónico, las horas, la merma y el gas.
+Calculado con la planilla (`planilla-finanzas.xlsx` y la de Drive), con precios de insumos relevados el 13/11/2026 (`precios-insumos.md`) y la receta por docena (`README.md`). Es la ganancia **antes** de pagar tu tiempo y los gastos fijos. Hay supuestos marcados: las horas, la merma y el gas. El patagónico lleva los mismos 55 g de dulce más unos 3 g de mermelada (confirmado por Tomás, 14/11/2026).
 
 ## Un alfajor
 | | Marplatense | Patagónico |
@@ -31,4 +31,4 @@ Lo que más pesa: dulce de leche (unos $270 por alfajor), chocolate (unos $260) 
 4. **La docena tiene el margen más bajo** (56%), y es lo que más vendés: si hay que subir algo primero, que sea la docena.
 
 ## Falta confirmar (cambia el número)
-Cuánto rellena el patagónico, horas por docena, si se usa el dulce de leche clásico, la naranja, cuánto se pierde por tanda, y tus precios reales de compra (los tickets valen más que lo relevado).
+Horas por docena, si se usa el dulce de leche clásico, la naranja, cuánto se pierde por tanda, y tus precios reales de compra (los tickets valen más que lo relevado). Tickets: el 14/11/2026 no tenía recientes porque usa stock; cuando salga a comprar, avisa y se cargan.

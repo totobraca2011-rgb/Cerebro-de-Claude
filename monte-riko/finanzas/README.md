@@ -22,7 +22,7 @@ Pedido de Tomás (13 de noviembre 2026): un agente experto que maneje la plata, 
 
 ## Receta por docena
 Masa (planilla 2025): harina 200 g, maicena 50 g, 1 huevo, manteca 100 g, azúcar 100 g, cacao 25 g, miel 25 g, extracto de malta 25 g, naranja 250 g, vainilla 5 ml, bicarbonato de sodio 2,5 g, bicarbonato de amonio 2,5 g, polvo de hornear 3,75 g y un chorrito de ron.
-Relleno y baño (Tomás, 13/11/2026): **55 g de dulce de leche y 20 g de chocolate por alfajor**. Patagónico: 3 g de mermelada por alfajor (14/11/2026); falta confirmar si lleva también los 55 g de dulce.
+Relleno y baño (Tomás, 13/11/2026): **55 g de dulce de leche y 20 g de chocolate por alfajor**. Patagónico: los mismos 55 g de dulce de leche más unos 3 g de mermelada por alfajor (Tomás, 14/11/2026).
 Envoltorio (planilla 2025): unos 2,5 g de papel metalizado, una calcomanía y una etiqueta nutricional por alfajor.
 
 ## Resultado (detalle en `costos.md`)
@@ -36,7 +36,7 @@ Un marplatense cuesta unos **$1.128** y deja **$1.672** (60%). Una docena cuesta
 - **Envíos a otras provincias** pueden meterlo en el Convenio Multilateral de Ingresos Brutos al formalizarse: consultarlo con el contador.
 
 ## Pendientes
-1. Tomás: si el patagónico lleva los 55 g de dulce, si usa el dulce de leche clásico, tickets de sus últimas compras y cómo lo calculaba él (para comparar). El resto de las preguntas está al final de `mercado.md`.
+1. Tomás: si usa el dulce de leche clásico y cómo lo calculaba él (para comparar). Tickets: el 14/11/2026 no tenía recientes porque trabaja con stock; cuando salga a comprar insumos, avisa y se cargan los precios reales. Los 4 sueltos del 14/11 fueron vendidos en persona (cargado en Ventas). El resto de las preguntas está al final de `mercado.md`.
 2. Hecho el 14/11/2026: la planilla de Google ya tiene la mermelada de 3 g y la hora por docena.
 3. Quedaron sin datos (la investigación se quedó sin búsquedas): precios de equipos y locales para crecer, habilitación en General Pueyrredon y precios de Gula, Rasta y Lucciano's. Se buscan de a uno cuando haga falta.
 4. Revisar que la planilla de Google se vea bien (se subió convertida desde Excel; las cuentas se verificaron antes de subirla).
