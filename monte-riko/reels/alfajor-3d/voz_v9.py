@@ -1,5 +1,5 @@
 # v9: arreglo de la retención de v8 (14/11/2026): la mitad se iba en los primeros 8 s (masa, freezer, estirar).
-# El gancho promete el relleno; freezer, estirar y frío pasan en tomas cortas de una palabra.
+# El gancho promete el relleno; freezer, estirar, cortar y frío pasan en tomas cortas de una palabra (cortar y frío, pedido de Tomás).
 import subprocess, json, re
 # (inicio en el 3D, [(dicho, mostrado, claves, rate, pitch), ...], cola)
 SEGS = [
@@ -7,7 +7,8 @@ SEGS = [
          ("Y esperá a ver el relleno.", "Y esperá a ver el relleno.", ["relleno"], "+12%", "+2Hz")], 0.15),
  (4.2,  [("¡Freezer!", "¡Freezer!", ["freezer"], "+20%", "+12Hz")], 0.12),
  (7.6,  [("¡Estirar!", "¡Estirar!", ["estirar"], "+20%", "+12Hz")], 0.12),
- (11.1, [("¡Más frío!", "¡Más frío!", ["frío"], "+20%", "+14Hz")], 0.15),
+ (11.1, [("¡Cortar!", "¡Cortar!", ["cortar"], "+20%", "+12Hz")], 0.12),
+ (12.2, [("¡Más frío!", "¡Más frío!", ["frío"], "+20%", "+14Hz")], 0.15),  # la bandeja entra a la heladera
  (14.6, [("¡Ocho minutos!", "¡Ocho minutos!", ["ocho"], "+15%", "+14Hz"),
          ("Uno más y llamo a los bomberos.", "Uno más y llamo a los bomberos.", ["bomberos"], "+20%", "+2Hz")], 0.3),
  (17.8, [("Y acá está: cincuenta y cinco gramos de dulce de leche.", "Y acá está: 55 gramos de dulce de leche.", ["55"], "+15%", "+6Hz"),
