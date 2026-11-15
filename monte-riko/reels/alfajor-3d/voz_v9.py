@@ -7,7 +7,7 @@ SEGS = [
          ("Y esperá a ver el relleno.", "Y esperá a ver el relleno.", ["relleno"], "+12%", "+2Hz")], 0.15),
  (4.2,  [("¡Freezer!", "¡Freezer!", ["freezer"], "+20%", "+12Hz")], 0.12),
  (7.6,  [("¡Estirar!", "¡Estirar!", ["estirar"], "+20%", "+12Hz")], 0.12),
- (11.4, [("¡Más frío!", "¡Más frío!", ["frío"], "+20%", "+14Hz")], 0.15),
+ (11.1, [("¡Más frío!", "¡Más frío!", ["frío"], "+20%", "+14Hz")], 0.15),
  (14.6, [("¡Ocho minutos!", "¡Ocho minutos!", ["ocho"], "+15%", "+14Hz"),
          ("Uno más y llamo a los bomberos.", "Uno más y llamo a los bomberos.", ["bomberos"], "+20%", "+2Hz")], 0.3),
  (17.8, [("Y acá está: cincuenta y cinco gramos de dulce de leche.", "Y acá está: 55 gramos de dulce de leche.", ["55"], "+15%", "+6Hz"),
