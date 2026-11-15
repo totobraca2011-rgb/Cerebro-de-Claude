@@ -65,7 +65,7 @@ Hay dos partes y conviene no mezclarlas:
 **Gratis y ya, mientras tanto:** en la app de WhatsApp Business del celu, Tomás puede cargar respuestas rápidas (precios, envíos, cómo pedir), un mensaje de bienvenida y uno de ausencia fuera de horario con el link a monteriko.com.ar. No piensa, pero corta las preguntas repetidas desde hoy.
 
 ## Decisiones que faltan (Tomás)
-1. Chip aparte: es obligatorio para conectarlo por esta vía (14/11/2026). Falta conseguirlo.
+1. Chip aparte: es obligatorio para conectarlo por esta vía (14/11/2026). **En pausa (15/11/2026):** Tomás lo consigue más adelante; cuando lo tenga se retoma desde acá.
 2. ¿Plataforma ya hecha o programa propio?
 3. Formas de pago, tiempo de preparación, horario y cupo semanal.
 4. ¿Se regala algo para atraer (la "probadita" de Mariana)? No puede ser la receta: es el producto.

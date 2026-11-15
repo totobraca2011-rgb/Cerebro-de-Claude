@@ -1,14 +1,14 @@
 # Costo y ganancia por producto (13 de noviembre 2026)
 
-Calculado con la planilla (`planilla-finanzas.xlsx` y la de Drive), con precios de insumos relevados el 13/11/2026 (`precios-insumos.md`) y la receta por docena (`README.md`). Es la ganancia **antes** de pagar tu tiempo y los gastos fijos. Hay supuestos marcados: las horas, la merma y el gas. El patagónico lleva los mismos 55 g de dulce más unos 3 g de mermelada (confirmado por Tomás, 14/11/2026).
+Calculado con la planilla (`planilla-finanzas.xlsx` y la de Drive), con precios de insumos relevados el 13/11/2026 (`precios-insumos.md`) y la receta por docena (`README.md`). Es la ganancia **antes** de pagar tu tiempo y los gastos fijos. Hay supuestos marcados: las horas, la merma y el gas. El patagónico lleva los mismos 55 g de dulce más unos 10 g de mermelada (Tomás, 15/11/2026; antes se había dicho 3 g).
 
 ## Un alfajor
 | | Marplatense | Patagónico |
 |---|---|---|
-| Ingredientes (con 5% de merma) | $872 | $865 |
+| Ingredientes (con 5% de merma) | $872 | $919 |
 | Papel dorado, sticker, etiqueta y papel manteca | $248 | $248 |
 | Gas y luz | $8 | $8 |
-| **Costo de un alfajor** | **$1.128** | **$1.122** |
+| **Costo de un alfajor** | **$1.128** | **$1.175** |
 
 Lo que más pesa: dulce de leche (unos $270 por alfajor), chocolate (unos $260) y el envoltorio ($248, casi un cuarto del costo: papel $118, sticker $62, etiqueta $37, papel manteca $31). La masa entera cuesta unos $300.
 
@@ -16,12 +16,12 @@ Lo que más pesa: dulce de leche (unos $270 por alfajor), chocolate (unos $260) 
 | Producto | Precio | Costo | Ganancia | Margen | Ganancia por alfajor |
 |---|---|---|---|---|---|
 | Marplatense suelto | $2.800 | $1.128 | $1.672 | 60% | $1.672 |
-| Patagónico suelto | $3.000 | $1.142 | $1.858 | 62% | $1.858 |
-| Media docena | $16.500 | $7.139 | $9.361 | 57% | $1.560 |
-| Docena | $31.900 | $14.015 | $17.885 | 56% | $1.490 |
+| Patagónico suelto | $3.000 | $1.175 | $1.825 | 61% | $1.825 |
+| Media docena | $16.500 | $7.239 | $9.261 | 56% | $1.544 |
+| Docena | $31.900 | $14.213 | $17.687 | 55% | $1.474 |
 
 - De cada $100 que cobrás por una docena, $44 se van en insumos, envoltorio y caja, y te quedan $56.
-- Una tanda es de 6 docenas en unas 6 horas (Tomás, 14/11/2026): 1 hora por docena, o sea unos $17.900 de ganancia por hora de trabajo. Para hacer 12 docenas tiene que hacer dos tandas, porque no le alcanzan las herramientas. Con 3 g de mermelada, el patagónico cuesta unos $1.142. El salario mínimo de noviembre 2026 es $1.994 por hora.
+- Una tanda es de 6 docenas en unas 6 horas (Tomás, 14/11/2026): 1 hora por docena, o sea unos $17.700 de ganancia por hora de trabajo. Para hacer 12 docenas tiene que hacer dos tandas, porque no le alcanzan las herramientas. Con 10 g de mermelada (15/11/2026), el patagónico cuesta unos $1.175. El salario mínimo de noviembre 2026 es $1.994 por hora.
 - El envío no está en la cuenta: un envío de 1 a 2 kg por OCA a otra provincia sale entre $14.400 y $26.000. Tiene que pagarlo el cliente aparte, porque se come más de la mitad de la ganancia de una docena.
 
 ## Lo que dice el contador
@@ -31,4 +31,4 @@ Lo que más pesa: dulce de leche (unos $270 por alfajor), chocolate (unos $260) 
 4. **La docena tiene el margen más bajo** (56%), y es lo que más vendés: si hay que subir algo primero, que sea la docena.
 
 ## Falta confirmar (cambia el número)
-Horas por docena, si se usa el dulce de leche clásico, la naranja, cuánto se pierde por tanda, y tus precios reales de compra (los tickets valen más que lo relevado). Tickets: el 14/11/2026 no tenía recientes porque usa stock; cuando salga a comprar, avisa y se cargan.
+Horas por docena, si se usa el dulce de leche clásico, la naranja, cuánto se pierde por tanda, y tus precios reales de compra (los tickets valen más que lo relevado). Primera compra real: el 15/11/2026 compró dulce de leche al por menor de urgencia (1 kg repostero $7.650 y 2 potes de 400 g clásico Vacalín a $3.224,25 c/u = $8.060/kg). Es un 55% a 65% más caro que el balde de 10 kg (unos $4.900/kg), así que no se tomó como precio de reposición: la planilla sigue con el balde. En la tanda con ese dulce, cada alfajor costó unos $150 a $170 más.
