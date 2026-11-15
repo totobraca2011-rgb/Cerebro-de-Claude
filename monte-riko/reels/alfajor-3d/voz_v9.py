@@ -14,7 +14,8 @@ SEGS = [
  (17.8, [("Y acá está: cincuenta y cinco gramos de dulce de leche.", "Y acá está: 55 gramos de dulce de leche.", ["55"], "+15%", "+6Hz"),
          ("¡Sí, los conté!", "¡Sí, los conté!", ["conté"], "+10%", "+10Hz")], 0.3),
  (26.0, [("¡Doble chocolate!", "¡Doble chocolate!", ["doble"], "+15%", "+10Hz"),
-         ("¿Por qué? Porque sí.", "¿Por qué? Porque sí.", ["sí"], "+5%", "-6Hz")], 0.3),
+         ("¿Por qué?", "¿Por qué?", ["qué"], "+0%", "-6Hz", 0.4),
+         ("¡Porque sí!", "¡Porque sí!", ["sí"], "+5%", "+12Hz")], 0.3),  # "porque sí" agudo, como el principio (Tomás)
  (30.0, [("Papel dorado. Listo para regalar.", "Papel dorado. Listo para regalar.", ["dorado"], "+12%", "+5Hz"),
          ("O comételo vos. No te juzgo.", "O comételo vos. No te juzgo.", ["juzgo"], "+10%", "-4Hz")], 0.3),
 ]
@@ -23,18 +24,20 @@ PAUSA = 0.18
 subs = []; segs = []
 for i, (s0, partes, cola) in enumerate(SEGS):
     wavs = []
-    for j, (dicho, mostrado, claves, rate, pitch) in enumerate(partes):
+    for j, (dicho, mostrado, claves, rate, pitch, *_) in enumerate(partes):
         mp3, wav = f"p{i}{j}.mp3", f"p{i}{j}.wav"
         subprocess.run(["uvx","edge-tts","--voice","es-AR-TomasNeural",f"--rate={rate}",f"--pitch={pitch}","--text",dicho,"--write-media",mp3], check=True, capture_output=True)
         subprocess.run(["ffmpeg","-loglevel","error","-y","-i",mp3,"-af","silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse","-ar","48000","-ac","1",wav], check=True)
         wavs.append(wav)
     ds = [dur(w) for w in wavs]
-    if len(wavs) == 2:
-        subprocess.run(["ffmpeg","-loglevel","error","-y","-i",wavs[0],"-i",wavs[1],"-filter_complex",f"[0:a]apad=pad_dur={PAUSA}[a0];[a0][1:a]concat=n=2:v=0:a=1[o]","-map","[o]",f"seg{i}.wav"], check=True)
-        total = ds[0] + PAUSA + ds[1]; inicios = [0, ds[0] + PAUSA]
-    else:
-        subprocess.run(["ffmpeg","-loglevel","error","-y","-i",wavs[0],f"seg{i}.wav"], check=True)
-        total = ds[0]; inicios = [0]
+    # une las partes con una pausa corta entre cada una
+    n = len(wavs); ins = sum([["-i", w] for w in wavs], [])
+    pausas = [(pt[5] if len(pt) > 5 else PAUSA) for pt in partes]  # una parte puede pedir más silencio después
+    fcx = "".join(f"[{k}:a]apad=pad_dur={pausas[k]}[a{k}];" for k in range(n - 1)) + "".join(f"[a{k}]" for k in range(n - 1)) + f"[{n-1}:a]concat=n={n}:v=0:a=1[o]"
+    subprocess.run(["ffmpeg","-loglevel","error","-y",*ins,"-filter_complex",fcx,"-map","[o]",f"seg{i}.wav"], check=True)
+    inicios = []; acc = 0
+    for d, pz in zip(ds, pausas): inicios.append(acc); acc += d + pz
+    total = acc - pausas[-1]
     segs.append({"inicio": s0, "voz": total, "largo": round(total + 0.08 + cola, 3)})
     for (dicho, mostrado, claves, *_), off, d in zip(partes, inicios, ds):
         a = s0 + 0.08 + off
