@@ -52,4 +52,9 @@ Tomás grabó cómo termina un pedido: envuelve el alfajor en papel dorado, le p
 - **Para este reel:** sin efectos de sonido agregados y sin tocar el arranque. Solo el video de Tomás (v4) con una canción de fondo.
 - **v6:** `editor-de-ia/borradores/2026-11-16-envolver-y-caja-v6-cancion-clasica.mp4`, 25,2 s. Es la v4 de Tomás sin ningún cambio de imagen, con una canción clásica de Mixkit (`assets.mixkit.co/music/682/682.mp3`, figura como "Classical vibes 2" en el listado; licencia gratis de música de Mixkit). La canción entra desde su segundo 1,5 y baja en el último segundo y medio. Elegida por el nombre, sin escucharla.
 
-**Estado:** v6 hecha, falta que Tomás la escuche. Nada publicado ni en `terminados/`.
+
+
+## Decisión (16 de noviembre 2026)
+Tomás elige la canción él, desde Instagram, cuando suba el video. La v6 se borró. El video que queda es su v4 sin sonido: `editor-de-ia/borradores/2026-11-15-envolver-y-caja-v4-tomas.mp4`. Para sus reels de proceso, no buscarle canciones salvo que las pida.
+
+**Estado:** la v4 de Tomás queda como video final, sin sonido. Todavía no dijo "está bien así", así que sigue en `borradores/`. No está publicada.
