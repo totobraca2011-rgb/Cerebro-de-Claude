@@ -24,4 +24,25 @@ Tomás grabó cómo termina un pedido: envuelve el alfajor en papel dorado, le p
 - **El termo y el mate de las tomas 3 están a propósito** (lo dijo Tomás): no hay que evitarlos ni taparlos.
 - **v3:** `editor-de-ia/borradores/2026-11-15-envolver-y-caja-v3.mp4`, 30,2 s. Es la v2 de Tomás con dos tomas agregadas después del video5 (a los 15,07 s): el video6 (guardando de cerca, toma 3, de 1,4 a 3,2 s) y el video7 desde arriba (de 18,5 a 20,3 s). Después sigue igual, con el video8. Sin zoom ni cambios de color, para que quede igual al resto de su edición. Sin sonido.
 
-**Estado:** v3 hecha, falta que Tomás la vea. No está publicada ni en `terminados/`.
+
+
+## v4 de Tomás y las seis versiones v5 (15 y 16 de noviembre 2026)
+- **v4 (retoques de Tomás):** `editor-de-ia/borradores/2026-11-15-envolver-y-caja-v4-tomas.mp4`, 25,2 s, sin sonido. Ya no tiene la parte de escribir la caja: termina con el sticker. Es la base de todas las v5.
+- **Pedido de Tomás:** varias versiones del mismo video. La que más le guste se sube normal y las demás como reel de prueba.
+
+| Archivo (`editor-de-ia/borradores/2026-11-15-envolver-y-caja-v5-…`) | Qué tiene |
+|---|---|
+| `a-efectos.mp4` | Solo efectos de sonido |
+| `b-efectos-y-cancion.mp4` | Efectos + canción de jazz bajita |
+| `c-cancion-jazz.mp4` | Solo canción de jazz |
+| `d-cancion-lofi.mp4` | Solo canción lo-fi |
+| `e-gancho-logo.mp4` | Arranca 1,4 s con el alfajor envuelto de cerca (logo). Efectos + jazz |
+| `f-gancho-caja-llena.mp4` | Arranca 1,5 s con la caja llena vista de arriba. Efectos + jazz |
+
+- **Cómo se arman:** `envolver-y-caja-sonido.mjs` (lista de efectos con el segundo en que entra cada uno).
+- **Efectos (todos CC0 de Freesound, vía Openverse, sin crédito obligatorio):** papel dorado "Foil.wav" de MikeRat (188229) y "tinfoil 05" de Anthousai (337524); cartón "Cardboard box (open close)" 1 y 2 de FirediesProductions (235807 y 235808) y "Cardboard Box Rustle 3" de Sethroph (334211); golpecitos "hit-tap-strike-cardboard-box" de newagesoup (364932); papel "Wrapping Paper Rustle" de Eipeiknip (344433) y "Paper Rustle" de BenjaminNelan (353125).
+- **Canciones (Mixkit, licencia gratis de música, sirve para redes y uso comercial):** jazz `assets.mixkit.co/music/24/24.mp3` y lo-fi `assets.mixkit.co/music/765/765.mp3`. En el listado de Mixkit figuran como "Smooth Like Jazz" y "Lo-Fi 03" (el nombre no se comprobó en la página de cada una).
+- **Ojo:** los sonidos se eligieron por el nombre y midiendo el volumen, no escuchándolos (no se instaló Earshot para no gastar). Tomás tiene que escucharlos.
+- Desde la compu de Tomás Freesound sí deja bajar (en la nube no).
+
+**Estado:** las seis v5 hechas, falta que Tomás las escuche y elija. Nada publicado ni en `terminados/`.
