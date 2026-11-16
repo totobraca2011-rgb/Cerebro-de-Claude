@@ -17,4 +17,11 @@ Tomás grabó cómo termina un pedido: envuelve el alfajor en papel dorado, le p
 - En "cerrando caja" la tapa ya tenía el sticker pegado: se corta antes de que se vea y se sigue con la toma desde arriba, donde la caja se cierra sin sticker. Recién después se pega.
 - No se usaron los pedazos donde se ve la cara de Tomás.
 
-**Estado:** v1 hecha, falta que Tomás la vea. No está publicada.
+
+
+## v2 de Tomás y v3 (15 de noviembre 2026)
+- **v2 (la editó Tomás):** `editor-de-ia/borradores/2026-11-15-envolver-y-caja-v2-tomas.mp4`, 26,6 s. Sacó el arranque con el logo y acortó los cortes. Reemplaza a la v1 como base.
+- **El termo y el mate de las tomas 3 están a propósito** (lo dijo Tomás): no hay que evitarlos ni taparlos.
+- **v3:** `editor-de-ia/borradores/2026-11-15-envolver-y-caja-v3.mp4`, 30,2 s. Es la v2 de Tomás con dos tomas agregadas después del video5 (a los 15,07 s): el video6 (guardando de cerca, toma 3, de 1,4 a 3,2 s) y el video7 desde arriba (de 18,5 a 20,3 s). Después sigue igual, con el video8. Sin zoom ni cambios de color, para que quede igual al resto de su edición. Sin sonido.
+
+**Estado:** v3 hecha, falta que Tomás la vea. No está publicada ni en `terminados/`.
