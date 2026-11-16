@@ -25,7 +25,7 @@ Lo que se dice en el chat se pierde al cerrar la sesión: solo queda lo que se g
 Cada video que Tomás mande para reels o edición se guarda solo, sin preguntar, en `editor-de-ia/`:
 - Lo que grabó él para editar → `crudos/<proyecto>/`, con el nombre original del archivo.
 - Videos de otros que pasa como ejemplo → `referencias/`, anotando de dónde salió cada uno.
-- Cada video que terminemos de editar → `terminados/`, con fecha y versión.
+- Cada video editado va primero a `borradores/`, con fecha y versión. Pasa a `terminados/` (y a `Videos terminados` de Drive) solo cuando Tomás dice que está bien así (pedido de Tomás, 15 de noviembre 2026).
 **Antes de editar cualquier video**, mirá `editor-de-ia/referencias/` (el `README.md` y los videos que correspondan) y aplicá ese estilo: lo pidió Tomás (octubre 2026).
 Si no queda claro a qué proyecto o carpeta va, preguntale en una línea. Seguí las reglas de `editor-de-ia/README.md` (límite de 100 MB) y hacé commit y push apenas los guardes.
 

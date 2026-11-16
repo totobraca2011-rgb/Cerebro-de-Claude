@@ -3,7 +3,7 @@
 Tomás grabó cómo termina un pedido: envuelve el alfajor en papel dorado, le pone el sticker, arma la caja, guarda los alfajores, pone la tarjeta, cierra, pega el sticker de Monte Riko y escribe la caja. Esta vez hizo tomas de cerca y de lejos para que se parezca a los reels de @cedricgrolet de `editor-de-ia/referencias/`.
 
 - **Crudos:** `editor-de-ia/crudos/envolver-y-caja/` (16 videos, copiados de Drive `Videos crudos`; el nombre dice qué se hace y qué toma es). Vienen en 576×1024, así que el reel se agranda a 1080×1920 y se ve un poco menos nítido que con los originales del celu.
-- **Terminado:** `editor-de-ia/terminados/2026-11-15-envolver-y-caja-v1.mp4` (unos 41 s) y en Drive, `Videos terminados`.
+- **Borrador:** `editor-de-ia/borradores/2026-11-15-envolver-y-caja-v1.mp4` (unos 41 s). Pasa a `terminados/` y a Drive cuando Tomás lo apruebe.
 - **Cómo se arma:** `envolver-y-caja-armar.sh` (lista de cortes: archivo, inicio y duración).
 
 ## Estilo (v1)

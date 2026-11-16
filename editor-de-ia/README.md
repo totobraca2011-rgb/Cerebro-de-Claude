@@ -6,7 +6,8 @@ Todo lo de edición de video (reels y demás), creado en octubre 2026.
 |---|---|
 | `crudos/` | Los videos tal cual los grabó Tomás, sin editar. Una subcarpeta por proyecto (por ejemplo `crudos/quien-esta-detras/`) |
 | `referencias/` | Videos de otros que sirven de ejemplo: ritmo, ganchos, subtítulos, transiciones. Anotar de dónde salió cada uno |
-| `terminados/` | Los videos editados, listos para exportar y subir. Nombre con fecha y versión: `2026-10-29-quien-esta-detras-v1.mp4` |
+| `borradores/` | Los videos editados que Tomás todavía no aprobó. Mismo nombre con fecha y versión |
+| `terminados/` | Solo los que Tomás aprobó ("está bien así", 15 de noviembre 2026). Los videos editados, listos para exportar y subir. Nombre con fecha y versión: `2026-10-29-quien-esta-detras-v1.mp4` |
 
 ## Reglas
 - Ningún archivo puede pasar los 100 MB (GitHub no los acepta). Si un crudo es más pesado, se comprime con FFmpeg antes de guardarlo, sin perder calidad visible.
