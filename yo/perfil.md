@@ -34,6 +34,7 @@
 - Tiene que mostrar algo que llame la atención. Descartó "Estirar y apilar" porque solo se veía eso.
 - Lo que más le interesa es mostrar el alfajor por dentro. En los virales que miramos, eso es lo que atrapa.
 - No puede escucharse su voz de fondo en las tomas de proceso.
+- No le gustan los efectos de sonido agregados de un banco (papel, cartón, golpecitos): los pidió sacar del reel de envolver y la caja (16/11/2026). Tampoco que Claude le cambie el arranque de un video que él ya editó.
 
 **Historias (noviembre 2026):**
 - Solo imágenes, a pantalla completa y sin bordes negros.

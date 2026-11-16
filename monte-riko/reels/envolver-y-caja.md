@@ -45,4 +45,11 @@ Tomás grabó cómo termina un pedido: envuelve el alfajor en papel dorado, le p
 - **Ojo:** los sonidos se eligieron por el nombre y midiendo el volumen, no escuchándolos (no se instaló Earshot para no gastar). Tomás tiene que escucharlos.
 - Desde la compu de Tomás Freesound sí deja bajar (en la nube no).
 
-**Estado:** las seis v5 hechas, falta que Tomás las escuche y elija. Nada publicado ni en `terminados/`.
+
+
+## Las v5 no gustaron; v6 (16 de noviembre 2026)
+- **Tomás descartó las seis v5:** no le gustaron los efectos de sonido agregados, ni las dos canciones (jazz y lo-fi), ni los arranques cambiados. Se borraron de `borradores/` (quedan en el historial de git).
+- **Para este reel:** sin efectos de sonido agregados y sin tocar el arranque. Solo el video de Tomás (v4) con una canción de fondo.
+- **v6:** `editor-de-ia/borradores/2026-11-16-envolver-y-caja-v6-cancion-clasica.mp4`, 25,2 s. Es la v4 de Tomás sin ningún cambio de imagen, con una canción clásica de Mixkit (`assets.mixkit.co/music/682/682.mp3`, figura como "Classical vibes 2" en el listado; licencia gratis de música de Mixkit). La canción entra desde su segundo 1,5 y baja en el último segundo y medio. Elegida por el nombre, sin escucharla.
+
+**Estado:** v6 hecha, falta que Tomás la escuche. Nada publicado ni en `terminados/`.
