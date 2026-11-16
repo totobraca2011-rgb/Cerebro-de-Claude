@@ -57,4 +57,4 @@ Tomás grabó cómo termina un pedido: envuelve el alfajor en papel dorado, le p
 ## Decisión (16 de noviembre 2026)
 Tomás elige la canción él, desde Instagram, cuando suba el video. La v6 se borró. El video que queda es su v4 sin sonido: `editor-de-ia/borradores/2026-11-15-envolver-y-caja-v4-tomas.mp4`. Para sus reels de proceso, no buscarle canciones salvo que las pida.
 
-**Estado:** la v4 de Tomás queda como video final, sin sonido. Todavía no dijo "está bien así", así que sigue en `borradores/`. No está publicada.
+**Estado (16 de noviembre 2026):** Tomás aprobó su v4. Está en `editor-de-ia/terminados/2026-11-15-envolver-y-caja-v4.mp4` y en Drive, `Videos terminados`. Sin sonido: la canción la pone él al subirlo. No está publicada.
