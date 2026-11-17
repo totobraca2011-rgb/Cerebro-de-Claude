@@ -32,7 +32,7 @@ Tres posts por semana, a un ritmo que una sola persona pueda sostener: **martes 
 | Jue 12 | Reel | Proceso | El relleno | Versión 6: la v5 que editó Tomás, con zoom in y zoom out. Le gustó (2 de noviembre 2026) |
 | Sáb 14 | Foto | Marca | Auténtico marplatense | Borrador en Metricool |
 | Mar 17 | Reel | Proceso | Envolver y la caja | 18:00. La v4 que editó Tomás, sin sonido: la canción la pone él en Instagram, así que lo sube a mano desde el celu. Ver `reels/envolver-y-caja.md` (16 de noviembre 2026) |
-| Jue 19 | Reel | Proceso | La harina y la masa | 18:00. Versión 3, con sonido y sin música. Iba el martes 17; Tomás lo pasó acá el 16 de noviembre 2026. La foto "El patagónico por dentro" se sacó del plan: Tomás dice que es la misma que ya está en el feed (queda el borrador en Metricool, sin publicación automática, hasta que se borre) |
+| Jue 19 | Reel | Proceso | La harina y la masa | 18:00. Versión 3, con sonido y sin música. Iba el martes 17; Tomás lo pasó acá el 16 de noviembre 2026. La foto "El patagónico por dentro" se sacó del plan: Tomás dice que es la misma que ya está en el feed (el borrador de Metricool se borró el 17 de noviembre 2026) |
 | Sáb 21 | Reel | Historia | Cómo empezó todo, en la escuela | **Hay que grabarlo** |
 | Mar 24 | Reel | Proceso | El marplatense por dentro | Armado con sonido, sin música. Tomás lo revisa |
 | Jue 26 | Reel | Enseña | 10 minutos en el freezer | **Hay que grabarlo** |
