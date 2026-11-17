@@ -66,3 +66,8 @@ Cuando alguien aprieta "Enviar por WhatsApp" en monteriko.com.ar, la página avi
 - Cada pedido es una tarjeta, copiada de la "Modelo de pedido": qué, total, pago, entrega y para cuándo (como fecha de vencimiento). Sin nombres completos, teléfonos ni direcciones.
 - Cuando Tomás avisa una venta: anotarla en la planilla (pestaña Ventas) y crear o mover su tarjeta a "Entregados". Cuando avisa una compra: anotarla en Gastos y cerrar la tarjeta de "Comprar y reponer" que corresponda.
 - Se cargaron las 4 ventas de noviembre (8, 14 y 16/11), la plata para reponer ($22.516), el balde de dulce de leche y las fechas del viaje (26 al 30/11) y del cierre del mes.
+
+## Compras del 17 de noviembre 2026 (falta el ticket: sin montos todavía)
+- **Dulce de leche panadero, tarro de 10 kg.** Según Tomás tiene una consistencia parecida al repostero y sale mucho más barato. Idea suya: usarlo para bajar la cantidad del dulce clásico. Cuando llegue el ticket: precio por kilo, anotarlo en Gastos e Insumos, y recalcular el costo con la mezcla que decida (falta saber en qué proporción).
+- **Herramientas:** dos planchas de silicona perforadas para hornear tapas (tenía una y se le perdió) y bowls de plástico con tapa para bañar en chocolate. Van a Gastos como "Equipos y herramientas".
+- **Chocolate de prueba:** le dieron otro chocolate que cuesta lo mismo que el Alpino que usa, y le pareció más rico y quizás de más calidad. Es solo para probar: si no hace falta, sigue con el Alpino. Falta saber la marca.
