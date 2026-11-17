@@ -60,7 +60,7 @@ Tomás elige la canción él, desde Instagram, cuando suba el video. La v6 se bo
 **Estado (16 de noviembre 2026):** Tomás aprobó su v4. Está en `editor-de-ia/terminados/2026-11-15-envolver-y-caja-v4.mp4` y en Drive, `Videos terminados`. Sin sonido: la canción la pone él al subirlo. No está publicada.
 
 ## Publicación (decidido el 16 de noviembre 2026)
-- **Sale el martes 17 de noviembre a las 18:00**, en lugar de "La harina y la masa", que quedó sin fecha (propuesta: sábado 21 a las 10:00 si no se graba "Cómo empezó todo"; falta que Tomás confirme).
+- **Sale el martes 17 de noviembre a las 18:00**, en lugar de "La harina y la masa", que pasó al jueves 19 a las 18:00.
 - Lo sube Tomás a mano desde el celu, para ponerle la canción en Instagram. No está en Metricool.
 - Historia del día: `historias-noviembre/semana-3/mar-17-1.jpg` (ASÍ SALE CADA PEDIDO). Después del reel, compartirlo con "Así sale cada pedido" y un enlace "Pedí el tuyo".
 - Descripción (también en la tarjeta del martes 17 de Trello):

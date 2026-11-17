@@ -95,18 +95,17 @@ eel-v2ideosrcChiste.tsx` (`npx remotion still` con el texto por props) y FFmpeg
 ### Mar 17: Reel de envolver y la caja (cambio del 16 de noviembre 2026, pedido de Tomás)
 - `mar-17-1.jpg`: ASÍ SALE CADA PEDIDO (foto de la caja con los alfajores en papel dorado). Rehecha el 16 de noviembre 2026.
 - **En la app:** Después de publicar, compartí el reel y escribile encima: "Así sale cada pedido". Sumale un enlace "Pedí el tuyo".
-- La placa vieja de las tapas (UNA POR UNA) quedó como `reserva-harina-una-por-una.jpg`: va el día que salga el reel "La harina y la masa", con el texto "Mirá la masa al final".
+- La placa de las tapas (UNA POR UNA) pasó al jueves 19, con el reel "La harina y la masa".
 
 ### Mié 18: El chocolate
 - `mie-18-1.jpg`: ACÁ MANDA EL CHOCOLATE
 - `mie-18-2.jpg`: NEGRO. SIEMPRE. Rehecha el 10 de noviembre 2026: el chocolate salía verdoso.
 - `mie-18-3.jpg`: ¿FINITO O BIEN GRUESO? Rehecha el 10 de noviembre 2026: el chocolate salía verdoso. **Sticker:** Encuesta: Finito / Bien grueso, y abajo un enlace a monteriko.com.ar que diga "Pedí el tuyo" (14/11).
 
-### Jue 19: El patagónico (revisadas el 14 de noviembre 2026: la 1 y la 2 tenían el dulce color mostaza y se pasaron por `caramelo.py`; en Drive las viejas quedaron como "VIEJA - …")
-- `jue-19-1.jpg`: PRIMERO, LA CORONA
-- `jue-19-2.jpg`: DESPUÉS, EL CORAZÓN
-- `jue-19-3.jpg`: ASÍ QUEDA. **Sticker:** Sticker de enlace a monteriko.com.ar.
-- **En la app:** Compartí el post del día y escribile encima: "Este es el que más te sorprende".
+### Jue 19: Reel de las tapas, "La harina y la masa" (cambio del 16 de noviembre 2026, pedido de Tomás)
+- `jue-19-1.jpg`: UNA POR UNA (la placa de las tapas, que antes era `mar-17-1`).
+- **En la app:** Después de publicar, compartí el reel y escribile encima: "Mirá la masa al final". Sumale un enlace "Pedí el tuyo".
+- Las tres placas del patagónico (PRIMERO, LA CORONA / DESPUÉS, EL CORAZÓN / ASÍ QUEDA) quedaron de reserva como `reserva-patagonico-1`, `2` y `3`. La foto "El patagónico por dentro" se sacó del plan: Tomás dice que es la misma que ya está en el feed.
 
 ### Vie 20: El baño
 - `vie-20-1.jpg`: CADA UNO SE BAÑA A MANO
