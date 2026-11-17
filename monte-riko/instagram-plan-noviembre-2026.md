@@ -31,7 +31,8 @@ Tres posts por semana, a un ritmo que una sola persona pueda sostener: **martes 
 | Mié 11 | Reel de prueba | Humor | Un poquito de chocolate | 18:00, como reel de prueba: lo ve solo gente que no sigue la cuenta. Se mira el sábado 14 y, si anda, se pasa al perfil (Tomás, 9 de noviembre 2026). Ver `reels/un-poquito.md` |
 | Jue 12 | Reel | Proceso | El relleno | Versión 6: la v5 que editó Tomás, con zoom in y zoom out. Le gustó (2 de noviembre 2026) |
 | Sáb 14 | Foto | Marca | Auténtico marplatense | Borrador en Metricool |
-| Mar 17 | Reel | Proceso | La harina y la masa | Versión 3, con sonido y sin música. Se corrió del martes 10 por el reel 3D (6 de noviembre 2026). Los dos de reserva siguen sin fecha |
+| Mar 17 | Reel | Proceso | Envolver y la caja | 18:00. La v4 que editó Tomás, sin sonido: la canción la pone él en Instagram, así que lo sube a mano desde el celu. Ver `reels/envolver-y-caja.md` (16 de noviembre 2026) |
+| Sin fecha | Reel | Proceso | La harina y la masa | Versión 3, con sonido y sin música. Iba el martes 17 y Tomás lo corrió por el reel de envolver (16 de noviembre 2026). Propuesta: sábado 21 a las 10:00 si no llega a grabarse "Cómo empezó todo". Falta que Tomás confirme el día |
 | Jue 19 | Foto | Venta | El patagónico por dentro | Borrador en Metricool |
 | Sáb 21 | Reel | Historia | Cómo empezó todo, en la escuela | **Hay que grabarlo** |
 | Mar 24 | Reel | Proceso | El marplatense por dentro | Armado con sonido, sin música. Tomás lo revisa |
@@ -107,7 +108,7 @@ Si estás lejos, las cajas viajan a todo el país. Armá la tuya desde el link d
 
 *Texto alternativo:* alfajor y termo en la playa, con los edificios de Mar del Plata de fondo.
 
-### Mar 17: La harina y la masa
+### Sin fecha: La harina y la masa (iba el martes 17; lo corrió Tomás el 16 de noviembre 2026)
 Se corrió del martes 10 por el reel 3D (6 de noviembre 2026). Se sacó el "Eso te lo muestro el jueves", porque el jueves 19 no hay reel.
 
 Si querés probarlos, armá tu pedido desde el link de la bio.

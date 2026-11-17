@@ -58,3 +58,19 @@ Tomás grabó cómo termina un pedido: envuelve el alfajor en papel dorado, le p
 Tomás elige la canción él, desde Instagram, cuando suba el video. La v6 se borró. El video que queda es su v4 sin sonido: `editor-de-ia/borradores/2026-11-15-envolver-y-caja-v4-tomas.mp4`. Para sus reels de proceso, no buscarle canciones salvo que las pida.
 
 **Estado (16 de noviembre 2026):** Tomás aprobó su v4. Está en `editor-de-ia/terminados/2026-11-15-envolver-y-caja-v4.mp4` y en Drive, `Videos terminados`. Sin sonido: la canción la pone él al subirlo. No está publicada.
+
+## Publicación (decidido el 16 de noviembre 2026)
+- **Sale el martes 17 de noviembre a las 18:00**, en lugar de "La harina y la masa", que quedó sin fecha (propuesta: sábado 21 a las 10:00 si no se graba "Cómo empezó todo"; falta que Tomás confirme).
+- Lo sube Tomás a mano desde el celu, para ponerle la canción en Instagram. No está en Metricool.
+- Historia del día: `historias-noviembre/semana-3/mar-17-1.jpg` (ASÍ SALE CADA PEDIDO). Después del reel, compartirlo con "Así sale cada pedido" y un enlace "Pedí el tuyo".
+- Descripción (también en la tarjeta del martes 17 de Trello):
+
+> Así sale cada pedido de Monte Riko: envuelto a mano en papel dorado, uno por uno, y directo a la caja.
+>
+> Los alfajores artesanales los hago, los envuelvo y los entrego yo, en Mar del Plata. Acá no hay máquina: cada alfajor pasa por mis manos antes de llegar a las tuyas.
+>
+> Armá tu caja desde el link de la bio.
+>
+> #alfajores #mardelplata #alfajoresartesanales
+
+- **A los 3 días (viernes 20):** mirar la retención y anotarla en `estadisticas.md`.

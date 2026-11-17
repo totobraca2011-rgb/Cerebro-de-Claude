@@ -92,9 +92,10 @@ eel-v2ideosrcChiste.tsx` (`npx remotion still` con el texto por props) y FFmpeg
 - `lun-16-1.jpg`: PLACAS Y MÁS PLACAS
 - `lun-16-2.jpg`: ¿CUÁNTAS TAPAS HAY? **Sticker:** Caja de preguntas. Contalas antes y al otro día decí quién acertó.
 
-### Mar 17: Reel de las tapas
-- `mar-17-1.jpg`: UNA POR UNA
-- **En la app:** Después de publicar, compartí el reel y escribile encima: "Mirá la masa al final". Sumale un enlace "Pedí el tuyo" (14/11).
+### Mar 17: Reel de envolver y la caja (cambio del 16 de noviembre 2026, pedido de Tomás)
+- `mar-17-1.jpg`: ASÍ SALE CADA PEDIDO (foto de la caja con los alfajores en papel dorado). Rehecha el 16 de noviembre 2026.
+- **En la app:** Después de publicar, compartí el reel y escribile encima: "Así sale cada pedido". Sumale un enlace "Pedí el tuyo".
+- La placa vieja de las tapas (UNA POR UNA) quedó como `reserva-harina-una-por-una.jpg`: va el día que salga el reel "La harina y la masa", con el texto "Mirá la masa al final".
 
 ### Mié 18: El chocolate
 - `mie-18-1.jpg`: ACÁ MANDA EL CHOCOLATE
