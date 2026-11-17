@@ -60,3 +60,9 @@ Cuando alguien aprieta "Enviar por WhatsApp" en monteriko.com.ar, la página avi
 - Son pedidos **armados**, no ventas: mucha gente arma y no compra. Cuando Tomás confirma y cobra, el contador pasa la fila a Ventas y le pone "Confirmado" en Estado.
 - Probado el 14/11/2026 desde la vista previa: la fila llegó bien. La planilla se pasó a hora de Argentina ese día.
 - **Estado:** publicado en monteriko.com.ar el 14/11/2026 (Tomás dijo "subilo"); comprobado que el `main.js` publicado tiene la dirección del programa.
+
+## Tablero de ventas en Trello (17 de noviembre 2026, pedido de Tomás)
+[Ventas Monte Riko](https://trello.com/b/jnCBR3lk/ventas-monte-riko), en el mismo espacio que el tablero de Instagram. Listas: **Pedidos nuevos → Para entregar → Entregados** (lo más importante para Tomás), más **Comprar y reponer** y **Fechas para recordar**.
+- Cada pedido es una tarjeta, copiada de la "Modelo de pedido": qué, total, pago, entrega y para cuándo (como fecha de vencimiento). Sin nombres completos, teléfonos ni direcciones.
+- Cuando Tomás avisa una venta: anotarla en la planilla (pestaña Ventas) y crear o mover su tarjeta a "Entregados". Cuando avisa una compra: anotarla en Gastos y cerrar la tarjeta de "Comprar y reponer" que corresponda.
+- Se cargaron las 4 ventas de noviembre (8, 14 y 16/11), la plata para reponer ($22.516), el balde de dulce de leche y las fechas del viaje (26 al 30/11) y del cierre del mes.
