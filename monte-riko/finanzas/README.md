@@ -67,7 +67,10 @@ Cuando alguien aprieta "Enviar por WhatsApp" en monteriko.com.ar, la página avi
 - Cuando Tomás avisa una venta: anotarla en la planilla (pestaña Ventas) y crear o mover su tarjeta a "Entregados". Cuando avisa una compra: anotarla en Gastos y cerrar la tarjeta de "Comprar y reponer" que corresponda.
 - Se cargaron las 4 ventas de noviembre (8, 14 y 16/11), la plata para reponer ($22.516), el balde de dulce de leche y las fechas del viaje (26 al 30/11) y del cierre del mes.
 
-## Compras del 17 de noviembre 2026 (falta el ticket: sin montos todavía)
-- **Dulce de leche panadero, tarro de 10 kg.** Según Tomás tiene una consistencia parecida al repostero y sale mucho más barato. Idea suya: usarlo para bajar la cantidad del dulce clásico. Cuando llegue el ticket: precio por kilo, anotarlo en Gastos e Insumos, y recalcular el costo con la mezcla que decida (falta saber en qué proporción).
-- **Herramientas:** dos planchas de silicona perforadas para hornear tapas (tenía una y se le perdió) y bowls de plástico con tapa para bañar en chocolate. Van a Gastos como "Equipos y herramientas".
+## Compras del 17 de noviembre 2026 (ticket anotado el 18/11 en Gastos e Insumos)
+Total del negocio: **$96.667,52** en efectivo. En el mismo ticket había un pistacho ($8.960) que compró su mamá: no es del negocio y no se anotó.
+- **Dulce de leche panadero Vacalín, tarro de 10 kg: $43.963,40 ($4.396/kg).** Según Tomás tiene una consistencia parecida al repostero, y sale 10% menos que el repostero en balde. Idea suya: usarlo para bajar la cantidad del dulce clásico. Quedó como fila nueva en Insumos. Falta saber en qué proporción lo mezcla para recalcular el costo por alfajor.
+- **Herramientas** ("Equipos y herramientas" en Gastos):
+  - 2 planchas de silicona perforadas Telaflex 30x40 a $17.250 cada una ($34.500). Son para hornear tapas: tenía una y se le perdió.
+  - 2 tapers redondos de 3,2 L con tapa a $9.102,06 cada uno ($18.204,12), para bañar en chocolate.
 - **Chocolate de prueba:** le dieron otro chocolate que cuesta lo mismo que el Alpino que usa, y le pareció más rico y quizás de más calidad. Es solo para probar: si no hace falta, sigue con el Alpino. La marca es **Águila** (dato de Tomás, 17/11/2026).
