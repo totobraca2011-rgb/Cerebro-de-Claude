@@ -69,7 +69,8 @@ Cuando alguien aprieta "Enviar por WhatsApp" en monteriko.com.ar, la página avi
 
 ## Compras del 17 de noviembre 2026 (ticket anotado el 18/11 en Gastos e Insumos)
 Total del negocio: **$96.667,52** en efectivo. En el mismo ticket había un pistacho ($8.960) que compró su mamá: no es del negocio y no se anotó.
-- **Dulce de leche panadero Vacalín, tarro de 10 kg: $43.963,40 ($4.396/kg).** Según Tomás tiene una consistencia parecida al repostero, y sale 10% menos que el repostero en balde. Idea suya: usarlo para bajar la cantidad del dulce clásico. Quedó como fila nueva en Insumos. Falta saber en qué proporción lo mezcla para recalcular el costo por alfajor.
+- **Dulce de leche panadero Vacalín, tarro de 10 kg: $43.963,40 ($4.396/kg).** Según Tomás tiene una consistencia parecida al repostero, y sale 10% menos que el repostero en balde. Idea suya: usarlo para bajar la cantidad del dulce clásico. Quedó como fila nueva en Insumos.
+- **Mezcla del relleno (18/11/2026):** Tomás va a poner más panadero que clásico, porque el panadero es un poco menos denso que el repostero. En la Receta quedó como estimado: 2 partes de panadero y 1 de clásico (440 g + 220 g por docena, 55 g por alfajor), en lugar del repostero. El costo casi no cambia contra el repostero en balde: $1.129 el marplatense y $1.176 el patagónico, $1 más cada uno, porque el clásico es más caro. Se ahorra contra comprar suelto como el 15/11: unos $1.900 menos de dulce por docena. Corregir la proporción cuando la pese.
 - **Herramientas** ("Equipos y herramientas" en Gastos):
   - 2 planchas de silicona perforadas Telaflex 30x40 a $17.250 cada una ($34.500). Son para hornear tapas: tenía una y se le perdió.
   - 2 tapers redondos de 3,2 L con tapa a $9.102,06 cada uno ($18.204,12), para bañar en chocolate.
