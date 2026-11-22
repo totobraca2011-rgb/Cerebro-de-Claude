@@ -18,6 +18,7 @@ Pedido de Tomás (13 de noviembre 2026): un agente experto que maneje la plata, 
 - Es menor de edad y no está en el monotributo. Cumple 17 a fines de noviembre 2026 (dijo "en una semana" el 14/11/2026): con 16 o 17 ya puede inscribirse a su nombre con autorización de un padre o madre ante escribano.
 - Ya conectó Google Sheets en Claude (14/11/2026).
 - Tiempo de trabajo (14/11/2026): hace las tandas en 2 días (un día las masas, otro hornea y termina). Todo junto le llevaría 6 horas o más por tanda. Por tanda hace 6 docenas, porque no le alcanzan las herramientas para más: unas 6 horas o más cada tanda, o sea **1 hora por docena** (14/11/2026, cargado en la planilla). Para 12 docenas son dos tandas, el doble de tiempo. Más herramientas (bandejas, moldes, rejillas) le darían más docenas por hora.
+- **Ahorros y reservas (22/11/2026):** tiene $577.500 ahorrados en 3 reservas de Mercado Pago: Monte Riko 50% ($288.750), ocio 30% ($173.250) e inversiones 20% ($115.500). El contador le propuso sumar una reserva "Reponer insumos" (~$57.000, unas 4 docenas, sacada del 50%) y otra de "Imprevistos" (~$28.875, sacada del ocio), y que cada venta entre primero a Monte Riko. La suscripción de Claude va en Monte Riko como gasto fijo mensual (Servicios). Pendiente que Tomás diga si acepta, cuánto paga Claude y quién lo paga.
 - Su "Panilla de gastos" de febrero 2025 (en `0000-Monteriko`) tenía la receta por docena y su idea de reparto: **50% negocio, 30% personal, 20% ahorro**. La planilla nueva la usa.
 
 ## Receta por docena
