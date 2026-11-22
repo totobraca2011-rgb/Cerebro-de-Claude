@@ -17,7 +17,7 @@
       "sueldo": "Poné cuánto querés sacar por mes para vos y la planilla te dice cuántas docenas tenés que vender."
     }
   },
-  "reparto": {"negocio": 0.5, "personal": 0.3, "ahorro": 0.2},
+  "reparto": {"monte_riko": 0.5, "ocio": 0.25, "imprevistos": 0.05, "inversiones": 0.2},
   "monotributo": {"tope_a": 12009410.45, "nota": "Tabla oficial de ARCA vigente del 1/8/2026 a enero 2027 (venta de cosas muebles). Se actualiza en febrero y agosto."},
   "resumen_desde": [2026, 11],
   "resumen_meses": 14,

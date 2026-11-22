@@ -423,24 +423,27 @@ re_["A1"].font = TITULO
 re_["A2"] = "Se llena solo con Ventas y Gastos. El reparto sigue tu idea de 2025: una parte para el negocio, otra para vos y otra para ahorrar."
 re_["A2"].font = GRIS
 R = DATOS["reparto"]
-re_["A4"] = "Reparto de lo vendido"
+# Reparto (Tomás, 22/11/2026): el costo de lo vendido va a Reponer insumos; la ganancia se reparte en 4 reservas
+re_["A4"] = "Reparto de cada venta (desde 22/11/2026): primero lo que costó hacerla va a Reponer insumos; la ganancia se reparte así"
 re_["A4"].font = NEGRITA
-celda(re_, "A5", "Negocio (insumos, cajas, gastos)", NEGRO)
-celda(re_, "B5", R["negocio"], AZUL, PCT, AMARILLO)
-celda(re_, "A6", "Personal (para vos)", NEGRO)
-celda(re_, "B6", R["personal"], AZUL, PCT, AMARILLO)
-celda(re_, "A7", "Ahorro (local, equipos, imprevistos)", NEGRO)
-celda(re_, "B7", R["ahorro"], AZUL, PCT, AMARILLO)
-celda(re_, "A8", "Tiene que dar 100%", GRIS)
-celda(re_, "B8", "=B5+B6+B7", NEGRO, PCT)
-re_.conditional_formatting.add("B8", CellIsRule(operator="notEqual", formula=["1"], font=Font(name=FUENTE, bold=True, color="C00000")))
+celda(re_, "A5", "Monte Riko (herramientas y gastos fijos, como Claude)", NEGRO)
+celda(re_, "B5", R["monte_riko"], AZUL, PCT, AMARILLO)
+celda(re_, "A6", "Ocio (para vos)", NEGRO)
+celda(re_, "B6", R["ocio"], AZUL, PCT, AMARILLO)
+celda(re_, "A7", "Imprevistos", NEGRO)
+celda(re_, "B7", R["imprevistos"], AZUL, PCT, AMARILLO)
+celda(re_, "A8", "Inversiones", NEGRO)
+celda(re_, "B8", R["inversiones"], AZUL, PCT, AMARILLO)
+celda(re_, "A9", "Tiene que dar 100%", GRIS)
+celda(re_, "B9", "=B5+B6+B7+B8", NEGRO, PCT)
+re_.conditional_formatting.add("B9", CellIsRule(operator="notEqual", formula=["1"], font=Font(name=FUENTE, bold=True, color="C00000")))
 
 h = 10
 encabezado(re_, h, [
     "Mes", "Ventas ($)", "Alfajores vendidos", "Costo de lo vendido ($)", "Ganancia por producto ($)",
-    "Gastos anotados ($)", "Ventas menos gastos ($)", "Parte negocio ($)", "Parte personal ($)", "Parte ahorro ($)",
-    "¿Alcanza la parte del negocio?",
-], [30, 14, 11, 14, 14, 14, 14, 14, 14, 14, 16])
+    "Gastos anotados ($)", "Ventas menos gastos ($)", "Reponer insumos ($)", "Monte Riko ($)", "Ocio ($)",
+    "Imprevistos ($)", "Inversiones ($)", "¿Alcanza para los gastos?",
+], [30, 14, 11, 14, 14, 14, 14, 14, 14, 14, 14, 14, 16])
 re_.row_dimensions[h].height = 45
 meses = []
 y, m = DATOS["resumen_desde"]
@@ -462,15 +465,17 @@ for k, mes in enumerate(meses):
     celda(re_, f"E{n}", f"=B{n}-D{n}", NEGRO, PESOS)
     celda(re_, f"F{n}", f'=SUMIFS(Gastos!$D$2:$D${N_FILAS+1},{GR},">="&{desde},{GR},"<"&{hasta})', NEGRO, PESOS)
     celda(re_, f"G{n}", f"=B{n}-F{n}", NEGRITA, PESOS)
-    celda(re_, f"H{n}", f"=B{n}*$B$5", NEGRO, PESOS)
-    celda(re_, f"I{n}", f"=B{n}*$B$6", NEGRO, PESOS)
-    celda(re_, f"J{n}", f"=B{n}*$B$7", NEGRO, PESOS)
-    celda(re_, f"K{n}", f'=IF(B{n}=0,"",IF(F{n}<=H{n},"Sí","No: gastaste más"))', NEGRO)
+    celda(re_, f"H{n}", f"=D{n}", NEGRO, PESOS)
+    celda(re_, f"I{n}", f"=E{n}*$B$5", NEGRO, PESOS)
+    celda(re_, f"J{n}", f"=E{n}*$B$6", NEGRO, PESOS)
+    celda(re_, f"K{n}", f"=E{n}*$B$7", NEGRO, PESOS)
+    celda(re_, f"L{n}", f"=E{n}*$B$8", NEGRO, PESOS)
+    celda(re_, f"M{n}", f'=IF(B{n}=0,"",IF(F{n}<=H{n}+I{n},"Sí","No: gastaste más"))', NEGRO)
 ult_mes = h + len(meses)
-re_.conditional_formatting.add(f"K{h+1}:K{ult_mes}", FormulaRule(formula=[f'LEFT(K{h+1},2)="No"'], font=Font(name=FUENTE, bold=True, color="C00000")))
+re_.conditional_formatting.add(f"M{h+1}:M{ult_mes}", FormulaRule(formula=[f'LEFT(M{h+1},2)="No"'], font=Font(name=FUENTE, bold=True, color="C00000")))
 tot = ult_mes + 1
 celda(re_, f"A{tot}", "Total", NEGRITA)
-for col in "BCDEFGHIJ":
+for col in "BCDEFGHIJKL":
     celda(re_, f"{col}{tot}", f"=SUM({col}{h+1}:{col}{ult_mes})", NEGRITA, "#,##0" if col == "C" else PESOS)
 
 mo = tot + 2
