@@ -71,6 +71,13 @@ Cuando alguien aprieta "Enviar por WhatsApp" en monteriko.com.ar, la página avi
 - Cuando Tomás avisa una venta: anotarla en la planilla (pestaña Ventas) y crear o mover su tarjeta a "Entregados". Cuando avisa una compra: anotarla en Gastos y cerrar la tarjeta de "Comprar y reponer" que corresponda.
 - Se cargaron las 4 ventas de noviembre (8, 14 y 16/11), la plata para reponer ($22.516), el balde de dulce de leche y las fechas del viaje (26 al 30/11) y del cierre del mes.
 
+### Metas en Trello (22 de noviembre 2026, pedido de Tomás)
+Cuatro listas nuevas en el tablero, una por meta del plan de crecimiento (`plan-crecimiento.md`): **Meta 1 · 5 docenas** (gastos al día), **Meta 2 · 10** (herramientas y reponer), **Meta 3 · 16** (formalizarse) y **Meta 4 · 24 a 30** (local o mini fábrica). Cada una tiene arriba una tarjeta 📊 con las docenas vendidas en el mes, las que faltan y el avance, y abajo tarjetas con qué se paga o se hace y cómo llegar.
+- Los números salen de la planilla: pestaña Resumen, bloque **"Metas del mes"** (O4:U9), que cuenta las ventas del mes en curso de la pestaña Ventas. Para cambiar una meta, se cambia la columna P de ese bloque.
+- **Conexión automática:** `metas-trello.gs` (Apps Script de la planilla) copia esos números a las tarjetas 📊 cada hora. Falta instalarlo (lo hace Tomás una vez): pegar el archivo en Extensiones → Apps Script, cargar `TRELLO_KEY` y `TRELLO_TOKEN` en Propiedades del script (se sacan en trello.com/power-ups/admin; nunca en el Cerebro) y ejecutar `instalar`. Las tarjetas 📊 están fijas en el script por su id: si se borran, hay que cambiar los ids.
+- **Mientras tanto, y siempre:** cuando el contador anota una venta, actualiza también las 4 tarjetas 📊.
+- La página web llega a Trello pasando por la planilla: el pedido armado entra a "Pedidos web" y cuenta para las metas recién cuando se confirma y se pasa a Ventas.
+
 ## Compras del 17 de noviembre 2026 (ticket anotado el 18/11 en Gastos e Insumos)
 Total del negocio: **$96.667,52** en efectivo. En el mismo ticket había un pistacho ($8.960) que compró su mamá: no es del negocio y no se anotó.
 - **Dulce de leche panadero Vacalín, tarro de 10 kg: $43.963,40 ($4.396/kg).** Según Tomás tiene una consistencia parecida al repostero, y sale 10% menos que el repostero en balde. Idea suya: usarlo para bajar la cantidad del dulce clásico. Quedó como fila nueva en Insumos.
