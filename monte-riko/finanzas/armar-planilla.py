@@ -347,13 +347,13 @@ celda(co, f"B{fila_sueldo}", S["sueldo_objetivo"], AZUL, PESOS, AMARILLO, nota=S
 pe = fila_sueldo + 2
 co.cell(row=pe, column=1, value="¿Cuánto hay que vender?").font = NEGRITA
 fd = FILAS_PROD["Docena"]
-celda(co, f"A{pe+1}", "Docenas por mes para cubrir los gastos fijos", NEGRO)
-celda(co, f"B{pe+1}", f"=IF(G{fd}>0,B{fila_tf}/G{fd},0)", NEGRITA, '0.0')
-celda(co, f"A{pe+2}", "Docenas por mes para cubrir gastos fijos y tu sueldo", NEGRO)
-celda(co, f"B{pe+2}", f"=IF(G{fd}>0,(B{fila_tf}+B{fila_sueldo})/G{fd},0)", NEGRITA, '0.0')
+celda(co, f"A{pe+1}", "Docenas por mes para cubrir los gastos fijos (salen de la parte Monte Riko de la ganancia)", NEGRO)
+celda(co, f"B{pe+1}", f"=IF(G{fd}>0,B{fila_tf}/(G{fd}*Resumen!$B$5),0)", NEGRITA, '0.0')
+celda(co, f"A{pe+2}", "Docenas por mes para cubrir gastos fijos y tu sueldo (el sueldo sale de Ocio)", NEGRO)
+celda(co, f"B{pe+2}", f"=IF(G{fd}>0,B{fila_tf}/(G{fd}*Resumen!$B$5)+B{fila_sueldo}/(G{fd}*Resumen!$B$6),0)", NEGRITA, '0.0')
 celda(co, f"A{pe+3}", "Horas de trabajo por mes para eso", NEGRO)
 celda(co, f"B{pe+3}", f"=B{pe+2}*{REF['horas']}", NEGRO, '0.0')
-co.cell(row=pe + 4, column=1, value="Calculado con cajas de docena surtidas; si vendés más sueltos o medias docenas, cambia.").font = GRIS
+co.cell(row=pe + 4, column=1, value="Calculado con cajas de docena surtidas y la regla de reparto de la pestaña Resumen; si vendés más sueltos o medias docenas, cambia.").font = GRIS
 FILA_TOTAL_FIJOS = fila_tf
 
 # =====================================================================

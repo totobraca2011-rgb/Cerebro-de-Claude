@@ -8,6 +8,7 @@ Pedido de Tomás (13 de noviembre 2026): un agente experto que maneje la plata, 
 |---|---|
 | `costos.md` | Costo y ganancia de cada producto y lo que recomienda el contador |
 | `precios-insumos.md` | Precios de cada insumo relevados en noviembre 2026, con fuentes |
+| `plan-crecimiento.md` | Plan de crecimiento (noviembre 2026): punto de equilibrio, metas por etapas, estrategia de ventas, tablero semanal y próximos pasos |
 | `mercado.md` | Competencia, inflación, gas, envíos, herramientas y preguntas pendientes para Tomás |
 | `armar-planilla.py` + `datos-planilla.json` | Arman `planilla-finanzas.xlsx` (plantilla). Precios y receta se cambian en el JSON |
 | Reglas (monotributo, menor de edad, alimentos, cuentas) | `.claude/skills/finanzas-monte-riko/references/reglas-argentina.md` |
