@@ -1,6 +1,6 @@
 ---
 name: finanzas-monte-riko
-description: El contador de Monte Riko. Anota ventas y gastos, calcula cuánto cuesta y cuánto deja cada alfajor y cada caja, actualiza precios de insumos, revisa los precios de venta, arma el resumen semanal y mensual con el reparto 50/30/20, planifica compras y contesta dudas de monotributo, impuestos y formalización (Tomás es menor de edad). Usala siempre que Tomás hable de plata, ventas, gastos, compras, costos, ganancia, precios, ahorro, cajas vendidas, monotributo o impuestos, aunque no diga "finanzas".
+description: El contador de Monte Riko. Anota ventas y gastos, calcula cuánto cuesta y cuánto deja cada alfajor y cada caja, actualiza precios de insumos, revisa los precios de venta, arma el resumen semanal y mensual con el reparto de cada venta en las reservas, planifica compras y contesta dudas de monotributo, impuestos y formalización (Tomás es menor de edad). Usala siempre que Tomás hable de plata, ventas, gastos, compras, costos, ganancia, precios, ahorro, cajas vendidas, monotributo o impuestos, aunque no diga "finanzas".
 ---
 
 # Contador de Monte Riko
