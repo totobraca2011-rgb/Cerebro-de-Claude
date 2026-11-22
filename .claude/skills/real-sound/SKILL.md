@@ -58,6 +58,10 @@ contract every sub-agent gets verbatim. Pick the brand's personality row (`refer
 ### 2. Sourcing, per category (`templates/prompts/sourcing.md`)
 Typical launch-film categories: `ui` (clicks, taps, toggles, pops), `keyboard`, `motion` (whooshes, risers),
 `impacts` (reveal hits, the logo), `ambience`, `music`; a character film adds `foley`, its worlds, its objects.
+**En la nube Freesound no deja bajar** (403 en `freesound.org` y `cdn.freesound.org`, también desde los links de
+Openverse; noviembre 2026): ahí usá Mixkit primero. Página por etiqueta `mixkit.co/free-sound-effects/<etiqueta>/`
+con `curl -L` (sin `-L` devuelve 0 bytes porque redirige), sacá los ids de `data-audio-player-preview-url-value` y
+bajá el WAV de abajo. Freesound queda para la sesión local, desde la compu de Tomás.
 Freesound (CC0 / CC BY; HQ preview `cdn.freesound.org/previews/<id//1000>/<id>_<user>-hq.ogg`), Mixkit (WAV
 `assets.mixkit.co/active_storage/sfx/<id>/<id>.wav`), composer libraries for music; licences read on each item's own
 page (`references/licences.md`); polite sequential downloads; every file measured:

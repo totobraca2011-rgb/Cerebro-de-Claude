@@ -57,6 +57,10 @@ them to `/ig-reel` as formula #16.
   does.
 - **Keep text inside the middle.** On 1080x1920, nothing above y=250 or below
   y=1600. The profile row sits on top and the reply bar sits underneath.
+- **Stickers, desde el celu** (noviembre 2026): las historias no se suben
+  desde la web (el menú Crear no las ofrece) y Metricool no pone stickers.
+  Dejá en la placa un lugar libre para el sticker y decile a Tomás cuál poner
+  y dónde, para que lo agregue en la app.
 - **Talk to one person.** "You" singular. Stories are the closest thing to a
   DM that is not one.
 - **Do not repost your own feed post to stories with no comment.** It is the

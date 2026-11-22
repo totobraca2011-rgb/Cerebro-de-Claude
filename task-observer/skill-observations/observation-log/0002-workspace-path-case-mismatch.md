@@ -1,7 +1,7 @@
 ---
 id: 2
 title: "La ruta fija del Task Observer en CLAUDE.md no coincide en mayúsculas con la carpeta real del repo"
-status: open
+status: actioned
 type: internal
 skill: [task-observer]
 proposes_skill: []
@@ -11,8 +11,8 @@ area: "Bloque de activación del Task Observer en CLAUDE.md (ruta del workspace)
 date: 2026-10-29
 session_context: "Cambio del armador de pedidos de la página de Monte Riko (octubre 2026)"
 parked_until:
-resolved:
-resolution:
+resolved: 2026-11-22
+resolution: "Rutas de CLAUDE.md corregidas a /home/user/Cerebro-de-Claude; agregada la nota para la compu de Windows (usar task-observer/ del repo a mano)."
 reference:
 commands_verified: "run: ls /home/user → only Cerebro-de-Claude exists; /home/user/cerebro-de-claude does not resolve"
 ---

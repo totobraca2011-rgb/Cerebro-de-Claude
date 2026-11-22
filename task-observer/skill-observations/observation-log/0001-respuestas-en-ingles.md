@@ -1,7 +1,7 @@
 ---
 id: 1
 title: "Respuestas en inglés a un usuario que pidió castellano, a mitad de sesión"
-status: open
+status: actioned
 type: internal
 skill: []
 proposes_skill: []
@@ -11,8 +11,8 @@ area: "Idioma de las respuestas al usuario"
 date: 2026-10-29
 session_context: "Edición de un reel del proceso de la masa (octubre 2026); ver monte-riko/reels/proceso-masa.md; repetido en la sesión de Instagram y Metricool del 30 de octubre 2026"
 parked_until:
-resolved:
-resolution:
+resolved: 2026-11-22
+resolution: "Barrera: hook Stop en .claude/settings.json que corre .claude/hooks/idioma.mjs y frena la respuesta si un párrafo sale en inglés (probado con la frase de Metricool). Nota en CLAUDE.md, sección Task Observer."
 reference:
 commands_verified: none
 ---

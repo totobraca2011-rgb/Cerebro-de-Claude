@@ -48,7 +48,10 @@ Las skills de `.claude/skills/` se cargan solas con este repo (la lista y el ori
 ## Task Observer
 Instalado a pedido de Tomás (octubre 2026), aunque hoy no lo usa mucho. Aprende de cómo trabajamos y propone mejoras a las skills. Su registro vive en `task-observer/`.
 - Esta sesión corre en la nube y se borra: cada vez que escribas algo en `task-observer/`, hacé commit y push a `main` en ese momento, igual que con el resto del Cerebro.
-- Hablale a Tomás de lo que registra solo en una línea y sin tecnicismos. Las mejoras a las skills se proponen en la revisión semanal y se aplican solo si Tomás dice que sí.
+- Hablale a Tomás de lo que registra solo en una línea y sin tecnicismos.
+- **Las mejoras se aplican solas (pedido de Tomás, 22 de noviembre 2026):** no se le piden permisos ni se dejan esperando. Apenas haya anotaciones abiertas, aplicalas directo en las skills o archivos del repo, marcalas como hechas, hacé commit y push a `main`, y avisale en una línea qué cambió. Solo se le pregunta si la mejora contradice algo que él pidió.
+- Las rutas de abajo son las de la nube. En la compu de Tomás (Windows, sin `bash` para los scripts) usá la carpeta `task-observer/` de este repo y hacé los pasos a mano.
+- **Idioma:** `.claude/settings.json` tiene un control (`.claude/hooks/idioma.mjs`) que frena la respuesta si sale en inglés y pide repetirla en castellano (noviembre 2026).
 
 ```text
 (task-observer activation block — template of v3.8.1)
@@ -80,7 +83,7 @@ first task boundary instead of never.
 
 Loading a skill is not complete until you have queried the observation
 log for OPEN observations naming it and read their bodies:
-  find "/home/user/cerebro-de-claude/task-observer/skill-observations/observation-log" -maxdepth 1 \
+  find "/home/user/Cerebro-de-Claude/task-observer/skill-observations/observation-log" -maxdepth 1 \
     -name '*.md' -exec grep -l -E "^(skill|target_file):.*<skill-name>" {} +
 (<skill-name> is the bare name: drop a plugin: prefix, up to the last
 colon. A qualified pattern misses every entry filed under the bare name
@@ -107,7 +110,7 @@ state file), load that skill: a state file that describes itself is not a
 substitute for the skill that owns it.
 
 Where scripts run, the lookup and its checkpoint line are one command:
-  bash "/home/user/cerebro-de-claude/.claude/skills/task-observer/scripts/skill-load.sh" "/home/user/cerebro-de-claude/task-observer" <skill-name>
+  bash "/home/user/Cerebro-de-Claude/.claude/skills/task-observer/scripts/skill-load.sh" "/home/user/Cerebro-de-Claude/task-observer" <skill-name>
 The Skill invocation and that call are ONE batch — emit them together,
 one call per skill loaded, never the call in a later batch. On a first
 run the log does not exist yet (step 1 creates it): the call says so and
@@ -115,16 +118,16 @@ exits 0 with no checkpoint line; re-run it once per skill loaded in that
 batch after the Workspace creation command.
 
 The task-observer workspace for this project is:
-  /home/user/cerebro-de-claude/task-observer
+  /home/user/Cerebro-de-Claude/task-observer
 It does not exist until the first session creates it: a failed probe whose
 parent resolves and is writable is a first run — run Workspace creation,
 then re-run the lookup above once per skill loaded in that batch (on the
 first batch it finds no log and writes no checkpoint line; that is expected).
 Every path the skill uses derives from that root and nothing else:
-  /home/user/cerebro-de-claude/task-observer/skill-observations/observation-log/   (the log)
-  /home/user/cerebro-de-claude/task-observer/skill-observations/cross-cutting-principles.md
-  /home/user/cerebro-de-claude/task-observer/skill-updates/                        (staging root)
-  /home/user/cerebro-de-claude/task-observer/skill-updates/PENDING.md              (staging manifest)
+  /home/user/Cerebro-de-Claude/task-observer/skill-observations/observation-log/   (the log)
+  /home/user/Cerebro-de-Claude/task-observer/skill-observations/cross-cutting-principles.md
+  /home/user/Cerebro-de-Claude/task-observer/skill-updates/                        (staging root)
+  /home/user/Cerebro-de-Claude/task-observer/skill-updates/PENDING.md              (staging manifest)
 Never resolve any of them from the current working
 directory — a cwd inside an ephemeral checkout (a git worktree, a temporary
 clone) is torn down and takes the log with it. Never place the workspace
@@ -161,7 +164,7 @@ output channel is owned by a caller"). Such runs write their output to:
   none
 
 An observation file comes into being only through
-  bash "/home/user/cerebro-de-claude/.claude/skills/task-observer/scripts/new-observation.sh" <slug> "/home/user/cerebro-de-claude/task-observer"
+  bash "/home/user/Cerebro-de-Claude/.claude/skills/task-observer/scripts/new-observation.sh" <slug> "/home/user/Cerebro-de-Claude/task-observer"
 which prints the path to write into. Never by copying another file's
 header or counting a listing — including on the turn after a
 compaction, when the skill body is out of context.

@@ -25,5 +25,6 @@ Cada resultado trae `title`, `url` (el archivo para bajar), `license`, `license_
 
 ## Bajar y revisar
 - Bajá el archivo a la carpeta de trabajo de la sesión (no al Cerebro), uno por carpeta.
+- **En la nube, los resultados que vienen de Freesound no bajan** (403; casi todos los de Openverse apuntan a `cdn.freesound.org`). No pierdas tiempo: buscá en Mixkit como dice el paso 2 de `real-sound`, o bajalos desde la sesión local en la compu de Tomás (noviembre 2026).
 - Antes de usarlo, medilo y revisalo: con `earshot describe` / `earshot find` (para recortar el mejor momento) o, como mínimo, `ffprobe` y el volumen con `ffmpeg -af ebur128`.
 - Para elegir qué sonido va en cada momento del video, seguí la skill `real-sound`: Openverse es una fuente más, junto con Freesound y Mixkit.

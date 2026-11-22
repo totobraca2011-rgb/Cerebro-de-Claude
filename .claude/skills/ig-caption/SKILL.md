@@ -103,7 +103,10 @@ python3 caption.py draft.txt --keywords "client proposals,agency pricing"
 3. Run `/ig-human` on it. Captions are short, so slop is louder here than
    anywhere else in the pack.
 4. Run `caption.py` with the user's search terms. Fix every FAIL. Decide on
-   every WARN out loud rather than silently.
+   every WARN out loud rather than silently. **Sin Python** (compu de Tomás):
+   hacé las mismas revisiones con Node o a mano: largo de la primera línea antes
+   del corte, cantidad de hashtags, links y que haya un solo pedido (así se
+   encontró un pedido doble en noviembre 2026).
 5. Print the copy-ready block, then the receipt:
 
 ```

@@ -1,7 +1,7 @@
 ---
 id: 5
 title: "En la nube Freesound no deja bajar: real-sound y openverse lo dan como fuente principal; Mixkit por etiquetas sí anda"
-status: open
+status: actioned
 type: internal
 skill: [real-sound, openverse]
 proposes_skill: []
@@ -11,8 +11,8 @@ area: "Paso 2 (sourcing) de real-sound y sección Bajar de openverse"
 date: 2026-11-05
 session_context: "Sonido del reel 3D de Monte Riko (monte-riko/reels/alfajor-3d.md, 5 de noviembre 2026)"
 parked_until:
-resolved:
-resolution:
+resolved: 2026-11-22
+resolution: "real-sound paso 2 y openverse Bajar y revisar: en la nube Freesound da 403, usar Mixkit por etiqueta con curl -L; Freesound solo desde la compu local."
 reference:
 commands_verified: "run: curl a cdn.freesound.org y freesound.org desde la nube → 403 de la página (no del proxy); casi todos los resultados de Openverse apuntan a cdn.freesound.org. run: curl -L https://mixkit.co/free-sound-effects/<etiqueta>/ → 200, y los WAV de assets.mixkit.co bajan bien"
 ---

@@ -1,7 +1,7 @@
 ---
 id: 4
 title: "ig-viral no dice dónde ver las vistas en la web, y las historias no se pueden subir desde la compu"
-status: open
+status: actioned
 type: internal
 skill: [ig-viral, ig-story]
 proposes_skill: []
@@ -11,8 +11,8 @@ area: "Paso 2 de ig-viral y salida de ig-story"
 date: 2026-11-02
 session_context: "Buscar reels virales de alfajores y armar las historias de noviembre 2026 para Monte Riko"
 parked_until:
-resolved:
-resolution:
+resolved: 2026-11-22
+resolution: "ig-viral paso 2: las vistas están en la grilla /<cuenta>/reels/ y buscar con 1 o 2 palabras; ig-story Rules: stickers desde el celu y dejarles lugar en la placa."
 reference:
 commands_verified: "run: en Chrome con sesión abierta, /<cuenta>/reels/ muestra las vistas en la grilla; la página de cada reel y su og:description solo dan me gusta y comentarios"
 ---

@@ -81,6 +81,12 @@ small enough to read.
 | length | seconds |
 | cta | what they asked for at the end |
 
+**Dónde está cada dato en la web de Instagram** (noviembre 2026): las vistas
+solo aparecen en la grilla de `instagram.com/<cuenta>/reels/`. Abriendo cada
+reel se ven nada más me gusta y comentarios, así que la mediana se saca de esa
+grilla. En el buscador, usá una o dos palabras ("alfajor" trajo lo mejor;
+"alfajor relleno por dentro" no trajo nada).
+
 Median is the important one. Without it you are back to ranking by follower
 count, which is the thing this skill exists to stop.
 

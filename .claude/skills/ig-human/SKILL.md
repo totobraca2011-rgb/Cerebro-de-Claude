@@ -20,6 +20,11 @@ python3 detect.py draft.txt                    # score it, five checks
 python3 detect.py before.txt after.txt         # prove the delta
 ```
 
+**Si no hay Python** (la compu de Tomás no lo tiene, noviembre 2026): no lo
+saltees. Corré lo mismo con Node, que sí está, o, si tampoco hay, aplicá a mano
+la lista de `slop.json` (palabras, caracteres invisibles, rayas) y las cinco
+revisiones de abajo. Avisá en la respuesta que la revisión se hizo sin el script.
+
 Both read `slop.json`: 154 stock words and phrases with plain-English
 replacements, 18 invisible character classes, 11 typographic substitutions and
 16 structural tells. The last block of each list is Instagram-specific, the

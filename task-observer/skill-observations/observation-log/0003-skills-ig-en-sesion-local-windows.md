@@ -1,7 +1,7 @@
 ---
 id: 3
 title: "Las skills ig-* no contemplan la sesión local de Windows: sin Python para sus revisores y con una regla contra entrar a la cuenta"
-status: open
+status: actioned
 type: internal
 skill: [ig-profile, ig-human, ig-caption]
 proposes_skill: []
@@ -11,8 +11,8 @@ area: "Requisitos para correr y regla de entrada de ig-profile"
 date: 2026-10-30
 session_context: "Ordenar el Instagram de Monte Riko y planificar noviembre 2026, desde la sesión local con Chrome; descripciones de noviembre en Trello (4 nov 2026)"
 parked_until:
-resolved:
-resolution:
+resolved: 2026-11-22
+resolution: "ig-human y ig-caption: qué hacer sin Python (Node o a mano); ig-profile: se puede leer una sesión ya abierta, nunca pedir contraseña, y qué cosas solo se cambian desde la app."
 reference:
 commands_verified: "run: python --version → sin Python instalado, solo el acceso a Microsoft Store"
 ---

@@ -22,7 +22,13 @@ the link points to, the highlight names, what is pinned, and the first nine
 grid covers. A screenshot of the top of the profile plus the first two grid
 rows is enough for a first pass.
 
-Do not log into Instagram on their behalf.
+Do not log into Instagram on their behalf, and never ask for a password. If
+the user already has their own session open in their browser (Tomás uses his
+Chrome for this) and asks you to look, you may read it there.
+
+Solo desde la app del celular (no desde la web, noviembre 2026): cambiar el
+link, fijar publicaciones y archivar. Si la mejora toca eso, dáselo como paso
+para que lo haga él en el celu.
 
 ## Score it
 
