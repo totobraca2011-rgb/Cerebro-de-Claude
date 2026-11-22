@@ -22,6 +22,7 @@ Alfajores artesanales de Mar del Plata, hechos por Tomás Bracamonte.
 | `pagina-web/` | El código de la página (index.html y assets), listo para subir |
 | `guardados-instagram.md` | Lo que sirve de los 27 guardados de Instagram de Tomás: reglas para reels, historias y ventas por WhatsApp (14 de noviembre 2026) |
 | `marketing-instagram.md` | Qué funciona en Instagram en 2026, reels de alfajores medidos, marcas que venden e ideas para Monte Riko (9 de noviembre 2026) |
+| `youtube-aprender.md` | Videos de YouTube elegidos para aprender edición, viralidad, trucos y estrategia del rubro; se miran desde la compu de Tomás porque la nube está bloqueada (22 de noviembre 2026) |
 | `ganchos.md` | Lista de 20 ganchos para reels, con su formato y para qué sirve cada uno |
 | `proceso.md` | Cómo hace Tomás cada alfajor, paso a paso, con tiempos, temperaturas y gramos |
 | `logo/` | Los SVG oficiales del logo. Se usan tal cual, sin redibujar |
