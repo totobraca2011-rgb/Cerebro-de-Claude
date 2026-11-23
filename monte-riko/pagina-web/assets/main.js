@@ -312,7 +312,15 @@
       Object.keys(OUT).forEach((key) => document.querySelectorAll(`input[name="entrega-${key}"]`)
         .forEach((r) => r.addEventListener('change', () => render(key))));
       nombreEl.addEventListener('input', () => { render('cajas'); render('sueltos'); });
-      if (navidadEl) navidadEl.addEventListener('change', () => render('cajas'));
+      /* el aviso de "marcada" es de un momento: se vacía si la persona toca la casilla o a los 3 s */
+      const navidadStatus = document.getElementById('navidad-status');
+      let statusT;
+      const avisarNavidad = (t) => {
+        if (!navidadStatus) return;
+        clearTimeout(statusT); navidadStatus.textContent = '';
+        if (t) statusT = setTimeout(() => { navidadStatus.textContent = t; statusT = setTimeout(() => { navidadStatus.textContent = ''; }, 3000); }, 60);
+      };
+      if (navidadEl) navidadEl.addEventListener('change', () => { avisarNavidad(''); render('cajas'); });
       /* si la pestaña sigue abierta cuando llega la hora, lo navideño se va solo y el mensaje se
          rehace sin la línea. setTimeout no aguanta más de ~24 días: más lejos, no se programa */
       if (FIN_NAVIDAD > 0 && !root.classList.contains('sin-navidad')) {
@@ -368,7 +376,6 @@
       document.querySelectorAll('[data-navidad-cta]').forEach((a) => {
         if (!navidadEl) return;
         a.href = '#pedido-cajas';
-        const status = document.getElementById('navidad-status');
         a.addEventListener('click', (e) => {
           navidadEl.checked = true; render('cajas');
           /* se salta directo a la opción, así queda en pantalla aun en 360 × 640, y el foco va a la
@@ -378,7 +385,7 @@
           history.pushState(null, '', '#pedido-cajas');
           opt.scrollIntoView({ block: 'center', behavior: reduced ? 'auto' : 'smooth' });
           navidadEl.focus({ preventScroll: true });
-          if (status) { status.textContent = ''; setTimeout(() => { status.textContent = 'Opción caja navideña marcada'; }, 60); }
+          avisarNavidad('Opción caja navideña marcada');
         });
       });
     }

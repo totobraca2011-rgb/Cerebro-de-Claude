@@ -182,7 +182,7 @@ main { overflow-x: clip; }
 .sin-navidad [data-navidad] { display: none !important; }
 .sprite { position: absolute; width: 0; height: 0; overflow: hidden; }
 /* los íconos de línea: el mismo trazo redondeado de la corona */
-.sprite symbol, .xmas__ico svg, .aviso__ico, .check__ico { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.sprite symbol, .aviso__ico, .check__ico { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
 
 /* aviso de arriba: una franja negra fina, con el moño en dorado. Sin subrayado en reposo */
 .aviso {
@@ -196,8 +196,14 @@ main { overflow-x: clip; }
 .aviso:focus-visible > span:not(.aviso__flecha) { text-decoration-color: currentColor; }
 .aviso__ico { flex: none; color: var(--oro); }
 .aviso__flecha { color: var(--oro); font-weight: 700; transition: transform 200ms var(--ease-out); }
-.aviso .aviso__corto { display: none; }
-@media (max-width: 480px) { .aviso .aviso__largo { display: none; } .aviso .aviso__corto { display: inline; } }
+.aviso .aviso__medio, .aviso .aviso__corto { display: none; }
+/* siempre en un renglón de 44px: el texto se acorta según el ancho */
+@media (max-width: 560px) { .aviso .aviso__largo { display: none; } .aviso .aviso__medio { display: inline; } }
+@media (max-width: 400px) {
+  .aviso { gap: 8px; font-size: 14px; }
+  .aviso .aviso__medio { display: none; } .aviso .aviso__corto { display: inline; }
+}
+@media (max-width: 350px) { .aviso { font-size: 13px; } }
 .aviso:focus-visible { outline-offset: -5px; border-radius: 8px; }
 @media (hover: hover) and (pointer: fine) {
   .aviso:hover > span:not(.aviso__flecha) { text-decoration-color: currentColor; }
@@ -221,13 +227,10 @@ html:not(.sin-navidad) .hero { min-height: calc(100svh - 44px); }
 .xmas__text { display: grid; justify-items: start; }
 .xmas .h2 { font-size: var(--t-xl); color: var(--arena); }
 .xmas__lede { font-size: var(--t-m); line-height: 1.4; margin-top: 20px; max-width: 30ch; text-wrap: pretty; }
-/* lista: ícono suelto en dorado; "Tus alfajores" no lleva, pero su texto arranca en la misma columna */
+/* lista: sin íconos, la negrita dorada abre cada punto */
 .xmas__list { display: grid; gap: 16px; margin-top: 32px; }
-.xmas__list li { display: grid; grid-template-columns: 28px minmax(0, 1fr); column-gap: 14px; align-items: start; }
 .xmas__list p { font-size: var(--t-s); max-width: 44ch; }
 .xmas__list strong { color: var(--oro); font-weight: 700; }
-.xmas__ico { display: block; width: 28px; height: 28px; color: var(--oro); margin-top: -1px; }
-.xmas__ico svg { display: block; width: 28px; height: 28px; }
 .xmas__prices { display: flex; flex-wrap: wrap; gap: 12px 48px; margin: 36px 0 0; }
 /* el precio arriba y el nombre abajo, como pie: el <dl> sigue en orden (dt, dd) */
 .xmas__prices > div { display: flex; flex-direction: column-reverse; }
@@ -275,7 +278,8 @@ html:not(.sin-navidad) .hero { min-height: calc(100svh - 44px); }
   .xmas__text .button { width: 100%; }
   /* en celular la burbuja de WhatsApp queda abajo a la derecha: el sticker va arriba, a la izquierda.
      Dos renglones: "HASTA" / "EL 17/12" */
-  .sticker--xmas { width: 116px; font-size: 13px; top: -20px; left: 12px; right: auto; --rot: -8deg; }
+  /* 88px y medio afuera de la foto: muerde el borde y no tapa el alfajor */
+  .sticker--xmas { width: 88px; font-size: 11px; padding: 6px; top: -28px; left: -6px; right: auto; --rot: -8deg; }
 }
 @media (max-width: 380px) {
   .xmas__text .button { padding-inline: 20px; }
