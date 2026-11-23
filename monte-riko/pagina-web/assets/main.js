@@ -48,6 +48,10 @@
     const boxesEl = document.getElementById('boxes');
     const addBtn = document.getElementById('add-box');
     const nombreEl = document.getElementById('nombre');
+    /* opción "Caja navideña" de las cajas. Desde el 18/12/2026 el script del <head> pone
+       .sin-navidad (ver FIN_NAVIDAD en index.html): la opción se esconde y deja de contar */
+    const navidadEl = document.getElementById('navidad-check');
+    const conNavidad = () => !!navidadEl && navidadEl.checked && !root.classList.contains('sin-navidad');
     /* dos bloques, cada uno con su entrega, su total, su mensaje y su botón de WhatsApp */
     const out = (key) => ({
       line: document.getElementById('total-line-' + key),
@@ -205,7 +209,11 @@
       const entrega = entregaOf('cajas');
       const total = boxes.reduce((t, b) => t + SIZES[b.size].price * b.count, 0);
       const items = boxes.map((b) => '• ' + describeBox(b));
-      const parts = ['¡Hola Monte Riko! Quiero hacer un pedido de cajas:', ...items, 'Entrega: ' + entrega, totalLine(total, entrega), ...firma()];
+      const cajas = boxes.reduce((t, b) => t + b.count, 0);
+      const navidad = conNavidad()
+        ? [(cajas > 1 ? 'Que sean cajas navideñas' : 'Que sea caja navideña') + ' (cinta dorada y galletitas de regalo)']
+        : [];
+      const parts = ['¡Hola Monte Riko! Quiero hacer un pedido de cajas:', ...items, ...navidad, 'Entrega: ' + entrega, totalLine(total, entrega), ...firma()];
       return { text: parts.join('\n'), total, entrega };
     }
 
@@ -302,6 +310,7 @@
       Object.keys(OUT).forEach((key) => document.querySelectorAll(`input[name="entrega-${key}"]`)
         .forEach((r) => r.addEventListener('change', () => render(key))));
       nombreEl.addEventListener('input', () => { render('cajas'); render('sueltos'); });
+      if (navidadEl) navidadEl.addEventListener('change', () => render('cajas'));
       build();
       updateSueltos();
 
@@ -317,11 +326,12 @@
         const cajas = key === 'cajas';
         const mdp = cajas ? boxes.reduce((t, b) => t + b.mdp * b.count, 0) : loose.marplatense;
         const pat = cajas ? boxes.reduce((t, b) => t + (SIZES[b.size].n - b.mdp) * b.count, 0) : loose.patagonico;
-        const detalle = cajas ? boxes.map(describeBox).join('; ')
+        const navidad = cajas && conNavidad();
+        const detalle = cajas ? boxes.map(describeBox).join('; ') + (navidad ? ' (caja navideña)' : '')
           : [mdp && `${mdp} ${flavor('marplatense', mdp)}`, pat && `${pat} ${flavor('patagonico', pat)}`].filter(Boolean).join(' y ');
         try {
           navigator.sendBeacon(PLANILLA, new Blob([JSON.stringify({
-            tipo: key, detalle, entrega: m.entrega, total: m.total, marplatenses: mdp, patagonicos: pat
+            tipo: key, detalle, entrega: m.entrega, total: m.total, marplatenses: mdp, patagonicos: pat, navidad
           })], { type: 'text/plain' }));
         } catch (_) { /* WhatsApp se abre igual */ }
       };
@@ -342,6 +352,14 @@
         if (b.size !== f) resize(b, f);
         updateCajas();
       }));
+
+      /* "Armar mi caja navideña" lleva a las cajas con la opción navideña ya marcada. Sin JS
+         apunta a #pedido, donde está el WhatsApp directo */
+      document.querySelectorAll('[data-navidad-cta]').forEach((a) => {
+        if (!navidadEl) return;
+        a.href = '#pedido-cajas';
+        a.addEventListener('click', () => { navidadEl.checked = true; render('cajas'); });
+      });
     }
 
     /* ---------- acordeón ---------- */
@@ -443,7 +461,7 @@
        entran. Tienen su propio observer y su propia clase (.is-open), aparte de data-reveal; sin
        observer o con reduce, abiertas. Se observa siempre la figura, que no se recorta: un
        elemento recortado del todo no cuenta como visible */
-    const photos = [...document.querySelectorAll('.treat__photo, .band__photo, .story__photo')];
+    const photos = [...document.querySelectorAll('.treat__photo, .band__photo, .story__photo, .xmas__panel')];
     if (reduced || !('IntersectionObserver' in window)) {
       photos.forEach((el) => el.classList.add('is-open'));
     } else {

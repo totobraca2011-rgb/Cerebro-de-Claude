@@ -119,7 +119,9 @@ main { overflow-x: clip; }
 
 /* ---------- barra ---------- */
 .bar {
-  position: absolute; inset: 0 0 auto 0; z-index: 5;
+  /* top: auto deja la barra en su lugar del flujo: debajo del aviso de temporada si lo hay,
+     arriba de todo si no (o si se escondió) */
+  position: absolute; inset: auto 0 auto 0; z-index: 5;
   display: flex; align-items: center; justify-content: space-between; gap: 16px;
   padding: 18px var(--m);
 }
@@ -173,6 +175,121 @@ main { overflow-x: clip; }
   .hero__actions .button { width: 100%; }
   .hero__photo { margin-top: 16px; }
 }
+
+/* ---------- temporada de Navidad 2026 ----------
+   Todo lo navideño lleva data-navidad. El script del <head> pone .sin-navidad en <html> desde el
+   18/12/2026 00:00 (UTC-3) y desaparece de una, antes de pintar. Sin JS se ve. */
+.sin-navidad [data-navidad] { display: none !important; }
+.sprite { position: absolute; width: 0; height: 0; overflow: hidden; }
+/* los íconos de línea: el mismo trazo redondeado de la corona */
+.sprite symbol, .xmas__ico svg, .aviso__ico, .check__ico { fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+
+/* aviso de arriba: una franja negra fina, con el moño en dorado */
+.aviso {
+  display: flex; align-items: center; justify-content: center; gap: 10px;
+  min-height: 44px; padding: 8px var(--m); background: var(--ink); color: var(--arena);
+  font-size: var(--t-xs); font-weight: 600; line-height: 1.3; text-align: center; text-decoration: none;
+  --focus: var(--naranja);
+}
+.aviso strong { font-weight: 800; }
+/* el subrayado va en el texto, no en el link entero */
+.aviso > span { text-decoration: underline; text-decoration-color: transparent; text-underline-offset: .22em; transition: text-decoration-color 200ms ease; }
+.aviso__ico { flex: none; color: var(--oro); }
+.aviso .aviso__corto { display: none; }
+@media (max-width: 480px) { .aviso .aviso__largo { display: none; } .aviso .aviso__corto { display: inline; } }
+.aviso:focus-visible { outline-offset: -5px; border-radius: 8px; }
+@media (hover: hover) and (pointer: fine) { .aviso:hover > span { text-decoration-color: currentColor; } }
+
+/* la sección: el panel es la caja de regalo, negro, atado con una cinta dorada que separa el texto
+   de la foto (vertical en escritorio, horizontal en celular) y un moño donde se anuda */
+.xmas { margin-top: clamp(56px, 6vw, 96px); padding: 0 var(--m); }
+.xmas__panel {
+  position: relative; background: var(--ink); color: var(--arena); border-radius: var(--r);
+  display: grid; grid-template-columns: minmax(0, 7fr) 18px minmax(0, 5fr); column-gap: clamp(40px, 5vw, 80px);
+  padding: clamp(56px, 5vw, 72px) clamp(28px, 4.5vw, 64px); align-items: center;
+  --pad-y: clamp(56px, 5vw, 72px);
+  --focus: var(--naranja);
+}
+.xmas__text { display: grid; justify-items: start; }
+.xmas .h2 { font-size: var(--t-xl); color: var(--arena); }
+.xmas__lede { font-size: var(--t-m); line-height: 1.4; margin-top: 20px; max-width: 30ch; text-wrap: pretty; }
+.xmas__list { display: grid; gap: 14px; margin-top: 32px; }
+.xmas__list li { display: flex; align-items: center; gap: 16px; }
+.xmas__list p { font-size: var(--t-s); max-width: 44ch; }
+.xmas__list strong { color: var(--oro); font-weight: 700; }
+.xmas__ico {
+  flex: none; display: grid; place-items: center; width: 52px; height: 52px; border-radius: 50%;
+  border: 2px solid var(--oro); color: var(--oro);
+}
+.xmas__ico--two { display: flex; justify-content: center; gap: 0; }
+.xmas__ico--two svg { width: 21px; height: 21px; }
+.xmas__dot { width: 22px; height: 22px; border-radius: 50%; background: var(--oro); }
+.xmas__prices { display: flex; flex-wrap: wrap; gap: 12px 48px; margin: 36px 0 0; }
+/* el precio arriba y el nombre abajo, como pie: el <dl> sigue en orden (dt, dd) */
+.xmas__prices > div { display: flex; flex-direction: column-reverse; }
+.xmas__prices dt { font-weight: 700; font-size: var(--t-xs); margin-top: 8px; }
+.xmas__prices dd {
+  margin: 0; font-family: var(--f-display); font-weight: 400; font-size: var(--t-l); line-height: 1;
+  letter-spacing: -0.03em; word-spacing: -0.3em; white-space: nowrap;
+}
+.xmas__note { margin-top: 18px; font-size: var(--t-xs); font-weight: 600; max-width: 46ch; }
+/* el naranja sobre el negro de marca da 5,5:1: sirve también en tamaño de texto */
+.xmas__date { margin-top: 28px; font-size: var(--t-m); font-weight: 800; line-height: 1.25; color: var(--naranja); }
+.xmas__text .button { margin-top: 24px; }
+.xmas__ribbon { position: relative; align-self: stretch; margin-block: calc(-1 * var(--pad-y)); background: var(--oro); }
+.xmas__bow { position: absolute; left: 50%; top: 0; width: 120px; height: auto; translate: -50% -46%; }
+.xmas__photo { position: relative; }
+.xmas__frame { display: block; border-radius: 22px; overflow: hidden; background: var(--oro); }
+.xmas__frame img { width: 100%; aspect-ratio: 3 / 4; object-fit: cover; }
+.xmas__photo figcaption { margin-top: 14px; font-size: var(--t-xs); font-weight: 600; max-width: 40ch; }
+.sticker--xmas { --rot: -8deg; width: 116px; top: -26px; left: -30px; font-size: 16px; padding: 10px; transform: rotate(var(--rot)); }
+@media (max-width: 1024px) {
+  .xmas__panel { grid-template-columns: minmax(0, 1fr); grid-template-rows: auto 16px auto; row-gap: 56px; --pad-x: clamp(24px, 4vw, 48px); padding: 56px var(--pad-x) 40px; }
+  .xmas__ribbon { margin-block: 0; margin-inline: calc(-1 * var(--pad-x)); }
+  .xmas__bow { top: 50%; width: 104px; translate: -50% -50%; }
+  .xmas__photo { max-width: 560px; }
+  .sticker--xmas { left: auto; right: -12px; --rot: 8deg; }
+}
+@media (max-width: 760px) {
+  .xmas__panel { --pad-x: 20px; padding-top: 44px; row-gap: 48px; }
+  .xmas .h2 { font-size: clamp(28px, 8.4vw, 40px); }
+  .xmas__lede { font-size: var(--t-s); margin-top: 14px; }
+  .xmas__list { margin-top: 24px; }
+  .xmas__list li { align-items: flex-start; gap: 14px; }
+  .xmas__ico { width: 46px; height: 46px; }
+  .xmas__ico svg { width: 26px; height: 26px; }
+  .xmas__ico--two svg { width: 19px; height: 19px; }
+  .xmas__dot { width: 20px; height: 20px; }
+  .xmas__list p { padding-top: 2px; }
+  .xmas__prices { gap: 12px 32px; margin-top: 28px; }
+  .xmas__text .button { width: 100%; }
+  /* en celular la burbuja de WhatsApp queda abajo a la derecha: el sticker va arriba, a la izquierda */
+  .sticker--xmas { width: 100px; font-size: 14px; top: -20px; left: 12px; right: auto; --rot: -8deg; }
+}
+
+/* armador: la opción navideña de las cajas */
+.builder__xmas { display: grid; gap: 12px; }
+.check {
+  position: relative; display: flex; align-items: center; gap: 14px; min-height: 60px; padding: 12px 18px;
+  border: 2px solid var(--ink); border-radius: 22px; cursor: pointer; font-size: var(--t-xs); font-weight: 600; line-height: 1.35;
+  transition: background-color 160ms ease, color 160ms ease;
+}
+.check input { position: absolute; opacity: 0; inset: 0; width: 100%; height: 100%; margin: 0; cursor: pointer; }
+.check strong { font-weight: 800; }
+.check__box {
+  flex: none; display: grid; place-items: center; width: 30px; height: 30px; border-radius: 50%;
+  border: 2px solid var(--ink); background: var(--arena); color: var(--ink);
+}
+.check__box svg { fill: none; stroke: currentColor; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; opacity: 0; transform: scale(.4); transition: opacity 160ms ease, transform 200ms var(--ease-out); }
+.check__text { flex: 1; }
+.check__ico { flex: none; margin-left: auto; }
+.check:has(input:checked) { background: var(--ink); color: var(--arena); }
+.check:has(input:checked) .check__box { background: var(--oro); border-color: var(--oro); }
+.check:has(input:checked) .check__ico { color: var(--oro); }
+.check input:checked + .check__box svg { opacity: 1; transform: none; }
+.check:has(input:focus-visible) { outline: 3px solid var(--ink); outline-offset: 3px; }
+@media (hover: hover) and (pointer: fine) { .check:hover { background: rgba(34,34,33,.14); } .check:has(input:checked):hover { background: var(--ink); } }
+@media (prefers-reduced-motion: reduce) { .check__box svg { transition: none; } }
 
 /* ---------- los alfajores: los dos a la vista, foto rectangular con sticker de precio ---------- */
 .show {
@@ -673,6 +790,16 @@ html:not(.js) .fab--top { display: none; }
   .js :is(.treat__photo:not(.is-open), .story__photo:not(.is-open), .anat__photo:not(.is-in)) > .sticker { opacity: 0; }
   .js :is(.treat__photo.is-open, .story__photo.is-open, .anat__photo.is-in) > .sticker { animation: stick 620ms var(--ease-out) 450ms both; }
 
+  /* Navidad: la cinta se desenrolla a lo largo (de arriba en escritorio, de la izquierda en
+     celular) cuando el panel entra, y después el moño se ata con un rebote; el sticker de la fecha
+     se pega cuando su foto ya está */
+  .js .xmas__ribbon { transform-origin: 50% 0; transition: transform 900ms var(--ease-in-out); }
+  .js .xmas__panel:not(.is-open) .xmas__ribbon { transform: scaleY(0); }
+  .js .xmas__panel:not(.is-open) .xmas__bow { opacity: 0; }
+  .js .xmas__panel.is-open .xmas__bow { animation: tie 620ms var(--ease-out) 700ms both; }
+  .js .xmas__photo:not(.is-in) > .sticker { opacity: 0; }
+  .js .xmas__photo.is-in > .sticker { animation: stick 620ms var(--ease-out) 450ms both; }
+
   /* precios: los circulitos de cada caja aparecen uno por uno después del bloque.
      --i lo pone main.js; la docena termina en menos de un segundo (11 × 50 + 340) */
   .js .tile:not(.is-in) .tile__dots > span { opacity: 0; }
@@ -687,11 +814,21 @@ html:not(.js) .fab--top { display: none; }
   55% { transform: rotate(var(--rot, 0deg)) scale(.95); }
   100% { opacity: 1; transform: rotate(var(--rot, 0deg)) scale(1); }
 }
+@keyframes tie {
+  0% { opacity: 0; transform: scale(.4) rotate(-14deg); }
+  55% { opacity: 1; transform: scale(1.08) rotate(4deg); }
+  100% { opacity: 1; transform: none; }
+}
 @keyframes dotIn { from { opacity: 0; transform: scale(.3); } to { opacity: 1; transform: none; } }
 @media screen and (max-width: 1024px) and (prefers-reduced-motion: no-preference) {
   @keyframes discIn { from { transform: scale(.9); } to { transform: none; } }
   /* en columna la foto del hero está abajo, cerca del borde: menos recorrido para que no se corte */
   .js .hero { --hero-par: 24px; }
+}
+/* en columna la cinta corre a lo ancho: se desenrolla desde la izquierda */
+@media screen and (max-width: 1024px) and (prefers-reduced-motion: no-preference) {
+  .js .xmas__ribbon { transform-origin: 0 50%; }
+  .js .xmas__panel:not(.is-open) .xmas__ribbon { transform: scaleX(0); }
 }
 /* en celular el disco queda quieto con el scroll: solo baja la foto */
 @media screen and (max-width: 760px) and (prefers-reduced-motion: no-preference) {
