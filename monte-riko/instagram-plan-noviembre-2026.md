@@ -35,7 +35,7 @@ Tres posts por semana, a un ritmo que una sola persona pueda sostener: **martes 
 | Jue 19 | Reel | Proceso | La harina y la masa | 18:00. Versión 3, con sonido y sin música. Iba el martes 17; Tomás lo pasó acá el 16 de noviembre 2026. La foto "El patagónico por dentro" se sacó del plan: Tomás dice que es la misma que ya está en el feed (el borrador de Metricool se borró el 17 de noviembre 2026) |
 | Sáb 21 | Reel | Historia | Cómo empezó todo, en la escuela | **Hay que grabarlo** |
 | Mar 24 | Reel | Proceso | El marplatense por dentro | Armado con sonido, sin música. Tomás lo revisa |
-| Jue 26 | Reel | Enseña | 10 minutos en el freezer | **Hay que grabarlo** |
+| Jue 26 | Reel | Proceso | El baño de chocolate (reserva) | 18:00, programado en Metricool. El del freezer no se grabó antes del viaje (23/11/2026) |
 | Sáb 28 | Foto | Venta | Cajas para las fiestas | Borrador en Metricool |
 
 ## Textos listos

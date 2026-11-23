@@ -44,6 +44,9 @@ Con el kit de diseño, que está en este Cerebro (ver `diseno/README.md`):
 - **Pedidos a la planilla (14/11/2026)**: al tocar "Enviar por WhatsApp", `main.js` manda el pedido armado (qué eligió, entrega y total; sin nombre ni datos personales) a la planilla de finanzas con `sendBeacon`. Detalle en `monte-riko/finanzas/README.md`.
 - **Legales**: la página no guarda datos personales (los pedidos armados van a la planilla sin nombre), no tiene cookies, analítica ni píxel, y no hay claves en el código. Por eso no van banner de cookies, botón de borrar datos ni registro de base de datos. Las tipografías son de licencia OFL y las fotos son de Tomás. Si se agrega Google Analytics, el píxel de Meta o un formulario que guarde datos, ahí sí hacen falta política de privacidad y banner.
 
+## Carpeta `redes/` (23 de noviembre 2026)
+`pagina-web/redes/` guarda las placas y videos que Metricool tiene que programar, porque necesita cada archivo en un link público (por ejemplo `https://monteriko.com.ar/redes/jue-26-1.jpg`). Ninguna parte de la página la enlaza: no cambia nada a la vista. Se publica con el resto de la página, así que también necesita el "subilo" de Tomás. Los videos van comprimidos (unos 15 MB). Cuando ya salieron, se pueden borrar del repo; el FTP no los borra del servidor.
+
 ## Pendiente
 - Política de privacidad y términos y condiciones: Tomás no los pidió todavía. Para los términos faltan nombre o razón social, CUIT, email, formas de pago y qué pasa con cancelaciones o reclamos.
 - Data Fiscal de ARCA y botón de arrepentimiento: Tomás tiene que consultarlo con un contador; si corresponde, el QR va al pie.

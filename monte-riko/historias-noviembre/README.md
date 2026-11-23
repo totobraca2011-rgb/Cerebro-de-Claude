@@ -130,12 +130,23 @@ eel-v2ideosrcChiste.tsx` (`npx remotion still` con el texto por props) y FFmpeg
 ### Jue 26: El freezer
 - `jue-26-1.jpg`: NO LO COMAS TODAVÍA
 - `jue-26-2.jpg`: 10 MINUTOS EN EL FREEZER
-- `jue-26-3.jpg`: ¿YA LO PROBASTE ASÍ? **Sticker:** Encuesta: Sí / Hoy mismo, y abajo un enlace "Pedí el tuyo" (14/11).
+- `jue-26-3.jpg`: ¿YA LO PROBASTE ASÍ? "Pedí el tuyo desde el link de la bio." Rehecha el 23/11/2026 sin sticker, para que salga sola.
 
 ### Vie 27: Auténtico marplatense
 - `vie-27-1.jpg`: AUTÉNTICO MARPLATENSE
 - `vie-27-2.jpg`: ¿TENÉS A ALGUIEN LEJOS DE MAR DEL PLATA?
-- `vie-27-3.jpg`: MANDALE UNA CAJA. **Sticker:** Sticker de enlace a monteriko.com.ar.
+- `vie-27-3.jpg`: MANDALE UNA CAJA. "Van a todo el país. Armala desde el link de la bio." Rehecha el 23/11/2026 sin sticker, para que salga sola.
+
+### Sáb 28 a lun 30 (viaje de Tomás; armadas el 23 de noviembre 2026)
+- `sab-28-1.jpg`: ARMÁ TU CAJA HOY. "Los pedidos de estos días salen desde el lunes 1 de diciembre." Foto `alfajor-luz-mesa`. Es la misma que `mie-25-4.jpg`.
+- `dom-29-1.jpg`: LAS FIESTAS ESTÁN CERCA. "Cajas de 6 y de 12, en papel dorado." Foto `alfajores-desenfoque`.
+- `lun-30-1.jpg`: MAÑANA SALEN LAS CAJAS. "¿Querés la tuya esta semana? Pedila hoy." Foto `caja-envio`.
+
+### Mientras Tomás compite (26 al 30 de noviembre 2026)
+Pedido de Tomás (23/11/2026): que todo salga solo. Eligió seguir tomando pedidos y avisar que salen desde el lunes 1 de diciembre, en vez de decir que se toma un descanso.
+- El miércoles 25 Tomás sube desde el celu `mie-25-4.jpg` (ARMÁ TU CAJA HOY), con sticker de enlace a monteriko.com.ar.
+- Del 26 al 30 todo va programado en Metricool con publicación automática y sin stickers: historias del 26 y 27, `sab-28-1`, `dom-29-1` y `lun-30-1`, más el reel de reserva "El baño de chocolate" el jueves 26 a las 18:00 (el del freezer no se grabó).
+- Metricool necesita las imágenes en un link público: van en la carpeta escondida `pagina-web/redes/` (ver `../pagina-web.md`).
 
 ## Revisión del 14 de noviembre 2026 (semanas 3 y 4)
 - Todas las placas del 16 al 27 están en Drive (`Historias para publicar/Semana 3` y `Semana 4`) y coinciden con las del repo.
