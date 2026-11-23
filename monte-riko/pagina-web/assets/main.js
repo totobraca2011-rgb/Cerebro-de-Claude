@@ -51,7 +51,9 @@
     /* opción "Caja navideña" de las cajas. Desde el 18/12/2026 el script del <head> pone
        .sin-navidad (ver FIN_NAVIDAD en index.html): la opción se esconde y deja de contar */
     const navidadEl = document.getElementById('navidad-check');
-    const conNavidad = () => !!navidadEl && navidadEl.checked && !root.classList.contains('sin-navidad');
+    const FIN_NAVIDAD = Date.parse(root.dataset.finNavidad || '');   /* la fecha vive en el <head> */
+    const navidadTermino = () => root.classList.contains('sin-navidad') || (FIN_NAVIDAD > 0 && Date.now() >= FIN_NAVIDAD);
+    const conNavidad = () => !!navidadEl && navidadEl.checked && !navidadTermino();
     /* dos bloques, cada uno con su entrega, su total, su mensaje y su botón de WhatsApp */
     const out = (key) => ({
       line: document.getElementById('total-line-' + key),
@@ -311,6 +313,14 @@
         .forEach((r) => r.addEventListener('change', () => render(key))));
       nombreEl.addEventListener('input', () => { render('cajas'); render('sueltos'); });
       if (navidadEl) navidadEl.addEventListener('change', () => render('cajas'));
+      /* si la pestaña sigue abierta cuando llega la hora, lo navideño se va solo y el mensaje se
+         rehace sin la línea. setTimeout no aguanta más de ~24 días: más lejos, no se programa */
+      if (FIN_NAVIDAD > 0 && !root.classList.contains('sin-navidad')) {
+        const falta = FIN_NAVIDAD - Date.now();
+        const cerrar = () => { root.classList.add('sin-navidad'); render('cajas'); };
+        if (falta <= 0) cerrar();
+        else if (falta < 2147483647) setTimeout(cerrar, falta);
+      }
       build();
       updateSueltos();
 
@@ -327,7 +337,7 @@
         const mdp = cajas ? boxes.reduce((t, b) => t + b.mdp * b.count, 0) : loose.marplatense;
         const pat = cajas ? boxes.reduce((t, b) => t + (SIZES[b.size].n - b.mdp) * b.count, 0) : loose.patagonico;
         const navidad = cajas && conNavidad();
-        const detalle = cajas ? boxes.map(describeBox).join('; ') + (navidad ? ' (caja navideña)' : '')
+        const detalle = cajas ? (navidad ? 'Navideña: ' : '') + boxes.map(describeBox).join('; ')
           : [mdp && `${mdp} ${flavor('marplatense', mdp)}`, pat && `${pat} ${flavor('patagonico', pat)}`].filter(Boolean).join(' y ');
         try {
           navigator.sendBeacon(PLANILLA, new Blob([JSON.stringify({
@@ -358,7 +368,18 @@
       document.querySelectorAll('[data-navidad-cta]').forEach((a) => {
         if (!navidadEl) return;
         a.href = '#pedido-cajas';
-        a.addEventListener('click', () => { navidadEl.checked = true; render('cajas'); });
+        const status = document.getElementById('navidad-status');
+        a.addEventListener('click', (e) => {
+          navidadEl.checked = true; render('cajas');
+          /* se salta directo a la opción, así queda en pantalla aun en 360 × 640, y el foco va a la
+             casilla. El aviso para lectores de pantalla se escribe después, para que se anuncie */
+          e.preventDefault();
+          const opt = navidadEl.closest('.builder__xmas');
+          history.pushState(null, '', '#pedido-cajas');
+          opt.scrollIntoView({ block: 'center', behavior: reduced ? 'auto' : 'smooth' });
+          navidadEl.focus({ preventScroll: true });
+          if (status) { status.textContent = ''; setTimeout(() => { status.textContent = 'Opción caja navideña marcada'; }, 60); }
+        });
       });
     }
 
