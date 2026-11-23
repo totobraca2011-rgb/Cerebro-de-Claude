@@ -44,6 +44,13 @@ Con el kit de diseño, que está en este Cerebro (ver `diseno/README.md`):
 - **Pedidos a la planilla (14/11/2026)**: al tocar "Enviar por WhatsApp", `main.js` manda el pedido armado (qué eligió, entrega y total; sin nombre ni datos personales) a la planilla de finanzas con `sendBeacon`. Detalle en `monte-riko/finanzas/README.md`.
 - **Legales**: la página no guarda datos personales (los pedidos armados van a la planilla sin nombre), no tiene cookies, analítica ni píxel, y no hay claves en el código. Por eso no van banner de cookies, botón de borrar datos ni registro de base de datos. Las tipografías son de licencia OFL y las fotos son de Tomás. Si se agrega Google Analytics, el píxel de Meta o un formulario que guarde datos, ahí sí hacen falta política de privacidad y banner.
 
+## Navidad 2026 (armado el 23 de noviembre 2026, falta que Tomás lo vea y diga "subilo")
+- Aviso arriba ("Caja navideña: pedila hasta el 17 de diciembre"), sección `#navidad` después del hero (panel negro atado con cinta y moño dorados, foto real de la caja, precios de siempre, "Ayer no había, mañana no habrá.") y opción "Caja navideña" en el armador de cajas, que suma una línea al mensaje de WhatsApp y "Navideña: " adelante del detalle en la planilla.
+- Todo lo navideño se esconde solo desde el 18/12/2026 00:00 hora de Argentina (constante `FIN_NAVIDAD` en el `<head>` de `index.html`). Sin JS queda visible. Después de la temporada se puede borrar el código.
+- Revisado por `auditor-visual` y `auditor-tecnico` (3 vueltas, los dos aprobaron).
+- Cuando haya fotos reales de la caja decorada o de las galletitas, reemplazar la foto de la caja con cuatro alfajores.
+- Datos en `navidad-2026.md`.
+
 ## Carpeta `redes/` (23 de noviembre 2026)
 `pagina-web/redes/` guarda las placas y videos que Metricool tiene que programar, porque necesita cada archivo en un link público (por ejemplo `https://monteriko.com.ar/redes/jue-26-1.jpg`). Ninguna parte de la página la enlaza: no cambia nada a la vista. Se publica con el resto de la página, así que también necesita el "subilo" de Tomás. Los videos van comprimidos (unos 15 MB). Cuando ya salieron, se pueden borrar del repo; el FTP no los borra del servidor.
 
