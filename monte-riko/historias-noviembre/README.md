@@ -124,7 +124,7 @@ Tomás no subió las del lunes 23, así que hoy van esas mismas tres, rehechas c
 - `mar-24-navidad-2.jpg`: ¿A QUIÉN LE REGALARÍAS UNA CAJA? **Sticker:** caja de preguntas, arriba (la mitad de arriba es fondo).
 - `mar-24-navidad-3.jpg`: ¿DE 6 O DE 12? "Con cinta dorada y galletitas de regalo. Pedila hasta el 17 de diciembre." **Sticker:** encuesta De 6 / De 12 y enlace a monteriko.com.ar, sobre la caja blanca de abajo.
 
-- **Prueba con luces (24/11/2026, la pidió Tomás):** `mar-24-navidad-luces-1` a `-3`, iguales pero con luces doradas desenfocadas en las partes vacías y ramitas de pino doradas con esferitas al lado del moño (`nube/navidad-luces.html`). Tomás elige cuál versión sube.
+- **Prueba con luces (24/11/2026, la pidió Tomás):** `mar-24-navidad-luces-1` a `-3`, iguales pero con luces doradas desenfocadas en las partes vacías y ramitas de pino doradas con esferitas al lado del moño (`nube/navidad-luces.html`). **Tomás eligió la de luces** (24/11/2026) y cambió textos: la 1 dice "Te espera la caja navideña." y la 3 "Con decoración navideña y regalo. Pedila hasta el 17 de diciembre." Para diciembre, las historias navideñas van en este estilo.
 
 ### Mar 24 (plan viejo, no se usó): Reel por dentro
 - `mar-24-1.jpg`: ASÍ SE ABRE UN MONTE RIKO
