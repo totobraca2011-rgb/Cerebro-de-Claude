@@ -118,7 +118,13 @@ eel-v2ideosrcChiste.tsx` (`npx remotion still` con el texto por props) y FFmpeg
 - `lun-23-2.jpg`: ¿A QUIÉN LE REGALARÍAS UNA CAJA? **Sticker:** Caja de preguntas.
 - `lun-23-3.jpg`: ¿DE 6 O DE 12? Rehecha el 10 de noviembre 2026. **Sticker:** Encuesta: De 6 / De 12, y abajo un sticker de enlace a monteriko.com.ar.
 
-### Mar 24: Reel por dentro
+### Mar 24: Fiestas con toque navideño (cambio de Tomás, 24 de noviembre 2026)
+Tomás no subió las del lunes 23, así que hoy van esas mismas tres, rehechas con un moño y una cinta dorados (como la caja navideña) y con los datos de `../navidad-2026.md`. Se arman con `nube/navidad.html` (igual que `placa.html`, más el moño y la cinta). `mar-24-1` (ASÍ SE ABRE UN MONTE RIKO) no se sube y queda de reserva.
+- `mar-24-navidad-1.jpg`: ¿YA PENSASTE EN LAS FIESTAS? "Volvió la caja navideña." **Sticker:** cuenta regresiva "Último día caja navideña" al miércoles 17 de diciembre.
+- `mar-24-navidad-2.jpg`: ¿A QUIÉN LE REGALARÍAS UNA CAJA? **Sticker:** caja de preguntas, arriba (la mitad de arriba es fondo).
+- `mar-24-navidad-3.jpg`: ¿DE 6 O DE 12? "Con cinta dorada y galletitas de regalo. Pedila hasta el 17 de diciembre." **Sticker:** encuesta De 6 / De 12 y enlace a monteriko.com.ar, sobre la caja blanca de abajo.
+
+### Mar 24 (plan viejo, no se usó): Reel por dentro
 - `mar-24-1.jpg`: ASÍ SE ABRE UN MONTE RIKO
 - **En la app:** Después de publicar, compartí el reel y escribile encima: "Mirá cómo se abre". Sumale un enlace "Pedí el tuyo" (14/11).
 
